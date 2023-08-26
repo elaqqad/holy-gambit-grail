@@ -1,0 +1,50 @@
+@import url(https://fonts.bunny.net/css?family=aleo:400);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[v-cloak] {
+    display: none;
+}
+
+html {
+    @apply bg-yellow-950 text-white;
+}
+
+h1 {
+    font-family: 'Aleo', serif;
+    font-weight: 500;
+}
+.heigth-3 {
+    height: 2.8em;
+}
+.heigth-2-5 {
+    height: 2.5em;
+}
+
+.dotted-underline {
+    @apply decoration-dotted
+        hover:decoration-dashed
+        underline
+        underline-offset-1;
+}
+
+.heading {
+    @apply bg-yellow-700
+        text-center
+        text-sm
+        uppercase
+        text-slate-100
+        mb-1
+        mt-2;
+}
+
+.is-download-complete .accomplishment-does-not-have-games {
+    @apply bg-slate-400
+        text-white;
+}
+
+.is-download-complete .accomplishment-does-not-have-games div {
+    @apply bg-[#7c8ca3];
+}
