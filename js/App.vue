@@ -18,7 +18,7 @@
             v-if="!isDownloading && !isDownloadComplete"
         >
             <div class="flex flex-row mb-2 md:w-full h-5/6 -ml-4">
-                <img src="free_pawn.png" alt="take my pawn" />
+                <img src="/free_pawn.png" alt="take my pawn" />
             </div>
             <form @submit.prevent="startDownload">
                 <div class="flex flex-row mb-2">

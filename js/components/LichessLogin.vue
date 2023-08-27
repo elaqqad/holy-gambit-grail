@@ -48,7 +48,7 @@
 import { OAuth2AuthCodePKCE } from '@bity/oauth2-auth-code-pkce'
 
 export const lichessHost = 'https://lichess.org'
-export const clientId = 'https://rosen-score.vercel.app/'
+export const clientId = 'https://holy-gambit-grail.vercel.app/'
 export const clientUrl = (() => {
     const url = new URL(location.href)
     url.search = ''
