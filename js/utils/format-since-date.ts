@@ -5,6 +5,7 @@ export function formatSinceDate(timestamp: number) {
         weekday: 'long',
         month: 'long',
         day: 'numeric',
+        year: 'numeric',
     })
 
     let time = dateInstance

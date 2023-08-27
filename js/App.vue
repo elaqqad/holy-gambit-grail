@@ -161,7 +161,7 @@
 
         <div class="md:flex md:flex-row md:space-x-10">
             <div class="basis-full">
-                <h2 class="heading">List of all gambits</h2>
+                <h2 class="heading">List of all {{ Gambits.length }} gambits</h2>
                 <div class="grid grid-cols-7 gap-2">
                     <accomplishment-score
                         v-for="gambit in Gambits"
@@ -219,10 +219,10 @@ import LichessLogin from './components/LichessLogin.vue'
 import UsernameFormatter from './components/UsernameFormatter.vue'
 import RecentUpdates from './components/RecentUpdates.vue'
 import TrophyCollection from './components/TrophyCollection.vue'
-import { gambitOpening, allGambits } from './goals/gambit-openings'
+import { gambitTrophy, allGambits, gameAgainstBot, winnerIsUser, pgnPrefix } from './goals/gambit-openings'
 import { GambitOpening, PlayerTrophiesByType, TrophyCacheFile, TrophyCheckResult } from './types/types'
 import { formatSinceDate } from './utils/format-since-date'
-import { TreeMap } from './utils/TreeMap'
+import { mapIterator, TreeMap } from './utils/TreeMap'
 
 const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
@@ -303,6 +303,18 @@ export default {
                 }
             result.sort((a, b) => (a.white + a.black + a.draws < b.white + b.black + b.draws ? 1 : -1))
             return result
+        },
+        GambitsTree(): TreeMap<string, GambitOpening> {
+            const gambits = allGambits()
+            const gambitTree = new TreeMap<string, GambitOpening>()
+            for (let gambit of gambits) {
+                const key = pgnPrefix(gambit)
+                gambitTree.set(key, gambit)
+            }
+            return gambitTree
+        },
+        GameCache(): Map<string, Game[]> {
+            return new Map<string, Game[]>()
         },
     },
 
@@ -393,17 +405,10 @@ export default {
                     if (this.usingCacheBeforeTimestamp) {
                         sinceTimestamp = this.usingCacheBeforeTimestamp
                     }
-                    const gambits = allGambits()
-                    const gambitTree = new TreeMap<string, GambitOpening>()
-                    for (let gambit of gambits) {
-                        const key = this.pgnPrefix(gambit)
-                        gambitTree.set(key, gambit)
-                    }
-                    games(url, (game) => this.checkGameForTrophies(game, gambitTree), {
+
+                    games(url, this.checkGameForTrophies, {
                         since: sinceTimestamp,
                         pgnInJson: true,
-                        clocks: true,
-                        opening: true,
                         rated: true,
                     })
                         .then(() => {
@@ -511,12 +516,6 @@ export default {
                 }
             }
         },
-        pgnPrefix(gambit: GambitOpening): string[] {
-            return gambit.pgn
-                .replace(/^1. /g, '')
-                .replace(/\s+(\d+\.)\s+/g, ' ')
-                .split(' ')
-        },
 
         addTrophyForPlayer(trophyName: string, game: Game, onMoveNumber?: number): void {
             this.playerTrophiesByType[trophyName] = this.playerTrophiesByType[trophyName] || {}
@@ -552,32 +551,20 @@ export default {
             }
         },
 
-        async checkGameForTrophies(game: Game, gambitsTrie: TreeMap<string, GambitOpening>): Promise<void> {
+        async checkGameForTrophies(game: Game): Promise<void> {
             // Add a 0ms setTimeout to stop the process from blocking the page
             // Without this, the page may become unresponsive as games are processed
             await wait(0)
-
-            this.counts.downloaded++
-
             // only standard chess starting position games
-            if (!game.isStandard) {
-                return
-            }
-
+            // only games won by the current user
             // ignore games against stockfish, anonymous users, and bots
-            if (
-                this.player.title !== 'BOT' &&
-                (typeof game.players.white.username === 'undefined' ||
-                    typeof game.players.black.username === 'undefined' ||
-                    game.players.white.title === 'BOT' ||
-                    game.players.black.title === 'BOT')
-            ) {
-                return
+            if (game.isStandard && winnerIsUser(game, this.player.username) && !gameAgainstBot(game, this.player.title)) {
+                const gameNotation = mapIterator(game.moves, (move) => move.notation.notation)
+                for (let gambit of this.GambitsTree.get(gameNotation)) {
+                    if (gambit != undefined) this.checkForTrophy(game, `gambit:${gambit.name}`, gambitTrophy(game, gambit))
+                }
             }
-            const gameNotation = game.moves.map((move) => move.notation.notation)
-            for (let gambit of gambitsTrie.get(gameNotation)) {
-                if (gambit != undefined) this.checkForTrophy(game, `gambit:${gambit.name}`, gambitOpening(game, gambit))
-            }
+            this.counts.downloaded++
         },
     },
 }

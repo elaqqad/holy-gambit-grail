@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { TreeMap } from '../js/utils/TreeMap'
+import { TreeMap, mapIterator } from '../js/utils/TreeMap'
 
 describe('test tree map', () => {
     test.each([
@@ -57,3 +57,21 @@ describe('test tree map', () => {
         })
     })
 })
+
+describe('Test error case of TreeMap', () =>
+    test.each([
+        { k: 'abc', v: 1 },
+        { k: '', v: 2 },
+    ])('Error should be thrown after inserting the same key', (keyValuePair) => {
+        const treeMap = new TreeMap()
+        treeMap.set(keyValuePair.k.split(''), keyValuePair.v)
+        expect(() => treeMap.set(keyValuePair.k.split(''), keyValuePair.v)).toThrowError()
+    }))
+
+describe('Test mapIterator', () =>
+    test.each([
+        { input: [1, 2, 3, 4, 5], operation: (x: number) => x * x, output: [1, 4, 9, 16, 25] },
+        { input: [1, 2, 3, 4, 5], operation: (x: number) => x + 1, output: [2, 3, 4, 5, 6] },
+    ])('Should apply the function piecewise', (inputsAndOutputs) => {
+        expect(Array.from(mapIterator(inputsAndOutputs.input, inputsAndOutputs.operation))).toMatchObject(inputsAndOutputs.output)
+    }))

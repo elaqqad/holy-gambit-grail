@@ -9,6 +9,7 @@
     "noUnusedParameters": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "lib": ["DOM", "es2018"]
+    "lib": ["DOM", "es2018"],
+    "downlevelIteration": true
   }
 }
