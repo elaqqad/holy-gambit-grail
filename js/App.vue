@@ -58,8 +58,8 @@
                                     click here to see EricRosen's on Lichess
                                 </span>
                                 or
-                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'IMRosen')">
-                                    his Chess.com
+                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')">
+                                    here to see Jonathan Schrantz's on Liches
                                 </span>
                             </div>
                         </div>
