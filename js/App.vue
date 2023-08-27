@@ -19,7 +19,10 @@
         >
             <form @submit.prevent="startDownload">
                 <div class="flex flex-row mb-2">
-                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold italic">1 <ArrowIcon /></div>
+                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold italic">
+                        1
+                        <ArrowIcon />
+                    </div>
                     <div class="basis-3/4">
                         <div>
                             Select site:
@@ -61,14 +64,20 @@
                 </div>
 
                 <div class="flex flex-row mb-4">
-                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold italic">2 <ArrowIcon /></div>
+                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold italic">
+                        2
+                        <ArrowIcon />
+                    </div>
                     <div class="basis-3/4">
                         <lichess-login v-on:set-lichess-oauth-token="setLichessOauthToken"></lichess-login>
                     </div>
                 </div>
 
                 <div class="flex flex-row">
-                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold italic">3 <ArrowIcon /></div>
+                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold italic">
+                        3
+                        <ArrowIcon />
+                    </div>
                     <div class="basis-3/4">
                         <div class="text-sm mt-1 mb-2">
                             Check games since
@@ -172,12 +181,18 @@
                             W: ${((100 * gambit.white) / (gambit.white + gambit.black + gambit.draws)).toLocaleString('en-us', {
                                 maximumFractionDigits: 0,
                             })}%,
-                            D: ${((100 * gambit.draws) / (gambit.white + gambit.black + gambit.draws)).toLocaleString('en-us', {
-                                maximumFractionDigits: 0,
-                            })}%,
-                            B: ${((100 * gambit.black) / (gambit.white + gambit.black + gambit.draws)).toLocaleString('en-us', {
-                                maximumFractionDigits: 0,
-                            })}%
+                                                                            D: ${(
+                                                                                (100 * gambit.draws) /
+                                                                                (gambit.white + gambit.black + gambit.draws)
+                                                                            ).toLocaleString('en-us', {
+                                                                                maximumFractionDigits: 0,
+                                                                            })}%,
+                                                                            B: ${(
+                                                                                (100 * gambit.black) /
+                                                                                (gambit.white + gambit.black + gambit.draws)
+                                                                            ).toLocaleString('en-us', {
+                                                                                maximumFractionDigits: 0,
+                                                                            })}%
                         `"
                         :trophies="playerTrophiesByType['gambit:' + gambit.name] || {}"
                         :masterGame="gambit.master"
@@ -220,9 +235,11 @@ import UsernameFormatter from './components/UsernameFormatter.vue'
 import RecentUpdates from './components/RecentUpdates.vue'
 import TrophyCollection from './components/TrophyCollection.vue'
 import { gambitTrophy, allGambits, gameAgainstBot, winnerIsUser, pgnPrefix } from './goals/gambit-openings'
-import { GambitOpening, PlayerTrophiesByType, TrophyCacheFile, TrophyCheckResult } from './types/types'
+import { GambitOpening, PlayerTrophiesByType, TrophyCheckResult } from './types/types'
 import { formatSinceDate } from './utils/format-since-date'
 import { mapIterator, TreeMap } from './utils/TreeMap'
+import { exportAsCsv, exportAsJson } from './utils/export-tools'
+import { getCachedGames } from './utils/caching'
 
 const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
@@ -397,7 +414,13 @@ export default {
                         this.counts.totalGames = playerGameCount
                     }
                     if (!this.inputs.filters.sinceHoursAgo) {
-                        await this.getCachedGames(url)
+                        let result = await getCachedGames(url)
+                        if (result !== undefined) {
+                            this.usingCacheBeforeTimestamp = result.cache_updated_at
+                            this.counts.downloaded = result.games_analyzed
+                            this.counts.totalMoves = result.moves_analyzed
+                            this.playerTrophiesByType = result.trophies
+                        }
                     }
                     let sinceTimestamp = this.inputs.filters.sinceHoursAgo
                         ? new Date().getTime() - this.inputs.filters.sinceHoursAgo * 60 * 60 * 1000
@@ -426,97 +449,13 @@ export default {
                     this.errors.api = e
                 })
         },
-
-        async getCachedGames(url: string) {
-            const caches = new Map<string, string>()
-
-            // caches.set('https://lichess.org/@/german11', '/cache/lichess/german11.json')
-            // caches.set('https://lichess.org/@/chess-network', '/cache/lichess/chess-network.json')
-            // caches.set('https://lichess.org/@/drnykterstein', '/cache/lichess/drnykterstein.json')
-            // caches.set('https://lichess.org/@/ericrosen', '/cache/lichess/ericrosen.json')
-            // caches.set('https://lichess.org/@/massterofmayhem', '/cache/lichess/massterofmayhem.json')
-            // caches.set('https://lichess.org/@/penguingim1', '/cache/lichess/penguingim1.json')
-            // caches.set('https://lichess.org/@/saltyclown', '/cache/lichess/saltyclown.json')
-
-            // caches.set('https://www.chess.com/member/alexandrabotez', '/cache/chesscom/alexandrabotez.json')
-            // caches.set('https://www.chess.com/member/chessbrah', '/cache/chesscom/chessbrah.json')
-            // caches.set('https://www.chess.com/member/danielnaroditsky', '/cache/chesscom/danielnaroditsky.json')
-            // caches.set('https://www.chess.com/member/gothamchess', '/cache/chesscom/gothamchess.json')
-            // caches.set('https://www.chess.com/member/hikaru', '/cache/chesscom/hikaru.json')
-            // caches.set('https://www.chess.com/member/imrosen', '/cache/chesscom/imrosen.json')
-            // caches.set('https://www.chess.com/member/knvb', '/cache/chesscom/knvb.json')
-            // caches.set('https://www.chess.com/member/magnuscarlsen', '/cache/chesscom/magnuscarlsen.json')
-            // caches.set('https://www.chess.com/member/saltyclown', '/cache/chesscom/saltyclown.json')
-            if (!caches.has(url)) {
-                return
-            }
-            await fetch(caches.get(url)!)
-                .then((response) => response.json())
-                .then((result: TrophyCacheFile) => {
-                    this.usingCacheBeforeTimestamp = result.cache_updated_at
-                    this.counts.downloaded = result.games_analyzed
-                    this.counts.totalMoves = result.moves_analyzed
-                    this.playerTrophiesByType = result.trophies
-                })
-        },
-
         exportAsJson(): void {
-            let contents: TrophyCacheFile = {
-                cache_updated_at: Date.now(),
-                games_analyzed: this.counts.downloaded,
-                moves_analyzed: this.counts.totalMoves,
-                trophies: this.playerTrophiesByType,
-            }
-
-            this.downloadFile(`${this.username}.json`, JSON.stringify(contents, null, 2), 'application/json')
+            exportAsJson(this.playerTrophiesByType, this.username, this.counts)
         },
 
         exportAsCsv(): void {
-            let rows: {
-                trophy: string
-                date: string
-                opponent: string
-                link: string
-            }[] = []
-
-            for (const [trophyName, accomplishment] of Object.entries(this.playerTrophiesByType)) {
-                for (const trophy of Object.values(accomplishment)) {
-                    rows.push({
-                        trophy: trophyName,
-                        date: trophy.date,
-                        opponent: (trophy.opponent.title + ' ' + trophy.opponent.username).trim(),
-                        link: trophy.link,
-                    })
-                }
-            }
-            const header = Object.keys(rows[0]).join(',')
-            const values = rows.map((o) => Object.values(o).join(',')).join('\n')
-            const csv = header + '\n' + values
-            this.downloadFile(`${this.username}.csv`, csv, 'text/csv')
+            exportAsCsv(this.playerTrophiesByType, this.username)
         },
-
-        downloadFile(filename: string, contents: string, contentType: string): void {
-            let element = document.createElement('a')
-            element.setAttribute('href', 'data:' + contentType + ';charset=utf-8,' + encodeURIComponent(contents))
-            element.setAttribute('download', filename)
-
-            element.style.display = 'none'
-            document.body.appendChild(element)
-            element.click()
-            document.body.removeChild(element)
-        },
-
-        checkForTrophy(game: Game, name: string, results: TrophyCheckResult, onMoveNumber?: number): void {
-            for (const result of results) {
-                if (
-                    (result.color === 'w' && game.players.white.username.toLowerCase() === this.username) ||
-                    (result.color === 'b' && game.players.black.username.toLowerCase() === this.username)
-                ) {
-                    this.addTrophyForPlayer(name, game, result.onMoveNumber || onMoveNumber || 0)
-                }
-            }
-        },
-
         addTrophyForPlayer(trophyName: string, game: Game, onMoveNumber?: number): void {
             this.playerTrophiesByType[trophyName] = this.playerTrophiesByType[trophyName] || {}
             // if the player was already awarded this trophy for this game, don't add it again
@@ -558,10 +497,14 @@ export default {
             // only standard chess starting position games
             // only games won by the current user
             // ignore games against stockfish, anonymous users, and bots
-            if (game.isStandard && winnerIsUser(game, this.player.username) && !gameAgainstBot(game, this.player.title)) {
+            if (game.isStandard && winnerIsUser(game, this.player.username.toLowerCase()) && !gameAgainstBot(game, this.player.title)) {
                 const gameNotation = mapIterator(game.moves, (move) => move.notation.notation)
                 for (let gambit of this.GambitsTree.get(gameNotation)) {
-                    if (gambit != undefined) this.checkForTrophy(game, `gambit:${gambit.name}`, gambitTrophy(game, gambit))
+                    if (gambit != undefined) {
+                        for (const result of gambitTrophy(game, gambit)) {
+                            this.addTrophyForPlayer(`gambit:${gambit.name}`, game, result.onMoveNumber ?? 0)
+                        }
+                    }
                 }
             }
             this.counts.downloaded++
