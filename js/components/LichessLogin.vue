@@ -11,7 +11,7 @@
                 </svg>
                 Logged in as
                 <strong>{{ username }}</strong>
-                <span class="dotted-underline text-xs text-sky-900 cursor-pointer" @click.prevent="logout"> (Logout) </span>
+                <span class="dotted-underline text-xs text-yellow-900 cursor-pointer" @click.prevent="logout"> (Logout) </span>
             </div>
         </template>
         <template v-else>
@@ -38,7 +38,7 @@
                 <strong>3x</strong> faster when downloading your own games, <strong>1.5x</strong> faster for all others
                 <br />
                 You can learn more about this
-                <a href="https://lichess.org/api#operation/apiGamesUser" target="_blank" class="text-sky-900 dotted-underline">here</a>
+                <a href="https://lichess.org/api#operation/apiGamesUser" target="_blank" class="text-yellow-900 dotted-underline">here</a>
             </p>
         </template>
     </div>

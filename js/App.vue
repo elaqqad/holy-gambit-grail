@@ -14,19 +14,22 @@
         </div>
 
         <div
-            class="my-8 bg-indigo-100 border border-indigo-200 drop-shadow-2xl mx-auto p-4 rounded-lg shadow-indigo-500/50 shadow-lg text-sky-600 md:w-1/2"
+            class="grid grid-cols-2 my-8 bg-indigo-100 border-0 drop-shadow-2xl mx-auto p-4 rounded-lg shadow-indigo-500/50 shadow-lg text-yellow-600 md:w-3/5 mb-10"
             v-if="!isDownloading && !isDownloadComplete"
         >
+            <div class="flex flex-row mb-2 md:w-full h-5/6 -ml-4">
+                <img src="free_pawn.png" alt="take my pawn" />
+            </div>
             <form @submit.prevent="startDownload">
                 <div class="flex flex-row mb-2">
-                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold italic">
+                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
                         1
                         <ArrowIcon />
                     </div>
                     <div class="basis-3/4">
                         <div>
                             Select site:
-                            <div class="text-sky-900">
+                            <div class="text-yellow-900">
                                 <label class="cursor-pointer">
                                     <input type="radio" name="site" value="lichess" v-model="inputs.type" />
                                     Lichess
@@ -51,11 +54,11 @@
 
                             <div class="text-sm">
                                 Or
-                                <span class="dotted-underline text-sky-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')">
+                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')">
                                     click here to see EricRosen's on Lichess
                                 </span>
                                 or
-                                <span class="dotted-underline text-sky-900 cursor-pointer" @click.prevent="formFill('chesscom', 'IMRosen')">
+                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'IMRosen')">
                                     his Chess.com
                                 </span>
                             </div>
@@ -64,7 +67,7 @@
                 </div>
 
                 <div class="flex flex-row mb-4">
-                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold italic">
+                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
                         2
                         <ArrowIcon />
                     </div>
@@ -74,7 +77,7 @@
                 </div>
 
                 <div class="flex flex-row">
-                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold italic">
+                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
                         3
                         <ArrowIcon />
                     </div>
@@ -83,7 +86,7 @@
                             Check games since
                             <select
                                 v-model.number="inputs.filters.sinceHoursAgo"
-                                class="bg-transparent border-b border-dotted border-sky-900 focus:outline-0 hover:border-dashed text-sky-900 md:w-28"
+                                class="bg-transparent border-b border-dotted border-sky-900 focus:outline-0 hover:border-dashed text-yellow-900 md:w-28"
                             >
                                 <option :value="6">6 hours ago</option>
                                 <option :value="24">24 hours ago</option>
@@ -181,18 +184,12 @@
                             W: ${((100 * gambit.white) / (gambit.white + gambit.black + gambit.draws)).toLocaleString('en-us', {
                                 maximumFractionDigits: 0,
                             })}%,
-                                                                            D: ${(
-                                                                                (100 * gambit.draws) /
-                                                                                (gambit.white + gambit.black + gambit.draws)
-                                                                            ).toLocaleString('en-us', {
-                                                                                maximumFractionDigits: 0,
-                                                                            })}%,
-                                                                            B: ${(
-                                                                                (100 * gambit.black) /
-                                                                                (gambit.white + gambit.black + gambit.draws)
-                                                                            ).toLocaleString('en-us', {
-                                                                                maximumFractionDigits: 0,
-                                                                            })}%
+                            D: ${((100 * gambit.draws) / (gambit.white + gambit.black + gambit.draws)).toLocaleString('en-us', {
+                                maximumFractionDigits: 0,
+                            })}%,
+                            B: ${((100 * gambit.black) / (gambit.white + gambit.black + gambit.draws)).toLocaleString('en-us', {
+                                maximumFractionDigits: 0,
+                            })}%
                         `"
                         :trophies="playerTrophiesByType['gambit:' + gambit.name] || {}"
                         :masterGame="gambit.master"
