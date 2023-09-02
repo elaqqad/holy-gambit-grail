@@ -1,8 +1,8 @@
 <template>
     <div>
         <template v-if="isLoggedIn">
-            <div class="text-sm mt-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <div class="text-sm mt-4 text-green-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="green">
                     <path
                         fill-rule="evenodd"
                         d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
@@ -11,7 +11,7 @@
                 </svg>
                 Logged in as
                 <strong>{{ username }}</strong>
-                <span class="dotted-underline text-xs text-yellow-900 cursor-pointer" @click.prevent="logout"> (Logout) </span>
+                <span class="dotted-underline text-xs text-red-600 cursor-pointer" @click.prevent="logout"> (Logout) </span>
             </div>
         </template>
         <template v-else>
@@ -35,7 +35,7 @@
             <p class="mt-2 text-xs">
                 Lichess allows much faster download of games if you login.
                 <br />
-                <strong>3x</strong> faster when downloading your own games, <strong>1.5x</strong> faster for all others
+                <strong>3x</strong> faster when downloading your own games, <strong>1.5x</strong> faster for all others.
                 <br />
                 You can learn more about this
                 <a href="https://lichess.org/api#operation/apiGamesUser" target="_blank" class="text-yellow-900 dotted-underline">here</a>

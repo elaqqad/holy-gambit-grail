@@ -14,120 +14,123 @@
         </div>
 
         <div
-            class="grid grid-cols-2 my-8 bg-indigo-100 border-0 drop-shadow-2xl mx-auto p-4 rounded-lg shadow-indigo-500/50 shadow-lg text-yellow-600 md:w-3/5 mb-10"
+            class="flex flex-row my-8 bg-indigo-100 border-0 drop-shadow-2xl mx-auto p-4 rounded-lg shadow-indigo-500/50 shadow-lg text-yellow-600 md:w-3/5 mb-10"
             v-if="!isDownloading && !isDownloadComplete"
         >
-            <div class="flex flex-row mb-2 md:w-full h-5/6 -ml-4">
+            <div class="flex w-80 h-80 mb-1 -ml-4">
                 <img src="/free_pawn.png" alt="take my pawn" />
             </div>
-            <form @submit.prevent="startDownload">
-                <div class="flex flex-row mb-2">
-                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
-                        1
-                        <ArrowIcon />
-                    </div>
-                    <div class="basis-3/4">
-                        <div>
-                            Select site:
-                            <div class="text-yellow-900">
-                                <label class="cursor-pointer">
-                                    <input type="radio" name="site" value="lichess" v-model="inputs.type" />
-                                    Lichess
-                                </label>
-                                <label class="cursor-pointer ml-4">
-                                    <input type="radio" name="site" value="chesscom" v-model="inputs.type" />
-                                    Chess.com
-                                </label>
+            <div class="flex mb-1 -ml-4">
+                <form @submit.prevent="startDownload">
+                    <div class="flex flex-row mb-2">
+                        <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
+                            1
+                            <ArrowIcon />
+                        </div>
+                        <div class="basis-3/4">
+                            <div>
+                                Select site:
+                                <div class="text-yellow-900">
+                                    <label class="cursor-pointer">
+                                        <input type="radio" name="site" value="lichess" v-model="inputs.type" />
+                                        Lichess
+                                    </label>
+                                    <label class="cursor-pointer ml-4">
+                                        <input type="radio" name="site" value="chesscom" v-model="inputs.type" />
+                                        Chess.com
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                Enter username:
+
+                                <input
+                                    type="text"
+                                    class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                    placeholder="Username here"
+                                    spellcheck="false"
+                                    data-lpignore="true"
+                                    v-model="inputs.value"
+                                />
+
+                                <div class="text-sm">
+                                    Or try
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')">
+                                        Eric Rosen's
+                                    </span>
+                                    username or
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')">
+                                        Jonathan Schrantz's
+                                    </span>
+                                    on Lichess.
+                                </div>
                             </div>
                         </div>
-                        <div class="mt-2">
-                            Enter username:
+                    </div>
 
-                            <input
-                                type="text"
-                                class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                placeholder="Username here"
-                                spellcheck="false"
-                                data-lpignore="true"
-                                v-model="inputs.value"
-                            />
-
-                            <div class="text-sm">
-                                Or
-                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')">
-                                    click here to see EricRosen's on Lichess
-                                </span>
-                                or
-                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')">
-                                    here to see Jonathan Schrantz's on Liches
-                                </span>
-                            </div>
+                    <div class="flex flex-row mb-4">
+                        <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
+                            2
+                            <ArrowIcon />
+                        </div>
+                        <div class="basis-3/4">
+                            <lichess-login v-on:set-lichess-oauth-token="setLichessOauthToken"></lichess-login>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex flex-row mb-4">
-                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
-                        2
-                        <ArrowIcon />
-                    </div>
-                    <div class="basis-3/4">
-                        <lichess-login v-on:set-lichess-oauth-token="setLichessOauthToken"></lichess-login>
-                    </div>
-                </div>
+                    <div class="flex flex-row">
+                        <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
+                            3
+                            <ArrowIcon />
+                        </div>
+                        <div class="basis-3/4">
+                            <div class="text-sm mt-1 mb-2">
+                                Check games since
+                                <select
+                                    v-model.number="inputs.filters.sinceHoursAgo"
+                                    class="bg-transparent border-b border-dotted border-sky-900 focus:outline-0 hover:border-dashed text-yellow-900 md:w-28"
+                                >
+                                    <option :value="6">6 hours ago</option>
+                                    <option :value="24">24 hours ago</option>
+                                    <option :value="24 * 7">last week</option>
+                                    <option :value="24 * 31">last month</option>
+                                    <option :value="24 * 31 * 3">last 3 months</option>
+                                    <option :value="24 * 31 * 6">last 6 months</option>
+                                    <option :value="24 * 365">last 12 months</option>
+                                    <option :value="0">forever</option>
+                                </select>
+                            </div>
 
-                <div class="flex flex-row">
-                    <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
-                        3
-                        <ArrowIcon />
-                    </div>
-                    <div class="basis-3/4">
-                        <div class="text-sm mt-1 mb-2">
-                            Check games since
-                            <select
-                                v-model.number="inputs.filters.sinceHoursAgo"
-                                class="bg-transparent border-b border-dotted border-sky-900 focus:outline-0 hover:border-dashed text-yellow-900 md:w-28"
+                            <button
+                                type="submit"
+                                class="px-6 py-2.5 bg-green-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-600 hover:shadow-lg focus:bg-green-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-lg transition duration-150 ease-in-out"
                             >
-                                <option :value="6">6 hours ago</option>
-                                <option :value="24">24 hours ago</option>
-                                <option :value="24 * 7">last week</option>
-                                <option :value="24 * 31">last month</option>
-                                <option :value="24 * 31 * 3">last 3 months</option>
-                                <option :value="24 * 31 * 6">last 6 months</option>
-                                <option :value="24 * 365">last 12 months</option>
-                                <option :value="0">forever</option>
-                            </select>
-                        </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                                    />
+                                </svg>
+                                Click here to analyze
+                            </button>
 
-                        <button
-                            type="submit"
-                            class="px-6 py-2.5 bg-green-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-600 hover:shadow-lg focus:bg-green-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-700 active:shadow-lg transition duration-150 ease-in-out"
-                        >
-                            <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-                                />
-                            </svg>
-                            Click here to analyze
-                        </button>
-
-                        <div v-if="errors.form" class="mt-2 font-bold text-red-500">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-                                />
-                            </svg>
-                            {{ errors.form }}
+                            <div v-if="errors.form" class="mt-2 font-bold text-red-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+                                    />
+                                </svg>
+                                {{ errors.form }}
+                            </div>
                         </div>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
 
         <download-progress
@@ -173,13 +176,14 @@
 
         <div class="md:flex md:flex-row md:space-x-10">
             <div class="basis-full">
-                <h2 class="heading">List of all {{ Gambits.length }} gambits</h2>
-                <div class="grid grid-cols-7 gap-2">
+                <h2 class="heading">List of all {{ Gambits.length }} gambits sorted by popularity</h2>
+                <div class="grid sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-1">
                     <accomplishment-score
                         v-for="gambit in Gambits"
                         :key="gambit.name"
                         @register-new-trophy="onRegisterNewTrophy"
                         :title="gambit.name"
+                        :color="gambit.color"
                         :desc="`
                             W: ${((100 * gambit.white) / (gambit.white + gambit.black + gambit.draws)).toLocaleString('en-us', {
                                 maximumFractionDigits: 0,
@@ -209,10 +213,15 @@
                 <a href="#" @click.prevent="exportAsJson" class="dotted-underline">JSON</a>
             </div>
             <div class="text-slate-400">
-                Not affiliated with Eric Rosen.
+                Not affiliated with Eric Rosen or Jonathan Schrantz.
                 <br />
                 Find a bug? Have a comment? Fill out
-                <a href="https://forms.gle/N1EnqmygRqo3sAMs5" target="_blank" class="dotted-underline">this form</a>
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfU3EA_rByuYdSjh3IZYEteiQ2s5TcYCy-rvd3ylHlBEKghaw/viewform?usp=sf_link"
+                    target="_blank"
+                    class="dotted-underline"
+                    >this form</a
+                >
             </div>
         </div>
     </div>
@@ -232,7 +241,7 @@ import UsernameFormatter from './components/UsernameFormatter.vue'
 import RecentUpdates from './components/RecentUpdates.vue'
 import TrophyCollection from './components/TrophyCollection.vue'
 import { gambitTrophy, allGambits, gameAgainstBot, winnerIsUser, pgnPrefix } from './goals/gambit-openings'
-import { GambitOpening, PlayerTrophiesByType, TrophyCheckResult } from './types/types'
+import { GambitOpening, PlayerTrophiesByType } from './types/types'
 import { formatSinceDate } from './utils/format-since-date'
 import { mapIterator, TreeMap } from './utils/TreeMap'
 import { exportAsCsv, exportAsJson } from './utils/export-tools'

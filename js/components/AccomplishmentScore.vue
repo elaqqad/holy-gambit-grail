@@ -6,7 +6,83 @@
             'bg-yellow-300 text-yellow-800  accomplishment-does-not-have-games': !hasTrophies,
         }"
     >
-        <span @click.prevent="isExpanded = !isExpanded" class="hover:underline cursor-pointer">{{ title }}</span>
+        <span @click.prevent="isExpanded = !isExpanded" class="hover:underline cursor-pointer">
+            <svg
+                v-if="!isWhiteTheGambitter"
+                class="inline h-6 w-6"
+                fill="#000000"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 100 100"
+                enable-background="new 0 0 100 100"
+                xml:space="preserve"
+            >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path
+                        d="M37,38c0-1.1,0.9-2,2-2h22c1.1,0,2,0.9,2,2s-0.9,2-2,2H39C37.9,40,37,39.1,37,38z M34,84h32c1.1,0,2-0.9,2-2s-0.9-2-2-2H34 c-1.1,0-2,0.9-2,2S32.9,84,34,84z M69,85H31c-2.2,0-4,1.8-4,4s1.8,4,4,4h38c2.2,0,4-1.8,4-4S71.2,85,69,85z M50,35 c7.18,0,13-5.82,13-13S57.18,9,50,9s-13,5.82-13,13S42.82,35,50,35z M58,41H42c0,33.478-4.052,33.959-5.99,38H63.99 C62.052,74.959,58,74.478,58,41z"
+                    ></path>
+                </g>
+            </svg>
+            <svg
+                v-if="isWhiteTheGambitter"
+                class="inline h-6 w-6"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 100 100"
+                enable-background="new 0 0 100 100"
+                xml:space="preserve"
+                fill="#000000"
+            >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g>
+                        <g>
+                            <path
+                                fill="none"
+                                stroke="#000000"
+                                stroke-width="4"
+                                stroke-miterlimit="10"
+                                d="M73,89c0,2.2-1.8,4-4,4H31c-2.2,0-4-1.8-4-4l0,0 c0-2.2,1.8-4,4-4h38C71.2,85,73,86.8,73,89L73,89z"
+                            ></path>
+                        </g>
+                        <circle fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" cx="50" cy="22" r="13"></circle>
+                        <g>
+                            <path
+                                fill="none"
+                                stroke="#000000"
+                                stroke-width="4"
+                                stroke-miterlimit="10"
+                                d="M63,38c0,1.65-1.35,3-3,3H40c-1.65,0-3-1.35-3-3 l0,0c0-1.65,1.35-3,3-3h20C61.65,35,63,36.35,63,38L63,38z"
+                            ></path>
+                        </g>
+                        <g>
+                            <path
+                                fill="none"
+                                stroke="#000000"
+                                stroke-width="4"
+                                stroke-miterlimit="10"
+                                d="M68,82c0,1.65-1.35,3-3,3H35c-1.65,0-3-1.35-3-3 l0,0c0-1.65,1.35-3,3-3h30C66.65,79,68,80.35,68,82L68,82z"
+                            ></path>
+                        </g>
+                        <path
+                            fill="none"
+                            stroke="#000000"
+                            stroke-width="4"
+                            stroke-miterlimit="10"
+                            d="M63.99,79C62.052,74.959,58,74.478,58,41H42 c0,33.478-4.052,33.959-5.99,38H63.99z"
+                        ></path>
+                    </g>
+                </g>
+            </svg>
+            {{ title }}
+        </span>
 
         <div v-if="hasTrophies" @click.prevent="isExpanded = !isExpanded" class="cursor-pointer">
             <trophy-collection :count="trophyCount"></trophy-collection>
@@ -50,9 +126,10 @@
                     <template v-else> {{ units[1] }} </template>
                 </h4>
 
-                <div class="grid grid-cols-2 gap-x-2 text-left">
+                <div class="grid grid-cols-1 text-left">
                     <div
                         v-for="trophy in trophies"
+                        :key="trophy.link"
                         class="overflow-hidden"
                         :title="`Appears ${
                             trophyCountByUsername(trophy.opponent.username) > 1
@@ -117,6 +194,9 @@ export default {
         },
         hasTrophies(): boolean {
             return this.trophyCount > 0
+        },
+        isWhiteTheGambitter(): boolean {
+            return this.playerColor === 'white'
         },
         hasExpandableContent(): boolean {
             return Boolean(this.desc || this.gameLink || this.youtubeLink)

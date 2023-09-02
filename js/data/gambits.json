@@ -5149,20 +5149,7 @@
     },
     {
         "eco": "C34",
-        "name": "King's Gambit Accepted: King's Knight's Gambit 1",
-        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5",
-        "move": 6,
-        "color": "white",
-        "fen": "rnbqkbnr/pppp1p1p/8/6p1/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
-        "master": "98g0IZao",
-        "lichess": "OWl4nhHG",
-        "white": 787255,
-        "draws": 53463,
-        "black": 784961
-    },
-    {
-        "eco": "C34",
-        "name": "King's Gambit Accepted: King's Knight's Gambit 2",
+        "name": "King's Gambit Accepted: King's Knight's Gambit",
         "pgn": "1. e4 e5 2. f4 exf4 3. Nf3",
         "move": 5,
         "color": "white",
@@ -5302,19 +5289,6 @@
         "white": 10486,
         "draws": 585,
         "black": 8686
-    },
-    {
-        "eco": "C37",
-        "name": "King's Gambit Accepted: King's Knight's Gambit 3",
-        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4",
-        "move": 7,
-        "color": "white",
-        "fen": "rnbqkbnr/pppp1p1p/8/6p1/2B1Pp2/5N2/PPPP2PP/RNBQK2R b KQkq - 1 4",
-        "master": "iNs71Tbl",
-        "lichess": "gW0wOhDR",
-        "white": 475832,
-        "draws": 31518,
-        "black": 492521
     },
     {
         "eco": "C37",
@@ -5627,19 +5601,6 @@
         "white": 29,
         "draws": 5,
         "black": 54
-    },
-    {
-        "eco": "C39",
-        "name": "King's Gambit Accepted: King's Knight's Gambit",
-        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. h4",
-        "move": 7,
-        "color": "white",
-        "fen": "rnbqkbnr/pppp1p1p/8/6p1/4Pp1P/5N2/PPPP2P1/RNBQKB1R b KQkq - 0 4",
-        "master": "SivhQWtT",
-        "lichess": "XMilSw3M",
-        "white": 184904,
-        "draws": 12253,
-        "black": 154310
     },
     {
         "eco": "C40",
