@@ -17,8 +17,8 @@ export function gambitTrophy(game: Game, gambit: GambitOpening): TrophyCheckResu
     return []
 }
 export function winnerIsUser(game: Game, username: string) {
-    if (game.result.winner == 'white') return game.players.white.username === username
-    if (game.result.winner == 'black') return game.players.black.username === username
+    if (game.result.winner == 'white') return game.players.white.username.toLowerCase() === username
+    if (game.result.winner == 'black') return game.players.black.username.toLowerCase() === username
     return false
 }
 export function gameAgainstBot(game: Game, title: string | undefined) {
