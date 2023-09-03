@@ -3,12 +3,12 @@ import { PlayerTrophiesByType, TrophyCacheFile } from '../types/types'
 export function exportAsJson(
     playerTrophiesByType: PlayerTrophiesByType,
     username: string,
-    counts: { totalGames: number; downloaded: number; totalMoves: number }
+    counts: { totalGames: number; downloaded: number; analyzed: number }
 ): void {
     let contents: TrophyCacheFile = {
         cache_updated_at: Date.now(),
         games_analyzed: counts.downloaded,
-        moves_analyzed: counts.totalMoves,
+        moves_analyzed: counts.analyzed,
         trophies: playerTrophiesByType,
     }
 

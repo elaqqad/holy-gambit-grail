@@ -13,7 +13,7 @@ import chess.engine
 
 CHESS_OPENINGS_URL = r'https://raw.githubusercontent.com/lichess-org/chess-openings/master'
 MASTERS_EXPLORER = r'https://explorer.lichess.ovh/masters?play='
-LICHESS_EXPLORER = r'https://explorer.lichess.ovh/lichess?variant=standard&speeds=blitz,rapid,classical&ratings=1800,2000,2200,2500&fen='
+LICHESS_EXPLORER = r'https://explorer.lichess.ovh/lichess?variant=standard&speeds=bullet,blitz,rapid,classical&ratings=1800,2000,2200,2500&fen='
 STOCKFISH_PATH = r''
 OPENINGS_START = ['a', 'b', 'c', 'd', 'e']
 
@@ -28,7 +28,7 @@ def choose_top_game(games, winner):
 
 
 def make_api_call(url):
-    # sleep(1)
+    sleep(1)
     # print(url)
     headers = {
         'Accept': 'application/x-ndjson'
@@ -138,7 +138,7 @@ if __name__ == '__main__':
             break
     with open('gambits.json', 'w') as json_file:
         json.dump(gambits, json_file)
-    with open('gambits.csv', 'w', encoding='utf-8') as csv_file:
+    with open('gambits.csv', 'w', encoding='utf-8', newline='') as csv_file:
         writer = csv.writer(csv_file)
         keys = list(gambits[0].keys())
         writer.writerow(keys)

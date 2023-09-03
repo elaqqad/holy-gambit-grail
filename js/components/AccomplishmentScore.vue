@@ -97,14 +97,15 @@
                     'bg-yellow-200': !hasTrophies,
                 }"
             >
-                {{ desc }}
-
+                <span class="text-sm">
+                    {{ gambitResults }}
+                </span>
                 <a v-if="gameLink" :href="gameLink" target="_blank" class="block underline hover:font-bold">
                     <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                         <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
                     </svg>
-                    See an example game
+                    Example game
                 </a>
 
                 <a v-if="youtubeLink" :href="youtubeLink" target="_blank" class="block underline hover:font-bold">
@@ -128,20 +129,20 @@
 
                 <div class="grid grid-cols-1 text-left">
                     <div
-                        v-for="trophy in trophies"
-                        :key="trophy.link"
+                        v-for="trophy in trophiesByOpponent"
+                        :key="trophy[0]"
                         class="overflow-hidden"
-                        :title="`Appears ${
-                            trophyCountByUsername(trophy.opponent.username) > 1
-                                ? trophyCountByUsername(trophy.opponent.username) + ' times'
+                        :title="`Won ${
+                            trophyCountByUsername(trophy[1].opponent.username) > 1
+                                ? trophyCountByUsername(trophy[1].opponent.username) + ' times'
                                 : '1 time'
-                        } in this category`"
+                        } against this user`"
                     >
-                        <a :href="trophy.link" class="hover:underline whitespace-nowrap" target="_blank">
-                            <username-formatter :title="trophy.opponent.title || ''" :username="trophy.opponent.username"></username-formatter>
+                        <a :href="trophy[1].link" class="hover:underline whitespace-nowrap" target="_blank">
+                            <username-formatter :title="trophy[1].opponent.title || ''" :username="trophy[1].opponent.username"></username-formatter>
                         </a>
-                        <span v-if="trophyCountByUsername(trophy.opponent.username) > 1" class="pl-2 text-sm text-gray-100 cursor-help"
-                            >x{{ trophyCountByUsername(trophy.opponent.username) }}</span
+                        <span v-if="trophyCountByUsername(trophy[1].opponent.username) > 1" class="pl-2 text-sm text-gray-100 cursor-help"
+                            >x{{ trophyCountByUsername(trophy[1].opponent.username) }}</span
                         >
                     </div>
                 </div>
@@ -153,7 +154,7 @@
 <script lang="ts">
 import UsernameFormatter from './UsernameFormatter.vue'
 import TrophyCollection from './TrophyCollection.vue'
-import { TrophyForGame } from '../types/types'
+import { Trophy, TrophyForGame } from '../types/types'
 
 export default {
     props: {
@@ -161,7 +162,7 @@ export default {
             type: String,
             required: true,
         },
-        desc: String,
+        gambitResults: String,
         trophies: {
             type: Object,
             required: true,
@@ -199,7 +200,7 @@ export default {
             return this.playerColor === 'white'
         },
         hasExpandableContent(): boolean {
-            return Boolean(this.desc || this.gameLink || this.youtubeLink)
+            return Boolean(this.gambitResults || this.gameLink || this.youtubeLink)
         },
         usernameCount(): Map<string, number> {
             let usernames = Object.values(this.trophies as TrophyForGame).map((trophy) => trophy.opponent.username)
@@ -214,6 +215,17 @@ export default {
                 return `https://lichess.org/${this.masterGame || this.lichessGame || ''}/${this.playerColor}#${this.moveNumber}`
             }
             return undefined
+        },
+        trophiesByOpponent(): Map<string, Trophy> {
+            return Object.values(this.trophies as TrophyForGame)
+                .reduce(
+                    (previousMap: Map<string, Trophy>, newItem: Trophy) => {
+                        if (!previousMap.has(newItem.opponent.username)) {
+                            previousMap.set(newItem.opponent.username, newItem);
+                        }
+                        return previousMap;
+                    },
+                    new Map<string, Trophy>());
         },
     },
     methods: {

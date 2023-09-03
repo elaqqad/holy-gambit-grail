@@ -1,5 +1,8 @@
+import { U } from "vitest/dist/types-198fd1d9"
+
 export class TreeMap<K, V> {
     private root: TreeNode<K, V> = new TreeNode<K, V>()
+
     public set(key: K[], value: V): void {
         let node = this.root
         for (const next of key) {
@@ -21,14 +24,17 @@ export class TreeMap<K, V> {
             node.value = value
         }
     }
-    public get(key: Iterable<K>): V[] {
+    public get(key: Iterable<K>) : V[]{
+        return this.getMap(key,  (a:K) => a);
+    }
+    public getMap<U>(key: Iterable<U>, map : (x: U) => K): V[] {
         const result = new Array()
         let node = this.root
         if (node.value != undefined) {
             result.push(node.value)
         }
         for (const next of key) {
-            const exists = node.children.get(next)
+            const exists = node.children.get(map(next))
             if (exists !== undefined) {
                 node = exists
                 if (node.value != undefined) {

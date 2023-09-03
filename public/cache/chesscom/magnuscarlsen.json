@@ -1,0 +1,1201 @@
+{
+  "cache_updated_at": 1693733463283,
+  "games_analyzed": 3573,
+  "moves_analyzed": 3573,
+  "trophies": {
+    "gambit:Bishop's Opening: Ponziani Gambit": {
+      "86726329485": {
+        "date": "2023-08-25",
+        "opponent": {
+          "username": "mishanick",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/86726329485?tab=analysis&flip=false&move=04"
+      }
+    },
+    "gambit:Sicilian Defense: Portsmouth Gambit": {
+      "86552359855": {
+        "date": "2023-08-23",
+        "opponent": {
+          "username": "kirillshevchenko",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/86552359855?tab=analysis&flip=false&move=04"
+      },
+      "68843599221": {
+        "date": "2023-01-30",
+        "opponent": {
+          "username": "vi_pranav",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/68843599221?tab=analysis&flip=false&move=04"
+      },
+      "55556356801": {
+        "date": "2022-08-29",
+        "opponent": {
+          "username": "Bigfish1995",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/55556356801?tab=analysis&flip=false&move=04"
+      }
+    },
+    "gambit:Queen's Gambit": {
+      "1999050521": {
+        "date": "2017-03-15",
+        "opponent": {
+          "username": "Sharafiev_Azat",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/1999050521?tab=analysis&flip=false&move=02"
+      },
+      "2437569336": {
+        "date": "2017-11-18",
+        "opponent": {
+          "username": "gmwesley_so",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2437569336?tab=analysis&flip=false&move=02"
+      },
+      "86550651391": {
+        "date": "2023-08-23",
+        "opponent": {
+          "username": "VladimirKramnik",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/86550651391?tab=analysis&flip=false&move=02"
+      },
+      "86042353511": {
+        "date": "2023-08-17",
+        "opponent": {
+          "username": "Rud_Makarian",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/86042353511?tab=analysis&flip=false&move=02"
+      },
+      "84148157727": {
+        "date": "2023-07-26",
+        "opponent": {
+          "username": "hansen",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/84148157727?tab=analysis&flip=false&move=02"
+      },
+      "83356565207": {
+        "date": "2023-07-17",
+        "opponent": {
+          "username": "hansen",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83356565207?tab=analysis&flip=false&move=02"
+      },
+      "83356046923": {
+        "date": "2023-07-17",
+        "opponent": {
+          "username": "hansen",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83356046923?tab=analysis&flip=false&move=02"
+      },
+      "83355973843": {
+        "date": "2023-07-17",
+        "opponent": {
+          "username": "hansen",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83355973843?tab=analysis&flip=false&move=02"
+      },
+      "81555082509": {
+        "date": "2023-06-26",
+        "opponent": {
+          "username": "Bigfish1995",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/81555082509?tab=analysis&flip=false&move=02"
+      },
+      "79991410551": {
+        "date": "2023-06-08",
+        "opponent": {
+          "username": "GroovyKettle",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/79991410551?tab=analysis&flip=false&move=02"
+      },
+      "79889403535": {
+        "date": "2023-06-07",
+        "opponent": {
+          "username": "artooon",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/79889403535?tab=analysis&flip=false&move=02"
+      },
+      "77497849007": {
+        "date": "2023-05-10",
+        "opponent": {
+          "username": "Msb2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/77497849007?tab=analysis&flip=false&move=02"
+      },
+      "76977695967": {
+        "date": "2023-05-04",
+        "opponent": {
+          "username": "alexrustemov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/76977695967?tab=analysis&flip=false&move=02"
+      },
+      "74017351217": {
+        "date": "2023-03-31",
+        "opponent": {
+          "username": "wonderfultime",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/74017351217?tab=analysis&flip=false&move=02"
+      },
+      "73177075177": {
+        "date": "2023-03-21",
+        "opponent": {
+          "username": "BillieKimbah",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/73177075177?tab=analysis&flip=false&move=02"
+      },
+      "73175050781": {
+        "date": "2023-03-21",
+        "opponent": {
+          "username": "K_A_S_T_O_R",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/73175050781?tab=analysis&flip=false&move=02"
+      },
+      "71262903925": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "nihalsarin",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71262903925?tab=analysis&flip=false&move=02"
+      },
+      "71255117263": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "wonderfultime",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71255117263?tab=analysis&flip=false&move=02"
+      },
+      "71254731929": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "wonderfultime",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71254731929?tab=analysis&flip=false&move=02"
+      },
+      "70670689533": {
+        "date": "2023-02-20",
+        "opponent": {
+          "username": "Bigfish1995",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70670689533?tab=analysis&flip=false&move=02"
+      },
+      "70494294865": {
+        "date": "2023-02-18",
+        "opponent": {
+          "username": "BilodeauA",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70494294865?tab=analysis&flip=false&move=02"
+      },
+      "70408291523": {
+        "date": "2023-02-17",
+        "opponent": {
+          "username": "Abund",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70408291523?tab=analysis&flip=false&move=02"
+      },
+      "69551846301": {
+        "date": "2023-02-07",
+        "opponent": {
+          "username": "ozates",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/69551846301?tab=analysis&flip=false&move=02"
+      },
+      "68594505255": {
+        "date": "2023-01-27",
+        "opponent": {
+          "username": "Msb2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/68594505255?tab=analysis&flip=false&move=02"
+      },
+      "65307081449": {
+        "date": "2022-12-20",
+        "opponent": {
+          "username": "exoticprincess",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/65307081449?tab=analysis&flip=false&move=02"
+      },
+      "64882474565": {
+        "date": "2022-12-15",
+        "opponent": {
+          "username": "Msb2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/64882474565?tab=analysis&flip=false&move=02"
+      },
+      "64352447235": {
+        "date": "2022-12-09",
+        "opponent": {
+          "username": "Duhless",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/64352447235?tab=analysis&flip=false&move=02"
+      },
+      "64346509421": {
+        "date": "2022-12-09",
+        "opponent": {
+          "username": "Duhless",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/64346509421?tab=analysis&flip=false&move=02"
+      },
+      "64196642987": {
+        "date": "2022-12-08",
+        "opponent": {
+          "username": "penguingm1",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/64196642987?tab=analysis&flip=false&move=02"
+      },
+      "64193592659": {
+        "date": "2022-12-07",
+        "opponent": {
+          "username": "GMWSO",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/64193592659?tab=analysis&flip=false&move=02"
+      },
+      "63484618257": {
+        "date": "2022-11-29",
+        "opponent": {
+          "username": "kirillshevchenko",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/63484618257?tab=analysis&flip=false&move=02"
+      },
+      "62755726245": {
+        "date": "2022-11-21",
+        "opponent": {
+          "username": "spicycaterpillar",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/62755726245?tab=analysis&flip=false&move=02"
+      },
+      "62751591769": {
+        "date": "2022-11-21",
+        "opponent": {
+          "username": "spicycaterpillar",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/62751591769?tab=analysis&flip=false&move=02"
+      },
+      "60827353017": {
+        "date": "2022-10-30",
+        "opponent": {
+          "username": "Njal28",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/60827353017?tab=analysis&flip=false&move=02"
+      },
+      "59240484425": {
+        "date": "2022-10-11",
+        "opponent": {
+          "username": "Triumphmate",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/59240484425?tab=analysis&flip=false&move=02"
+      },
+      "58229413899": {
+        "date": "2022-09-29",
+        "opponent": {
+          "username": "Salem-AR",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/58229413899?tab=analysis&flip=false&move=02"
+      },
+      "58228223885": {
+        "date": "2022-09-29",
+        "opponent": {
+          "username": "Salem-AR",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/58228223885?tab=analysis&flip=false&move=02"
+      },
+      "58226983843": {
+        "date": "2022-09-29",
+        "opponent": {
+          "username": "Salem-AR",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/58226983843?tab=analysis&flip=false&move=02"
+      },
+      "58206569147": {
+        "date": "2022-09-29",
+        "opponent": {
+          "username": "nihalsarin",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/58206569147?tab=analysis&flip=false&move=02"
+      },
+      "58144260453": {
+        "date": "2022-09-28",
+        "opponent": {
+          "username": "joppie2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/58144260453?tab=analysis&flip=false&move=02"
+      },
+      "55561836915": {
+        "date": "2022-08-30",
+        "opponent": {
+          "username": "Bigfish1995",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/55561836915?tab=analysis&flip=false&move=02"
+      },
+      "55552164321": {
+        "date": "2022-08-29",
+        "opponent": {
+          "username": "Bigfish1995",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/55552164321?tab=analysis&flip=false&move=02"
+      },
+      "5877358810": {
+        "date": "2020-12-03",
+        "opponent": {
+          "username": "Sibelephant",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/5877358810?tab=analysis&flip=false&move=02"
+      },
+      "5877213608": {
+        "date": "2020-12-03",
+        "opponent": {
+          "username": "Sibelephant",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/5877213608?tab=analysis&flip=false&move=02"
+      }
+    },
+    "gambit:King's Gambit": {
+      "86549448063": {
+        "date": "2023-08-23",
+        "opponent": {
+          "username": "platy3",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/86549448063?tab=analysis&flip=false&move=02"
+      },
+      "84061232215": {
+        "date": "2023-07-25",
+        "opponent": {
+          "username": "Sanan_Sjugirov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/84061232215?tab=analysis&flip=false&move=02"
+      },
+      "83616992951": {
+        "date": "2023-07-20",
+        "opponent": {
+          "username": "penguingm1",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83616992951?tab=analysis&flip=false&move=02"
+      },
+      "83616924847": {
+        "date": "2023-07-20",
+        "opponent": {
+          "username": "penguingm1",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83616924847?tab=analysis&flip=false&move=02"
+      },
+      "83436999377": {
+        "date": "2023-07-18",
+        "opponent": {
+          "username": "Antipov_Mikhail_Al",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83436999377?tab=analysis&flip=false&move=02"
+      },
+      "83434696529": {
+        "date": "2023-07-18",
+        "opponent": {
+          "username": "vi_pranav",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83434696529?tab=analysis&flip=false&move=02"
+      },
+      "83433340553": {
+        "date": "2023-07-18",
+        "opponent": {
+          "username": "MVM2008",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83433340553?tab=analysis&flip=false&move=02"
+      },
+      "73599085343": {
+        "date": "2023-03-26",
+        "opponent": {
+          "username": "jacky72",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/73599085343?tab=analysis&flip=false&move=02"
+      },
+      "73598622781": {
+        "date": "2023-03-26",
+        "opponent": {
+          "username": "jacky72",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/73598622781?tab=analysis&flip=false&move=02"
+      },
+      "73598362839": {
+        "date": "2023-03-26",
+        "opponent": {
+          "username": "jacky72",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/73598362839?tab=analysis&flip=false&move=02"
+      },
+      "71285676153": {
+        "date": "2023-02-28",
+        "opponent": {
+          "username": "RightArmOfTheForbiddenOne",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71285676153?tab=analysis&flip=false&move=02"
+      },
+      "71258592489": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "RightArmOfTheForbiddenOne",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71258592489?tab=analysis&flip=false&move=02"
+      },
+      "71257760903": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "RightArmOfTheForbiddenOne",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71257760903?tab=analysis&flip=false&move=02"
+      },
+      "71195644491": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "Jospem",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71195644491?tab=analysis&flip=false&move=02"
+      },
+      "70196075709": {
+        "date": "2023-02-15",
+        "opponent": {
+          "username": "Abund",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70196075709?tab=analysis&flip=false&move=02"
+      },
+      "70189975417": {
+        "date": "2023-02-15",
+        "opponent": {
+          "username": "Abund",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70189975417?tab=analysis&flip=false&move=02"
+      },
+      "70186523497": {
+        "date": "2023-02-15",
+        "opponent": {
+          "username": "Abund",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70186523497?tab=analysis&flip=false&move=02"
+      },
+      "66944357763": {
+        "date": "2023-01-08",
+        "opponent": {
+          "username": "vi_pranav",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/66944357763?tab=analysis&flip=false&move=02"
+      },
+      "66688784507": {
+        "date": "2023-01-05",
+        "opponent": {
+          "username": "RaunakSadhwani2005",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/66688784507?tab=analysis&flip=false&move=02"
+      },
+      "66605655213": {
+        "date": "2023-01-04",
+        "opponent": {
+          "username": "jefferyx",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/66605655213?tab=analysis&flip=false&move=02"
+      },
+      "65382083937": {
+        "date": "2022-12-21",
+        "opponent": {
+          "username": "RaunakSadhwani2005",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/65382083937?tab=analysis&flip=false&move=02"
+      },
+      "64198363113": {
+        "date": "2022-12-08",
+        "opponent": {
+          "username": "RightArmOfTheForbiddenOne",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/64198363113?tab=analysis&flip=false&move=02"
+      },
+      "58143682415": {
+        "date": "2022-09-28",
+        "opponent": {
+          "username": "joppie2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/58143682415?tab=analysis&flip=false&move=02"
+      },
+      "58139966509": {
+        "date": "2022-09-28",
+        "opponent": {
+          "username": "joppie2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/58139966509?tab=analysis&flip=false&move=02"
+      },
+      "7487636417": {
+        "date": "2021-02-19",
+        "opponent": {
+          "username": "Santhosh_hs",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/7487636417?tab=analysis&flip=false&move=02"
+      }
+    },
+    "gambit:French Defense: Horwitz Attack, Papa-Ticulat Gambit": {
+      "86040041135": {
+        "date": "2023-08-17",
+        "opponent": {
+          "username": "Rud_Makarian",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/86040041135?tab=analysis&flip=false&move=04"
+      }
+    },
+    "gambit:Queen's Pawn Game: Accelerated London System, Steinitz Countergambit, Morris Countergambit": {
+      "85963223223": {
+        "date": "2023-08-16",
+        "opponent": {
+          "username": "Bigfish1995",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/85963223223?tab=analysis&flip=false&move=04"
+      }
+    },
+    "gambit:Queen's Gambit Declined: Austrian Defense, Gusev Countergambit": {
+      "85350804221": {
+        "date": "2023-08-09",
+        "opponent": {
+          "username": "Tobias_Koelle",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/85350804221?tab=analysis&flip=true&move=05"
+      },
+      "67906427499": {
+        "date": "2023-01-19",
+        "opponent": {
+          "username": "BuLolo",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/67906427499?tab=analysis&flip=true&move=05"
+      }
+    },
+    "gambit:Caro-Kann Defense: Hillbilly Attack, Schaeffer Gambit": {
+      "84144591679": {
+        "date": "2023-07-26",
+        "opponent": {
+          "username": "DanielNaroditsky",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/84144591679?tab=analysis&flip=false&move=06"
+      },
+      "84142188651": {
+        "date": "2023-07-26",
+        "opponent": {
+          "username": "nihalsarin",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/84142188651?tab=analysis&flip=false&move=06"
+      },
+      "76459790101": {
+        "date": "2023-04-28",
+        "opponent": {
+          "username": "Bulldog167",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/76459790101?tab=analysis&flip=false&move=06"
+      },
+      "75015788079": {
+        "date": "2023-04-12",
+        "opponent": {
+          "username": "TheSilmarils",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/75015788079?tab=analysis&flip=false&move=06"
+      },
+      "56577054579": {
+        "date": "2022-09-10",
+        "opponent": {
+          "username": "viditchess",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/56577054579?tab=analysis&flip=false&move=06"
+      }
+    },
+    "gambit:Nimzowitsch Defense: Colorado Countergambit": {
+      "84064851781": {
+        "date": "2023-07-25",
+        "opponent": {
+          "username": "Oleksandr_Bortnyk",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/84064851781?tab=analysis&flip=true&move=03"
+      },
+      "84063631841": {
+        "date": "2023-07-25",
+        "opponent": {
+          "username": "GM_dmitrij",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/84063631841?tab=analysis&flip=true&move=03"
+      }
+    },
+    "gambit:King's Gambit Accepted: Bishop's Gambit": {
+      "84061232215": {
+        "date": "2023-07-25",
+        "opponent": {
+          "username": "Sanan_Sjugirov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/84061232215?tab=analysis&flip=false&move=04"
+      }
+    },
+    "gambit:Queen's Pawn Game: Accelerated London System, Steinitz Countergambit": {
+      "83617598975": {
+        "date": "2023-07-20",
+        "opponent": {
+          "username": "penguingm1",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83617598975?tab=analysis&flip=true&move=03"
+      },
+      "78523440985": {
+        "date": "2023-05-22",
+        "opponent": {
+          "username": "Bigfish1995",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/78523440985?tab=analysis&flip=true&move=03"
+      },
+      "64194772595": {
+        "date": "2022-12-07",
+        "opponent": {
+          "username": "penguingm1",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/64194772595?tab=analysis&flip=true&move=03"
+      }
+    },
+    "gambit:King's Gambit Accepted: Mason-Keres Gambit": {
+      "83616992951": {
+        "date": "2023-07-20",
+        "opponent": {
+          "username": "penguingm1",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83616992951?tab=analysis&flip=false&move=04"
+      },
+      "71195644491": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "Jospem",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71195644491?tab=analysis&flip=false&move=04"
+      },
+      "66688784507": {
+        "date": "2023-01-05",
+        "opponent": {
+          "username": "RaunakSadhwani2005",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/66688784507?tab=analysis&flip=false&move=04"
+      },
+      "65382083937": {
+        "date": "2022-12-21",
+        "opponent": {
+          "username": "RaunakSadhwani2005",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/65382083937?tab=analysis&flip=false&move=04"
+      },
+      "58143682415": {
+        "date": "2022-09-28",
+        "opponent": {
+          "username": "joppie2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/58143682415?tab=analysis&flip=false&move=04"
+      }
+    },
+    "gambit:Benko Gambit": {
+      "83356603891": {
+        "date": "2023-07-17",
+        "opponent": {
+          "username": "hansen",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83356603891?tab=analysis&flip=true&move=05"
+      },
+      "83183138275": {
+        "date": "2023-07-15",
+        "opponent": {
+          "username": "Oleg_Papayan",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83183138275?tab=analysis&flip=true&move=05"
+      },
+      "77500839599": {
+        "date": "2023-05-10",
+        "opponent": {
+          "username": "Msb2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/77500839599?tab=analysis&flip=true&move=05"
+      },
+      "68594711003": {
+        "date": "2023-01-27",
+        "opponent": {
+          "username": "Msb2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/68594711003?tab=analysis&flip=true&move=05"
+      },
+      "67911670435": {
+        "date": "2023-01-19",
+        "opponent": {
+          "username": "BuLolo",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/67911670435?tab=analysis&flip=true&move=05"
+      },
+      "64202593477": {
+        "date": "2022-12-08",
+        "opponent": {
+          "username": "RightArmOfTheForbiddenOne",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/64202593477?tab=analysis&flip=true&move=05"
+      },
+      "63071343145": {
+        "date": "2022-11-24",
+        "opponent": {
+          "username": "WiniVidiVici",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/63071343145?tab=analysis&flip=true&move=05"
+      },
+      "60826765133": {
+        "date": "2022-10-29",
+        "opponent": {
+          "username": "RightArmOfTheForbiddenOne",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/60826765133?tab=analysis&flip=true&move=05"
+      },
+      "58229463181": {
+        "date": "2022-09-29",
+        "opponent": {
+          "username": "Salem-AR",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/58229463181?tab=analysis&flip=true&move=05"
+      },
+      "58139422679": {
+        "date": "2022-09-28",
+        "opponent": {
+          "username": "joppie2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/58139422679?tab=analysis&flip=true&move=05"
+      },
+      "56505626355": {
+        "date": "2022-09-09",
+        "opponent": {
+          "username": "NikoTheodorou",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/56505626355?tab=analysis&flip=true&move=05"
+      },
+      "55561193189": {
+        "date": "2022-08-30",
+        "opponent": {
+          "username": "Bigfish1995",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/55561193189?tab=analysis&flip=true&move=05"
+      }
+    },
+    "gambit:Modern Defense: Lizard Defense, Mittenberger Gambit": {
+      "83180233695": {
+        "date": "2023-07-15",
+        "opponent": {
+          "username": "Vyacheslav_N",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/83180233695?tab=analysis&flip=true&move=05"
+      },
+      "82495827249": {
+        "date": "2023-07-07",
+        "opponent": {
+          "username": "RamyresCoelho",
+          "title": "WFM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/82495827249?tab=analysis&flip=true&move=05"
+      },
+      "81973745551": {
+        "date": "2023-07-01",
+        "opponent": {
+          "username": "DonkyDonkyDonkey",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/81973745551?tab=analysis&flip=true&move=05"
+      }
+    },
+    "gambit:Sicilian Defense: Smith-Morra Gambit": {
+      "80081411347": {
+        "date": "2023-06-09",
+        "opponent": {
+          "username": "Firouzja2003",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/80081411347?tab=analysis&flip=false&move=02"
+      },
+      "71193209467": {
+        "date": "2023-02-26",
+        "opponent": {
+          "username": "Jospem",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71193209467?tab=analysis&flip=false&move=02"
+      },
+      "61260017909": {
+        "date": "2022-11-04",
+        "opponent": {
+          "username": "mishanick",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/61260017909?tab=analysis&flip=false&move=02"
+      }
+    },
+    "gambit:Duras Gambit": {
+      "76204779313": {
+        "date": "2023-04-25",
+        "opponent": {
+          "username": "Oleksandr_Bortnyk",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/76204779313?tab=analysis&flip=true&move=01"
+      }
+    },
+    "gambit:Indian Defense: Omega Gambit": {
+      "73422008449": {
+        "date": "2023-03-24",
+        "opponent": {
+          "username": "Oleksandr_Bortnyk",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/73422008449?tab=analysis&flip=false&move=02"
+      }
+    },
+    "gambit:French Defense: Advance Variation, Milner-Barry Gambit": {
+      "73416827501": {
+        "date": "2023-03-24",
+        "opponent": {
+          "username": "GMAkobianSTL",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/73416827501?tab=analysis&flip=false&move=010"
+      }
+    },
+    "gambit:Vienna Game: Vienna Gambit": {
+      "71284486239": {
+        "date": "2023-02-28",
+        "opponent": {
+          "username": "RightArmOfTheForbiddenOne",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71284486239?tab=analysis&flip=false&move=04"
+      },
+      "71280372731": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "RightArmOfTheForbiddenOne",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71280372731?tab=analysis&flip=false&move=04"
+      }
+    },
+    "gambit:Vienna Gambit, with Max Lange Defense: Steinitz Gambit": {
+      "71262568521": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "nihalsarin",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71262568521?tab=analysis&flip=false&move=06"
+      }
+    },
+    "gambit:Scotch Game: Scotch Gambit": {
+      "71260041423": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "nihalsarin",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71260041423?tab=analysis&flip=false&move=06"
+      },
+      "71259173305": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "RightArmOfTheForbiddenOne",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71259173305?tab=analysis&flip=false&move=06"
+      },
+      "71258868695": {
+        "date": "2023-02-27",
+        "opponent": {
+          "username": "RightArmOfTheForbiddenOne",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/71258868695?tab=analysis&flip=false&move=06"
+      }
+    },
+    "gambit:Sicilian Defense: Scheveningen Variation, Delayed Keres Attack, Perenyi Gambit": {
+      "70588287471": {
+        "date": "2023-02-19",
+        "opponent": {
+          "username": "Rud_Makarian",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70588287471?tab=analysis&flip=false&move=016"
+      }
+    },
+    "gambit:Queen's Gambit Declined: Albin Countergambit": {
+      "70202128335": {
+        "date": "2023-02-15",
+        "opponent": {
+          "username": "DanielNaroditsky",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70202128335?tab=analysis&flip=true&move=03"
+      }
+    },
+    "gambit:Bird Opening: From's Gambit": {
+      "70196021461": {
+        "date": "2023-02-15",
+        "opponent": {
+          "username": "Abund",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70196021461?tab=analysis&flip=true&move=01"
+      },
+      "70194276857": {
+        "date": "2023-02-15",
+        "opponent": {
+          "username": "Abund",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70194276857?tab=analysis&flip=true&move=01"
+      }
+    },
+    "gambit:Elephant Gambit": {
+      "70195328839": {
+        "date": "2023-02-15",
+        "opponent": {
+          "username": "Abund",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70195328839?tab=analysis&flip=true&move=03"
+      }
+    },
+    "gambit:Elephant Gambit: Paulsen Countergambit": {
+      "70195328839": {
+        "date": "2023-02-15",
+        "opponent": {
+          "username": "Abund",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70195328839?tab=analysis&flip=true&move=05"
+      }
+    },
+    "gambit:Sicilian Defense: Wing Gambit": {
+      "70193012259": {
+        "date": "2023-02-15",
+        "opponent": {
+          "username": "Abund",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/70193012259?tab=analysis&flip=false&move=02"
+      }
+    },
+    "gambit:Indian Defense: Devin Gambit": {
+      "69555980639": {
+        "date": "2023-02-08",
+        "opponent": {
+          "username": "Njal28",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/69555980639?tab=analysis&flip=false&move=04"
+      }
+    },
+    "gambit:Danish Gambit": {
+      "66945641467": {
+        "date": "2023-01-08",
+        "opponent": {
+          "username": "vi_pranav",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/66945641467?tab=analysis&flip=false&move=04"
+      },
+      "66945001807": {
+        "date": "2023-01-08",
+        "opponent": {
+          "username": "vi_pranav",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/66945001807?tab=analysis&flip=false&move=04"
+      }
+    },
+    "gambit:Hungarian Opening: Van Kuijk Gambit": {
+      "63500905109": {
+        "date": "2022-11-29",
+        "opponent": {
+          "username": "shimastream",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/63500905109?tab=analysis&flip=true&move=03"
+      }
+    },
+    "gambit:Scotch Game: Relfsson Gambit": {
+      "62748538175": {
+        "date": "2022-11-21",
+        "opponent": {
+          "username": "spicycaterpillar",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/62748538175?tab=analysis&flip=false&move=06"
+      },
+      "61864211091": {
+        "date": "2022-11-11",
+        "opponent": {
+          "username": "Njal28",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/61864211091?tab=analysis&flip=false&move=06"
+      },
+      "61864119077": {
+        "date": "2022-11-11",
+        "opponent": {
+          "username": "Njal28",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/61864119077?tab=analysis&flip=false&move=06"
+      }
+    },
+    "gambit:Nimzo-Indian Defense: Spielmann Variation, Romanovsky Gambit": {
+      "61353599063": {
+        "date": "2022-11-05",
+        "opponent": {
+          "username": "Azeryahu",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/61353599063?tab=analysis&flip=true&move=09"
+      }
+    },
+    "gambit:Sicilian Defense: Morphy Gambit": {
+      "61260017909": {
+        "date": "2022-11-04",
+        "opponent": {
+          "username": "mishanick",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/61260017909?tab=analysis&flip=false&move=04"
+      }
+    },
+    "gambit:Sicilian Defense: Morphy Gambit, Andreaschek Gambit": {
+      "61260017909": {
+        "date": "2022-11-04",
+        "opponent": {
+          "username": "mishanick",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/61260017909?tab=analysis&flip=false&move=06"
+      }
+    },
+    "gambit:King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit": {
+      "58139966509": {
+        "date": "2022-09-28",
+        "opponent": {
+          "username": "joppie2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/58139966509?tab=analysis&flip=false&move=06"
+      }
+    },
+    "gambit:Réti Opening: Advance Variation, Michel Gambit": {
+      "5675885420": {
+        "date": "2020-11-02",
+        "opponent": {
+          "username": "Parhamov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/5675885420?tab=analysis&flip=true&move=05"
+      }
+    },
+    "gambit:Scandinavian Defense: Portuguese Gambit": {
+      "2646845964": {
+        "date": "2018-02-28",
+        "opponent": {
+          "username": "vsuri97",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2646845964?tab=analysis&flip=true&move=05"
+      }
+    }
+  }
+}

@@ -11,16 +11,16 @@ export type TrophyCacheFile = {
     moves_analyzed: number
     trophies: PlayerTrophiesByType
 }
-
-export type TrophyForGame = {
-    [key: string]: {
-        date: string
-        opponent: {
-            username: string
-            title: string
-        }
-        link: string
+export type Trophy = {
+    date: string
+    opponent: {
+        username: string
+        title: string
     }
+    link: string
+}
+export type TrophyForGame = {
+    [key: string]: Trophy
 }
 
 export type PlayerTrophiesByType = {

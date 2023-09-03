@@ -23,15 +23,9 @@
             <div class="flex flex-row">
                 <div class="basis-1/4 text-center">
                     <h4 class="text-xl md:text-4xl">
-                        {{ positions.toLocaleString() }}
-                    </h4>
-                    Positions Analyzed
-                </div>
-                <div class="basis-1/4 text-center">
-                    <h4 class="text-xl md:text-4xl">
                         {{ downloaded.toLocaleString() }}
                     </h4>
-                    Games Analyzed
+                    Games Downloaded
                 </div>
                 <div class="basis-1/4 text-center">
                     <h4 class="text-xl md:text-4xl">
@@ -68,7 +62,7 @@
 
 <script lang="ts">
 export default {
-    props: ['title', 'positions', 'downloaded', 'total', 'hideProgressBar'],
+    props: ['title', 'downloaded', 'analyzed', 'total', 'hideProgressBar'],
 
     computed: {
         percentDownloaded: function () {

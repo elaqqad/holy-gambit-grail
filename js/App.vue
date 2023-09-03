@@ -10,7 +10,7 @@
             <h1 class="text-6xl md:text-8xl mb-4">
                 <a href="/"> Holy Gambit Grail ! </a>
             </h1>
-            <p class="md:text-2xl">How many of these gambits you won with ?</p>
+            <p class="md:text-2xl">How many of these gambits have you won with ?</p>
         </div>
 
         <div
@@ -54,13 +54,13 @@
                                 />
 
                                 <div class="text-sm">
-                                    Or try
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')">
-                                        Eric Rosen's
-                                    </span>
-                                    username or
+                                    You can also try
                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')">
                                         Jonathan Schrantz's
+                                    </span>
+                                    username or
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')">
+                                        Eric Rosen's
                                     </span>
                                     on Lichess.
                                 </div>
@@ -136,7 +136,7 @@
         <download-progress
             v-if="isDownloading && !isDownloadComplete"
             :title="player.username"
-            :positions="counts.totalMoves"
+            :analyzed="counts.analyzed"
             :downloaded="counts.downloaded"
             :total="counts.totalGames"
             :hideProgressBar="inputs.filters.sinceHoursAgo"
@@ -163,12 +163,12 @@
                 <strong>{{ inputs.type === 'lichess' ? 'Lichess' : 'Chess.com' }}</strong>
                 and has won
                 <strong> {{ trophyCount.toLocaleString() }}</strong> total games
-                <p v-if="sinceDateFormatted">since {{ sinceDateFormatted }}</p>
+                <p v-if="sinceDateFormatted"> since {{ sinceDateFormatted }}</p>
             </div>
 
             <trophy-collection :count="trophyCount" size="large"></trophy-collection>
             <div class="text-sm mt-2">
-                <strong>{{ counts.downloaded.toLocaleString() }}</strong>
+                <strong>{{ counts.analyzed.toLocaleString() }}</strong>
                 games analyzed
             </div>
             <div class="mb-1">Only {{ trophyTypeCount - totalAccomplishmentsCompleted }} remaining to complete the Holy Gambit Grail !</div>
@@ -184,14 +184,14 @@
                         @register-new-trophy="onRegisterNewTrophy"
                         :title="gambit.name"
                         :color="gambit.color"
-                        :desc="`
-                            W: ${((100 * gambit.white) / (gambit.white + gambit.black + gambit.draws)).toLocaleString('en-us', {
+                        :gambit-results="`
+                            W: ${((100 * gambit.white) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined,{
                                 maximumFractionDigits: 0,
                             })}%,
-                            D: ${((100 * gambit.draws) / (gambit.white + gambit.black + gambit.draws)).toLocaleString('en-us', {
+                            D: ${((100 * gambit.draws) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined,{
                                 maximumFractionDigits: 0,
                             })}%,
-                            B: ${((100 * gambit.black) / (gambit.white + gambit.black + gambit.draws)).toLocaleString('en-us', {
+                            B: ${((100 * gambit.black) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined,{
                                 maximumFractionDigits: 0,
                             })}%
                         `"
@@ -243,11 +243,11 @@ import TrophyCollection from './components/TrophyCollection.vue'
 import { gambitTrophy, allGambits, gameAgainstBot, winnerIsUser, pgnPrefix } from './goals/gambit-openings'
 import { GambitOpening, PlayerTrophiesByType } from './types/types'
 import { formatSinceDate } from './utils/format-since-date'
-import { mapIterator, TreeMap } from './utils/TreeMap'
+import { TreeMap } from './utils/TreeMap'
 import { exportAsCsv, exportAsJson } from './utils/export-tools'
 import { getCachedGames } from './utils/caching'
 
-const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
+//const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
 export default {
     components: {
@@ -285,7 +285,7 @@ export default {
             counts: {
                 totalGames: 0,
                 downloaded: 0,
-                totalMoves: 0,
+                analyzed: 0,
             },
 
             usingCacheBeforeTimestamp: 0,
@@ -424,7 +424,7 @@ export default {
                         if (result !== undefined) {
                             this.usingCacheBeforeTimestamp = result.cache_updated_at
                             this.counts.downloaded = result.games_analyzed
-                            this.counts.totalMoves = result.moves_analyzed
+                            this.counts.analyzed = result.games_analyzed
                             this.playerTrophiesByType = result.trophies
                         }
                     }
@@ -499,13 +499,13 @@ export default {
         async checkGameForTrophies(game: Game): Promise<void> {
             // Add a 0ms setTimeout to stop the process from blocking the page
             // Without this, the page may become unresponsive as games are processed
-            await wait(0)
+            this.counts.downloaded++
+            // await wait(0)
             // only standard chess starting position games
             // only games won by the current user
             // ignore games against stockfish, anonymous users, and bots
             if (game.isStandard && winnerIsUser(game, this.player.username.toLowerCase()) && !gameAgainstBot(game, this.player.title)) {
-                const gameNotation = mapIterator(game.moves, (move) => move.notation.notation)
-                for (let gambit of this.GambitsTree.get(gameNotation)) {
+                for (let gambit of this.GambitsTree.getMap(game.moves, (move) => move.notation.notation )) {
                     if (gambit != undefined) {
                         for (const result of gambitTrophy(game, gambit)) {
                             this.addTrophyForPlayer(`gambit:${gambit.name}`, game, result.onMoveNumber ?? 0)
@@ -513,7 +513,7 @@ export default {
                     }
                 }
             }
-            this.counts.downloaded++
+            this.counts.analyzed++
         },
     },
 }
