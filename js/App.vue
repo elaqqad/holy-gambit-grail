@@ -278,7 +278,7 @@ import { TreeMap } from './utils/TreeMap'
 import { exportAsCsv, exportAsJson } from './utils/export-tools'
 import { getCachedGames } from './utils/caching'
 
-//const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
+const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
 export default {
     components: {
@@ -530,7 +530,7 @@ export default {
             // Add a 0ms setTimeout to stop the process from blocking the page
             // Without this, the page may become unresponsive as games are processed
             this.counts.downloaded++
-            // await wait(0)
+            await wait(0)
             // only standard chess starting position games
             // only games won by the current user
             // ignore games against stockfish, anonymous users, and bots
