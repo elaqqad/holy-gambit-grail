@@ -465,7 +465,6 @@ export default {
                     if (this.usingCacheBeforeTimestamp) {
                         sinceTimestamp = this.usingCacheBeforeTimestamp
                     }
-
                     games(url, this.checkGameForTrophies, {
                         since: sinceTimestamp,
                         pgnInJson: true,
