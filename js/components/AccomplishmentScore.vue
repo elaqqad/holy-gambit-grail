@@ -217,15 +217,12 @@ export default {
             return undefined
         },
         trophiesByOpponent(): Map<string, Trophy> {
-            return Object.values(this.trophies as TrophyForGame)
-                .reduce(
-                    (previousMap: Map<string, Trophy>, newItem: Trophy) => {
-                        if (!previousMap.has(newItem.opponent.username)) {
-                            previousMap.set(newItem.opponent.username, newItem);
-                        }
-                        return previousMap;
-                    },
-                    new Map<string, Trophy>());
+            return Object.values(this.trophies as TrophyForGame).reduce((previousMap: Map<string, Trophy>, newItem: Trophy) => {
+                if (!previousMap.has(newItem.opponent.username)) {
+                    previousMap.set(newItem.opponent.username, newItem)
+                }
+                return previousMap
+            }, new Map<string, Trophy>())
         },
     },
     methods: {

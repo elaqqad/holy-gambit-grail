@@ -55,18 +55,45 @@
 
                                 <div class="text-sm">
                                     Examples on Lichess :
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')">Jonathan Schrantz </span>,
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')">Eric Rosen</span>
-                                    Or 
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'DrNykterstein')"> DrNykterstein </span>.
-                                    <br/>
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')"
+                                        >Jonathan Schrantz </span
+                                    >,
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')"
+                                        >Eric Rosen</span
+                                    >
+                                    Or
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer"
+                                        @click.prevent="formFill('lichess', 'DrNykterstein')"
+                                    >
+                                        DrNykterstein </span
+                                    >.
+                                    <br />
                                     On chess.com :
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'VampireChicken')">Jonathan Schrantz</span>,
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'IMRosen')">Eric Rosen</span>,
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'Hikaru')">Hikaru</span>,
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'GothamChess')">GothamChess</span>,
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'DanielNaroditsky')">DanielNaroditsky</span>,
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'AlexandraBotez')">AlexandraBotez</span>
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer"
+                                        @click.prevent="formFill('chesscom', 'VampireChicken')"
+                                        >Jonathan Schrantz</span
+                                    >,
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'IMRosen')"
+                                        >Eric Rosen</span
+                                    >,
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'Hikaru')"
+                                        >Hikaru</span
+                                    >,
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'GothamChess')"
+                                        >GothamChess</span
+                                    >,
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer"
+                                        @click.prevent="formFill('chesscom', 'DanielNaroditsky')"
+                                        >DanielNaroditsky</span
+                                    >,
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer"
+                                        @click.prevent="formFill('chesscom', 'AlexandraBotez')"
+                                        >AlexandraBotez</span
+                                    >
                                 </div>
                             </div>
                         </div>
@@ -167,7 +194,7 @@
                 <strong>{{ inputs.type === 'lichess' ? 'Lichess' : 'Chess.com' }}</strong>
                 and has won
                 <strong> {{ trophyCount.toLocaleString() }}</strong> total games
-                <p v-if="sinceDateFormatted"> since {{ sinceDateFormatted }}</p>
+                <p v-if="sinceDateFormatted">since {{ sinceDateFormatted }}</p>
             </div>
 
             <trophy-collection :count="trophyCount" size="large"></trophy-collection>
@@ -189,13 +216,13 @@
                         :title="gambit.name"
                         :color="gambit.color"
                         :gambit-results="`
-                            W: ${((100 * gambit.white) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined,{
+                            W: ${((100 * gambit.white) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined, {
                                 maximumFractionDigits: 0,
                             })}%,
-                            D: ${((100 * gambit.draws) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined,{
+                            D: ${((100 * gambit.draws) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined, {
                                 maximumFractionDigits: 0,
                             })}%,
-                            B: ${((100 * gambit.black) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined,{
+                            B: ${((100 * gambit.black) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined, {
                                 maximumFractionDigits: 0,
                             })}%
                         `"
@@ -509,7 +536,7 @@ export default {
             // only games won by the current user
             // ignore games against stockfish, anonymous users, and bots
             if (game.isStandard && winnerIsUser(game, this.player.username.toLowerCase()) && !gameAgainstBot(game, this.player.title)) {
-                for (let gambit of this.GambitsTree.getMap(game.moves, (move) => move.notation.notation )) {
+                for (let gambit of this.GambitsTree.getMap(game.moves, (move) => move.notation.notation)) {
                     if (gambit != undefined) {
                         for (const result of gambitTrophy(game, gambit)) {
                             this.addTrophyForPlayer(`gambit:${gambit.name}`, game, result.onMoveNumber ?? 0)

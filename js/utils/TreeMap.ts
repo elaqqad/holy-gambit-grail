@@ -1,4 +1,4 @@
-import { U } from "vitest/dist/types-198fd1d9"
+import { U } from 'vitest/dist/types-198fd1d9'
 
 export class TreeMap<K, V> {
     private root: TreeNode<K, V> = new TreeNode<K, V>()
@@ -24,10 +24,10 @@ export class TreeMap<K, V> {
             node.value = value
         }
     }
-    public get(key: Iterable<K>) : V[]{
-        return this.getMap(key,  (a:K) => a);
+    public get(key: Iterable<K>): V[] {
+        return this.getMap(key, (a: K) => a)
     }
-    public getMap<U>(key: Iterable<U>, map : (x: U) => K): V[] {
+    public getMap<U>(key: Iterable<U>, map: (x: U) => K): V[] {
         const result = new Array()
         let node = this.root
         if (node.value != undefined) {
