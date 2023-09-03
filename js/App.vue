@@ -54,15 +54,19 @@
                                 />
 
                                 <div class="text-sm">
-                                    You can also try
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')">
-                                        Jonathan Schrantz's
-                                    </span>
-                                    username or
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')">
-                                        Eric Rosen's
-                                    </span>
-                                    on Lichess.
+                                    Examples on Lichess :
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')">Jonathan Schrantz </span>,
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')">Eric Rosen</span>
+                                    Or 
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'DrNykterstein')"> DrNykterstein </span>.
+                                    <br/>
+                                    On chess.com :
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'VampireChicken')">Jonathan Schrantz</span>,
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'IMRosen')">Eric Rosen</span>,
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'Hikaru')">Hikaru</span>,
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'GothamChess')">GothamChess</span>,
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'DanielNaroditsky')">DanielNaroditsky</span>,
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'AlexandraBotez')">AlexandraBotez</span>
                                 </div>
                             </div>
                         </div>
