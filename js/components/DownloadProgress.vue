@@ -21,19 +21,19 @@
             </div>
 
             <div class="flex flex-row">
-                <div class="basis-1/4 text-center">
+                <div class="basis-1/3 text-center">
                     <h4 class="text-xl md:text-4xl">
                         {{ downloaded.toLocaleString() }}
                     </h4>
                     Games Downloaded
                 </div>
-                <div class="basis-1/4 text-center">
+                <div class="basis-1/3 text-center">
                     <h4 class="text-xl md:text-4xl">
                         {{ total.toLocaleString() }}
                     </h4>
                     Total Games
                 </div>
-                <div class="basis-1/4 text-center">
+                <div class="basis-1/3 text-center">
                     <h4 class="text-xl md:text-4xl">{{ percentDownloadedDisplay }}%</h4>
                     Complete
                 </div>
