@@ -4681,11 +4681,11 @@
     },
     {
         "eco": "A50",
-        "name": "A50 Indian Defense: Budapest Gambit",
+        "name": "A50 Indian Defense: Normal Variation, Wagon Gambit",
         "pgn": "1. d4 Nf6 2. c4 a6 3. Nc3 b5",
         "move": 6,
         "color": "black",
-        "fen": "rrnbqkb1r/2pppppp/p4n2/1p6/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
+        "fen": "rnbqkb1r/2pppppp/p4n2/1p6/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
         "master": null,
         "lichess": "ugMc7Egh",
         "white": 8637,

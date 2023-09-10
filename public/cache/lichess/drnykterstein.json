@@ -1,7 +1,7 @@
 {
-  "cache_updated_at": 1693726642371,
+  "cache_updated_at": 1694380430511,
   "games_analyzed": 10324,
-  "moves_analyzed": 0,
+  "moves_analyzed": 10324,
   "trophies": {
     "gambit:Scandinavian Defense: Portuguese Gambit": {
       "Cxvvmv0v": {
@@ -32,7 +32,7 @@
         "date": "2020-07-02",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/dC8IezN6/black#6"
       },
@@ -160,7 +160,7 @@
         "date": "2020-04-17",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/TfmkG39F/black#6"
       },
@@ -168,7 +168,7 @@
         "date": "2020-04-13",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/6l8QbZOt/black#6"
       },
@@ -176,7 +176,7 @@
         "date": "2020-04-13",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/Q6Ctjgzk/black#6"
       },
@@ -1816,7 +1816,7 @@
         "date": "2020-04-17",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/9aqBAWxm#3"
       },
@@ -1824,7 +1824,7 @@
         "date": "2020-04-17",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/FXwvMCKk#3"
       },
@@ -1832,7 +1832,7 @@
         "date": "2020-04-14",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/zMsI7EN2#3"
       },
@@ -1840,7 +1840,7 @@
         "date": "2020-04-14",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/jC91weJQ#3"
       },
@@ -1848,7 +1848,7 @@
         "date": "2020-04-13",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/0KdlFRIJ#3"
       },
@@ -1856,7 +1856,7 @@
         "date": "2020-04-13",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/MUyJ3iDY#3"
       },
@@ -1864,7 +1864,7 @@
         "date": "2020-04-13",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/hjXeW7li#3"
       },
@@ -1872,7 +1872,7 @@
         "date": "2020-04-13",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/KJB2u7Kb#3"
       },
@@ -1896,7 +1896,7 @@
         "date": "2020-04-07",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/q0GVwgeQ#3"
       },
@@ -1904,7 +1904,7 @@
         "date": "2020-04-07",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/7bOSoPWO#3"
       },
@@ -1912,7 +1912,7 @@
         "date": "2020-04-07",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/NxHaWPzL#3"
       },
@@ -1920,7 +1920,7 @@
         "date": "2020-04-07",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/89Kh50DM#3"
       },
@@ -2412,7 +2412,7 @@
         "date": "2020-04-07",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/JRGmBzJ9#3"
       },
@@ -2842,7 +2842,7 @@
         "date": "2020-04-07",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/9KxAaLfD/black#6"
       }
@@ -3144,7 +3144,7 @@
         "date": "2020-03-07",
         "opponent": {
           "username": "Arthur_Lucas",
-          "title": "FM"
+          "title": "IM"
         },
         "link": "https://lichess.org/lUj3DBUj#3"
       }
@@ -3620,7 +3620,7 @@
         "date": "2020-07-01",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/1Ot7nMcK/black#2"
       },
@@ -3644,7 +3644,7 @@
         "date": "2020-04-13",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/tIhi6vaU/black#2"
       },
@@ -3652,7 +3652,7 @@
         "date": "2020-04-13",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/pYUAsKV8/black#2"
       },
@@ -3868,7 +3868,7 @@
         "date": "2020-07-01",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/VCuPUec6/black#6"
       },
@@ -4078,7 +4078,7 @@
         "date": "2020-04-17",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/GUeBhMWh/black#6"
       },
@@ -4102,7 +4102,7 @@
         "date": "2020-04-13",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/pdgDFrpI/black#6"
       },
@@ -4110,7 +4110,7 @@
         "date": "2020-04-13",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/0LtVqEBh/black#6"
       },
@@ -4162,7 +4162,7 @@
         "date": "2020-04-07",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/FNxVIeXg/black#4"
       },
@@ -4284,7 +4284,7 @@
         "date": "2020-04-07",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/WiGLdSUH/black#6"
       },
@@ -4480,7 +4480,7 @@
         "date": "2020-04-13",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/BK52q4jj#3"
       }
@@ -4672,7 +4672,7 @@
         "date": "2020-04-17",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/FXwvMCKk#9"
       },
@@ -4700,7 +4700,7 @@
         "date": "2020-04-07",
         "opponent": {
           "username": "Satranc_Youtube",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/JRGmBzJ9#5"
       }

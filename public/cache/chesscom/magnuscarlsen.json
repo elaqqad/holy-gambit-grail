@@ -1,8 +1,26 @@
 {
-  "cache_updated_at": 1693733463283,
-  "games_analyzed": 3573,
-  "moves_analyzed": 3573,
+  "cache_updated_at": 1694381593859,
+  "games_analyzed": 3605,
+  "moves_analyzed": 3605,
   "trophies": {
+    "gambit:Scandinavian Defense: Portuguese Gambit": {
+      "2646845964": {
+        "date": "2018-02-28",
+        "opponent": {
+          "username": "vsuri97",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2646845964?tab=analysis&flip=true&move=05"
+      },
+      "87686538095": {
+        "date": "2023-09-05",
+        "opponent": {
+          "username": "ural58",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/87686538095?tab=analysis&flip=true&move=05"
+      }
+    },
     "gambit:Bishop's Opening: Ponziani Gambit": {
       "86726329485": {
         "date": "2023-08-25",
@@ -1101,6 +1119,16 @@
         "link": "https://www.chess.com/analysis/game/live/66945001807?tab=analysis&flip=false&move=04"
       }
     },
+    "gambit:A50 Indian Defense: Budapest Gambit": {
+      "64195984655": {
+        "date": "2022-12-07",
+        "opponent": {
+          "username": "penguingm1",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/64195984655?tab=analysis&flip=true&move=03"
+      }
+    },
     "gambit:Hungarian Opening: Van Kuijk Gambit": {
       "63500905109": {
         "date": "2022-11-29",
@@ -1185,16 +1213,6 @@
           "title": "GM"
         },
         "link": "https://www.chess.com/analysis/game/live/5675885420?tab=analysis&flip=true&move=05"
-      }
-    },
-    "gambit:Scandinavian Defense: Portuguese Gambit": {
-      "2646845964": {
-        "date": "2018-02-28",
-        "opponent": {
-          "username": "vsuri97",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/2646845964?tab=analysis&flip=true&move=05"
       }
     }
   }

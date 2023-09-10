@@ -1,7 +1,7 @@
 {
-  "cache_updated_at": 1693729381592,
-  "games_analyzed": 21338,
-  "moves_analyzed": 21338,
+  "cache_updated_at": 1694380437329,
+  "games_analyzed": 21343,
+  "moves_analyzed": 21343,
   "trophies": {
     "gambit:Queen's Gambit": {
       "1788759168": {
@@ -1796,6 +1796,14 @@
         },
         "link": "https://www.chess.com/analysis/game/live/4276757732?tab=analysis&flip=false&move=02"
       },
+      "87775275785": {
+        "date": "2023-09-06",
+        "opponent": {
+          "username": "mobamba604",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/87775275785?tab=analysis&flip=false&move=02"
+      },
       "87175782727": {
         "date": "2023-08-30",
         "opponent": {
@@ -3447,7 +3455,7 @@
       "5228727746": {
         "date": "2020-07-31",
         "opponent": {
-          "username": "yondaymebr",
+          "username": "Misticpikachu",
           "title": "NM"
         },
         "link": "https://www.chess.com/analysis/game/live/5228727746?tab=analysis&flip=false&move=02"

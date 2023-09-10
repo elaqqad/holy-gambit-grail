@@ -1,8 +1,282 @@
 {
-  "cache_updated_at": 1693729582425,
-  "games_analyzed": 27761,
-  "moves_analyzed": 27761,
+  "cache_updated_at": 1694383342635,
+  "games_analyzed": 27880,
+  "moves_analyzed": 27880,
   "trophies": {
+    "gambit:Danish Gambit": {
+      "2088063447": {
+        "date": "2017-05-07",
+        "opponent": {
+          "username": "4h6r4kpf",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2088063447?tab=analysis&flip=false&move=04"
+      },
+      "2152966219": {
+        "date": "2017-06-14",
+        "opponent": {
+          "username": "Xstorm95",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2152966219?tab=analysis&flip=false&move=04"
+      },
+      "2454980448": {
+        "date": "2017-11-27",
+        "opponent": {
+          "username": "WishIwasBetter",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2454980448?tab=analysis&flip=false&move=04"
+      },
+      "2566518070": {
+        "date": "2018-01-21",
+        "opponent": {
+          "username": "AbacusFinch",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2566518070?tab=analysis&flip=false&move=04"
+      },
+      "2793292537": {
+        "date": "2018-05-06",
+        "opponent": {
+          "username": "cleiderBMX",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2793292537?tab=analysis&flip=false&move=04"
+      },
+      "2799967194": {
+        "date": "2018-05-09",
+        "opponent": {
+          "username": "abjugaor",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2799967194?tab=analysis&flip=false&move=04"
+      },
+      "2925722954": {
+        "date": "2018-07-07",
+        "opponent": {
+          "username": "HopInTheDelorean",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2925722954?tab=analysis&flip=false&move=04"
+      },
+      "2927931722": {
+        "date": "2018-07-09",
+        "opponent": {
+          "username": "fielsneijen",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2927931722?tab=analysis&flip=false&move=04"
+      },
+      "2980462017": {
+        "date": "2018-08-02",
+        "opponent": {
+          "username": "Azeryahu",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/2980462017?tab=analysis&flip=false&move=04"
+      },
+      "3160428988": {
+        "date": "2018-10-22",
+        "opponent": {
+          "username": "CheckersBeatsChess",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3160428988?tab=analysis&flip=false&move=04"
+      },
+      "3393080522": {
+        "date": "2019-01-21",
+        "opponent": {
+          "username": "GerardoBarrantes",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3393080522?tab=analysis&flip=false&move=04"
+      },
+      "3412223171": {
+        "date": "2019-01-28",
+        "opponent": {
+          "username": "Trickord",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3412223171?tab=analysis&flip=false&move=04"
+      },
+      "3412377217": {
+        "date": "2019-01-28",
+        "opponent": {
+          "username": "DeityPsymon",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3412377217?tab=analysis&flip=false&move=04"
+      },
+      "3487394919": {
+        "date": "2019-02-25",
+        "opponent": {
+          "username": "Ravenfury13",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3487394919?tab=analysis&flip=false&move=04"
+      },
+      "3737588090": {
+        "date": "2019-05-29",
+        "opponent": {
+          "username": "ShikshaWithPraveen",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3737588090?tab=analysis&flip=false&move=04"
+      },
+      "3737593665": {
+        "date": "2019-05-29",
+        "opponent": {
+          "username": "ShikshaWithPraveen",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3737593665?tab=analysis&flip=false&move=04"
+      },
+      "3840581666": {
+        "date": "2019-07-06",
+        "opponent": {
+          "username": "RiceRocket42",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3840581666?tab=analysis&flip=false&move=04"
+      },
+      "3979076763": {
+        "date": "2019-08-26",
+        "opponent": {
+          "username": "kev922",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3979076763?tab=analysis&flip=false&move=04"
+      },
+      "4036945748": {
+        "date": "2019-09-16",
+        "opponent": {
+          "username": "MallardRubberDuc-inactive",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4036945748?tab=analysis&flip=false&move=04"
+      },
+      "4056800152": {
+        "date": "2019-09-23",
+        "opponent": {
+          "username": "spicyindianswag",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4056800152?tab=analysis&flip=false&move=04"
+      },
+      "87508307335": {
+        "date": "2023-09-03",
+        "opponent": {
+          "username": "PhysioTherapist",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/87508307335?tab=analysis&flip=false&move=04"
+      },
+      "66884392313": {
+        "date": "2023-01-08",
+        "opponent": {
+          "username": "TOMMYFOOKINSHELBY",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/66884392313?tab=analysis&flip=false&move=04"
+      },
+      "66412853179": {
+        "date": "2023-01-02",
+        "opponent": {
+          "username": "ShikshaWithPraveen",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/66412853179?tab=analysis&flip=false&move=04"
+      },
+      "62906419627": {
+        "date": "2022-11-23",
+        "opponent": {
+          "username": "Xtrmntr78",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/62906419627?tab=analysis&flip=false&move=04"
+      },
+      "19884041501": {
+        "date": "2021-07-13",
+        "opponent": {
+          "username": "saltyclown",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/19884041501?tab=analysis&flip=false&move=04"
+      },
+      "5224821805": {
+        "date": "2020-07-30",
+        "opponent": {
+          "username": "kagg1125",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/5224821805?tab=analysis&flip=false&move=04"
+      },
+      "4917489535": {
+        "date": "2020-05-28",
+        "opponent": {
+          "username": "mikman_47",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4917489535?tab=analysis&flip=false&move=04"
+      },
+      "4776129214": {
+        "date": "2020-04-26",
+        "opponent": {
+          "username": "Rogue_Rider",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4776129214?tab=analysis&flip=false&move=04"
+      },
+      "4683865371": {
+        "date": "2020-04-05",
+        "opponent": {
+          "username": "jontronwonton",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4683865371?tab=analysis&flip=false&move=04"
+      },
+      "4683022733": {
+        "date": "2020-04-05",
+        "opponent": {
+          "username": "Nellionidas",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4683022733?tab=analysis&flip=false&move=04"
+      },
+      "4626263582": {
+        "date": "2020-03-23",
+        "opponent": {
+          "username": "1nterview",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4626263582?tab=analysis&flip=false&move=04"
+      },
+      "4435620606": {
+        "date": "2020-01-26",
+        "opponent": {
+          "username": "Narcolancer",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4435620606?tab=analysis&flip=false&move=04"
+      },
+      "4435607390": {
+        "date": "2020-01-26",
+        "opponent": {
+          "username": "Narcolancer",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4435607390?tab=analysis&flip=false&move=04"
+      },
+      "4386926752": {
+        "date": "2020-01-11",
+        "opponent": {
+          "username": "David_Paravyan",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4386926752?tab=analysis&flip=false&move=04"
+      }
+    },
     "gambit:Queen's Gambit": {
       "1441226792": {
         "date": "2016-01-29",
@@ -1339,6 +1613,14 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/4220258986?tab=analysis&flip=false&move=02"
+      },
+      "87502914431": {
+        "date": "2023-09-03",
+        "opponent": {
+          "username": "chessking0310",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/87502914431?tab=analysis&flip=false&move=02"
       },
       "87434478209": {
         "date": "2023-09-02",
@@ -4766,7 +5048,7 @@
         "date": "2023-07-31",
         "opponent": {
           "username": "woodpusher52",
-          "title": "NM"
+          "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/84506627913?tab=analysis&flip=true&move=03"
       },
@@ -7529,7 +7811,7 @@
       "4838457345": {
         "date": "2020-05-10",
         "opponent": {
-          "username": "Victor_Voltz",
+          "username": "vivoltz",
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/4838457345?tab=analysis&flip=false&move=02"
@@ -7657,272 +7939,6 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/74727196265?tab=analysis&flip=false&move=06"
-      }
-    },
-    "gambit:Danish Gambit": {
-      "2088063447": {
-        "date": "2017-05-07",
-        "opponent": {
-          "username": "4h6r4kpf",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/2088063447?tab=analysis&flip=false&move=04"
-      },
-      "2152966219": {
-        "date": "2017-06-14",
-        "opponent": {
-          "username": "Xstorm95",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/2152966219?tab=analysis&flip=false&move=04"
-      },
-      "2454980448": {
-        "date": "2017-11-27",
-        "opponent": {
-          "username": "WishIwasBetter",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/2454980448?tab=analysis&flip=false&move=04"
-      },
-      "2566518070": {
-        "date": "2018-01-21",
-        "opponent": {
-          "username": "AbacusFinch",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/2566518070?tab=analysis&flip=false&move=04"
-      },
-      "2793292537": {
-        "date": "2018-05-06",
-        "opponent": {
-          "username": "cleiderBMX",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/2793292537?tab=analysis&flip=false&move=04"
-      },
-      "2799967194": {
-        "date": "2018-05-09",
-        "opponent": {
-          "username": "abjugaor",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/2799967194?tab=analysis&flip=false&move=04"
-      },
-      "2925722954": {
-        "date": "2018-07-07",
-        "opponent": {
-          "username": "HopInTheDelorean",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/2925722954?tab=analysis&flip=false&move=04"
-      },
-      "2927931722": {
-        "date": "2018-07-09",
-        "opponent": {
-          "username": "fielsneijen",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/2927931722?tab=analysis&flip=false&move=04"
-      },
-      "2980462017": {
-        "date": "2018-08-02",
-        "opponent": {
-          "username": "Azeryahu",
-          "title": "GM"
-        },
-        "link": "https://www.chess.com/analysis/game/live/2980462017?tab=analysis&flip=false&move=04"
-      },
-      "3160428988": {
-        "date": "2018-10-22",
-        "opponent": {
-          "username": "CheckersBeatsChess",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/3160428988?tab=analysis&flip=false&move=04"
-      },
-      "3393080522": {
-        "date": "2019-01-21",
-        "opponent": {
-          "username": "GerardoBarrantes",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/3393080522?tab=analysis&flip=false&move=04"
-      },
-      "3412223171": {
-        "date": "2019-01-28",
-        "opponent": {
-          "username": "Trickord",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/3412223171?tab=analysis&flip=false&move=04"
-      },
-      "3412377217": {
-        "date": "2019-01-28",
-        "opponent": {
-          "username": "DeityPsymon",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/3412377217?tab=analysis&flip=false&move=04"
-      },
-      "3487394919": {
-        "date": "2019-02-25",
-        "opponent": {
-          "username": "Ravenfury13",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/3487394919?tab=analysis&flip=false&move=04"
-      },
-      "3737588090": {
-        "date": "2019-05-29",
-        "opponent": {
-          "username": "ShikshaWithPraveen",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/3737588090?tab=analysis&flip=false&move=04"
-      },
-      "3737593665": {
-        "date": "2019-05-29",
-        "opponent": {
-          "username": "ShikshaWithPraveen",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/3737593665?tab=analysis&flip=false&move=04"
-      },
-      "3840581666": {
-        "date": "2019-07-06",
-        "opponent": {
-          "username": "RiceRocket42",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/3840581666?tab=analysis&flip=false&move=04"
-      },
-      "3979076763": {
-        "date": "2019-08-26",
-        "opponent": {
-          "username": "kev922",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/3979076763?tab=analysis&flip=false&move=04"
-      },
-      "4036945748": {
-        "date": "2019-09-16",
-        "opponent": {
-          "username": "MallardRubberDuc-inactive",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/4036945748?tab=analysis&flip=false&move=04"
-      },
-      "4056800152": {
-        "date": "2019-09-23",
-        "opponent": {
-          "username": "spicyindianswag",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/4056800152?tab=analysis&flip=false&move=04"
-      },
-      "66884392313": {
-        "date": "2023-01-08",
-        "opponent": {
-          "username": "TOMMYFOOKINSHELBY",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/66884392313?tab=analysis&flip=false&move=04"
-      },
-      "66412853179": {
-        "date": "2023-01-02",
-        "opponent": {
-          "username": "ShikshaWithPraveen",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/66412853179?tab=analysis&flip=false&move=04"
-      },
-      "62906419627": {
-        "date": "2022-11-23",
-        "opponent": {
-          "username": "Xtrmntr78",
-          "title": "IM"
-        },
-        "link": "https://www.chess.com/analysis/game/live/62906419627?tab=analysis&flip=false&move=04"
-      },
-      "19884041501": {
-        "date": "2021-07-13",
-        "opponent": {
-          "username": "saltyclown",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/19884041501?tab=analysis&flip=false&move=04"
-      },
-      "5224821805": {
-        "date": "2020-07-30",
-        "opponent": {
-          "username": "kagg1125",
-          "title": "FM"
-        },
-        "link": "https://www.chess.com/analysis/game/live/5224821805?tab=analysis&flip=false&move=04"
-      },
-      "4917489535": {
-        "date": "2020-05-28",
-        "opponent": {
-          "username": "mikman_47",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/4917489535?tab=analysis&flip=false&move=04"
-      },
-      "4776129214": {
-        "date": "2020-04-26",
-        "opponent": {
-          "username": "Rogue_Rider",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/4776129214?tab=analysis&flip=false&move=04"
-      },
-      "4683865371": {
-        "date": "2020-04-05",
-        "opponent": {
-          "username": "jontronwonton",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/4683865371?tab=analysis&flip=false&move=04"
-      },
-      "4683022733": {
-        "date": "2020-04-05",
-        "opponent": {
-          "username": "Nellionidas",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/4683022733?tab=analysis&flip=false&move=04"
-      },
-      "4626263582": {
-        "date": "2020-03-23",
-        "opponent": {
-          "username": "1nterview",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/4626263582?tab=analysis&flip=false&move=04"
-      },
-      "4435620606": {
-        "date": "2020-01-26",
-        "opponent": {
-          "username": "Narcolancer",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/4435620606?tab=analysis&flip=false&move=04"
-      },
-      "4435607390": {
-        "date": "2020-01-26",
-        "opponent": {
-          "username": "Narcolancer",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/4435607390?tab=analysis&flip=false&move=04"
-      },
-      "4386926752": {
-        "date": "2020-01-11",
-        "opponent": {
-          "username": "David_Paravyan",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/4386926752?tab=analysis&flip=false&move=04"
       }
     },
     "gambit:Benko Gambit": {
@@ -9079,7 +9095,7 @@
       "4838457345": {
         "date": "2020-05-10",
         "opponent": {
-          "username": "Victor_Voltz",
+          "username": "vivoltz",
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/4838457345?tab=analysis&flip=false&move=04"
@@ -9273,6 +9289,216 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/14256723215?tab=analysis&flip=true&move=05"
+      }
+    },
+    "gambit:A50 Indian Defense: Budapest Gambit": {
+      "1551825594": {
+        "date": "2016-04-24",
+        "opponent": {
+          "username": "N_umeroid",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/1551825594?tab=analysis&flip=true&move=03"
+      },
+      "2312277099": {
+        "date": "2017-09-14",
+        "opponent": {
+          "username": "kennethloweijun",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2312277099?tab=analysis&flip=true&move=03"
+      },
+      "2312338886": {
+        "date": "2017-09-14",
+        "opponent": {
+          "username": "GeorgeBurnsCigar",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2312338886?tab=analysis&flip=true&move=03"
+      },
+      "2454492397": {
+        "date": "2017-11-27",
+        "opponent": {
+          "username": "GeorgeBurnsCigar",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2454492397?tab=analysis&flip=true&move=03"
+      },
+      "2455056532": {
+        "date": "2017-11-27",
+        "opponent": {
+          "username": "Voidseeker_NZ",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2455056532?tab=analysis&flip=true&move=03"
+      },
+      "2553909827": {
+        "date": "2018-01-15",
+        "opponent": {
+          "username": "Madonina",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2553909827?tab=analysis&flip=true&move=03"
+      },
+      "2625771042": {
+        "date": "2018-02-19",
+        "opponent": {
+          "username": "M8_in_China",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2625771042?tab=analysis&flip=true&move=03"
+      },
+      "2745065908": {
+        "date": "2018-04-14",
+        "opponent": {
+          "username": "GustavKlimtPaints",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2745065908?tab=analysis&flip=true&move=03"
+      },
+      "2793531281": {
+        "date": "2018-05-07",
+        "opponent": {
+          "username": "GoFest",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2793531281?tab=analysis&flip=true&move=03"
+      },
+      "3079275388": {
+        "date": "2018-09-16",
+        "opponent": {
+          "username": "ToddA10",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3079275388?tab=analysis&flip=true&move=03"
+      },
+      "3420434361": {
+        "date": "2019-01-31",
+        "opponent": {
+          "username": "dpunk4",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3420434361?tab=analysis&flip=true&move=03"
+      },
+      "3770318648": {
+        "date": "2019-06-10",
+        "opponent": {
+          "username": "itachi_san27",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3770318648?tab=analysis&flip=true&move=03"
+      },
+      "3997632454": {
+        "date": "2019-09-01",
+        "opponent": {
+          "username": "johnymacaroni",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3997632454?tab=analysis&flip=true&move=03"
+      },
+      "4219970672": {
+        "date": "2019-11-18",
+        "opponent": {
+          "username": "Goose0202",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4219970672?tab=analysis&flip=true&move=03"
+      },
+      "12527166285": {
+        "date": "2021-04-18",
+        "opponent": {
+          "username": "AviCouldntDoIt",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/12527166285?tab=analysis&flip=true&move=03"
+      },
+      "6326815642": {
+        "date": "2021-01-23",
+        "opponent": {
+          "username": "JoshuaMontilla",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/6326815642?tab=analysis&flip=true&move=03"
+      },
+      "5959871493": {
+        "date": "2020-12-13",
+        "opponent": {
+          "username": "mbashirov3",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/5959871493?tab=analysis&flip=true&move=03"
+      },
+      "5741154767": {
+        "date": "2020-11-14",
+        "opponent": {
+          "username": "Floatingdream1",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/5741154767?tab=analysis&flip=true&move=03"
+      },
+      "5318512809": {
+        "date": "2020-08-19",
+        "opponent": {
+          "username": "aleksandr_2004",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/5318512809?tab=analysis&flip=true&move=03"
+      },
+      "5298202289": {
+        "date": "2020-08-14",
+        "opponent": {
+          "username": "Jaaborok",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/5298202289?tab=analysis&flip=true&move=03"
+      },
+      "4963747972": {
+        "date": "2020-06-07",
+        "opponent": {
+          "username": "MirkoKokeza1962",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4963747972?tab=analysis&flip=true&move=03"
+      },
+      "4917473997": {
+        "date": "2020-05-28",
+        "opponent": {
+          "username": "YaBoiDeepRoy",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4917473997?tab=analysis&flip=true&move=03"
+      },
+      "4732032856": {
+        "date": "2020-04-16",
+        "opponent": {
+          "username": "chocolategummy",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4732032856?tab=analysis&flip=true&move=03"
+      },
+      "4630590599": {
+        "date": "2020-03-24",
+        "opponent": {
+          "username": "RivaresFelice",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4630590599?tab=analysis&flip=true&move=03"
+      },
+      "4551871951": {
+        "date": "2020-03-01",
+        "opponent": {
+          "username": "vegardandr",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4551871951?tab=analysis&flip=true&move=03"
+      },
+      "4393395593": {
+        "date": "2020-01-13",
+        "opponent": {
+          "username": "Snygaard111",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4393395593?tab=analysis&flip=true&move=03"
       }
     },
     "gambit:Latvian Gambit": {
@@ -9795,6 +10021,48 @@
           "title": "IM"
         },
         "link": "https://www.chess.com/analysis/game/live/4963857123?tab=analysis&flip=false&move=02"
+      }
+    },
+    "gambit:A51 Indian Defense: Budapest Defense, Fajarowicz Gambit": {
+      "2454492397": {
+        "date": "2017-11-27",
+        "opponent": {
+          "username": "GeorgeBurnsCigar",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/2454492397?tab=analysis&flip=true&move=05"
+      },
+      "3997632454": {
+        "date": "2019-09-01",
+        "opponent": {
+          "username": "johnymacaroni",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/3997632454?tab=analysis&flip=true&move=05"
+      },
+      "4963747972": {
+        "date": "2020-06-07",
+        "opponent": {
+          "username": "MirkoKokeza1962",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4963747972?tab=analysis&flip=true&move=05"
+      },
+      "4630590599": {
+        "date": "2020-03-24",
+        "opponent": {
+          "username": "RivaresFelice",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4630590599?tab=analysis&flip=true&move=05"
+      },
+      "4393395593": {
+        "date": "2020-01-13",
+        "opponent": {
+          "username": "Snygaard111",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/4393395593?tab=analysis&flip=true&move=05"
       }
     },
     "gambit:Bird Opening: From's Gambit": {

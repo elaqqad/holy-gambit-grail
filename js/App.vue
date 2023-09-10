@@ -458,10 +458,10 @@ export default {
         },
         async fetchYoutubeTrophies(): Promise<YoutubeTrophy[]> {
             const key = `youtube-playlist-games-${this.inputs.playlist}`
-            // const saved = window.localStorage.getItem(key)
-            // if(saved){
-            //     return JSON.parse(saved) as YoutubeTrophy[]
-            // }
+            const saved = window.localStorage.getItem(key)
+            if(saved){
+                return JSON.parse(saved) as YoutubeTrophy[]
+            }
             const response = await axios.get(`/api/youtube?id=${this.inputs.playlist}`)
             window.localStorage.setItem(key, JSON.stringify(response.data))
             return response.data as YoutubeTrophy[]
@@ -535,7 +535,7 @@ export default {
                     if (this.usingCacheBeforeTimestamp) {
                         sinceTimestamp = this.usingCacheBeforeTimestamp
                     }
-                    const semaphore = new Semaphore(500)
+                    const semaphore = new Semaphore(1000)
                     games(url, (game: Game) => semaphore.use(() => this.checkGameForTrophies(game)), {
                         since: sinceTimestamp,
                         pgnInJson: true,
