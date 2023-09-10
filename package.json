@@ -1,4 +1,5 @@
 {
+  "name": "holy-gambit-grail",
   "scripts": {
     "build": "vite build",
     "coverage": "vitest run --coverage",
@@ -17,13 +18,14 @@
     "@vitest/coverage-v8": "^0.34.0",
     "autoprefixer": "^10.4.2",
     "axios": "^1.5.0",
-    "chess-fetcher": "^0.7.1",
+    "chess-fetcher": "^0.7.4",
     "chess.js": "1.0.0-beta.6",
     "chessops": "^0.12.5",
     "lodash": "^4.17.21",
     "postcss": "^8.4.5",
     "prettier": "^3.0.0",
     "tailwindcss": "^3.0.18",
+    "ts-semaphore": "^1.0.0",
     "typescript": "^5.0.0",
     "vitest": "^0.34.0",
     "vue": "^3.2.31"

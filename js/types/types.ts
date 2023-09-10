@@ -19,12 +19,20 @@ export type Trophy = {
     }
     link: string
 }
+export type YoutubeTrophy = {
+    game: string
+    video: string
+    title: string
+}
 export type TrophyForGame = {
     [key: string]: Trophy
 }
 
 export type PlayerTrophiesByType = {
     [key: string]: TrophyForGame
+}
+export type YoutubeVideoByType = {
+    [key: string]: YoutubeTrophy[]
 }
 export type GambitOpening = {
     eco: string

@@ -1,5 +1,6 @@
 <template>
     <div>
+        <span class="uppercase text-xs font-bold">Optional:</span>
         <template v-if="isLoggedIn">
             <div class="text-sm mt-4 text-green-500">
                 <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="green">
@@ -15,8 +16,6 @@
             </div>
         </template>
         <template v-else>
-            <span class="uppercase text-xs">Optional:</span>
-
             <button
                 type="button"
                 class="block px-4 py-2 bg-slate-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-slate-500 hover:shadow-lg focus:bg-slate-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-600 active:shadow-lg transition duration-150 ease-in-out"

@@ -84,8 +84,8 @@
             {{ title }}
         </span>
 
-        <div v-if="hasTrophies" @click.prevent="isExpanded = !isExpanded" class="cursor-pointer">
-            <trophy-collection :count="trophyCount"></trophy-collection>
+        <div v-if="hasTrophies || hasYoutube" @click.prevent="isExpanded = !isExpanded" class="cursor-pointer">
+            <trophy-collection :count="trophyCount" :videos="youtube.length"></trophy-collection>
         </div>
 
         <template v-if="isExpanded">
@@ -107,8 +107,7 @@
                     </svg>
                     Example game
                 </a>
-
-                <a v-if="youtubeLink" :href="youtubeLink" target="_blank" class="block underline hover:font-bold">
+                <a v-if="hasYoutube" :href="firstVideo" target="_blank" class="block underline hover:font-bold">
                     <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path
                             fill-rule="evenodd"
@@ -116,7 +115,7 @@
                             clip-rule="evenodd"
                         />
                     </svg>
-                    Watch example on YouTube
+                    Watch Video
                 </a>
             </div>
 
@@ -154,7 +153,7 @@
 <script lang="ts">
 import UsernameFormatter from './UsernameFormatter.vue'
 import TrophyCollection from './TrophyCollection.vue'
-import { Trophy, TrophyForGame } from '../types/types'
+import { Trophy, TrophyForGame, YoutubeTrophy } from '../types/types'
 
 export default {
     props: {
@@ -172,6 +171,10 @@ export default {
         playerColor: String,
         moveNumber: Number,
         youtubeLink: String,
+        youtube: {
+            type: Array,
+            required: true,
+        },
         units: {
             type: Array,
             default: ['Game', 'Games'],
@@ -195,6 +198,12 @@ export default {
         },
         hasTrophies(): boolean {
             return this.trophyCount > 0
+        },
+        hasYoutube(): boolean {
+            return this.youtube.length > 0
+        },
+        firstVideo(): string {
+            return (this.youtube[0] as YoutubeTrophy).video
         },
         isWhiteTheGambitter(): boolean {
             return this.playerColor === 'white'

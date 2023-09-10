@@ -1,6 +1,5 @@
 import { Game } from 'chess-fetcher'
 import { GambitOpening, TrophyCheckResult } from '../types/types'
-import data from '../data/gambits.json'
 
 export function gambitTrophy(game: Game, gambit: GambitOpening): TrophyCheckResult {
     if (!game.result.winner) {
@@ -37,6 +36,8 @@ export function pgnPrefix(gambit: GambitOpening): string[] {
         .replace(/\s+(\d+\.)\s+/g, ' ')
         .split(' ')
 }
-export function allGambits(): GambitOpening[] {
-    return data as GambitOpening[]
+export async function allGambits(): Promise<GambitOpening[]> {
+    return await fetch('/data/gambits.json'!)
+        .then((response) => response.json())
+        .then((result: GambitOpening[]) => result)
 }
