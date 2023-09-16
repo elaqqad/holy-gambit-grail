@@ -54,7 +54,7 @@
                                 />
 
                                 <div class="text-sm">
-                                    Examples on Lichess :
+                                    Examples on Lichess:
                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')"
                                         >Jonathan Schrantz </span
                                     >,
@@ -69,7 +69,7 @@
                                         DrNykterstein </span
                                     >.
                                     <br />
-                                    On chess.com :
+                                    On chess.com:
                                     <span
                                         class="dotted-underline text-yellow-900 cursor-pointer"
                                         @click.prevent="formFill('chesscom', 'VampireChicken')"
@@ -106,7 +106,7 @@
                         </div>
                         <div class="basis-3/4">
                             <lichess-login v-on:set-lichess-oauth-token="setLichessOauthToken"></lichess-login>
-                            Youtube play list :
+                            Youtube play list:
 
                             <input
                                 type="text"
