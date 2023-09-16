@@ -66,8 +66,8 @@
                                         class="dotted-underline text-yellow-900 cursor-pointer"
                                         @click.prevent="formFill('lichess', 'DrNykterstein')"
                                     >
-                                        DrNykterstein </span
-                                    >
+                                        DrNykterstein
+                                    </span>
                                     <br />
                                     On chess.com:
                                     <span
