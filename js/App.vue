@@ -67,7 +67,7 @@
                                         @click.prevent="formFill('lichess', 'DrNykterstein')"
                                     >
                                         DrNykterstein </span
-                                    >.
+                                    >
                                     <br />
                                     On chess.com:
                                     <span
@@ -512,7 +512,6 @@ export default {
                             this.counts.downloaded = result.games_analyzed
                             this.counts.analyzed = result.games_analyzed
                             for (const fetched of Object.keys(result.trophies)) {
-                                console.log(fetched)
                                 this.displayableGambits[fetched].Trophies = result.trophies[fetched]
                                 const numberOfTrophies = Object.keys(result.trophies[fetched]).length
                                 this.trophyWonCount += numberOfTrophies
