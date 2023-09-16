@@ -3,7 +3,7 @@
   "games_analyzed": 27977,
   "moves_analyzed": 27977,
   "trophies": {
-    "gambit:French Defense: Advance Variation, Milner-Barry Gambit": {
+    "French Defense: Advance Variation, Milner-Barry Gambit": {
       "82942235999": {
         "date": "2023-07-12",
         "opponent": {
@@ -77,7 +77,7 @@
         "link": "https://www.chess.com/analysis/game/live/71446593013?tab=analysis&flip=false&move=010"
       }
     },
-    "gambit:Queen's Gambit": {
+    "Queen's Gambit": {
       "180891652": {
         "date": "2017-12-06",
         "opponent": {
@@ -1567,7 +1567,7 @@
         "link": "https://www.chess.com/analysis/game/live/4319337915?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Duras Gambit": {
+    "Duras Gambit": {
       "80665232901": {
         "date": "2023-06-16",
         "opponent": {
@@ -1585,7 +1585,7 @@
         "link": "https://www.chess.com/analysis/game/live/80502773191?tab=analysis&flip=true&move=01"
       }
     },
-    "gambit:King's Gambit": {
+    "King's Gambit": {
       "2818607217": {
         "date": "2018-05-18",
         "opponent": {
@@ -1899,7 +1899,7 @@
         "link": "https://www.chess.com/analysis/game/live/4971482450?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:King's Gambit Accepted: King's Knight's Gambit": {
+    "King's Gambit Accepted: King's Knight's Gambit": {
       "2860857965": {
         "date": "2018-06-06",
         "opponent": {
@@ -1989,7 +1989,7 @@
         "link": "https://www.chess.com/analysis/game/live/45758439993?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:King's Gambit Accepted: Kieseritzky Gambit": {
+    "King's Gambit Accepted: Kieseritzky Gambit": {
       "79373651785": {
         "date": "2023-06-01",
         "opponent": {
@@ -1999,7 +1999,7 @@
         "link": "https://www.chess.com/analysis/game/live/79373651785?tab=analysis&flip=false&move=08"
       }
     },
-    "gambit:Caro-Kann Defense: Maróczy Variation, Maróczy Gambit": {
+    "Caro-Kann Defense: Maróczy Variation, Maróczy Gambit": {
       "79369462035": {
         "date": "2023-06-01",
         "opponent": {
@@ -2017,7 +2017,7 @@
         "link": "https://www.chess.com/analysis/game/live/73154727381?tab=analysis&flip=false&move=010"
       }
     },
-    "gambit:Vienna Game: Vienna Gambit": {
+    "Vienna Game: Vienna Gambit": {
       "3026886962": {
         "date": "2018-08-24",
         "opponent": {
@@ -3555,7 +3555,7 @@
         "link": "https://www.chess.com/analysis/game/live/4319283411?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:A50 Indian Defense: Normal Variation, Wagon Gambit": {
+    "A50 Indian Defense: Normal Variation, Wagon Gambit": {
       "78350554047": {
         "date": "2023-05-20",
         "opponent": {
@@ -3565,7 +3565,7 @@
         "link": "https://www.chess.com/analysis/game/live/78350554047?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Dutch Defense: Staunton Gambit": {
+    "Dutch Defense: Staunton Gambit": {
       "2006135448": {
         "date": "2017-03-19",
         "opponent": {
@@ -3959,7 +3959,7 @@
         "link": "https://www.chess.com/analysis/game/live/4411685498?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Italian Game: Rousseau Gambit": {
+    "Italian Game: Rousseau Gambit": {
       "77390513243": {
         "date": "2023-05-09",
         "opponent": {
@@ -4017,7 +4017,7 @@
         "link": "https://www.chess.com/analysis/game/live/69694960227?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Queen's Pawn Game: Accelerated London System, Steinitz Countergambit": {
+    "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit": {
       "2562977338": {
         "date": "2018-01-20",
         "opponent": {
@@ -4235,7 +4235,7 @@
         "link": "https://www.chess.com/analysis/game/live/4659068644?tab=analysis&flip=true&move=03"
       }
     },
-    "gambit:Scandinavian Defense: Portuguese Gambit": {
+    "Scandinavian Defense: Portuguese Gambit": {
       "2978549882": {
         "date": "2018-08-02",
         "opponent": {
@@ -5197,7 +5197,7 @@
         "link": "https://www.chess.com/analysis/game/live/5772838994?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Zukertort Opening: Herrstrom Gambit": {
+    "Zukertort Opening: Herrstrom Gambit": {
       "2159289330": {
         "date": "2017-06-17",
         "opponent": {
@@ -5943,7 +5943,7 @@
         "link": "https://www.chess.com/analysis/game/live/4344559183?tab=analysis&flip=true&move=01"
       }
     },
-    "gambit:Indian Defense: Gibbins-Weidenhagen Gambit": {
+    "Indian Defense: Gibbins-Weidenhagen Gambit": {
       "2120559501": {
         "date": "2017-05-26",
         "opponent": {
@@ -6153,7 +6153,7 @@
         "link": "https://www.chess.com/analysis/game/live/4344542530?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Bishop's Opening: Boden-Kieseritzky Gambit": {
+    "Bishop's Opening: Boden-Kieseritzky Gambit": {
       "74471524587": {
         "date": "2023-04-05",
         "opponent": {
@@ -6171,7 +6171,7 @@
         "link": "https://www.chess.com/analysis/game/live/11633646925?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:French Defense: Horwitz Attack, Papa-Ticulat Gambit": {
+    "French Defense: Horwitz Attack, Papa-Ticulat Gambit": {
       "2978581838": {
         "date": "2018-08-02",
         "opponent": {
@@ -6733,7 +6733,7 @@
         "link": "https://www.chess.com/analysis/game/live/4310879183?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Vienna Game: Stanley Variation, Meitner-Mieses Gambit": {
+    "Vienna Game: Stanley Variation, Meitner-Mieses Gambit": {
       "3427555979": {
         "date": "2019-02-02",
         "opponent": {
@@ -6823,7 +6823,7 @@
         "link": "https://www.chess.com/analysis/game/live/4889535059?tab=analysis&flip=false&move=08"
       }
     },
-    "gambit:Englund Gambit": {
+    "Englund Gambit": {
       "2950937259": {
         "date": "2018-07-20",
         "opponent": {
@@ -7577,7 +7577,7 @@
         "link": "https://www.chess.com/analysis/game/live/5358528200?tab=analysis&flip=true&move=01"
       }
     },
-    "gambit:Englund Gambit Complex: Englund Gambit": {
+    "Englund Gambit Complex: Englund Gambit": {
       "3035852597": {
         "date": "2018-08-28",
         "opponent": {
@@ -7851,7 +7851,7 @@
         "link": "https://www.chess.com/analysis/game/live/5358528200?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Italian Game: Evans Gambit": {
+    "Italian Game: Evans Gambit": {
       "70321501365": {
         "date": "2023-02-16",
         "opponent": {
@@ -7869,7 +7869,7 @@
         "link": "https://www.chess.com/analysis/game/live/5984764615?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Zukertort Opening: Tennison Gambit": {
+    "Zukertort Opening: Tennison Gambit": {
       "69811535037": {
         "date": "2023-02-10",
         "opponent": {
@@ -8047,7 +8047,7 @@
         "link": "https://www.chess.com/analysis/game/live/5833122313?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:French Defense: Orthoschnapp Gambit": {
+    "French Defense: Orthoschnapp Gambit": {
       "69525960385": {
         "date": "2023-02-07",
         "opponent": {
@@ -8345,7 +8345,7 @@
         "link": "https://www.chess.com/analysis/game/live/5638544456?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Van Geet Opening: Tübingen Gambit": {
+    "Van Geet Opening: Tübingen Gambit": {
       "2878477894": {
         "date": "2018-06-15",
         "opponent": {
@@ -8403,7 +8403,7 @@
         "link": "https://www.chess.com/analysis/game/live/5227180756?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Scandinavian Defense: Icelandic-Palme Gambit": {
+    "Scandinavian Defense: Icelandic-Palme Gambit": {
       "2978543290": {
         "date": "2018-08-02",
         "opponent": {
@@ -8581,7 +8581,7 @@
         "link": "https://www.chess.com/analysis/game/live/9943257821?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Italian Game: Scotch Gambit": {
+    "Italian Game: Scotch Gambit": {
       "60277343741": {
         "date": "2022-10-23",
         "opponent": {
@@ -8591,7 +8591,7 @@
         "link": "https://www.chess.com/analysis/game/live/60277343741?tab=analysis&flip=false&move=08"
       }
     },
-    "gambit:Blackmar-Diemer Gambit": {
+    "Blackmar-Diemer Gambit": {
       "3143069852": {
         "date": "2018-10-14",
         "opponent": {
@@ -8689,7 +8689,7 @@
         "link": "https://www.chess.com/analysis/game/live/5621471346?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Blackmar-Diemer Gambit: von Popiel Gambit": {
+    "Blackmar-Diemer Gambit: von Popiel Gambit": {
       "59795355893": {
         "date": "2022-10-18",
         "opponent": {
@@ -8699,7 +8699,7 @@
         "link": "https://www.chess.com/analysis/game/live/59795355893?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Queen's Gambit Declined: Albin Countergambit": {
+    "Queen's Gambit Declined: Albin Countergambit": {
       "2950892943": {
         "date": "2018-07-20",
         "opponent": {
@@ -9269,7 +9269,7 @@
         "link": "https://www.chess.com/analysis/game/live/5259574441?tab=analysis&flip=true&move=03"
       }
     },
-    "gambit:Ponziani Opening: Vukovic Gambit": {
+    "Ponziani Opening: Vukovic Gambit": {
       "52707580129": {
         "date": "2022-07-28",
         "opponent": {
@@ -9279,7 +9279,7 @@
         "link": "https://www.chess.com/analysis/game/live/52707580129?tab=analysis&flip=true&move=09"
       }
     },
-    "gambit:English Opening: Anglo-Dutch Defense, Hickmann Gambit": {
+    "English Opening: Anglo-Dutch Defense, Hickmann Gambit": {
       "2864140005": {
         "date": "2018-06-08",
         "opponent": {
@@ -9329,7 +9329,7 @@
         "link": "https://www.chess.com/analysis/game/live/40229963755?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Italian Game: Deutz Gambit": {
+    "Italian Game: Deutz Gambit": {
       "49138802135": {
         "date": "2022-06-16",
         "opponent": {
@@ -9467,7 +9467,7 @@
         "link": "https://www.chess.com/analysis/game/live/9434108709?tab=analysis&flip=false&move=08"
       }
     },
-    "gambit:Sicilian Defense: Portsmouth Gambit": {
+    "Sicilian Defense: Portsmouth Gambit": {
       "47657429765": {
         "date": "2022-05-30",
         "opponent": {
@@ -9525,7 +9525,7 @@
         "link": "https://www.chess.com/analysis/game/live/10774032841?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:A50 Indian Defense: Budapest Gambit": {
+    "A50 Indian Defense: Budapest Gambit": {
       "2994625257": {
         "date": "2018-08-09",
         "opponent": {
@@ -9839,7 +9839,7 @@
         "link": "https://www.chess.com/analysis/game/live/4575472829?tab=analysis&flip=true&move=03"
       }
     },
-    "gambit:Italian Game: Two Knights Defense, Ponziani-Steinitz Gambit": {
+    "Italian Game: Two Knights Defense, Ponziani-Steinitz Gambit": {
       "45058145395": {
         "date": "2022-04-30",
         "opponent": {
@@ -9849,7 +9849,7 @@
         "link": "https://www.chess.com/analysis/game/live/45058145395?tab=analysis&flip=true&move=07"
       }
     },
-    "gambit:Dutch Defense: Staunton Gambit, Lasker Variation": {
+    "Dutch Defense: Staunton Gambit, Lasker Variation": {
       "2006135448": {
         "date": "2017-03-19",
         "opponent": {
@@ -10163,7 +10163,7 @@
         "link": "https://www.chess.com/analysis/game/live/4411685498?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Vienna Gambit, with Max Lange Defense: Hamppe-Allgaier Gambit": {
+    "Vienna Gambit, with Max Lange Defense: Hamppe-Allgaier Gambit": {
       "40947030481": {
         "date": "2022-03-13",
         "opponent": {
@@ -10173,7 +10173,7 @@
         "link": "https://www.chess.com/analysis/game/live/40947030481?tab=analysis&flip=false&move=010"
       }
     },
-    "gambit:Queen's Pawn Game: Accelerated London System, Steinitz Countergambit, Morris Countergambit": {
+    "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit, Morris Countergambit": {
       "40489869087": {
         "date": "2022-03-08",
         "opponent": {
@@ -10231,7 +10231,7 @@
         "link": "https://www.chess.com/analysis/game/live/6437174148?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Nimzo-Larsen Attack: Norfolk Gambit": {
+    "Nimzo-Larsen Attack: Norfolk Gambit": {
       "38334886755": {
         "date": "2022-02-11",
         "opponent": {
@@ -10249,7 +10249,7 @@
         "link": "https://www.chess.com/analysis/game/live/38334304779?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Indian Defense: Devin Gambit": {
+    "Indian Defense: Devin Gambit": {
       "37383582803": {
         "date": "2022-01-31",
         "opponent": {
@@ -10259,7 +10259,7 @@
         "link": "https://www.chess.com/analysis/game/live/37383582803?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:French Defense: Wing Gambit": {
+    "French Defense: Wing Gambit": {
       "33943294507": {
         "date": "2021-12-22",
         "opponent": {
@@ -10317,7 +10317,7 @@
         "link": "https://www.chess.com/analysis/game/live/9723552627?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Caro-Kann Defense: Panov Attack, Fianchetto Defense, Fianchetto Gambit": {
+    "Caro-Kann Defense: Panov Attack, Fianchetto Defense, Fianchetto Gambit": {
       "2995844316": {
         "date": "2018-08-10",
         "opponent": {
@@ -10343,7 +10343,7 @@
         "link": "https://www.chess.com/analysis/game/live/31809003623?tab=analysis&flip=true&move=011"
       }
     },
-    "gambit:Caro-Kann Defense: Rasa-Studier Gambit": {
+    "Caro-Kann Defense: Rasa-Studier Gambit": {
       "31254083769": {
         "date": "2021-11-21",
         "opponent": {
@@ -10417,7 +10417,7 @@
         "link": "https://www.chess.com/analysis/game/live/5747220346?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Benko Gambit": {
+    "Benko Gambit": {
       "2994810080": {
         "date": "2018-08-09",
         "opponent": {
@@ -10507,7 +10507,7 @@
         "link": "https://www.chess.com/analysis/game/live/4913168131?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Modern Defense: Lizard Defense, Pirc-Diemer Gambit": {
+    "Modern Defense: Lizard Defense, Pirc-Diemer Gambit": {
       "3396404720": {
         "date": "2019-01-22",
         "opponent": {
@@ -10557,7 +10557,7 @@
         "link": "https://www.chess.com/analysis/game/live/5348858813?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Queen's Pawn Game: Chigorin Variation, Irish Gambit": {
+    "Queen's Pawn Game: Chigorin Variation, Irish Gambit": {
       "11499842707": {
         "date": "2021-04-07",
         "opponent": {
@@ -10567,7 +10567,7 @@
         "link": "https://www.chess.com/analysis/game/live/11499842707?tab=analysis&flip=true&move=03"
       }
     },
-    "gambit:Sicilian Defense: O'Kelly Variation, Wing Gambit": {
+    "Sicilian Defense: O'Kelly Variation, Wing Gambit": {
       "10938513539": {
         "date": "2021-03-31",
         "opponent": {
@@ -10577,7 +10577,7 @@
         "link": "https://www.chess.com/analysis/game/live/10938513539?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Sicilian Defense: Smith-Morra Gambit": {
+    "Sicilian Defense: Smith-Morra Gambit": {
       "2014347566": {
         "date": "2017-03-24",
         "opponent": {
@@ -10891,7 +10891,7 @@
         "link": "https://www.chess.com/analysis/game/live/4310910957?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Nimzowitsch Gambit": {
+    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Nimzowitsch Gambit": {
       "9510268109": {
         "date": "2021-03-15",
         "opponent": {
@@ -10925,7 +10925,7 @@
         "link": "https://www.chess.com/analysis/game/live/4577362235?tab=analysis&flip=true&move=07"
       }
     },
-    "gambit:Russian Game: Stafford Gambit": {
+    "Russian Game: Stafford Gambit": {
       "3092757920": {
         "date": "2018-09-22",
         "opponent": {
@@ -11071,7 +11071,7 @@
         "link": "https://www.chess.com/analysis/game/live/5368378408?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Scotch Game: Scotch Gambit": {
+    "Scotch Game: Scotch Gambit": {
       "2944190427": {
         "date": "2018-07-16",
         "opponent": {
@@ -11113,7 +11113,7 @@
         "link": "https://www.chess.com/analysis/game/live/6263621923?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Danish Gambit": {
+    "Danish Gambit": {
       "2864220259": {
         "date": "2018-06-08",
         "opponent": {
@@ -11323,7 +11323,7 @@
         "link": "https://www.chess.com/analysis/game/live/5606626532?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Zukertort Opening: Ross Gambit": {
+    "Zukertort Opening: Ross Gambit": {
       "2534130237": {
         "date": "2018-01-06",
         "opponent": {
@@ -11461,7 +11461,7 @@
         "link": "https://www.chess.com/analysis/game/live/5621814695?tab=analysis&flip=true&move=01"
       }
     },
-    "gambit:Scandinavian Defense: Blackburne-Kloosterboer Gambit": {
+    "Scandinavian Defense: Blackburne-Kloosterboer Gambit": {
       "2106359439": {
         "date": "2017-05-17",
         "opponent": {
@@ -11671,7 +11671,7 @@
         "link": "https://www.chess.com/analysis/game/live/5283926707?tab=analysis&flip=true&move=03"
       }
     },
-    "gambit:Scandinavian Defense: Blackburne Gambit": {
+    "Scandinavian Defense: Blackburne Gambit": {
       "2106359439": {
         "date": "2017-05-17",
         "opponent": {
@@ -11737,7 +11737,7 @@
         "link": "https://www.chess.com/analysis/game/live/5932833971?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Tarrasch Defense: Marshall Gambit": {
+    "Tarrasch Defense: Marshall Gambit": {
       "5954262977": {
         "date": "2020-12-13",
         "opponent": {
@@ -11747,7 +11747,7 @@
         "link": "https://www.chess.com/analysis/game/live/5954262977?tab=analysis&flip=false&move=08"
       }
     },
-    "gambit:Zukertort Opening: Lemberger Gambit": {
+    "Zukertort Opening: Lemberger Gambit": {
       "3179122121": {
         "date": "2018-10-30",
         "opponent": {
@@ -11797,7 +11797,7 @@
         "link": "https://www.chess.com/analysis/game/live/5818186387?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Owen Defense: Naselwaus Gambit": {
+    "Owen Defense: Naselwaus Gambit": {
       "5821178961": {
         "date": "2020-11-25",
         "opponent": {
@@ -11807,7 +11807,7 @@
         "link": "https://www.chess.com/analysis/game/live/5821178961?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Sicilian Defense: Wing Gambit": {
+    "Sicilian Defense: Wing Gambit": {
       "5770950909": {
         "date": "2020-11-18",
         "opponent": {
@@ -11857,7 +11857,7 @@
         "link": "https://www.chess.com/analysis/game/live/5654111461?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Caro-Kann Defense: Hillbilly Attack, Schaeffer Gambit": {
+    "Caro-Kann Defense: Hillbilly Attack, Schaeffer Gambit": {
       "5747193763": {
         "date": "2020-11-15",
         "opponent": {
@@ -11867,7 +11867,7 @@
         "link": "https://www.chess.com/analysis/game/live/5747193763?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:English Opening: Jaenisch Gambit": {
+    "English Opening: Jaenisch Gambit": {
       "3006773180": {
         "date": "2018-08-15",
         "opponent": {
@@ -11893,7 +11893,7 @@
         "link": "https://www.chess.com/analysis/game/live/5725493201?tab=analysis&flip=true&move=01"
       }
     },
-    "gambit:Queen's Pawn Game: Hübsch Gambit": {
+    "Queen's Pawn Game: Hübsch Gambit": {
       "5660932972": {
         "date": "2020-10-30",
         "opponent": {
@@ -11911,7 +11911,7 @@
         "link": "https://www.chess.com/analysis/game/live/5625260148?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Indian Defense: Omega Gambit": {
+    "Indian Defense: Omega Gambit": {
       "3026755572": {
         "date": "2018-08-23",
         "opponent": {
@@ -11993,7 +11993,7 @@
         "link": "https://www.chess.com/analysis/game/live/5660305475?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Réti Opening: Advance Variation, Michel Gambit": {
+    "Réti Opening: Advance Variation, Michel Gambit": {
       "5649224057": {
         "date": "2020-10-28",
         "opponent": {
@@ -12003,7 +12003,7 @@
         "link": "https://www.chess.com/analysis/game/live/5649224057?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:French Defense: Advance Variation, Frenkel Gambit": {
+    "French Defense: Advance Variation, Frenkel Gambit": {
       "5638753389": {
         "date": "2020-10-26",
         "opponent": {
@@ -12013,7 +12013,7 @@
         "link": "https://www.chess.com/analysis/game/live/5638753389?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Italian Game: Blackburne-Kostić Gambit": {
+    "Italian Game: Blackburne-Kostić Gambit": {
       "5638738413": {
         "date": "2020-10-26",
         "opponent": {
@@ -12023,7 +12023,7 @@
         "link": "https://www.chess.com/analysis/game/live/5638738413?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Hungarian Opening: Van Kuijk Gambit": {
+    "Hungarian Opening: Van Kuijk Gambit": {
       "2909653365": {
         "date": "2018-06-30",
         "opponent": {
@@ -12049,7 +12049,7 @@
         "link": "https://www.chess.com/analysis/game/live/4680621196?tab=analysis&flip=true&move=03"
       }
     },
-    "gambit:Bird Opening: From's Gambit, Bahr Gambit": {
+    "Bird Opening: From's Gambit, Bahr Gambit": {
       "5415934484": {
         "date": "2020-09-08",
         "opponent": {
@@ -12059,7 +12059,7 @@
         "link": "https://www.chess.com/analysis/game/live/5415934484?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Queen's Gambit Declined: Chigorin Defense, Tartakower Gambit": {
+    "Queen's Gambit Declined: Chigorin Defense, Tartakower Gambit": {
       "5384522606": {
         "date": "2020-09-01",
         "opponent": {
@@ -12069,7 +12069,7 @@
         "link": "https://www.chess.com/analysis/game/live/5384522606?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Queen's Pawn Game: Zurich Gambit": {
+    "Queen's Pawn Game: Zurich Gambit": {
       "4105279132": {
         "date": "2019-10-10",
         "opponent": {
@@ -12087,7 +12087,7 @@
         "link": "https://www.chess.com/analysis/game/live/5368676247?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Latvian Gambit": {
+    "Latvian Gambit": {
       "2819629146": {
         "date": "2018-05-19",
         "opponent": {
@@ -12145,7 +12145,7 @@
         "link": "https://www.chess.com/analysis/game/live/5368481052?tab=analysis&flip=true&move=03"
       }
     },
-    "gambit:King's Gambit Declined: Falkbeer Countergambit, Hinrichsen Gambit": {
+    "King's Gambit Declined: Falkbeer Countergambit, Hinrichsen Gambit": {
       "3163627548": {
         "date": "2018-10-23",
         "opponent": {
@@ -12163,7 +12163,7 @@
         "link": "https://www.chess.com/analysis/game/live/5350682538?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Center Game: von der Lasa Gambit": {
+    "Center Game: von der Lasa Gambit": {
       "5303861465": {
         "date": "2020-08-16",
         "opponent": {
@@ -12173,7 +12173,7 @@
         "link": "https://www.chess.com/analysis/game/live/5303861465?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Scandinavian Defense: Kloosterboer Gambit": {
+    "Scandinavian Defense: Kloosterboer Gambit": {
       "5283926707": {
         "date": "2020-08-11",
         "opponent": {
@@ -12183,7 +12183,7 @@
         "link": "https://www.chess.com/analysis/game/live/5283926707?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Van Geet Opening: Laroche Gambit": {
+    "Van Geet Opening: Laroche Gambit": {
       "5168425666": {
         "date": "2020-07-18",
         "opponent": {
@@ -12193,7 +12193,7 @@
         "link": "https://www.chess.com/analysis/game/live/5168425666?tab=analysis&flip=true&move=01"
       }
     },
-    "gambit:Slav Defense: Geller Gambit": {
+    "Slav Defense: Geller Gambit": {
       "4970990775": {
         "date": "2020-06-08",
         "opponent": {
@@ -12203,7 +12203,7 @@
         "link": "https://www.chess.com/analysis/game/live/4970990775?tab=analysis&flip=false&move=08"
       }
     },
-    "gambit:Italian Game: Classical Variation, Albin Gambit": {
+    "Italian Game: Classical Variation, Albin Gambit": {
       "3336302782": {
         "date": "2018-12-30",
         "opponent": {
@@ -12221,7 +12221,7 @@
         "link": "https://www.chess.com/analysis/game/live/4015993411?tab=analysis&flip=false&move=08"
       }
     },
-    "gambit:Blackmar-Diemer Gambit: Blackmar Gambit": {
+    "Blackmar-Diemer Gambit: Blackmar Gambit": {
       "3382826619": {
         "date": "2019-01-17",
         "opponent": {
@@ -12239,7 +12239,7 @@
         "link": "https://www.chess.com/analysis/game/live/3932389306?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Benoni Defense: Benoni-Staunton Gambit": {
+    "Benoni Defense: Benoni-Staunton Gambit": {
       "3627886352": {
         "date": "2019-04-18",
         "opponent": {
@@ -12249,7 +12249,7 @@
         "link": "https://www.chess.com/analysis/game/live/3627886352?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:English Opening: Anglo-Dutch Variation, Ferenc Gambit": {
+    "English Opening: Anglo-Dutch Variation, Ferenc Gambit": {
       "2496830119": {
         "date": "2017-12-18",
         "opponent": {
@@ -12299,7 +12299,7 @@
         "link": "https://www.chess.com/analysis/game/live/3607469032?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Semi-Slav Defense: Marshall Gambit": {
+    "Semi-Slav Defense: Marshall Gambit": {
       "2068113343": {
         "date": "2017-04-25",
         "opponent": {
@@ -12349,7 +12349,7 @@
         "link": "https://www.chess.com/analysis/game/live/3445804189?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Vienna Gambit, with Max Lange Defense: Steinitz Gambit": {
+    "Vienna Gambit, with Max Lange Defense: Steinitz Gambit": {
       "3059959366": {
         "date": "2018-09-07",
         "opponent": {
@@ -12367,7 +12367,7 @@
         "link": "https://www.chess.com/analysis/game/live/3427149320?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Scotch Game: Haxo Gambit": {
+    "Scotch Game: Haxo Gambit": {
       "3392823343": {
         "date": "2019-01-20",
         "opponent": {
@@ -12377,7 +12377,7 @@
         "link": "https://www.chess.com/analysis/game/live/3392823343?tab=analysis&flip=false&move=07"
       }
     },
-    "gambit:Bird Opening: From's Gambit": {
+    "Bird Opening: From's Gambit": {
       "1997302470": {
         "date": "2017-03-14",
         "opponent": {
@@ -12459,7 +12459,7 @@
         "link": "https://www.chess.com/analysis/game/live/3284086820?tab=analysis&flip=true&move=01"
       }
     },
-    "gambit:Scotch Game: Göring Gambit": {
+    "Scotch Game: Göring Gambit": {
       "3277602385": {
         "date": "2018-12-08",
         "opponent": {
@@ -12469,7 +12469,7 @@
         "link": "https://www.chess.com/analysis/game/live/3277602385?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Modern Defense: Lizard Defense, Mittenberger Gambit": {
+    "Modern Defense: Lizard Defense, Mittenberger Gambit": {
       "3144978295": {
         "date": "2018-10-15",
         "opponent": {
@@ -12487,7 +12487,7 @@
         "link": "https://www.chess.com/analysis/game/live/3270145175?tab=analysis&flip=true&move=05"
       }
     },
-    "gambit:Van Geet Opening: Dougherty Gambit": {
+    "Van Geet Opening: Dougherty Gambit": {
       "3244254890": {
         "date": "2018-11-25",
         "opponent": {
@@ -12497,7 +12497,7 @@
         "link": "https://www.chess.com/analysis/game/live/3244254890?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Zukertort Opening: Lisitsyn Gambit": {
+    "Zukertort Opening: Lisitsyn Gambit": {
       "2874083445": {
         "date": "2018-06-13",
         "opponent": {
@@ -12515,7 +12515,7 @@
         "link": "https://www.chess.com/analysis/game/live/3234673842?tab=analysis&flip=false&move=02"
       }
     },
-    "gambit:Queen's Pawn Game: Chigorin Variation, Shaviliuk Gambit": {
+    "Queen's Pawn Game: Chigorin Variation, Shaviliuk Gambit": {
       "2950963501": {
         "date": "2018-07-20",
         "opponent": {
@@ -12541,7 +12541,7 @@
         "link": "https://www.chess.com/analysis/game/live/3147283295?tab=analysis&flip=true&move=03"
       }
     },
-    "gambit:King's Indian Attack: Omega-Delta Gambit": {
+    "King's Indian Attack: Omega-Delta Gambit": {
       "3139069201": {
         "date": "2018-10-13",
         "opponent": {
@@ -12551,7 +12551,7 @@
         "link": "https://www.chess.com/analysis/game/live/3139069201?tab=analysis&flip=true&move=03"
       }
     },
-    "gambit:French Defense: Advance Variation, Nimzowitsch Gambit": {
+    "French Defense: Advance Variation, Nimzowitsch Gambit": {
       "3091486047": {
         "date": "2018-09-21",
         "opponent": {
@@ -12561,7 +12561,7 @@
         "link": "https://www.chess.com/analysis/game/live/3091486047?tab=analysis&flip=false&move=08"
       }
     },
-    "gambit:Scandinavian Defense: Main Line, Leonhardt Gambit": {
+    "Scandinavian Defense: Main Line, Leonhardt Gambit": {
       "2995898389": {
         "date": "2018-08-10",
         "opponent": {
@@ -12571,7 +12571,7 @@
         "link": "https://www.chess.com/analysis/game/live/2995898389?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Elephant Gambit": {
+    "Elephant Gambit": {
       "2994716663": {
         "date": "2018-08-09",
         "opponent": {
@@ -12581,7 +12581,7 @@
         "link": "https://www.chess.com/analysis/game/live/2994716663?tab=analysis&flip=true&move=03"
       }
     },
-    "gambit:King's Gambit Accepted: Mason-Keres Gambit": {
+    "King's Gambit Accepted: Mason-Keres Gambit": {
       "2818607217": {
         "date": "2018-05-18",
         "opponent": {
@@ -12599,7 +12599,7 @@
         "link": "https://www.chess.com/analysis/game/live/2819612949?tab=analysis&flip=false&move=04"
       }
     },
-    "gambit:Slav Defense: Bonet Gambit": {
+    "Slav Defense: Bonet Gambit": {
       "2417053644": {
         "date": "2017-11-08",
         "opponent": {
@@ -12609,7 +12609,7 @@
         "link": "https://www.chess.com/analysis/game/live/2417053644?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Queen's Gambit Accepted: Central Variation, McDonnell Defense, Somov Gambit": {
+    "Queen's Gambit Accepted: Central Variation, McDonnell Defense, Somov Gambit": {
       "2006226221": {
         "date": "2017-03-20",
         "opponent": {
@@ -12627,7 +12627,7 @@
         "link": "https://www.chess.com/analysis/game/live/2072764112?tab=analysis&flip=false&move=06"
       }
     },
-    "gambit:Bird Opening: From's Gambit, Langheld Gambit": {
+    "Bird Opening: From's Gambit, Langheld Gambit": {
       "1997302470": {
         "date": "2017-03-14",
         "opponent": {

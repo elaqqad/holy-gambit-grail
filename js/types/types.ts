@@ -47,3 +47,13 @@ export type GambitOpening = {
     draws: number
     black: number
 }
+export type DisplayableGambit = {
+    shortName: string
+    opening: GambitOpening
+    results: string
+    Trophies: TrophyForGame
+    Videos: YoutubeTrophy[]
+}
+export type DisplayableGambits = {
+    [key: string]: DisplayableGambit
+}

@@ -3,7 +3,7 @@
   "games_analyzed": 10324,
   "moves_analyzed": 10324,
   "trophies": {
-    "gambit:Scandinavian Defense: Portuguese Gambit": {
+    "Scandinavian Defense: Portuguese Gambit": {
       "Cxvvmv0v": {
         "date": "2023-07-15",
         "opponent": {
@@ -221,7 +221,7 @@
         "link": "https://lichess.org/OySj08Rl/black#6"
       }
     },
-    "gambit:Queen's Pawn Game: Accelerated London System, Steinitz Countergambit": {
+    "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit": {
       "g3aR2JzK": {
         "date": "2023-07-15",
         "opponent": {
@@ -959,7 +959,7 @@
         "link": "https://lichess.org/N0Kfozpc/black#4"
       }
     },
-    "gambit:Modern Defense: Lizard Defense, Mittenberger Gambit": {
+    "Modern Defense: Lizard Defense, Mittenberger Gambit": {
       "3ACqJ9C2": {
         "date": "2023-07-01",
         "opponent": {
@@ -1025,7 +1025,7 @@
         "link": "https://lichess.org/NmPhbKVx/black#6"
       }
     },
-    "gambit:Nimzowitsch Defense: Colorado Countergambit": {
+    "Nimzowitsch Defense: Colorado Countergambit": {
       "c7IBbV3m": {
         "date": "2022-06-29",
         "opponent": {
@@ -1043,7 +1043,7 @@
         "link": "https://lichess.org/xrk2xOyO/black#4"
       }
     },
-    "gambit:Queen's Gambit": {
+    "Queen's Gambit": {
       "7jOdKNXh": {
         "date": "2022-06-29",
         "opponent": {
@@ -2285,7 +2285,7 @@
         "link": "https://lichess.org/GrGfNMNn#3"
       }
     },
-    "gambit:Grünfeld Defense: Zaitsev Gambit": {
+    "Grünfeld Defense: Zaitsev Gambit": {
       "iqaOEZT5": {
         "date": "2022-04-16",
         "opponent": {
@@ -2319,7 +2319,7 @@
         "link": "https://lichess.org/VizWxrqQ#7"
       }
     },
-    "gambit:King's Gambit": {
+    "King's Gambit": {
       "95slMSJA": {
         "date": "2022-02-28",
         "opponent": {
@@ -2633,7 +2633,7 @@
         "link": "https://lichess.org/SkC7M8K5#3"
       }
     },
-    "gambit:Semi-Slav Defense: Marshall Gambit": {
+    "Semi-Slav Defense: Marshall Gambit": {
       "RCKH9Khw": {
         "date": "2022-01-12",
         "opponent": {
@@ -2675,7 +2675,7 @@
         "link": "https://lichess.org/6SNrB3UF#7"
       }
     },
-    "gambit:Scotch Game: Scotch Gambit": {
+    "Scotch Game: Scotch Gambit": {
       "kvmv86ub": {
         "date": "2021-12-21",
         "opponent": {
@@ -2701,7 +2701,7 @@
         "link": "https://lichess.org/6ZPKhU0R#7"
       }
     },
-    "gambit:Benko Gambit": {
+    "Benko Gambit": {
       "aqk17QHB": {
         "date": "2021-12-21",
         "opponent": {
@@ -2847,7 +2847,7 @@
         "link": "https://lichess.org/9KxAaLfD/black#6"
       }
     },
-    "gambit:Van Geet Opening: Berlin Gambit": {
+    "Van Geet Opening: Berlin Gambit": {
       "B3uSgXuB": {
         "date": "2021-11-10",
         "opponent": {
@@ -2857,7 +2857,7 @@
         "link": "https://lichess.org/B3uSgXuB#7"
       }
     },
-    "gambit:Vienna Game: Vienna Gambit": {
+    "Vienna Game: Vienna Gambit": {
       "qnudLEBF": {
         "date": "2021-11-07",
         "opponent": {
@@ -3059,7 +3059,7 @@
         "link": "https://lichess.org/pp3hmXt3#5"
       }
     },
-    "gambit:Sicilian Defense: Wing Gambit": {
+    "Sicilian Defense: Wing Gambit": {
       "LrF1iBuj": {
         "date": "2021-10-25",
         "opponent": {
@@ -3149,7 +3149,7 @@
         "link": "https://lichess.org/lUj3DBUj#3"
       }
     },
-    "gambit:Zukertort Opening: Tennison Gambit": {
+    "Zukertort Opening: Tennison Gambit": {
       "pZ6mTkb2": {
         "date": "2021-10-18",
         "opponent": {
@@ -3159,7 +3159,7 @@
         "link": "https://lichess.org/pZ6mTkb2#3"
       }
     },
-    "gambit:Sicilian Defense: Portsmouth Gambit": {
+    "Sicilian Defense: Portsmouth Gambit": {
       "xWPyq0HW": {
         "date": "2021-08-18",
         "opponent": {
@@ -3329,7 +3329,7 @@
         "link": "https://lichess.org/b5TaaaCv#5"
       }
     },
-    "gambit:Queen's Gambit Declined: Albin Countergambit": {
+    "Queen's Gambit Declined: Albin Countergambit": {
       "i7lF3hEH": {
         "date": "2021-08-07",
         "opponent": {
@@ -3379,7 +3379,7 @@
         "link": "https://lichess.org/L5qN2IaK/black#4"
       }
     },
-    "gambit:Grob Opening: Grob Gambit": {
+    "Grob Opening: Grob Gambit": {
       "znc8jcX3": {
         "date": "2021-06-14",
         "opponent": {
@@ -3461,7 +3461,7 @@
         "link": "https://lichess.org/XmlQL0Qb#3"
       }
     },
-    "gambit:Sicilian Defense: Smith-Morra Gambit": {
+    "Sicilian Defense: Smith-Morra Gambit": {
       "YhJzFc8N": {
         "date": "2021-04-13",
         "opponent": {
@@ -3551,7 +3551,7 @@
         "link": "https://lichess.org/hREniQNO#3"
       }
     },
-    "gambit:Sicilian Defense: Morphy Gambit": {
+    "Sicilian Defense: Morphy Gambit": {
       "YhJzFc8N": {
         "date": "2021-04-13",
         "opponent": {
@@ -3569,7 +3569,7 @@
         "link": "https://lichess.org/AujVGeUT#5"
       }
     },
-    "gambit:Scotch Game: Relfsson Gambit": {
+    "Scotch Game: Relfsson Gambit": {
       "36uOx48l": {
         "date": "2021-04-11",
         "opponent": {
@@ -3579,7 +3579,7 @@
         "link": "https://lichess.org/36uOx48l#7"
       }
     },
-    "gambit:English Opening: Anglo-Dutch Variation, Ferenc Gambit": {
+    "English Opening: Anglo-Dutch Variation, Ferenc Gambit": {
       "bQlPaSNC": {
         "date": "2021-03-20",
         "opponent": {
@@ -3589,7 +3589,7 @@
         "link": "https://lichess.org/bQlPaSNC#5"
       }
     },
-    "gambit:Hungarian Opening: Van Kuijk Gambit": {
+    "Hungarian Opening: Van Kuijk Gambit": {
       "cQYLGK0K": {
         "date": "2021-03-20",
         "opponent": {
@@ -3607,7 +3607,7 @@
         "link": "https://lichess.org/2EHaNp4z/black#4"
       }
     },
-    "gambit:Duras Gambit": {
+    "Duras Gambit": {
       "GCogPb2Z": {
         "date": "2021-03-11",
         "opponent": {
@@ -3697,7 +3697,7 @@
         "link": "https://lichess.org/WnwAV4wJ/black#2"
       }
     },
-    "gambit:Vienna Gambit, with Max Lange Defense: Pierce Gambit": {
+    "Vienna Gambit, with Max Lange Defense: Pierce Gambit": {
       "xeOxTS6B": {
         "date": "2021-03-11",
         "opponent": {
@@ -3707,7 +3707,7 @@
         "link": "https://lichess.org/xeOxTS6B#9"
       }
     },
-    "gambit:French Defense: Wing Gambit": {
+    "French Defense: Wing Gambit": {
       "0WadYh09": {
         "date": "2021-03-07",
         "opponent": {
@@ -3733,7 +3733,7 @@
         "link": "https://lichess.org/YiGkh9vB#7"
       }
     },
-    "gambit:Englund Gambit": {
+    "Englund Gambit": {
       "01jOWOO2": {
         "date": "2021-03-05",
         "opponent": {
@@ -3847,7 +3847,7 @@
         "link": "https://lichess.org/ChtpgEKY/black#2"
       }
     },
-    "gambit:Italian Game: Rousseau Gambit": {
+    "Italian Game: Rousseau Gambit": {
       "0RWDuDgN": {
         "date": "2021-03-04",
         "opponent": {
@@ -3881,7 +3881,7 @@
         "link": "https://lichess.org/608O4qjU/black#6"
       }
     },
-    "gambit:Ruy Lopez: Spanish Countergambit": {
+    "Ruy Lopez: Spanish Countergambit": {
       "YF5ba19X": {
         "date": "2021-03-01",
         "opponent": {
@@ -3891,7 +3891,7 @@
         "link": "https://lichess.org/YF5ba19X/black#6"
       }
     },
-    "gambit:Vienna Gambit, with Max Lange Defense: Steinitz Gambit": {
+    "Vienna Gambit, with Max Lange Defense: Steinitz Gambit": {
       "cpaFjouP": {
         "date": "2021-01-11",
         "opponent": {
@@ -3949,7 +3949,7 @@
         "link": "https://lichess.org/FubTNKqr#7"
       }
     },
-    "gambit:Zukertort Opening: Ross Gambit": {
+    "Zukertort Opening: Ross Gambit": {
       "LqepNDbG": {
         "date": "2021-01-11",
         "opponent": {
@@ -3975,7 +3975,7 @@
         "link": "https://lichess.org/1zWerony/black#2"
       }
     },
-    "gambit:Queen's Pawn Game: Accelerated London System, Steinitz Countergambit, Morris Countergambit": {
+    "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit, Morris Countergambit": {
       "JjhghZhu": {
         "date": "2021-01-10",
         "opponent": {
@@ -3985,7 +3985,7 @@
         "link": "https://lichess.org/JjhghZhu#5"
       }
     },
-    "gambit:Dutch Defense: Staunton Gambit": {
+    "Dutch Defense: Staunton Gambit": {
       "SNwDTqRM": {
         "date": "2021-01-10",
         "opponent": {
@@ -3995,7 +3995,7 @@
         "link": "https://lichess.org/SNwDTqRM#3"
       }
     },
-    "gambit:Dutch Defense: Blackmar's Second Gambit": {
+    "Dutch Defense: Blackmar's Second Gambit": {
       "SNwDTqRM": {
         "date": "2021-01-10",
         "opponent": {
@@ -4005,7 +4005,7 @@
         "link": "https://lichess.org/SNwDTqRM#7"
       }
     },
-    "gambit:Indian Defense: Pyrenees Gambit": {
+    "Indian Defense: Pyrenees Gambit": {
       "t3FiAgqQ": {
         "date": "2020-10-16",
         "opponent": {
@@ -4015,7 +4015,7 @@
         "link": "https://lichess.org/t3FiAgqQ/black#4"
       }
     },
-    "gambit:French Defense: Advance Variation, Milner-Barry Gambit": {
+    "French Defense: Advance Variation, Milner-Barry Gambit": {
       "FFNnaa5T": {
         "date": "2020-08-31",
         "opponent": {
@@ -4041,7 +4041,7 @@
         "link": "https://lichess.org/jYrEGo2D#11"
       }
     },
-    "gambit:Ruy Lopez: Brentano Gambit": {
+    "Ruy Lopez: Brentano Gambit": {
       "z9olDNAC": {
         "date": "2020-08-22",
         "opponent": {
@@ -4131,7 +4131,7 @@
         "link": "https://lichess.org/RKyU7jFZ/black#6"
       }
     },
-    "gambit:Réti Opening: Advance Variation, Michel Gambit": {
+    "Réti Opening: Advance Variation, Michel Gambit": {
       "dd3gvfgd": {
         "date": "2020-08-04",
         "opponent": {
@@ -4149,7 +4149,7 @@
         "link": "https://lichess.org/4m8nXdew/black#6"
       }
     },
-    "gambit:Elephant Gambit": {
+    "Elephant Gambit": {
       "VPeW8y9C": {
         "date": "2020-07-27",
         "opponent": {
@@ -4255,7 +4255,7 @@
         "link": "https://lichess.org/SeNN6u3P/black#4"
       }
     },
-    "gambit:Queen's Gambit Declined: Austrian Defense, Gusev Countergambit": {
+    "Queen's Gambit Declined: Austrian Defense, Gusev Countergambit": {
       "1aL6luFR": {
         "date": "2020-07-23",
         "opponent": {
@@ -4297,7 +4297,7 @@
         "link": "https://lichess.org/wCULxuWN/black#6"
       }
     },
-    "gambit:Caro-Kann Defense: Hillbilly Attack, Schaeffer Gambit": {
+    "Caro-Kann Defense: Hillbilly Attack, Schaeffer Gambit": {
       "tIP6vDKq": {
         "date": "2020-07-11",
         "opponent": {
@@ -4339,7 +4339,7 @@
         "link": "https://lichess.org/MrL083bS#7"
       }
     },
-    "gambit:English Opening: Anglo-Scandinavian Defense, Schulz Gambit": {
+    "English Opening: Anglo-Scandinavian Defense, Schulz Gambit": {
       "PcO1LxJB": {
         "date": "2020-06-15",
         "opponent": {
@@ -4349,7 +4349,7 @@
         "link": "https://lichess.org/PcO1LxJB/black#4"
       }
     },
-    "gambit:Italian Game: Evans Gambit": {
+    "Italian Game: Evans Gambit": {
       "pyPYmtrA": {
         "date": "2020-05-14",
         "opponent": {
@@ -4447,7 +4447,7 @@
         "link": "https://lichess.org/1MIvmEy7#7"
       }
     },
-    "gambit:Scandinavian Defense: Icelandic-Palme Gambit": {
+    "Scandinavian Defense: Icelandic-Palme Gambit": {
       "Xsum3Y23": {
         "date": "2020-05-11",
         "opponent": {
@@ -4457,7 +4457,7 @@
         "link": "https://lichess.org/Xsum3Y23/black#6"
       }
     },
-    "gambit:Dutch Defense: Krejcik Gambit": {
+    "Dutch Defense: Krejcik Gambit": {
       "6yjgeQLZ": {
         "date": "2020-05-09",
         "opponent": {
@@ -4467,7 +4467,7 @@
         "link": "https://lichess.org/6yjgeQLZ#3"
       }
     },
-    "gambit:Blackmar-Diemer Gambit": {
+    "Blackmar-Diemer Gambit": {
       "wZjBnKU7": {
         "date": "2020-05-08",
         "opponent": {
@@ -4485,7 +4485,7 @@
         "link": "https://lichess.org/BK52q4jj#3"
       }
     },
-    "gambit:King's Gambit Accepted: Mason-Keres Gambit": {
+    "King's Gambit Accepted: Mason-Keres Gambit": {
       "MHQYS4G1": {
         "date": "2020-05-08",
         "opponent": {
@@ -4583,7 +4583,7 @@
         "link": "https://lichess.org/PBAEWrY7#5"
       }
     },
-    "gambit:Semi-Slav Defense: Anti-Moscow Gambit": {
+    "Semi-Slav Defense: Anti-Moscow Gambit": {
       "p9xmx3M8": {
         "date": "2020-05-07",
         "opponent": {
@@ -4593,7 +4593,7 @@
         "link": "https://lichess.org/p9xmx3M8#11"
       }
     },
-    "gambit:Old Indian Defense: Janowski Variation, Grinberg Gambit": {
+    "Old Indian Defense: Janowski Variation, Grinberg Gambit": {
       "brJZYyi0": {
         "date": "2020-05-07",
         "opponent": {
@@ -4603,7 +4603,7 @@
         "link": "https://lichess.org/brJZYyi0#7"
       }
     },
-    "gambit:French Defense: Horwitz Attack, Papa-Ticulat Gambit": {
+    "French Defense: Horwitz Attack, Papa-Ticulat Gambit": {
       "6SaniBJA": {
         "date": "2020-05-07",
         "opponent": {
@@ -4613,7 +4613,7 @@
         "link": "https://lichess.org/6SaniBJA#5"
       }
     },
-    "gambit:King's Gambit Accepted: King's Knight's Gambit": {
+    "King's Gambit Accepted: King's Knight's Gambit": {
       "ydhhOvow": {
         "date": "2020-04-30",
         "opponent": {
@@ -4623,7 +4623,7 @@
         "link": "https://lichess.org/ydhhOvow#5"
       }
     },
-    "gambit:Englund Gambit Complex: Englund Gambit": {
+    "Englund Gambit Complex: Englund Gambit": {
       "jfXgZDM2": {
         "date": "2020-04-30",
         "opponent": {
@@ -4657,7 +4657,7 @@
         "link": "https://lichess.org/ChtpgEKY/black#6"
       }
     },
-    "gambit:Italian Game: Rosentreter Gambit": {
+    "Italian Game: Rosentreter Gambit": {
       "FzjOYYmn": {
         "date": "2020-04-30",
         "opponent": {
@@ -4667,7 +4667,7 @@
         "link": "https://lichess.org/FzjOYYmn#7"
       }
     },
-    "gambit:Slav Defense: Geller Gambit": {
+    "Slav Defense: Geller Gambit": {
       "FXwvMCKk": {
         "date": "2020-04-17",
         "opponent": {
@@ -4685,7 +4685,7 @@
         "link": "https://lichess.org/c2kZHfGQ#9"
       }
     },
-    "gambit:Queen's Gambit Accepted: Slav Gambit": {
+    "Queen's Gambit Accepted: Slav Gambit": {
       "14fV2I7S": {
         "date": "2020-04-08",
         "opponent": {
@@ -4695,7 +4695,7 @@
         "link": "https://lichess.org/14fV2I7S/black#6"
       }
     },
-    "gambit:King's Gambit Declined: Falkbeer Countergambit, Hinrichsen Gambit": {
+    "King's Gambit Declined: Falkbeer Countergambit, Hinrichsen Gambit": {
       "JRGmBzJ9": {
         "date": "2020-04-07",
         "opponent": {
@@ -4705,7 +4705,7 @@
         "link": "https://lichess.org/JRGmBzJ9#5"
       }
     },
-    "gambit:Elephant Gambit: Paulsen Countergambit": {
+    "Elephant Gambit: Paulsen Countergambit": {
       "eHvBhnKr": {
         "date": "2020-04-05",
         "opponent": {
@@ -4763,7 +4763,7 @@
         "link": "https://lichess.org/SeNN6u3P/black#6"
       }
     },
-    "gambit:King's Gambit Accepted: Polerio Gambit": {
+    "King's Gambit Accepted: Polerio Gambit": {
       "M4q1W8RQ": {
         "date": "2020-03-25",
         "opponent": {
@@ -4781,7 +4781,7 @@
         "link": "https://lichess.org/e58Nzm7M#5"
       }
     },
-    "gambit:Scotch Game: Haxo Gambit": {
+    "Scotch Game: Haxo Gambit": {
       "6ZPKhU0R": {
         "date": "2020-03-23",
         "opponent": {
@@ -4791,7 +4791,7 @@
         "link": "https://lichess.org/6ZPKhU0R#8"
       }
     },
-    "gambit:Zukertort Opening: Herrstrom Gambit": {
+    "Zukertort Opening: Herrstrom Gambit": {
       "l80PXIJf": {
         "date": "2020-03-23",
         "opponent": {
@@ -4857,7 +4857,7 @@
         "link": "https://lichess.org/yA9N6kYo/black#2"
       }
     },
-    "gambit:Zukertort Opening: Lemberger Gambit": {
+    "Zukertort Opening: Lemberger Gambit": {
       "dybeDNLG": {
         "date": "2020-03-23",
         "opponent": {
@@ -4867,7 +4867,7 @@
         "link": "https://lichess.org/dybeDNLG#3"
       }
     },
-    "gambit:Bird Opening: From's Gambit": {
+    "Bird Opening: From's Gambit": {
       "Ji1TBQth": {
         "date": "2019-12-14",
         "opponent": {
@@ -4877,7 +4877,7 @@
         "link": "https://lichess.org/Ji1TBQth/black#2"
       }
     },
-    "gambit:Russian Game: Cochrane Gambit": {
+    "Russian Game: Cochrane Gambit": {
       "hpko5hrO": {
         "date": "2019-09-07",
         "opponent": {
@@ -4887,7 +4887,7 @@
         "link": "https://lichess.org/hpko5hrO#7"
       }
     },
-    "gambit:English Opening: Jaenisch Gambit": {
+    "English Opening: Jaenisch Gambit": {
       "ODQZTcoc": {
         "date": "2019-09-02",
         "opponent": {
@@ -4905,7 +4905,7 @@
         "link": "https://lichess.org/21Gbfh5X/black#2"
       }
     },
-    "gambit:Semi-Slav Defense: Gunderam Gambit": {
+    "Semi-Slav Defense: Gunderam Gambit": {
       "h5T4c717": {
         "date": "2019-08-14",
         "opponent": {
@@ -4931,7 +4931,7 @@
         "link": "https://lichess.org/6SNrB3UF#9"
       }
     },
-    "gambit:French Defense: Advance Variation, Nimzowitsch Gambit": {
+    "French Defense: Advance Variation, Nimzowitsch Gambit": {
       "nGG0VUr6": {
         "date": "2019-07-17",
         "opponent": {
@@ -4941,7 +4941,7 @@
         "link": "https://lichess.org/nGG0VUr6#9"
       }
     },
-    "gambit:Scandinavian Defense: Blackburne-Kloosterboer Gambit": {
+    "Scandinavian Defense: Blackburne-Kloosterboer Gambit": {
       "JhHydsbe": {
         "date": "2019-07-13",
         "opponent": {
@@ -4951,7 +4951,7 @@
         "link": "https://lichess.org/JhHydsbe/black#4"
       }
     },
-    "gambit:King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit": {
+    "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit": {
       "AMA3fsxZ": {
         "date": "2019-07-12",
         "opponent": {
@@ -4961,7 +4961,7 @@
         "link": "https://lichess.org/AMA3fsxZ#7"
       }
     },
-    "gambit:Grob Opening: Grob Gambit, Fritz Gambit": {
+    "Grob Opening: Grob Gambit, Fritz Gambit": {
       "ioDx5Sur": {
         "date": "2019-06-22",
         "opponent": {
@@ -4971,7 +4971,7 @@
         "link": "https://lichess.org/ioDx5Sur#5"
       }
     },
-    "gambit:Latvian Gambit": {
+    "Latvian Gambit": {
       "40YWr2rG": {
         "date": "2019-04-26",
         "opponent": {
@@ -4997,7 +4997,7 @@
         "link": "https://lichess.org/oMDpeq3Z/black#4"
       }
     },
-    "gambit:Grob Opening: Romford Countergambit": {
+    "Grob Opening: Romford Countergambit": {
       "55KfbRPq": {
         "date": "2019-02-05",
         "opponent": {
@@ -5007,7 +5007,7 @@
         "link": "https://lichess.org/55KfbRPq/black#6"
       }
     },
-    "gambit:Grob Opening: Grob Gambit, Fritz Gambit, Romford Countergambit": {
+    "Grob Opening: Grob Gambit, Fritz Gambit, Romford Countergambit": {
       "55KfbRPq": {
         "date": "2019-02-05",
         "opponent": {

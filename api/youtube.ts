@@ -27,11 +27,21 @@ export default async (req: any, res: any) => {
         for (const videoInfo of snippets) {
             // Use the exec method to get all matches in the description
             let match
+            let found = false
             while ((match = regex.exec(videoInfo.description)) !== null) {
                 // Push the matched URL to the array
                 const result = {
                     video: `https://www.youtube.com/watch?v=${videoInfo.id}`,
                     game: match[0],
+                    title: videoInfo.title,
+                }
+                urls.push(result)
+                found = true
+            }
+            if (!found) {
+                const result = {
+                    video: `https://www.youtube.com/watch?v=${videoInfo.id}`,
+                    game: 'game was not referenced in comment',
                     title: videoInfo.title,
                 }
                 urls.push(result)

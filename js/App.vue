@@ -18,7 +18,7 @@
             v-if="!isDownloading && !isDownloadComplete"
         >
             <div class="flex w-80 h-80 mb-1 -ml-4">
-                <img src="/free_pawn.png" alt="take my pawn" />
+                <img src="/free_pawn.png" width="320" height="320" alt="take my pawn" />
             </div>
             <div class="flex mb-1 -ml-4">
                 <form @submit.prevent="startDownload">
@@ -217,31 +217,20 @@
 
         <div class="md:flex md:flex-row md:space-x-10">
             <div class="basis-full">
-                <h2 class="heading">List of all {{ gambits.length }} gambits sorted by popularity</h2>
+                <h2 class="heading">List of all {{ displayableGambits.length }} gambits sorted by popularity</h2>
                 <div class="grid sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-1">
                     <accomplishment-score
-                        v-for="gambit in gambits"
-                        :key="gambit.name"
-                        @register-new-trophy="onRegisterNewTrophy"
-                        :title="shortNames.get(gambit.name) || gambit.name"
-                        :color="gambit.color"
-                        :gambit-results="`
-                            W: ${((100 * gambit.white) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined, {
-                                maximumFractionDigits: 0,
-                            })}%,
-                            D: ${((100 * gambit.draws) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined, {
-                                maximumFractionDigits: 0,
-                            })}%,
-                            B: ${((100 * gambit.black) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined, {
-                                maximumFractionDigits: 0,
-                            })}%
-                        `"
-                        :trophies="playerTrophiesByType['gambit:' + gambit.name] || {}"
-                        :masterGame="gambit.master"
-                        :lichessGame="gambit.lichess"
-                        :playerColor="gambit.color"
-                        :moveNumber="gambit.move"
-                        :youtube="playerVideosByType[gambit.name] || []"
+                        v-for="(gambit, name) in displayableGambits"
+                        :key="name"
+                        :title="gambit.shortName"
+                        :color="gambit.opening.color"
+                        :gambit-results="gambit.results"
+                        :trophies="gambit.Trophies || {}"
+                        :masterGame="gambit.opening.master"
+                        :lichessGame="gambit.opening.lichess"
+                        :playerColor="gambit.opening.color"
+                        :moveNumber="gambit.opening.move"
+                        :youtube="gambit.Videos || []"
                     ></accomplishment-score>
                 </div>
             </div>
@@ -270,10 +259,7 @@
 </template>
 
 <script lang="ts">
-//import { Chess as ChessJS } from 'chess.js'
-
 import { games, player, Game, Profile, addLichessOauthToken, cancelFetch } from 'chess-fetcher'
-import Semaphore from 'ts-semaphore'
 import axios from 'axios'
 import AccomplishmentScore from './components/AccomplishmentScore.vue'
 import ArrowIcon from './components/ArrowIcon.vue'
@@ -284,7 +270,7 @@ import UsernameFormatter from './components/UsernameFormatter.vue'
 import RecentUpdates from './components/RecentUpdates.vue'
 import TrophyCollection from './components/TrophyCollection.vue'
 import { gambitTrophy, allGambits, gameAgainstBot, winnerIsUser, pgnPrefix } from './goals/gambit-openings'
-import { GambitOpening, PlayerTrophiesByType, YoutubeTrophy, YoutubeVideoByType } from './types/types'
+import { DisplayableGambits, GambitOpening, PlayerTrophiesByType, YoutubeTrophy } from './types/types'
 import { formatSinceDate } from './utils/format-since-date'
 import { TreeMap } from './utils/TreeMap'
 import { exportAsCsv, exportAsJson } from './utils/export-tools'
@@ -322,9 +308,10 @@ export default {
             },
 
             trophyTypeCount: 0,
-            playerTrophiesByType: <PlayerTrophiesByType>{},
-            playerVideosByType: <YoutubeVideoByType>{},
-            gambits: new Array<GambitOpening>(),
+            trophyWonCount: 0,
+            youtubeVideosCount: 0,
+            gambits: new Set<string>(),
+            displayableGambits: <DisplayableGambits>{},
             gambitsTree: new TreeMap<string, GambitOpening>(),
             shortNames: new Map<string, string>(),
             isDownloading: false,
@@ -352,20 +339,16 @@ export default {
             return ''
         },
         totalAccomplishmentsCompleted(): number {
-            return Object.keys(this.playerTrophiesByType).length
+            return this.gambits.size
         },
         totalAccomplishmentsCompletedPercentage(): number {
             return Math.round((this.totalAccomplishmentsCompleted / this.trophyTypeCount) * 100)
         },
         trophyCount(): number {
-            return Object.values(this.playerTrophiesByType)
-                .map((o) => Object.values(o))
-                .flat().length
+            return this.trophyWonCount
         },
         youtubeTrophiesCount(): number {
-            return Object.values(this.playerVideosByType)
-                .map((o) => Object.values(o))
-                .flat().length
+            return this.youtubeVideosCount
         },
 
         GameCache(): Map<string, Game[]> {
@@ -400,9 +383,6 @@ export default {
     },
 
     methods: {
-        onRegisterNewTrophy(): void {
-            this.trophyTypeCount++
-        },
         async LoadGambits(): Promise<void> {
             const gambits = await allGambits()
             const names = new Set<string>()
@@ -418,7 +398,25 @@ export default {
             result.sort((a, b) => (a.white + a.black + a.draws < b.white + b.black + b.draws ? 1 : -1))
             this.shortNames = this.shortenOpenings(result.map((a) => a.name))
             for (let gambit of result) {
-                this.gambits.push(gambit)
+                const results = `
+                            W: ${((100 * gambit.white) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined, {
+                                maximumFractionDigits: 0,
+                            })}%,
+                            D: ${((100 * gambit.draws) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined, {
+                                maximumFractionDigits: 0,
+                            })}%,
+                            B: ${((100 * gambit.black) / (gambit.white + gambit.black + gambit.draws)).toLocaleString(undefined, {
+                                maximumFractionDigits: 0,
+                            })}%
+                        `
+                this.displayableGambits[gambit.name] = {
+                    shortName: this.shortNames.get(gambit.name) || gambit.name,
+                    opening: gambit,
+                    results: results,
+                    Videos: [],
+                    Trophies: {},
+                }
+                this.trophyTypeCount++
             }
         },
         shortenOpenings(openings: string[]): Map<string, string> {
@@ -459,7 +457,7 @@ export default {
         async fetchYoutubeTrophies(): Promise<YoutubeTrophy[]> {
             const key = `youtube-playlist-games-${this.inputs.playlist}`
             const saved = window.localStorage.getItem(key)
-            if(saved){
+            if (saved) {
                 return JSON.parse(saved) as YoutubeTrophy[]
             }
             const response = await axios.get(`/api/youtube?id=${this.inputs.playlist}`)
@@ -487,23 +485,10 @@ export default {
             }
             this.fetchYoutubeTrophies().then(async (trophies: YoutubeTrophy[]) => {
                 for (const youtubeTrophy of trophies) {
-                    // const youtubeGame= await game(youtubeTrophy.game);
-                    // for (let gambit of this.gambitsTree.getMap(youtubeGame.moves, (move) => move.notation.notation)) {
-                    //     if (gambit != undefined) {
-                    //         const ytTrophies= this.playerVideosByType[gambit.name];
-                    //         if(!ytTrophies){
-                    //             this.playerVideosByType[gambit.name] = new Array<YoutubeTrophy>();
-                    //         }
-                    //         this.playerVideosByType[gambit.name].push(youtubeTrophy);
-                    //     }
-                    // }
-                    for (const gambit of this.gambits) {
-                        if (youtubeTrophy.title.includes(this.shortNames.get(gambit.name) || gambit.name)) {
-                            const ytTrophies = this.playerVideosByType[gambit.name]
-                            if (!ytTrophies) {
-                                this.playerVideosByType[gambit.name] = new Array<YoutubeTrophy>()
-                            }
-                            this.playerVideosByType[gambit.name].push(youtubeTrophy)
+                    for (const gambit of Object.keys(this.displayableGambits)) {
+                        if (youtubeTrophy.title.includes(this.shortNames.get(gambit) || gambit)) {
+                            this.displayableGambits[gambit].Videos.push(youtubeTrophy)
+                            this.youtubeVideosCount++
                         }
                     }
                 }
@@ -526,7 +511,15 @@ export default {
                             this.usingCacheBeforeTimestamp = result.cache_updated_at
                             this.counts.downloaded = result.games_analyzed
                             this.counts.analyzed = result.games_analyzed
-                            this.playerTrophiesByType = result.trophies
+                            for (const fetched of Object.keys(result.trophies)) {
+                                console.log(fetched)
+                                this.displayableGambits[fetched].Trophies = result.trophies[fetched]
+                                const numberOfTrophies = Object.keys(result.trophies[fetched]).length
+                                this.trophyWonCount += numberOfTrophies
+                                if (numberOfTrophies > 0) {
+                                    this.gambits.add(fetched)
+                                }
+                            }
                         }
                     }
                     let sinceTimestamp = this.inputs.filters.sinceHoursAgo
@@ -535,8 +528,8 @@ export default {
                     if (this.usingCacheBeforeTimestamp) {
                         sinceTimestamp = this.usingCacheBeforeTimestamp
                     }
-                    const semaphore = new Semaphore(1000)
-                    games(url, (game: Game) => semaphore.use(() => this.checkGameForTrophies(game)), {
+
+                    games(url, (game: Game) => this.checkGameForTrophies(game), {
                         since: sinceTimestamp,
                         pgnInJson: true,
                         rated: true,
@@ -557,22 +550,26 @@ export default {
                 })
         },
         exportAsJson(): void {
-            exportAsJson(this.playerTrophiesByType, this.username, this.counts)
+            const playerTrophiesByType = <PlayerTrophiesByType>{}
+            for (const key of Object.keys(this.displayableGambits)) {
+                playerTrophiesByType[key] = this.displayableGambits[key].Trophies
+            }
+            exportAsJson(playerTrophiesByType, this.username, this.counts)
         },
 
         exportAsCsv(): void {
-            exportAsCsv(this.playerTrophiesByType, this.username)
+            const playerTrophiesByType = <PlayerTrophiesByType>{}
+            for (const key of Object.keys(this.displayableGambits)) {
+                playerTrophiesByType[key] = this.displayableGambits[key].Trophies
+            }
+            exportAsCsv(playerTrophiesByType, this.username)
         },
         addTrophyForPlayer(trophyName: string, game: Game, onMoveNumber?: number): void {
-            this.playerTrophiesByType[trophyName] = this.playerTrophiesByType[trophyName] || {}
-            // if the player was already awarded this trophy for this game, don't add it again
-            if (this.playerTrophiesByType[trophyName][game.id]) {
+            if (this.displayableGambits[trophyName].Trophies[game.id]) {
                 return
             }
-
             let opponent
             let link
-
             if (game.players.white.username.toLowerCase() === this.username) {
                 opponent = game.players.black
                 link = game.links.white
@@ -587,7 +584,7 @@ export default {
                 link += onMoveNumber - 1
             }
 
-            this.playerTrophiesByType[trophyName][game.id] = {
+            this.displayableGambits[trophyName].Trophies[game.id] = {
                 date: new Date(game.timestamp).toISOString().split('T')[0], // YYYY-MM-DD format
                 opponent: {
                     username: opponent.username,
@@ -595,6 +592,8 @@ export default {
                 },
                 link,
             }
+            this.gambits.add(trophyName)
+            this.trophyWonCount++
         },
 
         async checkGameForTrophies(game: Game): Promise<void> {
@@ -609,7 +608,7 @@ export default {
                 for (let gambit of this.gambitsTree.getMap(game.moves, (move) => move.notation.notation)) {
                     if (gambit != undefined) {
                         for (const result of gambitTrophy(game, gambit)) {
-                            this.addTrophyForPlayer(`gambit:${gambit.name}`, game, result.onMoveNumber ?? 0)
+                            this.addTrophyForPlayer(`${gambit.name}`, game, result.onMoveNumber ?? 0)
                         }
                     }
                 }

@@ -46,5 +46,5 @@ h1 {
 }
 
 .is-download-complete .accomplishment-does-not-have-games div {
-    @apply bg-[#7c8ca3];
+    @apply bg-slate-400;
 }
