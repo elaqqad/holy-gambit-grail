@@ -61,12 +61,12 @@
                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')"
                                         >Eric Rosen</span
                                     >
-                                    Or
+                                    or
                                     <span
                                         class="dotted-underline text-yellow-900 cursor-pointer"
                                         @click.prevent="formFill('lichess', 'DrNykterstein')"
                                     >
-                                        DrNykterstein
+                                    Magnus Carlsen
                                     </span>
                                     <br />
                                     On chess.com:
@@ -90,7 +90,7 @@
                                         class="dotted-underline text-yellow-900 cursor-pointer"
                                         @click.prevent="formFill('chesscom', 'MagnusCarlsen')"
                                         >Magnus Carlsen</span
-                                    >,
+                                    > or
                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'GothamChess')"
                                         >GothamChess</span
                                     >
