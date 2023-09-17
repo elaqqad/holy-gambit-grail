@@ -79,20 +79,20 @@
                                         >Eric Rosen</span
                                     >,
                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'Hikaru')"
-                                        >Hikaru</span
-                                    >,
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'GothamChess')"
-                                        >GothamChess</span
+                                        >Hikaru Nakamura</span
                                     >,
                                     <span
                                         class="dotted-underline text-yellow-900 cursor-pointer"
                                         @click.prevent="formFill('chesscom', 'DanielNaroditsky')"
-                                        >DanielNaroditsky</span
+                                        >Daniel Naroditsky</span
                                     >,
                                     <span
                                         class="dotted-underline text-yellow-900 cursor-pointer"
-                                        @click.prevent="formFill('chesscom', 'AlexandraBotez')"
-                                        >AlexandraBotez</span
+                                        @click.prevent="formFill('chesscom', 'MagnusCarlsen')"
+                                        >Magnus Carlsen</span
+                                    >,
+                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'GothamChess')"
+                                        >GothamChess</span
                                     >
                                 </div>
                             </div>
@@ -210,7 +210,7 @@
             <trophy-collection :count="trophyCount" :videos="youtubeTrophiesCount" size="large"></trophy-collection>
             <div class="text-sm mt-2">
                 <strong>{{ counts.analyzed.toLocaleString() }}</strong>
-                games analyzed
+                rated games analyzed
             </div>
             <div class="mb-1">Only {{ trophyTypeCount - totalAccomplishmentsCompleted }} remaining to complete the Holy Gambit Grail !</div>
         </div>
