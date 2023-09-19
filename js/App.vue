@@ -117,10 +117,10 @@
                                 v-model="inputs.playlist"
                             />
                             <p class="mt-2 text-xs">
-                                If you are a streamer, and you want to take the holy gambit grail to the next level. You could showcase every gambit on stream
-                                and create a corresponding YouTube video. The <strong>id of the youtube playlist</strong>
-                                above is used to retrieve videos associated to the gambits. A youtube video should include in the title the name of
-                                the gambit.
+                                If you are a streamer, and you want to take the holy gambit grail to the next level. You could showcase every gambit
+                                on stream and create a corresponding YouTube video. The <strong>id of the youtube playlist</strong>
+                                above is used to retrieve videos associated to the gambits. A youtube video should include the name of the gambit in
+                                its title.
                                 <br />
                                 Thanks to Jonathan Schrantz for this brilliant concept, see
                                 <a
@@ -232,10 +232,19 @@
 
         <div class="md:flex md:flex-row md:space-x-10">
             <div class="basis-full">
-                <h2 class="heading">List of all {{ displayableGambits.length }} gambits sorted by popularity</h2>
+                <h2 class="heading">
+                    List of all {{ displayableGambits.length }} gambits sorted by
+                    <select v-model="order" class="heading bg-transparent text-left">
+                        <option value="popularity">Their popularity</option>
+                        <option value="rate">Their winning rate</option>
+                        <option value="trophies">The number of trophies</option>
+                        <option value="videos">The number of videos</option>
+                        <option value="name">Their name</option>
+                    </select>
+                </h2>
                 <div class="grid sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-1">
                     <accomplishment-score
-                        v-for="(gambit, name) in displayableGambits"
+                        v-for="(gambit, name) in OrderedGambits"
                         :key="name"
                         :title="gambit.shortName"
                         :color="gambit.opening.color"
@@ -316,7 +325,7 @@ export default {
                     sinceHoursAgo: 0,
                 },
             },
-
+            order: 'popularity',
             player: <Profile>{},
 
             errors: {
@@ -370,6 +379,40 @@ export default {
 
         GameCache(): Map<string, Game[]> {
             return new Map<string, Game[]>()
+        },
+        OrderedGambits(): DisplayableGambits {
+            function Popularity(gambit: GambitOpening): number {
+                return gambit.white + gambit.black + gambit.draws
+            }
+            function Rate(gambit: GambitOpening): number {
+                const numberOfGames = Popularity(gambit)
+                const rate = (gambit.color == 'white' ? gambit.white : gambit.black) / numberOfGames
+                if (numberOfGames <= 3) return Math.min(0.33, rate)
+                return rate
+            }
+            const ordered: DisplayableGambits = {}
+            const values = Object.values(this.displayableGambits).map((opening, index) => ({ opening, index }))
+            values.sort((a, b) => {
+                const defaultCompare = a.index - b.index
+                switch (this.order) {
+                    case 'name':
+                        return a.opening.opening.name.localeCompare(b.opening.opening.name) || defaultCompare
+                    case 'trophies':
+                        return Object.values(b.opening.Trophies).length - Object.values(a.opening.Trophies).length || defaultCompare
+                    case 'videos':
+                        return b.opening.Videos.length - a.opening.Videos.length || defaultCompare
+                    case 'rate':
+                        return Rate(b.opening.opening) - Rate(a.opening.opening) || defaultCompare
+                    case 'popularity':
+                        return Popularity(b.opening.opening) - Popularity(a.opening.opening) || defaultCompare
+                    default:
+                        return Popularity(b.opening.opening) - Popularity(a.opening.opening) || defaultCompare
+                }
+            })
+            for (const item of values) {
+                ordered[item.opening.opening.name] = item.opening
+            }
+            return ordered
         },
     },
 

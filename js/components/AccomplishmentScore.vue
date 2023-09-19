@@ -240,10 +240,9 @@ export default {
         },
         gameLink(): string | undefined {
             console.log(this.site)
-            if (this.site?.toLocaleLowerCase() === 'lichess')
-                if (this.lichessGame !== undefined || this.masterGame !== undefined) {
-                    return `https://lichess.org/${this.masterGame || this.lichessGame || ''}/${this.playerColor}#${this.moveNumber}`
-                }
+            if (this.site?.toLocaleLowerCase() === 'lichess' && (this.lichessGame !== undefined || this.masterGame !== undefined)) {
+                return `https://lichess.org/${this.masterGame || this.lichessGame || ''}/${this.playerColor}#${this.moveNumber}`
+            }
             const ply = this.moveNumber
             const moves = pgnFormatter(this.gambitPgn).replace(' ', '+')
             return `https://www.chess.com/fr/explorer?moveList=${moves}&ply=${ply}`
