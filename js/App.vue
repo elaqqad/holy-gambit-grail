@@ -56,13 +56,13 @@
                                 <div class="text-sm">
                                     Examples on chess.com:
                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'Hikaru')"
-                                    >Hikaru Nakamura</span
-                                >,
-                                <span
-                                    class="dotted-underline text-yellow-900 cursor-pointer"
-                                    @click.prevent="formFill('chesscom', 'MagnusCarlsen')"
-                                    >Magnus Carlsen</span
-                                >,
+                                        >Hikaru Nakamura</span
+                                    >,
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer"
+                                        @click.prevent="formFill('chesscom', 'MagnusCarlsen')"
+                                        >Magnus Carlsen</span
+                                    >,
                                     <span
                                         class="dotted-underline text-yellow-900 cursor-pointer"
                                         @click.prevent="formFill('chesscom', 'VampireChicken')"
@@ -75,11 +75,12 @@
                                         class="dotted-underline text-yellow-900 cursor-pointer"
                                         @click.prevent="formFill('chesscom', 'DanielNaroditsky')"
                                         >Daniel Naroditsky</span
-                                    > or
+                                    >
+                                    or
                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'GothamChess')"
                                         >GothamChess</span
                                     >
-                                    <br/>
+                                    <br />
                                     On Lichess:
                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')"
                                         >Jonathan Schrantz</span
@@ -87,11 +88,12 @@
                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')"
                                         >Eric Rosen</span
                                     >
-                                    or 
+                                    or
                                     <span
                                         class="dotted-underline text-yellow-900 cursor-pointer"
                                         @click.prevent="formFill('lichess', 'DrNykterstein')"
-                                    >Magnus Carlsen</span>
+                                        >Magnus Carlsen</span
+                                    >
                                 </div>
                             </div>
                         </div>
@@ -115,12 +117,19 @@
                                 v-model="inputs.playlist"
                             />
                             <p class="mt-2 text-xs">
-                                If you are a streamer, and you want to take the holy gambit grail seriously. you
-                                could showcase every gambit on stream and create a corresponding YouTube video. The <strong>id of the youtube playlist</strong>
-                                above is used to retrieve videos associated to the gambits. A youtube video should include in the title the name of the gambit.
+                                If you are a streamer, and you want to take the holy gambit grail seriously. you could showcase every gambit on stream
+                                and create a corresponding YouTube video. The <strong>id of the youtube playlist</strong>
+                                above is used to retrieve videos associated to the gambits. A youtube video should include in the title the name of
+                                the gambit.
                                 <br />
                                 Thanks to Jonathan Schrantz for this brilliant concept, see
-                                <a href="https://docs.google.com/spreadsheets/d/15_g2C_Ssvkv1sXzl4AInFG1cUYeyz9mI9apyqitNUTU/edit#gid=0" target="_blank" class="text-yellow-900 dotted-underline">here</a> for more details.
+                                <a
+                                    href="https://docs.google.com/spreadsheets/d/15_g2C_Ssvkv1sXzl4AInFG1cUYeyz9mI9apyqitNUTU/edit#gid=0"
+                                    target="_blank"
+                                    class="text-yellow-900 dotted-underline"
+                                    >here</a
+                                >
+                                for more details.
                             </p>
                         </div>
                     </div>

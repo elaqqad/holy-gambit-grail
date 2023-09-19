@@ -171,12 +171,12 @@ export default {
         lichessGame: String,
         playerColor: String,
         moveNumber: Number,
-        gambitPgn : {
+        gambitPgn: {
             type: String,
             required: true,
         },
         youtubeLink: String,
-        site : String,
+        site: String,
         youtube: {
             type: Array,
             required: true,
@@ -239,15 +239,15 @@ export default {
             return this.usernameCount.get(username) || 0
         },
         gameLink(): string | undefined {
-            console.log(this.site);
-            if(this.site?.toLocaleLowerCase() === "lichess")
-            if (this.lichessGame !== undefined || this.masterGame !== undefined) {
-                return `https://lichess.org/${this.masterGame || this.lichessGame || ''}/${this.playerColor}#${this.moveNumber}`
-            }
-            const ply = this.moveNumber;
-            const moves = pgnFormatter(this.gambitPgn).replace(" ", "+");
-            return `https://www.chess.com/fr/explorer?moveList=${moves}&ply=${ply}`;
-        }
+            console.log(this.site)
+            if (this.site?.toLocaleLowerCase() === 'lichess')
+                if (this.lichessGame !== undefined || this.masterGame !== undefined) {
+                    return `https://lichess.org/${this.masterGame || this.lichessGame || ''}/${this.playerColor}#${this.moveNumber}`
+                }
+            const ply = this.moveNumber
+            const moves = pgnFormatter(this.gambitPgn).replace(' ', '+')
+            return `https://www.chess.com/fr/explorer?moveList=${moves}&ply=${ply}`
+        },
     },
 }
 </script>

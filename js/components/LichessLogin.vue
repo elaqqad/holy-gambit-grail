@@ -32,8 +32,7 @@
                 Login to Lichess
             </button>
             <p class="mt-2 text-xs">
-                Lichess allows much faster download of games if you login.
-                Learn more
+                Lichess allows much faster download of games if you login. Learn more
                 <a href="https://lichess.org/api#operation/apiGamesUser" target="_blank" class="text-yellow-900 dotted-underline">here</a>
             </p>
         </template>
