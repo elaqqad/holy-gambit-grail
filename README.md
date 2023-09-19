@@ -64,3 +64,5 @@ And now you can do regex to look for pawn/piece structures:
 // To look for a white pawn cube, it is essentially:
 position.match(/PP([A-Za-z\.]{6})PP/) // 2 white pawns, 6 squares, then 2 white pawns
 ```
+##
+This project was copied from https://github.com/fitztrev/rosen-score
