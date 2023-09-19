@@ -3,7 +3,8 @@ This is entirely a frontend application, so you can run it pretty easily on your
 Your browser makes the request directly to the Lichess API to get the games. Then the games are analyzed with javascript (again, in your own browser). Each move from every game is played through and analyzed for specific positions or other criteria.
 
 ## Setup
-***You must install git, and bun or npm, preferably bun***
+
+**_You must install git, and bun or npm, preferably bun_**
 
 ```bash
 git clone https://github.com/manjaroblack/holygambitgrail.git
@@ -33,7 +34,7 @@ bun run build
 ## This will create a folder: ./build which contains the files to deploy to your web host
 ```
 
-To enable the youtube links, you will need to configure the YouTube API, which is outside the scope of this tutorial. 
+To enable the youtube links, you will need to configure the YouTube API, which is outside the scope of this tutorial.
 
 For setup assistance, post a question to the [VampireChicken Discord Channel #code-and-scripting](https://discord.gg/3MgpdBf4Eb)
 
@@ -64,5 +65,7 @@ And now you can do regex to look for pawn/piece structures:
 // To look for a white pawn cube, it is essentially:
 position.match(/PP([A-Za-z\.]{6})PP/) // 2 white pawns, 6 squares, then 2 white pawns
 ```
+
 ##
+
 This project was copied from https://github.com/fitztrev/rosen-score
