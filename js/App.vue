@@ -117,7 +117,7 @@
                                 v-model="inputs.playlist"
                             />
                             <p class="mt-2 text-xs">
-                                If you are a streamer, and you want to take the holy gambit grail seriously. you could showcase every gambit on stream
+                                If you are a streamer, and you want to take the holy gambit grail to the next level. You could showcase every gambit on stream
                                 and create a corresponding YouTube video. The <strong>id of the youtube playlist</strong>
                                 above is used to retrieve videos associated to the gambits. A youtube video should include in the title the name of
                                 the gambit.
