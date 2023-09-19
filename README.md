@@ -1,32 +1,27 @@
-# COPIED FROM https://github.com/fitztrev/rosen-score
-
-## Rosen Score
-
-https://rosenscore.com/
-
 This is entirely a frontend application, so you can run it pretty easily on your own computer.
 
 Your browser makes the request directly to the Lichess API to get the games. Then the games are analyzed with javascript (again, in your own browser). Each move from every game is played through and analyzed for specific positions or other criteria.
 
 ### Setup
+***You must install git, and bun or npm, preferably bun***
 
 ```bash
-git clone https://github.com/fitztrev/rosen-score.git
-cd rosen-score
-npm install
-npm run dev
+git clone https://github.com/manjaroblack/holygambitgrail.git
+cd holygambitgrail
+bun install
+bun run dev
 ```
 
 Will start a local server at http://localhost:5173/
 
 ```bash
 ## Run the test suite
-npm run test
+bun run test
 ## or
-npm run watch
+bun run watch
 
 ## Check code coverage
-npm run coverage
+bun run coverage
 open coverage/index.html
 ```
 
