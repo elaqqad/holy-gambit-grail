@@ -33,10 +33,7 @@
             </button>
             <p class="mt-2 text-xs">
                 Lichess allows much faster download of games if you login.
-                <br />
-                <strong>3x</strong> faster when downloading your own games, <strong>1.5x</strong> faster for all others.
-                <br />
-                You can learn more about this
+                Learn more
                 <a href="https://lichess.org/api#operation/apiGamesUser" target="_blank" class="text-yellow-900 dotted-underline">here</a>
             </p>
         </template>

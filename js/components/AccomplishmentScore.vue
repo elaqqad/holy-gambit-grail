@@ -100,12 +100,12 @@
                 <span class="text-sm">
                     {{ gambitResults }}
                 </span>
-                <a v-if="gameLink" :href="gameLink" target="_blank" class="block underline hover:font-bold">
+                <a :href="gameLink()" target="_blank" class="block underline hover:font-bold">
                     <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                         <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
                     </svg>
-                    Example game
+                    See moves
                 </a>
                 <a v-if="hasYoutube" :href="firstVideo" target="_blank" class="block underline hover:font-bold">
                     <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -154,6 +154,7 @@
 import UsernameFormatter from './UsernameFormatter.vue'
 import TrophyCollection from './TrophyCollection.vue'
 import { Trophy, TrophyForGame, YoutubeTrophy } from '../types/types'
+import { pgnFormatter } from '../utils/pgn-formatter'
 
 export default {
     props: {
@@ -170,7 +171,12 @@ export default {
         lichessGame: String,
         playerColor: String,
         moveNumber: Number,
+        gambitPgn : {
+            type: String,
+            required: true,
+        },
         youtubeLink: String,
+        site : String,
         youtube: {
             type: Array,
             required: true,
@@ -209,7 +215,7 @@ export default {
             return this.playerColor === 'white'
         },
         hasExpandableContent(): boolean {
-            return Boolean(this.gambitResults || this.gameLink || this.youtubeLink)
+            return Boolean(this.gambitResults || this.gameLink() || this.youtubeLink)
         },
         usernameCount(): Map<string, number> {
             let usernames = Object.values(this.trophies as TrophyForGame).map((trophy) => trophy.opponent.username)
@@ -218,12 +224,6 @@ export default {
                 map.set(username, (map.get(username) || 0) + 1)
                 return map
             }, new Map<string, number>())
-        },
-        gameLink(): string | undefined {
-            if (this.lichessGame != undefined || this.masterGame != undefined) {
-                return `https://lichess.org/${this.masterGame || this.lichessGame || ''}/${this.playerColor}#${this.moveNumber}`
-            }
-            return undefined
         },
         trophiesByOpponent(): Map<string, Trophy> {
             return Object.values(this.trophies as TrophyForGame).reduce((previousMap: Map<string, Trophy>, newItem: Trophy) => {
@@ -238,6 +238,16 @@ export default {
         trophyCountByUsername(username: string): number {
             return this.usernameCount.get(username) || 0
         },
+        gameLink(): string | undefined {
+            console.log(this.site);
+            if(this.site?.toLocaleLowerCase() === "lichess")
+            if (this.lichessGame !== undefined || this.masterGame !== undefined) {
+                return `https://lichess.org/${this.masterGame || this.lichessGame || ''}/${this.playerColor}#${this.moveNumber}`
+            }
+            const ply = this.moveNumber;
+            const moves = pgnFormatter(this.gambitPgn).replace(" ", "+");
+            return `https://www.chess.com/fr/explorer?moveList=${moves}&ply=${ply}`;
+        }
     },
 }
 </script>
