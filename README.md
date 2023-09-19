@@ -2,7 +2,7 @@ This is entirely a frontend application, so you can run it pretty easily on your
 
 Your browser makes the request directly to the Lichess API to get the games. Then the games are analyzed with javascript (again, in your own browser). Each move from every game is played through and analyzed for specific positions or other criteria.
 
-### Setup
+## Setup
 ***You must install git, and bun or npm, preferably bun***
 
 ```bash
@@ -25,15 +25,23 @@ bun run coverage
 open coverage/index.html
 ```
 
-### Frameworks/Libraries Used
+To build for a production website
+
+```bash
+## From within the holygambitgrail folder
+bun run build
+## This will create a folder: ./build which contains the files to deploy to your web host
+```
+
+To enable the youtube links, you will need to configure the YouTube API, which is outside the scope of this tutorial. 
+
+For setup assistance, post a question to the [VampireChicken Discord Channel #code-and-scripting](https://discord.gg/3MgpdBf4Eb)
+
+## Frameworks/Libraries Used
 
 -   [chess.js](https://github.com/jhlywa/chess.js), [chessops](https://github.com/niklasf/chessops), [pgn-parser](https://github.com/mliebelt/pgn-parser) - JS chess libraries to handle chess logic
 -   Vue.js - Framework for building the app
 -   Tailwind - CSS framework for the UI
-
-## Want to contribute?
-
-I put some ideas of things that could be done in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Understanding How It Works
 
