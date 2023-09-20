@@ -55,9 +55,10 @@
 
                                 <div class="text-sm">
                                     <ul class="list-none list-inside">Examples
-                                        <br />
+                                        <ul>
                                         <li>Chess.com:
                                             <ul class="list-disc list-inside">
+                                                <ul>
                                                 <li>
                                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'Hikaru')">Hikaru Nakamura</span>
                                                 </li>
@@ -76,11 +77,12 @@
                                                 <li>
                                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'GothamChess')">GothamChess</span>
                                                 </li>
+                                                </ul>
                                             </ul>
                                         </li>
-                                        <br />
                                         <li>Lichess:
                                             <ul class="list-disc list-inside">
+                                                <ul>
                                                 <li>
                                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')">Jonathan Schrantz</span>
                                                 </li>
@@ -90,8 +92,10 @@
                                                 <li>
                                                     <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'DrNykterstein')">Magnus Carlsen</span>
                                                 </li>
+                                                </ul>
                                             </ul>
                                         </li>
+                                        </ul>
                                     </ul>
                                 </div>
                             </div>
