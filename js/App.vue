@@ -54,46 +54,46 @@
                                 />
 
                                 <div class="text-sm">
-                                    Examples on chess.com:
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'Hikaru')"
-                                        >Hikaru Nakamura</span
-                                    >,
-                                    <span
-                                        class="dotted-underline text-yellow-900 cursor-pointer"
-                                        @click.prevent="formFill('chesscom', 'MagnusCarlsen')"
-                                        >Magnus Carlsen</span
-                                    >,
-                                    <span
-                                        class="dotted-underline text-yellow-900 cursor-pointer"
-                                        @click.prevent="formFill('chesscom', 'VampireChicken')"
-                                        >Jonathan Schrantz</span
-                                    >,
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'IMRosen')"
-                                        >Eric Rosen</span
-                                    >,
-                                    <span
-                                        class="dotted-underline text-yellow-900 cursor-pointer"
-                                        @click.prevent="formFill('chesscom', 'DanielNaroditsky')"
-                                        >Daniel Naroditsky</span
-                                    >
-                                    or
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'GothamChess')"
-                                        >GothamChess</span
-                                    >
+                                    Examples:
                                     <br />
-                                    On Lichess:
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')"
-                                        >Jonathan Schrantz</span
-                                    >,
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')"
-                                        >Eric Rosen</span
-                                    >
-                                    or
-                                    <span
-                                        class="dotted-underline text-yellow-900 cursor-pointer"
-                                        @click.prevent="formFill('lichess', 'DrNykterstein')"
-                                        >Magnus Carlsen</span
-                                    >
+                                    <br />
+                                    <ul class="list-none list-inside">
+                                        <li>Chess.com:</li>
+                                        <ul class="list-disc list-inside">
+                                            <li>
+                                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'Hikaru')">Hikaru Nakamura</span>
+                                            </li>
+                                            <li>
+                                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'MagnusCarlsen')">Magnus Carlsen</span>
+                                            </li>
+                                            <li>
+                                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'VampireChicken')">Jonathan Schrantz</span>
+                                            </li>
+                                            <li>
+                                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'IMRosen')">Eric Rosen</span>
+                                            </li>
+                                            <li>
+                                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'DanielNaroditsky')">Daniel Naroditsky</span>
+                                            </li>
+                                            <li>
+                                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'GothamChess')">GothamChess</span>
+                                            </li>
+                                        </ul>
+                                        <br />
+                                        <br />
+                                        <li>Lichess:</li>
+                                        <ul class="list-disc list-inside">
+                                            <li>
+                                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')">Jonathan Schrantz</span>
+                                            </li>
+                                            <li>
+                                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')">Eric Rosen</span>
+                                            </li>
+                                            <li>
+                                                <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'DrNykterstein')">Magnus Carlsen</span>
+                                            </li>
+                                        <ul>
+                                    <ul>
                                 </div>
                             </div>
                         </div>
@@ -116,11 +116,14 @@
                                 data-lpignore="true"
                                 v-model="inputs.playlist"
                             />
-                            <p class="mt-2 text-base font-sans">
-                              If you're a streamer and want to take the Holy Gambit Grail to the next level, showcase every gambit on stream and create a corresponding YouTube video. The **YouTube playlist ID** above is used to retrieve videos associated with the gambits. A YouTube video should include the name of the gambit in its title.
-                              <br />
-                              Thanks to Jonathan Schrantz for this brilliant concept. See
-                              <a href="https://docs.google.com/spreadsheets/d/15_g2C_Ssvkv1sXzl4AInFG1cUYeyz9mI9apyqitNUTU/edit#gid=0"
+                            <p class="mt-2 text-xs font-sans">
+                                <span class="font-bold">Streamers:</span> Take the Holy Gambit Grail to the next level by showcasing every gambit on stream and creating a corresponding YouTube video. The <span class="font-medium">YouTube playlist ID</span> above is used to retrieve videos associated with the gambits. A YouTube video should include the name of the gambit in its title.
+                                <br />
+                                <br />
+                                Thanks to Jonathan Schrantz for this brilliant concept.
+                                <br />
+                                See
+                                <a href="https://docs.google.com/spreadsheets/d/15_g2C_Ssvkv1sXzl4AInFG1cUYeyz9mI9apyqitNUTU/edit#gid=0"
                                  target="_blank"
                                  class="text-yellow-900 dotted-underline">here</a>
                               for more details.
