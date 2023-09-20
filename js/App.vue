@@ -8,9 +8,9 @@
     >
         <div class="text-center">
             <h1 class="text-6xl md:text-8xl mb-4">
-                <a href="/"> Holy Gambit Grail ! </a>
+                <a href="/">Holy Gambit Grail!</a>
             </h1>
-            <p class="md:text-2xl">How many of these gambits have you won with ?</p>
+            <p class="md:text-2xl">How close are you to completing the Holy Gambit Grail?</p>
         </div>
 
         <div
@@ -103,6 +103,7 @@
                         </div>
                         <div class="basis-3/4">
                             <lichess-login v-on:set-lichess-oauth-token="setLichessOauthToken"></lichess-login>
+                            <br />
                             Youtube play list:
 
                             <input
@@ -123,7 +124,7 @@
                                 <a href="https://docs.google.com/spreadsheets/d/15_g2C_Ssvkv1sXzl4AInFG1cUYeyz9mI9apyqitNUTU/edit#gid=0"
                                  target="_blank"
                                  class="text-yellow-900 dotted-underline">here</a>
-                              for more details.
+                                for more details.
                             </p>
                         </div>
                     </div>
@@ -228,7 +229,7 @@
             <div class="basis-full">
                 <h2 class="heading">
                     List of all {{ displayableGambits.length }} gambits sorted by
-                    <select v-model="order" class="heading bg-transparent text-left pr-1">
+                    <select v-model="order" class="heading bg-transparent text-left pr-2">
                         <option value="popularity">popularity</option>
                         <option value="rate">win rate</option>
                         <option value="trophies">total number of trophies</option>
