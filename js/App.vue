@@ -53,8 +53,8 @@
                                     v-model="inputs.value"
                                 />
 
-                                <div class="text-sm">
-                                    <ul class="list-none list-inside pl-4">Examples
+                                <div class="text-sm">Examples
+                                    <ul class="list-none list-inside pl-4">
                                         <li>Chess.com:
                                             <ul class="list-disc list-inside pl-4">
                                                 <li>
@@ -228,12 +228,12 @@
             <div class="basis-full">
                 <h2 class="heading">
                     List of all {{ displayableGambits.length }} gambits sorted by
-                    <select v-model="order" class="heading bg-transparent text-left">
-                        <option value="popularity">Their popularity</option>
-                        <option value="rate">Their winning rate</option>
-                        <option value="trophies">The number of trophies</option>
-                        <option value="videos">The number of videos</option>
-                        <option value="name">Their name</option>
+                    <select v-model="order" class="heading bg-transparent text-left pr-1">
+                        <option value="popularity">popularity</option>
+                        <option value="rate">win rate</option>
+                        <option value="trophies">total number of trophies</option>
+                        <option value="videos">the number of YouTube videos</option>
+                        <option value="name">name</option>
                     </select>
                 </h2>
                 <div class="grid sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-1">
