@@ -230,11 +230,11 @@
                 <h2 class="heading">
                     List of all {{ displayableGambits.length }} gambits sorted by
                     <select v-model="order" class="heading bg-transparent text-left">
-                        <option value="popularity">popularity</option>
-                        <option value="rate">win rate</option>
-                        <option value="trophies">total number of trophies</option>
-                        <option value="videos">the number of YouTube videos</option>
-                        <option value="name">name</option>
+                        <option value="popularity">POPULARITY</option>
+                        <option value="rate">WIN RATE</option>
+                        <option value="trophies">TROPHIES</option>
+                        <option value="videos"># OF VIDEOS</option>
+                        <option value="name">NAME</option>
                     </select>
                 </h2>
                 <div class="grid sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-1">
