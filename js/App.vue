@@ -229,7 +229,7 @@
             <div class="basis-full">
                 <h2 class="heading">
                     List of all {{ displayableGambits.length }} gambits sorted by
-                    <select v-model="order" class="heading bg-transparent text-left pr-2">
+                    <select v-model="order" class="heading bg-transparent text-left">
                         <option value="popularity">popularity</option>
                         <option value="rate">win rate</option>
                         <option value="trophies">total number of trophies</option>
