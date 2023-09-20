@@ -92,8 +92,8 @@
                                             <li>
                                                 <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'DrNykterstein')">Magnus Carlsen</span>
                                             </li>
-                                        <ul>
-                                    <ul>
+                                        </ul>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
