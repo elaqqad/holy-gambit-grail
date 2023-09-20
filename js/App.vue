@@ -116,20 +116,14 @@
                                 data-lpignore="true"
                                 v-model="inputs.playlist"
                             />
-                            <p class="mt-2 text-xs">
-                                If you are a streamer, and you want to take the holy gambit grail to the next level. You could showcase every gambit
-                                on stream and create a corresponding YouTube video. The <strong>id of the youtube playlist</strong>
-                                above is used to retrieve videos associated to the gambits. A youtube video should include the name of the gambit in
-                                its title.
-                                <br />
-                                Thanks to Jonathan Schrantz for this brilliant concept, see
-                                <a
-                                    href="https://docs.google.com/spreadsheets/d/15_g2C_Ssvkv1sXzl4AInFG1cUYeyz9mI9apyqitNUTU/edit#gid=0"
-                                    target="_blank"
-                                    class="text-yellow-900 dotted-underline"
-                                    >here</a
-                                >
-                                for more details.
+                            <p class="mt-2 text-base font-sans">
+                              If you're a streamer and want to take the Holy Gambit Grail to the next level, showcase every gambit on stream and create a corresponding YouTube video. The **YouTube playlist ID** above is used to retrieve videos associated with the gambits. A YouTube video should include the name of the gambit in its title.
+                              <br />
+                              Thanks to Jonathan Schrantz for this brilliant concept. See
+                              <a href="https://docs.google.com/spreadsheets/d/15_g2C_Ssvkv1sXzl4AInFG1cUYeyz9mI9apyqitNUTU/edit#gid=0"
+                                 target="_blank"
+                                 class="text-yellow-900 dotted-underline">here</a>
+                              for more details.
                             </p>
                         </div>
                     </div>
