@@ -14,97 +14,123 @@
         </div>
 
         <div
-            class="flex flex-row my-8 bg-indigo-100 border-0 drop-shadow-2xl mx-auto p-4 rounded-lg shadow-indigo-500/50 shadow-lg text-yellow-600 md:w-4/5 mb-10"
+            class="flex flex-row my-8 bg-indigo-100 border-0 drop-shadow-2xl mx-auto p-4 rounded-lg shadow-indigo-500/50 shadow-lg text-yellow-600 md:w-5/6 mb-10"
             v-if="!isDownloading && !isDownloadComplete"
         >
-            <div class="flex w-80 h-80 mb-1 -ml-4">
-                <img src="/free_pawn.png" width="320" height="320" alt="take my pawn" />
+            <div class="flex mb-1 -ml-4">
+                <img src="/free_pawn.png" alt="take my pawn" />
             </div>
             <div class="flex mb-1 -ml-4">
                 <form @submit.prevent="startDownload">
                     <div class="flex flex-row mb-2">
-                        <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
+                        <div class="basis-1/6 text-2xl md:text-5xl text-center font-bold">
                             1
                             <ArrowIcon />
                         </div>
-                        <div class="basis-3/4">
+                        <div class="basis-5/6">
                             <div>
-                                Select site:
-                                <div class="text-yellow-900">
-                                    <label class="cursor-pointer ml-4">
-                                        <input type="radio" name="site" value="chesscom" v-model="inputs.type" />
-                                        Chess.com
-                                    </label>
-                                    <label class="cursor-pointer">
-                                        <input type="radio" name="site" value="lichess" v-model="inputs.type" />
-                                        Lichess
-                                    </label>
+                                <div class="flex flex-column">
+                                    <div class="basis-1/4">Select site:</div>
+                                    <div class="text-yellow-900">
+                                        <label class="cursor-pointer ml-4">
+                                            <input type="radio" name="site" value="chesscom" v-model="inputs.type" />
+                                            Chess.com
+                                        </label>
+                                        <label class="cursor-pointer">
+                                            <input type="radio" name="site" value="lichess" v-model="inputs.type" />
+                                            Lichess
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                             <div class="mt-2">
-                                Enter username:
+                                <div class="flex flex-column">
+                                    <div class="basis-1/4">Enter username:</div>
+                                    <input
+                                        type="text"
+                                        class="block basis-3/4 px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                        placeholder="Username here"
+                                        spellcheck="false"
+                                        data-lpignore="true"
+                                        v-model="inputs.value"
+                                    />
+                                </div>
+                                Examples :
+                                <div class="grid grid-cols-5 gap-1 text-sm">
+                                    <!-- First Column -->
+                                    <div class="col-span-1">
+                                        <div class="grid grid-rows-3 grid-flow-col gap-1">
+                                            <span class="underline text-sm row-span-2">Chess.com:</span>
+                                            <span class="underline text-sm mt-1">Lichess:</span>
+                                        </div>
+                                    </div>
 
-                                <input
-                                    type="text"
-                                    class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                                    placeholder="Username here"
-                                    spellcheck="false"
-                                    data-lpignore="true"
-                                    v-model="inputs.value"
-                                />
+                                    <!-- Second Column -->
+                                    <div class="col-span-4">
+                                        <!-- Chess.com Names (3x3 grid) -->
+                                        <div class="grid grid-cols-3 grid-flow-row gap-1">
+                                            <span
+                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                                @click.prevent="formFill('chesscom', 'Hikaru')"
+                                                ><DownloadIcon />Hikaru Nakamura</span
+                                            >
+                                            <span
+                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                                @click.prevent="formFill('chesscom', 'MagnusCarlsen')"
+                                                ><DownloadIcon />Magnus Carlsen</span
+                                            >
+                                            <span
+                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                                @click.prevent="formFill('chesscom', 'VampireChicken')"
+                                                ><DownloadIcon />Jonathan Schrantz</span
+                                            >
+                                            <span
+                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                                @click.prevent="formFill('chesscom', 'IMRosen')"
+                                                ><DownloadIcon />Eric Rosen</span
+                                            >
+                                            <span
+                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                                @click.prevent="formFill('chesscom', 'DanielNaroditsky')"
+                                                ><DownloadIcon />Daniel Naroditsky</span
+                                            >
+                                            <span
+                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                                @click.prevent="formFill('chesscom', 'GothamChess')"
+                                                ><DownloadIcon />GothamChess</span
+                                            >
+                                        </div>
 
-                                <div class="text-sm">
-                                    Examples on chess.com:
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'Hikaru')"
-                                        >Hikaru Nakamura</span
-                                    >,
-                                    <span
-                                        class="dotted-underline text-yellow-900 cursor-pointer"
-                                        @click.prevent="formFill('chesscom', 'MagnusCarlsen')"
-                                        >Magnus Carlsen</span
-                                    >,
-                                    <span
-                                        class="dotted-underline text-yellow-900 cursor-pointer"
-                                        @click.prevent="formFill('chesscom', 'VampireChicken')"
-                                        >Jonathan Schrantz</span
-                                    >,
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'IMRosen')"
-                                        >Eric Rosen</span
-                                    >,
-                                    <span
-                                        class="dotted-underline text-yellow-900 cursor-pointer"
-                                        @click.prevent="formFill('chesscom', 'DanielNaroditsky')"
-                                        >Daniel Naroditsky</span
-                                    >
-                                    or
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('chesscom', 'GothamChess')"
-                                        >GothamChess</span
-                                    >
-                                    <br />
-                                    On Lichess:
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'zolpi')"
-                                        >Jonathan Schrantz</span
-                                    >,
-                                    <span class="dotted-underline text-yellow-900 cursor-pointer" @click.prevent="formFill('lichess', 'EricRosen')"
-                                        >Eric Rosen</span
-                                    >
-                                    or
-                                    <span
-                                        class="dotted-underline text-yellow-900 cursor-pointer"
-                                        @click.prevent="formFill('lichess', 'DrNykterstein')"
-                                        >Magnus Carlsen</span
-                                    >
+                                        <!-- Lichess Names (3x3 grid) -->
+                                        <div class="grid grid-cols-3 gap-1 mt-4">
+                                            <span
+                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                                @click.prevent="formFill('lichess', 'zolpi')"
+                                                ><DownloadIcon />Jonathan Schrantz</span
+                                            >
+                                            <span
+                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                                @click.prevent="formFill('lichess', 'EricRosen')"
+                                                ><DownloadIcon />Eric Rosen</span
+                                            >
+                                            <span
+                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                                @click.prevent="formFill('lichess', 'DrNykterstein')"
+                                                ><DownloadIcon />Magnus Carlsen</span
+                                            >
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="flex flex-row mb-4">
-                        <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
+                        <div class="basis-1/6 text-2xl md:text-5xl text-center font-bold">
                             2
                             <ArrowIcon />
                         </div>
-                        <div class="basis-3/4">
+                        <div class="basis-5/6">
                             <lichess-login v-on:set-lichess-oauth-token="setLichessOauthToken"></lichess-login>
                             Youtube play list:
 
@@ -117,8 +143,8 @@
                                 v-model="inputs.playlist"
                             />
                             <p class="mt-2 text-xs">
-                                If you are a streamer, and you want to take the holy gambit grail to the next level. You could showcase every gambit
-                                on stream and create a corresponding YouTube video. The <strong>id of the youtube playlist</strong>
+                                If you are a streamer, and you want to take the holy gambit grail to the next level. You can showcase every gambit on
+                                stream and create a corresponding YouTube video. The <strong>id of the youtube playlist</strong>
                                 above is used to retrieve videos associated to the gambits. A youtube video should include the name of the gambit in
                                 its title.
                                 <br />
@@ -135,11 +161,11 @@
                     </div>
 
                     <div class="flex flex-row">
-                        <div class="basis-1/4 text-2xl md:text-5xl text-center font-bold">
+                        <div class="basis-1/6 text-2xl md:text-5xl text-center font-bold">
                             3
                             <ArrowIcon />
                         </div>
-                        <div class="basis-3/4">
+                        <div class="basis-5/6">
                             <div class="text-sm mt-1 mb-2">
                                 Check games since
                                 <select
@@ -255,6 +281,7 @@
                         :playerColor="gambit.opening.color"
                         :site="inputs.type"
                         :gambit-pgn="gambit.opening.pgn"
+                        :gambit-fen="gambit.opening.fen"
                         :moveNumber="gambit.opening.move"
                         :youtube="gambit.Videos || []"
                     ></accomplishment-score>
@@ -292,6 +319,7 @@ import ArrowIcon from './components/ArrowIcon.vue'
 import ChangelogDate from './components/ChangelogDate.vue'
 import DownloadProgress from './components/DownloadProgress.vue'
 import LichessLogin from './components/LichessLogin.vue'
+import DownloadIcon from './components/DownloadIcon.vue'
 import UsernameFormatter from './components/UsernameFormatter.vue'
 import RecentUpdates from './components/RecentUpdates.vue'
 import TrophyCollection from './components/TrophyCollection.vue'
@@ -314,6 +342,7 @@ export default {
         UsernameFormatter,
         RecentUpdates,
         TrophyCollection,
+        DownloadIcon,
     },
     data() {
         return {

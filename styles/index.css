@@ -48,3 +48,7 @@ h1 {
 .is-download-complete .accomplishment-does-not-have-games div {
     @apply bg-slate-400;
 }
+
+.main-wrap {
+    width: 300px !important;
+}
