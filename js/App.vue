@@ -8,9 +8,9 @@
     >
         <div class="text-center">
             <h1 class="text-6xl md:text-8xl mb-4">
-                <a href="/"> Holy Gambit Grail ! </a>
+                <a href="/">Holy Gambit Grail!</a>
             </h1>
-            <p class="md:text-2xl">How many of these gambits have you won with ?</p>
+            <p class="md:text-2xl">How many of these gambits have you won with?</p>
         </div>
 
         <div
@@ -143,12 +143,11 @@
                                 v-model="inputs.playlist"
                             />
                             <p class="mt-2 text-xs">
-                                If you are a streamer, and you want to take the holy gambit grail to the next level. You can showcase every gambit on
-                                stream and create a corresponding YouTube video. The <strong>id of the youtube playlist</strong>
-                                above is used to retrieve videos associated to the gambits. A youtube video should include the name of the gambit in
-                                its title.
+                                <strong>Streamers:</strong> Take the Holy Gambit Grail to the next level by showcasing every gambit on stream and
+                                creating a corresponding YouTube video. The <strong>YouTube playlist ID</strong> above is used to retrieve videos
+                                associated with the gambits. A YouTube video should include the name of the gambit in its title.
                                 <br />
-                                Thanks to Jonathan Schrantz for this brilliant concept, see
+                                Thanks to Jonathan Schrantz for this brilliant concept. See
                                 <a
                                     href="https://docs.google.com/spreadsheets/d/15_g2C_Ssvkv1sXzl4AInFG1cUYeyz9mI9apyqitNUTU/edit#gid=0"
                                     target="_blank"
@@ -261,11 +260,11 @@
                 <h2 class="heading">
                     List of all {{ displayableGambits.length }} gambits sorted by
                     <select v-model="order" class="heading bg-transparent text-left">
-                        <option value="popularity">Their popularity</option>
-                        <option value="rate">Their winning rate</option>
-                        <option value="trophies">The number of trophies</option>
-                        <option value="videos">The number of videos</option>
-                        <option value="name">Their name</option>
+                        <option value="popularity">popularity</option>
+                        <option value="rate">win rate</option>
+                        <option value="trophies">trophies</option>
+                        <option value="videos"># of videos</option>
+                        <option value="name">name</option>
                     </select>
                 </h2>
                 <div class="grid sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-1">

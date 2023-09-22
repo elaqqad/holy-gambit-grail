@@ -86,7 +86,7 @@
             </span>
 
             <template #popper>
-                <TheChessboard class="min-w-0 min-h-0" :board-config="boardConfig" />
+                <TheChessboard :board-config="boardConfig" />
             </template>
         </VTooltip>
 
