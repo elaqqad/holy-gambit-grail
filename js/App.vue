@@ -17,7 +17,7 @@
             class="flex flex-row my-8 bg-indigo-100 border-0 drop-shadow-2xl mx-auto p-4 rounded-lg shadow-indigo-500/50 shadow-lg text-yellow-600 md:w-5/6 mb-10"
             v-if="!isDownloading && !isDownloadComplete"
         >
-            <div class="flex mb-1 -ml-4">
+            <div class="flex mb-1 -ml-4 hidden md:flex">
                 <img src="/free_pawn.png" alt="take my pawn" />
             </div>
             <div class="flex mb-1 -ml-4">
@@ -56,70 +56,52 @@
                                     />
                                 </div>
                                 Examples :
-                                <div class="grid grid-cols-5 gap-1 text-sm">
-                                    <!-- First Column -->
-                                    <div class="col-span-1">
-                                        <div class="grid grid-rows-3 grid-flow-col gap-1">
-                                            <span class="underline text-sm row-span-2">Chess.com:</span>
-                                            <span class="underline text-sm mt-1">Lichess:</span>
-                                        </div>
-                                    </div>
-
-                                    <!-- Second Column -->
-                                    <div class="col-span-4">
-                                        <!-- Chess.com Names (3x3 grid) -->
-                                        <div class="grid grid-cols-3 grid-flow-row gap-1">
-                                            <span
-                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
-                                                @click.prevent="formFill('chesscom', 'Hikaru')"
-                                                ><DownloadIcon />Hikaru Nakamura</span
-                                            >
-                                            <span
-                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
-                                                @click.prevent="formFill('chesscom', 'MagnusCarlsen')"
-                                                ><DownloadIcon />Magnus Carlsen</span
-                                            >
-                                            <span
-                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
-                                                @click.prevent="formFill('chesscom', 'VampireChicken')"
-                                                ><DownloadIcon />Jonathan Schrantz</span
-                                            >
-                                            <span
-                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
-                                                @click.prevent="formFill('chesscom', 'IMRosen')"
-                                                ><DownloadIcon />Eric Rosen</span
-                                            >
-                                            <span
-                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
-                                                @click.prevent="formFill('chesscom', 'DanielNaroditsky')"
-                                                ><DownloadIcon />Daniel Naroditsky</span
-                                            >
-                                            <span
-                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
-                                                @click.prevent="formFill('chesscom', 'GothamChess')"
-                                                ><DownloadIcon />GothamChess</span
-                                            >
-                                        </div>
-
-                                        <!-- Lichess Names (3x3 grid) -->
-                                        <div class="grid grid-cols-3 gap-1 mt-4">
-                                            <span
-                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
-                                                @click.prevent="formFill('lichess', 'zolpi')"
-                                                ><DownloadIcon />Jonathan Schrantz</span
-                                            >
-                                            <span
-                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
-                                                @click.prevent="formFill('lichess', 'EricRosen')"
-                                                ><DownloadIcon />Eric Rosen</span
-                                            >
-                                            <span
-                                                class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
-                                                @click.prevent="formFill('lichess', 'DrNykterstein')"
-                                                ><DownloadIcon />Magnus Carlsen</span
-                                            >
-                                        </div>
-                                    </div>
+                                <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-1 text-xs">
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                        @click.prevent="formFill('chesscom', 'Hikaru')"
+                                        ><ChessComIcon />Hikaru Nakamura</span
+                                    >
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                        @click.prevent="formFill('chesscom', 'MagnusCarlsen')"
+                                        ><ChessComIcon />Magnus Carlsen</span
+                                    >
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                        @click.prevent="formFill('chesscom', 'VampireChicken')"
+                                        ><ChessComIcon />Jonathan Schrantz</span
+                                    >
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                        @click.prevent="formFill('chesscom', 'IMRosen')"
+                                        ><ChessComIcon />Eric Rosen</span
+                                    >
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                        @click.prevent="formFill('chesscom', 'DanielNaroditsky')"
+                                        ><ChessComIcon />Daniel Naroditsky</span
+                                    >
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                        @click.prevent="formFill('chesscom', 'GothamChess')"
+                                        ><ChessComIcon />GothamChess</span
+                                    >
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                        @click.prevent="formFill('lichess', 'zolpi')"
+                                        ><LichessIcon />Jonathan Schrantz</span
+                                    >
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                        @click.prevent="formFill('lichess', 'EricRosen')"
+                                        ><LichessIcon />Eric Rosen</span
+                                    >
+                                    <span
+                                        class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
+                                        @click.prevent="formFill('lichess', 'DrNykterstein')"
+                                        ><LichessIcon />Magnus Carlsen</span
+                                    >
                                 </div>
                             </div>
                         </div>
@@ -318,7 +300,8 @@ import ArrowIcon from './components/ArrowIcon.vue'
 import ChangelogDate from './components/ChangelogDate.vue'
 import DownloadProgress from './components/DownloadProgress.vue'
 import LichessLogin from './components/LichessLogin.vue'
-import DownloadIcon from './components/DownloadIcon.vue'
+import ChessComIcon from './components/ChessComIcon.vue'
+import LichessIcon from './components/LichessIcon.vue'
 import UsernameFormatter from './components/UsernameFormatter.vue'
 import RecentUpdates from './components/RecentUpdates.vue'
 import TrophyCollection from './components/TrophyCollection.vue'
@@ -341,7 +324,8 @@ export default {
         UsernameFormatter,
         RecentUpdates,
         TrophyCollection,
-        DownloadIcon,
+        ChessComIcon,
+        LichessIcon,
     },
     data() {
         return {
