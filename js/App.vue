@@ -56,7 +56,7 @@
                                     />
                                 </div>
                                 Examples :
-                                <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-1 text-xs">
+                                <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-1 text-sm">
                                     <span
                                         class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
                                         @click.prevent="formFill('chesscom', 'Hikaru')"
