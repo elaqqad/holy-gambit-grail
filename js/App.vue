@@ -10,7 +10,7 @@
             <h1 class="text-6xl md:text-8xl mb-4">
                 <a href="/">Holy Gambit Grail!</a>
             </h1>
-            <p class="md:text-2xl">How many of these gambits have you won with?</p>
+            <p class="md:text-2xl">How many gambits have you won with?</p>
         </div>
 
         <div
