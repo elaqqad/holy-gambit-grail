@@ -227,7 +227,7 @@
 
         <div class="md:flex md:flex-row md:space-x-10">
             <div class="basis-full">
-                <h2 class="heading">
+                <h2 class="heading text-right">
                     List of all {{ displayableGambits.length }} gambits sorted by
                     <select v-model="order" class="heading bg-transparent text-left">
                         <option value="popularity">popularity</option>
