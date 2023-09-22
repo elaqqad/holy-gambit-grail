@@ -10,7 +10,7 @@
             <h1 class="text-6xl md:text-8xl mb-4">
                 <a href="/">Holy Gambit Grail!</a>
             </h1>
-            <p class="md:text-2xl">How close are you to completing the Holy Gambit Grail?</p>
+            <p class="md:text-2xl">How many gambits have you won with?</p>
         </div>
 
         <div
@@ -222,7 +222,7 @@
                 <strong>{{ counts.analyzed.toLocaleString() }}</strong>
                 rated games analyzed
             </div>
-            <div class="mb-1">Only {{ trophyTypeCount - totalAccomplishmentsCompleted }} remaining to complete the Holy Gambit Grail !</div>
+            <div class="mb-1">Only {{ trophyTypeCount - totalAccomplishmentsCompleted }} remaining to complete the Holy Gambit Grail!</div>
         </div>
 
         <div class="md:flex md:flex-row md:space-x-10">
@@ -230,11 +230,11 @@
                 <h2 class="heading">
                     List of all {{ displayableGambits.length }} gambits sorted by
                     <select v-model="order" class="heading bg-transparent text-left">
-                        <option value="popularity">POPULARITY</option>
-                        <option value="rate">WIN RATE</option>
-                        <option value="trophies">TROPHIES</option>
-                        <option value="videos"># OF VIDEOS</option>
-                        <option value="name">NAME</option>
+                        <option value="popularity">opularity</option>
+                        <option value="rate">win rate</option>
+                        <option value="trophies">trophies</option>
+                        <option value="videos"># of videos</option>
+                        <option value="name">name</option>
                     </select>
                 </h2>
                 <div class="grid sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-1">
