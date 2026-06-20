@@ -1,7 +1,7 @@
 {
-  "cache_updated_at": 1694945328488,
-  "games_analyzed": 8234,
-  "moves_analyzed": 8234,
+  "cache_updated_at": 1781986823632,
+  "games_analyzed": 11510,
+  "moves_analyzed": 11510,
   "trophies": {
     "Queen's Gambit": {
       "BR5JQCrR": {
@@ -1643,6 +1643,230 @@
           "title": ""
         },
         "link": "https://lichess.org/E8nqBr8n#3"
+      },
+      "G2Z8gayr": {
+        "date": "2026-05-27",
+        "opponent": {
+          "username": "nubotronik",
+          "title": ""
+        },
+        "link": "https://lichess.org/G2Z8gayr#3"
+      },
+      "RnfAuwUi": {
+        "date": "2025-12-05",
+        "opponent": {
+          "username": "Superbri212",
+          "title": ""
+        },
+        "link": "https://lichess.org/RnfAuwUi#3"
+      },
+      "XyyIfxl0": {
+        "date": "2025-08-08",
+        "opponent": {
+          "username": "Neverness",
+          "title": ""
+        },
+        "link": "https://lichess.org/XyyIfxl0#3"
+      },
+      "5f6Bx9kS": {
+        "date": "2025-08-05",
+        "opponent": {
+          "username": "ABE5438",
+          "title": ""
+        },
+        "link": "https://lichess.org/5f6Bx9kS#3"
+      },
+      "83GQBwa5": {
+        "date": "2025-05-02",
+        "opponent": {
+          "username": "Kingscrusher-YouTube",
+          "title": "CM"
+        },
+        "link": "https://lichess.org/83GQBwa5#3"
+      },
+      "oXlw4dsl": {
+        "date": "2025-05-01",
+        "opponent": {
+          "username": "rudkov61",
+          "title": ""
+        },
+        "link": "https://lichess.org/oXlw4dsl#3"
+      },
+      "B6JwGMNY": {
+        "date": "2025-04-26",
+        "opponent": {
+          "username": "Alexander_Dutton",
+          "title": ""
+        },
+        "link": "https://lichess.org/B6JwGMNY#3"
+      },
+      "sInr5Glo": {
+        "date": "2025-04-09",
+        "opponent": {
+          "username": "f7er6h",
+          "title": ""
+        },
+        "link": "https://lichess.org/sInr5Glo#3"
+      },
+      "zb7LGLRA": {
+        "date": "2025-04-02",
+        "opponent": {
+          "username": "Oswaldoreina",
+          "title": ""
+        },
+        "link": "https://lichess.org/zb7LGLRA#3"
+      },
+      "3yoNAmT0": {
+        "date": "2025-03-11",
+        "opponent": {
+          "username": "chumbichess",
+          "title": ""
+        },
+        "link": "https://lichess.org/3yoNAmT0#3"
+      },
+      "C2oyf0mG": {
+        "date": "2025-01-23",
+        "opponent": {
+          "username": "erico_amancio",
+          "title": ""
+        },
+        "link": "https://lichess.org/C2oyf0mG#3"
+      },
+      "BtND6jOV": {
+        "date": "2024-10-24",
+        "opponent": {
+          "username": "TheodorusII",
+          "title": ""
+        },
+        "link": "https://lichess.org/BtND6jOV#3"
+      },
+      "agsXskhy": {
+        "date": "2024-09-18",
+        "opponent": {
+          "username": "magentamango",
+          "title": ""
+        },
+        "link": "https://lichess.org/agsXskhy#3"
+      },
+      "NzRyzqcm": {
+        "date": "2024-07-30",
+        "opponent": {
+          "username": "Pavelsmog",
+          "title": ""
+        },
+        "link": "https://lichess.org/NzRyzqcm#3"
+      },
+      "RtJpBCij": {
+        "date": "2024-07-06",
+        "opponent": {
+          "username": "SinanGoatEngin",
+          "title": ""
+        },
+        "link": "https://lichess.org/RtJpBCij#3"
+      },
+      "35LizpWJ": {
+        "date": "2024-05-19",
+        "opponent": {
+          "username": "FireWorks",
+          "title": ""
+        },
+        "link": "https://lichess.org/35LizpWJ#3"
+      },
+      "TxWTxhng": {
+        "date": "2024-03-07",
+        "opponent": {
+          "username": "CavaleirodasTreva1",
+          "title": ""
+        },
+        "link": "https://lichess.org/TxWTxhng#3"
+      },
+      "Io5fsMEO": {
+        "date": "2024-02-14",
+        "opponent": {
+          "username": "KrugerIndSmoothing",
+          "title": ""
+        },
+        "link": "https://lichess.org/Io5fsMEO#3"
+      },
+      "C2Sg4dJn": {
+        "date": "2024-01-21",
+        "opponent": {
+          "username": "Luis_fajardo",
+          "title": ""
+        },
+        "link": "https://lichess.org/C2Sg4dJn#3"
+      },
+      "o3exMbiA": {
+        "date": "2024-01-01",
+        "opponent": {
+          "username": "Neverness",
+          "title": ""
+        },
+        "link": "https://lichess.org/o3exMbiA#3"
+      },
+      "2y0gum5A": {
+        "date": "2023-12-31",
+        "opponent": {
+          "username": "SULTAN_06",
+          "title": ""
+        },
+        "link": "https://lichess.org/2y0gum5A#3"
+      },
+      "cdY83UrE": {
+        "date": "2023-12-20",
+        "opponent": {
+          "username": "hoodman",
+          "title": ""
+        },
+        "link": "https://lichess.org/cdY83UrE#3"
+      },
+      "zKWRAZom": {
+        "date": "2023-11-09",
+        "opponent": {
+          "username": "fathermoon",
+          "title": ""
+        },
+        "link": "https://lichess.org/zKWRAZom#3"
+      },
+      "pVPAatTy": {
+        "date": "2023-11-04",
+        "opponent": {
+          "username": "qpwoeirut",
+          "title": ""
+        },
+        "link": "https://lichess.org/pVPAatTy#3"
+      },
+      "UKT1NkwL": {
+        "date": "2023-10-16",
+        "opponent": {
+          "username": "alexwerner9",
+          "title": ""
+        },
+        "link": "https://lichess.org/UKT1NkwL#3"
+      },
+      "SuoYBVau": {
+        "date": "2023-10-02",
+        "opponent": {
+          "username": "OneChessplayerMore",
+          "title": ""
+        },
+        "link": "https://lichess.org/SuoYBVau#3"
+      },
+      "Jaio6cy4": {
+        "date": "2023-10-02",
+        "opponent": {
+          "username": "JoelitoMaster205",
+          "title": ""
+        },
+        "link": "https://lichess.org/Jaio6cy4#3"
+      },
+      "L177EjLs": {
+        "date": "2023-09-24",
+        "opponent": {
+          "username": "schneller_hering",
+          "title": ""
+        },
+        "link": "https://lichess.org/L177EjLs#3"
       }
     },
     "King's Gambit": {
@@ -1805,6 +2029,14 @@
           "title": ""
         },
         "link": "https://lichess.org/JUfPMzJI#3"
+      },
+      "8JUYbMNZ": {
+        "date": "2025-04-24",
+        "opponent": {
+          "username": "AAKonoplya",
+          "title": ""
+        },
+        "link": "https://lichess.org/8JUYbMNZ#3"
       }
     },
     "Sicilian Defense: Smith-Morra Gambit": {
@@ -2215,6 +2447,206 @@
           "title": ""
         },
         "link": "https://lichess.org/UXTF5MhC#3"
+      },
+      "Hi3ZpZIO": {
+        "date": "2025-04-26",
+        "opponent": {
+          "username": "paulogar",
+          "title": ""
+        },
+        "link": "https://lichess.org/Hi3ZpZIO#3"
+      },
+      "d3K821C9": {
+        "date": "2025-04-17",
+        "opponent": {
+          "username": "Kerst",
+          "title": ""
+        },
+        "link": "https://lichess.org/d3K821C9#3"
+      },
+      "xaSNOPJb": {
+        "date": "2025-04-06",
+        "opponent": {
+          "username": "Meda70",
+          "title": ""
+        },
+        "link": "https://lichess.org/xaSNOPJb#3"
+      },
+      "3jdqFwmj": {
+        "date": "2025-04-02",
+        "opponent": {
+          "username": "marcelogomezcu",
+          "title": ""
+        },
+        "link": "https://lichess.org/3jdqFwmj#3"
+      },
+      "YdJRPAqC": {
+        "date": "2025-03-11",
+        "opponent": {
+          "username": "msludwick",
+          "title": ""
+        },
+        "link": "https://lichess.org/YdJRPAqC#3"
+      },
+      "b6ukhKPf": {
+        "date": "2025-01-12",
+        "opponent": {
+          "username": "chessaccount3",
+          "title": ""
+        },
+        "link": "https://lichess.org/b6ukhKPf#3"
+      },
+      "IWkJ4l3H": {
+        "date": "2024-11-25",
+        "opponent": {
+          "username": "DaniEscanilla",
+          "title": ""
+        },
+        "link": "https://lichess.org/IWkJ4l3H#3"
+      },
+      "dZbjcdR2": {
+        "date": "2024-11-04",
+        "opponent": {
+          "username": "iamlaha17",
+          "title": ""
+        },
+        "link": "https://lichess.org/dZbjcdR2#3"
+      },
+      "60K04bR4": {
+        "date": "2024-09-25",
+        "opponent": {
+          "username": "Avetbaghdasaryan",
+          "title": ""
+        },
+        "link": "https://lichess.org/60K04bR4#3"
+      },
+      "J72XLxdi": {
+        "date": "2024-09-25",
+        "opponent": {
+          "username": "henribou",
+          "title": ""
+        },
+        "link": "https://lichess.org/J72XLxdi#3"
+      },
+      "ZcIFw8MY": {
+        "date": "2024-04-28",
+        "opponent": {
+          "username": "Andre_el_salvador",
+          "title": ""
+        },
+        "link": "https://lichess.org/ZcIFw8MY#3"
+      },
+      "FqtduBfB": {
+        "date": "2024-04-19",
+        "opponent": {
+          "username": "Tutu1949",
+          "title": ""
+        },
+        "link": "https://lichess.org/FqtduBfB#3"
+      },
+      "A7a4gkEn": {
+        "date": "2024-03-24",
+        "opponent": {
+          "username": "Urquhart",
+          "title": ""
+        },
+        "link": "https://lichess.org/A7a4gkEn#3"
+      },
+      "oHxP9loR": {
+        "date": "2024-03-17",
+        "opponent": {
+          "username": "LR9608",
+          "title": ""
+        },
+        "link": "https://lichess.org/oHxP9loR#3"
+      },
+      "03tx1Yjf": {
+        "date": "2024-03-04",
+        "opponent": {
+          "username": "sampriority1",
+          "title": ""
+        },
+        "link": "https://lichess.org/03tx1Yjf#3"
+      },
+      "n1DTBYDv": {
+        "date": "2024-02-14",
+        "opponent": {
+          "username": "ueleta22",
+          "title": ""
+        },
+        "link": "https://lichess.org/n1DTBYDv#3"
+      },
+      "pGc5mgqJ": {
+        "date": "2024-02-14",
+        "opponent": {
+          "username": "leyverlopez",
+          "title": ""
+        },
+        "link": "https://lichess.org/pGc5mgqJ#3"
+      },
+      "dDbUDP0N": {
+        "date": "2024-01-27",
+        "opponent": {
+          "username": "bkan80",
+          "title": ""
+        },
+        "link": "https://lichess.org/dDbUDP0N#3"
+      },
+      "43rKVxq8": {
+        "date": "2023-11-16",
+        "opponent": {
+          "username": "DorisF",
+          "title": ""
+        },
+        "link": "https://lichess.org/43rKVxq8#3"
+      },
+      "mJSZf6tB": {
+        "date": "2023-11-14",
+        "opponent": {
+          "username": "Hendralem",
+          "title": ""
+        },
+        "link": "https://lichess.org/mJSZf6tB#3"
+      },
+      "V6ioJgGb": {
+        "date": "2023-11-14",
+        "opponent": {
+          "username": "Hendralem",
+          "title": ""
+        },
+        "link": "https://lichess.org/V6ioJgGb#3"
+      },
+      "CKBxpNg0": {
+        "date": "2023-11-12",
+        "opponent": {
+          "username": "Gardenguru",
+          "title": ""
+        },
+        "link": "https://lichess.org/CKBxpNg0#3"
+      },
+      "H83s87RH": {
+        "date": "2023-11-06",
+        "opponent": {
+          "username": "eliecercruzramirez71",
+          "title": ""
+        },
+        "link": "https://lichess.org/H83s87RH#3"
+      },
+      "YqHQodDc": {
+        "date": "2023-11-03",
+        "opponent": {
+          "username": "miagichile2018",
+          "title": ""
+        },
+        "link": "https://lichess.org/YqHQodDc#3"
+      },
+      "kRxEbrTV": {
+        "date": "2023-10-04",
+        "opponent": {
+          "username": "Deacero1000",
+          "title": ""
+        },
+        "link": "https://lichess.org/kRxEbrTV#3"
       }
     },
     "Englund Gambit": {
@@ -2265,6 +2697,14 @@
           "title": ""
         },
         "link": "https://lichess.org/s2iMvIrq/black#2"
+      },
+      "jZHmf1Nm": {
+        "date": "2025-08-15",
+        "opponent": {
+          "username": "Emrulli",
+          "title": ""
+        },
+        "link": "https://lichess.org/jZHmf1Nm/black#2"
       }
     },
     "King's Gambit Accepted: King's Knight's Gambit": {
@@ -2384,6 +2824,22 @@
           "title": ""
         },
         "link": "https://lichess.org/6T38T7HZ#5"
+      },
+      "1U7VMohY": {
+        "date": "2025-09-26",
+        "opponent": {
+          "username": "FrecskaPeter",
+          "title": ""
+        },
+        "link": "https://lichess.org/1U7VMohY#5"
+      },
+      "N7bTcZMA": {
+        "date": "2023-09-17",
+        "opponent": {
+          "username": "Dolphin_1919",
+          "title": ""
+        },
+        "link": "https://lichess.org/N7bTcZMA#5"
       }
     },
     "Zukertort Opening: Tennison Gambit": {
@@ -2445,6 +2901,14 @@
           "title": ""
         },
         "link": "https://lichess.org/pRS4GafT#3"
+      },
+      "PxeAjk1h": {
+        "date": "2023-10-16",
+        "opponent": {
+          "username": "xdotcom",
+          "title": ""
+        },
+        "link": "https://lichess.org/PxeAjk1h#3"
       }
     },
     "King's Gambit Declined: Falkbeer Countergambit": {},
@@ -2592,6 +3056,14 @@
           "title": ""
         },
         "link": "https://lichess.org/JmYaTqHx/black#6"
+      },
+      "Sf0gs6HH": {
+        "date": "2025-03-04",
+        "opponent": {
+          "username": "tomskiykedr",
+          "title": ""
+        },
+        "link": "https://lichess.org/Sf0gs6HH/black#6"
       }
     },
     "Queen's Gambit Declined: Albin Countergambit": {},
@@ -2654,7 +3126,16 @@
     },
     "Russian Game: Stafford Gambit": {},
     "Vienna Game: Vienna Gambit": {},
-    "Bird Opening: From's Gambit": {},
+    "Bird Opening: From's Gambit": {
+      "nwFygOhj": {
+        "date": "2024-12-16",
+        "opponent": {
+          "username": "teardrop-fadeaway",
+          "title": ""
+        },
+        "link": "https://lichess.org/nwFygOhj/black#2"
+      }
+    },
     "Sicilian Defense: Morphy Gambit": {},
     "Scotch Game: Haxo Gambit": {
       "QyZIsz2r": {
@@ -2906,6 +3387,142 @@
           "title": ""
         },
         "link": "https://lichess.org/GPwenjTs/black#4"
+      },
+      "xh5kXcrE": {
+        "date": "2025-08-05",
+        "opponent": {
+          "username": "PavanKumar-1",
+          "title": ""
+        },
+        "link": "https://lichess.org/xh5kXcrE/black#4"
+      },
+      "KvzvKXH8": {
+        "date": "2025-07-30",
+        "opponent": {
+          "username": "dr_Mohamed_youssef",
+          "title": ""
+        },
+        "link": "https://lichess.org/KvzvKXH8/black#4"
+      },
+      "ppZk5XMT": {
+        "date": "2025-04-26",
+        "opponent": {
+          "username": "danridesthewall",
+          "title": ""
+        },
+        "link": "https://lichess.org/ppZk5XMT/black#4"
+      },
+      "wF40HRNp": {
+        "date": "2025-03-28",
+        "opponent": {
+          "username": "Kuzma003",
+          "title": ""
+        },
+        "link": "https://lichess.org/wF40HRNp/black#4"
+      },
+      "9yS4xKe8": {
+        "date": "2025-03-23",
+        "opponent": {
+          "username": "HARBELI-KING",
+          "title": ""
+        },
+        "link": "https://lichess.org/9yS4xKe8/black#4"
+      },
+      "GZZnAebp": {
+        "date": "2025-03-23",
+        "opponent": {
+          "username": "YHthe1andonly",
+          "title": ""
+        },
+        "link": "https://lichess.org/GZZnAebp/black#4"
+      },
+      "IbQDSx57": {
+        "date": "2025-03-07",
+        "opponent": {
+          "username": "Aryan_Rahimpour_2004",
+          "title": ""
+        },
+        "link": "https://lichess.org/IbQDSx57/black#4"
+      },
+      "fdqiS7lM": {
+        "date": "2024-12-16",
+        "opponent": {
+          "username": "Michael_Aurelius",
+          "title": ""
+        },
+        "link": "https://lichess.org/fdqiS7lM/black#4"
+      },
+      "XltlCXyf": {
+        "date": "2024-10-18",
+        "opponent": {
+          "username": "MrPerfectGinger",
+          "title": ""
+        },
+        "link": "https://lichess.org/XltlCXyf/black#4"
+      },
+      "LQPg6hYk": {
+        "date": "2024-09-23",
+        "opponent": {
+          "username": "sansinukob",
+          "title": ""
+        },
+        "link": "https://lichess.org/LQPg6hYk/black#4"
+      },
+      "Spjr1nV1": {
+        "date": "2024-04-01",
+        "opponent": {
+          "username": "Kingscrusher-YouTube",
+          "title": "CM"
+        },
+        "link": "https://lichess.org/Spjr1nV1/black#4"
+      },
+      "Q14rjMqi": {
+        "date": "2024-03-11",
+        "opponent": {
+          "username": "Mirandai",
+          "title": ""
+        },
+        "link": "https://lichess.org/Q14rjMqi/black#4"
+      },
+      "ijq3W6vL": {
+        "date": "2024-02-15",
+        "opponent": {
+          "username": "Bf4_Bd3",
+          "title": ""
+        },
+        "link": "https://lichess.org/ijq3W6vL/black#4"
+      },
+      "mJiFivcz": {
+        "date": "2024-01-13",
+        "opponent": {
+          "username": "TACKLEBERRY01",
+          "title": ""
+        },
+        "link": "https://lichess.org/mJiFivcz/black#4"
+      },
+      "w5jq7V8e": {
+        "date": "2023-12-20",
+        "opponent": {
+          "username": "kakrulit",
+          "title": ""
+        },
+        "link": "https://lichess.org/w5jq7V8e/black#4"
+      },
+      "1F6cLQGH": {
+        "date": "2023-12-13",
+        "opponent": {
+          "username": "danridesthewall",
+          "title": ""
+        },
+        "link": "https://lichess.org/1F6cLQGH/black#4"
+      },
+      "8bcW8Llf": {
+        "date": "2023-10-02",
+        "opponent": {
+          "username": "DiegoRodriguezCipo78",
+          "title": ""
+        },
+        "link": "https://lichess.org/8bcW8Llf/black#4"
       }
     },
     "Englund Gambit Complex: Hartlaub-Charlick Gambit": {},
@@ -2935,6 +3552,14 @@
           "title": "FM"
         },
         "link": "https://lichess.org/3V6QPFLE#7"
+      },
+      "S2jYyrIQ": {
+        "date": "2024-04-26",
+        "opponent": {
+          "username": "Echecs1964",
+          "title": ""
+        },
+        "link": "https://lichess.org/S2jYyrIQ#7"
       }
     },
     "French Defense: Advance Variation, Milner-Barry Gambit": {},
@@ -3062,7 +3687,16 @@
     "Sicilian Defense: Marshall Gambit": {},
     "Italian Game: Rousseau Gambit": {},
     "Scandinavian Defense: Boehnke Gambit": {},
-    "French Defense: Wing Gambit": {},
+    "French Defense: Wing Gambit": {
+      "xrncnYiN": {
+        "date": "2023-12-08",
+        "opponent": {
+          "username": "TomBa88",
+          "title": ""
+        },
+        "link": "https://lichess.org/xrncnYiN#7"
+      }
+    },
     "Nimzowitsch Defense: Colorado Countergambit": {},
     "Queen's Pawn Game: Hübsch Gambit": {},
     "Dutch Defense: Staunton Gambit": {
@@ -3097,6 +3731,14 @@
           "title": "NM"
         },
         "link": "https://lichess.org/kVoqkV9z#3"
+      },
+      "7J90wP2D": {
+        "date": "2024-08-08",
+        "opponent": {
+          "username": "Surpresa1975",
+          "title": ""
+        },
+        "link": "https://lichess.org/7J90wP2D#3"
       }
     },
     "Italian Game: Rosentreter Gambit": {},
@@ -3178,6 +3820,14 @@
           "title": ""
         },
         "link": "https://lichess.org/dCKPTzQj#7"
+      },
+      "7J90wP2D": {
+        "date": "2024-08-08",
+        "opponent": {
+          "username": "Surpresa1975",
+          "title": ""
+        },
+        "link": "https://lichess.org/7J90wP2D#7"
       }
     },
     "French Defense: Perseus Gambit": {},
@@ -3241,7 +3891,16 @@
     "King's Gambit Accepted: Hanstein Gambit": {},
     "Italian Game: Scotch Gambit, Walbrodt-Baird Gambit": {},
     "Ruy Lopez: Exchange Variation, Alapin Gambit": {},
-    "Latvian Gambit: Mason Countergambit": {},
+    "Latvian Gambit: Mason Countergambit": {
+      "CmgD130I": {
+        "date": "2025-05-09",
+        "opponent": {
+          "username": "yzc",
+          "title": ""
+        },
+        "link": "https://lichess.org/CmgD130I#5"
+      }
+    },
     "Englund Gambit Complex: Zilbermints Gambit": {},
     "Vienna Game: Stanley Variation, Meitner-Mieses Gambit": {},
     "Bishop's Opening: Lewis Gambit": {},
@@ -3279,7 +3938,32 @@
     "Caro-Kann Defense: Ulysses Gambit": {},
     "Sicilian Defense: Morphy Gambit, Andreaschek Gambit": {},
     "Polish Opening: Birmingham Gambit": {},
-    "Blackmar-Diemer Gambit: Lemberger Countergambit": {},
+    "Blackmar-Diemer Gambit: Lemberger Countergambit": {
+      "F7GkqEps": {
+        "date": "2025-08-15",
+        "opponent": {
+          "username": "chepukaitis1966",
+          "title": ""
+        },
+        "link": "https://lichess.org/F7GkqEps/black#6"
+      },
+      "A2xG8xJZ": {
+        "date": "2024-06-16",
+        "opponent": {
+          "username": "bouzeid",
+          "title": ""
+        },
+        "link": "https://lichess.org/A2xG8xJZ/black#6"
+      },
+      "czZ22GcS": {
+        "date": "2023-12-22",
+        "opponent": {
+          "username": "Isaev7777",
+          "title": ""
+        },
+        "link": "https://lichess.org/czZ22GcS/black#6"
+      }
+    },
     "French Defense: Advance Variation, Nimzowitsch Gambit": {},
     "Réti Opening: Reversed Blumenfeld Gambit": {},
     "Alekhine Defense: Hunt Variation, Lasker Simul Gambit": {},
@@ -3327,6 +4011,14 @@
           "title": ""
         },
         "link": "https://lichess.org/JdTZp0XC#3"
+      },
+      "u9YbDYUt": {
+        "date": "2024-01-02",
+        "opponent": {
+          "username": "SheikhPepito",
+          "title": ""
+        },
+        "link": "https://lichess.org/u9YbDYUt#3"
       }
     },
     "Indian Defense: Gibbins-Weidenhagen Gambit": {},

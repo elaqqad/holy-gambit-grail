@@ -8,8 +8,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
-    "lib": ["DOM", "es2018"],
-    "downlevelIteration": true
+    "lib": ["DOM", "es2018"]
   }
 }

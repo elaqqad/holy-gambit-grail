@@ -1,7 +1,7 @@
 {
-  "cache_updated_at": 1694371990092,
-  "games_analyzed": 50802,
-  "moves_analyzed": 50802,
+  "cache_updated_at": 1781989634768,
+  "games_analyzed": 69678,
+  "moves_analyzed": 69678,
   "trophies": {
     "King's Gambit": {
       "3355209289": {
@@ -291,6 +291,14 @@
           "title": "GM"
         },
         "link": "https://www.chess.com/analysis/game/live/4678987825?tab=analysis&flip=false&move=02"
+      },
+      "88632174725": {
+        "date": "2023-09-16",
+        "opponent": {
+          "username": "dropstoneDP",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/88632174725?tab=analysis&flip=false&move=02"
       }
     },
     "Queen's Pawn Game: Chigorin Variation, Irish Gambit": {
@@ -1255,6 +1263,366 @@
           "title": "GM"
         },
         "link": "https://www.chess.com/analysis/game/live/4313376560?tab=analysis&flip=false&move=04"
+      },
+      "164195382887": {
+        "date": "2026-01-31",
+        "opponent": {
+          "username": "gurelediz",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/164195382887?tab=analysis&flip=false&move=04"
+      },
+      "163592110883": {
+        "date": "2026-01-24",
+        "opponent": {
+          "username": "gurelediz",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/163592110883?tab=analysis&flip=false&move=04"
+      },
+      "155388404241": {
+        "date": "2025-10-21",
+        "opponent": {
+          "username": "Icaro_83",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/155388404241?tab=analysis&flip=false&move=04"
+      },
+      "141811246605": {
+        "date": "2025-05-17",
+        "opponent": {
+          "username": "Icaro_83",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141811246605?tab=analysis&flip=false&move=04"
+      },
+      "124910999415": {
+        "date": "2024-11-09",
+        "opponent": {
+          "username": "SharathRk6",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/124910999415?tab=analysis&flip=false&move=04"
+      },
+      "123703275029": {
+        "date": "2024-10-26",
+        "opponent": {
+          "username": "kiwibobo",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/123703275029?tab=analysis&flip=false&move=04"
+      },
+      "123699614551": {
+        "date": "2024-10-26",
+        "opponent": {
+          "username": "KogotBobra17",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/123699614551?tab=analysis&flip=false&move=04"
+      },
+      "120069684119": {
+        "date": "2024-09-14",
+        "opponent": {
+          "username": "PiliposyanRobertChess",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/120069684119?tab=analysis&flip=false&move=04"
+      },
+      "119356942020": {
+        "date": "2024-09-06",
+        "opponent": {
+          "username": "Firouzja2003",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/119356942020?tab=analysis&flip=false&move=04"
+      },
+      "118256958551": {
+        "date": "2024-08-24",
+        "opponent": {
+          "username": "Icaro_83",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/118256958551?tab=analysis&flip=false&move=04"
+      },
+      "116441404285": {
+        "date": "2024-08-03",
+        "opponent": {
+          "username": "only_strong_moves",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/116441404285?tab=analysis&flip=false&move=04"
+      },
+      "104952734895": {
+        "date": "2024-03-23",
+        "opponent": {
+          "username": "Statham",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/104952734895?tab=analysis&flip=false&move=04"
+      },
+      "101847871361": {
+        "date": "2024-02-16",
+        "opponent": {
+          "username": "DanielNaroditsky",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/101847871361?tab=analysis&flip=false&move=04"
+      },
+      "101328188305": {
+        "date": "2024-02-10",
+        "opponent": {
+          "username": "Statham",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/101328188305?tab=analysis&flip=false&move=04"
+      },
+      "100725728661": {
+        "date": "2024-02-03",
+        "opponent": {
+          "username": "karinachess1",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/100725728661?tab=analysis&flip=false&move=04"
+      },
+      "100723941919": {
+        "date": "2024-02-03",
+        "opponent": {
+          "username": "Aradhya2000",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/100723941919?tab=analysis&flip=false&move=04"
+      },
+      "98644509941": {
+        "date": "2024-01-10",
+        "opponent": {
+          "username": "KazakhFighter04",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/98644509941?tab=analysis&flip=false&move=04"
+      },
+      "98310259849": {
+        "date": "2024-01-06",
+        "opponent": {
+          "username": "karinachess1",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/98310259849?tab=analysis&flip=false&move=04"
+      },
+      "98309726267": {
+        "date": "2024-01-06",
+        "opponent": {
+          "username": "YurasovMat-2012",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/98309726267?tab=analysis&flip=false&move=04"
+      },
+      "98307395289": {
+        "date": "2024-01-06",
+        "opponent": {
+          "username": "Janosik",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/98307395289?tab=analysis&flip=false&move=04"
+      },
+      "98306211707": {
+        "date": "2024-01-06",
+        "opponent": {
+          "username": "AnishGiri",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/98306211707?tab=analysis&flip=false&move=04"
+      },
+      "98303841223": {
+        "date": "2024-01-06",
+        "opponent": {
+          "username": "aa175",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/98303841223?tab=analysis&flip=false&move=04"
+      },
+      "98303692955": {
+        "date": "2024-01-06",
+        "opponent": {
+          "username": "GMForgacs",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/98303692955?tab=analysis&flip=false&move=04"
+      },
+      "98039363803": {
+        "date": "2024-01-03",
+        "opponent": {
+          "username": "Bagrat1on",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/98039363803?tab=analysis&flip=false&move=04"
+      },
+      "98034769729": {
+        "date": "2024-01-03",
+        "opponent": {
+          "username": "Bagrat1on",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/98034769729?tab=analysis&flip=false&move=04"
+      },
+      "96493689449": {
+        "date": "2023-12-16",
+        "opponent": {
+          "username": "hristos03",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/96493689449?tab=analysis&flip=false&move=04"
+      },
+      "96492565463": {
+        "date": "2023-12-16",
+        "opponent": {
+          "username": "karinachess1",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/96492565463?tab=analysis&flip=false&move=04"
+      },
+      "95282439437": {
+        "date": "2023-12-02",
+        "opponent": {
+          "username": "KawhiLockdown",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/95282439437?tab=analysis&flip=false&move=04"
+      },
+      "95281759057": {
+        "date": "2023-12-02",
+        "opponent": {
+          "username": "aa175",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/95281759057?tab=analysis&flip=false&move=04"
+      },
+      "95280569599": {
+        "date": "2023-12-02",
+        "opponent": {
+          "username": "aa175",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/95280569599?tab=analysis&flip=false&move=04"
+      },
+      "94411902211": {
+        "date": "2023-11-22",
+        "opponent": {
+          "username": "nissou-ach",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/94411902211?tab=analysis&flip=false&move=04"
+      },
+      "93814177185": {
+        "date": "2023-11-15",
+        "opponent": {
+          "username": "Sychev_on_YouTube",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/93814177185?tab=analysis&flip=false&move=04"
+      },
+      "93809328541": {
+        "date": "2023-11-15",
+        "opponent": {
+          "username": "GatoRojo150",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/93809328541?tab=analysis&flip=false&move=04"
+      },
+      "93808754735": {
+        "date": "2023-11-15",
+        "opponent": {
+          "username": "KawhiLockdown",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/93808754735?tab=analysis&flip=false&move=04"
+      },
+      "93469242019": {
+        "date": "2023-11-11",
+        "opponent": {
+          "username": "Salem-AR",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/93469242019?tab=analysis&flip=false&move=04"
+      },
+      "93467303699": {
+        "date": "2023-11-11",
+        "opponent": {
+          "username": "Maus7",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/93467303699?tab=analysis&flip=false&move=04"
+      },
+      "93465535637": {
+        "date": "2023-11-11",
+        "opponent": {
+          "username": "Zgorl",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/93465535637?tab=analysis&flip=false&move=04"
+      },
+      "91652389243": {
+        "date": "2023-10-21",
+        "opponent": {
+          "username": "aa175",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/91652389243?tab=analysis&flip=false&move=04"
+      },
+      "91651873281": {
+        "date": "2023-10-21",
+        "opponent": {
+          "username": "BardArtem",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/91651873281?tab=analysis&flip=false&move=04"
+      },
+      "91650646353": {
+        "date": "2023-10-21",
+        "opponent": {
+          "username": "Kopylov_Alex",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/91650646353?tab=analysis&flip=false&move=04"
+      },
+      "91649916369": {
+        "date": "2023-10-21",
+        "opponent": {
+          "username": "whyme85",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/91649916369?tab=analysis&flip=false&move=04"
+      },
+      "91646987831": {
+        "date": "2023-10-21",
+        "opponent": {
+          "username": "Rosh1610",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/91646987831?tab=analysis&flip=false&move=04"
+      },
+      "89838576113": {
+        "date": "2023-09-30",
+        "opponent": {
+          "username": "karinachess1",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/89838576113?tab=analysis&flip=false&move=04"
+      },
+      "89230299899": {
+        "date": "2023-09-23",
+        "opponent": {
+          "username": "Zgorl",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/89230299899?tab=analysis&flip=false&move=04"
+      },
+      "88627280473": {
+        "date": "2023-09-16",
+        "opponent": {
+          "username": "OhanyanEminChess",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/88627280473?tab=analysis&flip=false&move=04"
       }
     },
     "Benko Gambit": {
@@ -1401,6 +1769,86 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/4505238595?tab=analysis&flip=true&move=05"
+      },
+      "154597005549": {
+        "date": "2025-10-12",
+        "opponent": {
+          "username": "SkippingLaptop",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/154597005549?tab=analysis&flip=true&move=05"
+      },
+      "120948620903": {
+        "date": "2024-09-24",
+        "opponent": {
+          "username": "Philippians46",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/120948620903?tab=analysis&flip=true&move=05"
+      },
+      "118865406757": {
+        "date": "2024-08-31",
+        "opponent": {
+          "username": "UNSTOPPABLE_LEGEND",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/118865406757?tab=analysis&flip=true&move=05"
+      },
+      "100546954627": {
+        "date": "2024-02-01",
+        "opponent": {
+          "username": "Snowflake",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/100546954627?tab=analysis&flip=true&move=05"
+      },
+      "96493191087": {
+        "date": "2023-12-16",
+        "opponent": {
+          "username": "Elsa167",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/96493191087?tab=analysis&flip=true&move=05"
+      },
+      "95021346189": {
+        "date": "2023-11-29",
+        "opponent": {
+          "username": "jup1978",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/95021346189?tab=analysis&flip=true&move=05"
+      },
+      "94680585715": {
+        "date": "2023-11-25",
+        "opponent": {
+          "username": "SimplyDevina",
+          "title": "WFM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/94680585715?tab=analysis&flip=true&move=05"
+      },
+      "90175126777": {
+        "date": "2023-10-04",
+        "opponent": {
+          "username": "lefonghua",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/90175126777?tab=analysis&flip=true&move=05"
+      },
+      "89838072389": {
+        "date": "2023-09-30",
+        "opponent": {
+          "username": "TheRigos",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/89838072389?tab=analysis&flip=true&move=05"
+      },
+      "89235065981": {
+        "date": "2023-09-23",
+        "opponent": {
+          "username": "BrandonJacobson",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/89235065981?tab=analysis&flip=true&move=05"
       }
     },
     "Alekhine Defense: Spielmann Gambit": {
@@ -1581,6 +2029,70 @@
           "title": "GM"
         },
         "link": "https://www.chess.com/analysis/game/live/6225178897?tab=analysis&flip=false&move=06"
+      },
+      "124913321339": {
+        "date": "2024-11-09",
+        "opponent": {
+          "username": "fm24601",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/124913321339?tab=analysis&flip=false&move=06"
+      },
+      "104954559183": {
+        "date": "2024-03-23",
+        "opponent": {
+          "username": "Binary010",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/104954559183?tab=analysis&flip=false&move=06"
+      },
+      "104349655949": {
+        "date": "2024-03-16",
+        "opponent": {
+          "username": "Pasmendjambvirgulptipon98",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/104349655949?tab=analysis&flip=false&move=06"
+      },
+      "104345468699": {
+        "date": "2024-03-16",
+        "opponent": {
+          "username": "x-7171385435",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/104345468699?tab=analysis&flip=false&move=06"
+      },
+      "94675783253": {
+        "date": "2023-11-25",
+        "opponent": {
+          "username": "Artemiki",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/94675783253?tab=analysis&flip=false&move=06"
+      },
+      "89232678749": {
+        "date": "2023-09-23",
+        "opponent": {
+          "username": "SpeedofLight0",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/89232678749?tab=analysis&flip=false&move=06"
+      },
+      "88626710461": {
+        "date": "2023-09-16",
+        "opponent": {
+          "username": "malakismayil",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/88626710461?tab=analysis&flip=false&move=06"
+      },
+      "88625490235": {
+        "date": "2023-09-16",
+        "opponent": {
+          "username": "Sacbutt",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/88625490235?tab=analysis&flip=false&move=06"
       }
     },
     "Sicilian Defense: Smith-Morra Gambit": {
@@ -1959,6 +2471,310 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/4683196047?tab=analysis&flip=false&move=02"
+      },
+      "146592804723": {
+        "date": "2025-07-12",
+        "opponent": {
+          "username": "Maitreia",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/146592804723?tab=analysis&flip=false&move=02"
+      },
+      "146592797825": {
+        "date": "2025-07-12",
+        "opponent": {
+          "username": "Maitreia",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/146592797825?tab=analysis&flip=false&move=02"
+      },
+      "146592198893": {
+        "date": "2025-07-12",
+        "opponent": {
+          "username": "Maitreia",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/146592198893?tab=analysis&flip=false&move=02"
+      },
+      "146591601809": {
+        "date": "2025-07-11",
+        "opponent": {
+          "username": "Maitreia",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/146591601809?tab=analysis&flip=false&move=02"
+      },
+      "146591007289": {
+        "date": "2025-07-11",
+        "opponent": {
+          "username": "Maitreia",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/146591007289?tab=analysis&flip=false&move=02"
+      },
+      "146590998903": {
+        "date": "2025-07-11",
+        "opponent": {
+          "username": "Maitreia",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/146590998903?tab=analysis&flip=false&move=02"
+      },
+      "143365215745": {
+        "date": "2025-06-04",
+        "opponent": {
+          "username": "Carnivoras",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/143365215745?tab=analysis&flip=false&move=02"
+      },
+      "129754231281": {
+        "date": "2025-01-04",
+        "opponent": {
+          "username": "AnaKuchava",
+          "title": "WFM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/129754231281?tab=analysis&flip=false&move=02"
+      },
+      "119812793223": {
+        "date": "2024-09-11",
+        "opponent": {
+          "username": "Jospem",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/119812793223?tab=analysis&flip=false&move=02"
+      },
+      "118514902173": {
+        "date": "2024-08-27",
+        "opponent": {
+          "username": "Eagle_2019",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/118514902173?tab=analysis&flip=false&move=02"
+      },
+      "117917420535": {
+        "date": "2024-08-20",
+        "opponent": {
+          "username": "only_strong_moves",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/117917420535?tab=analysis&flip=false&move=02"
+      },
+      "116795971219": {
+        "date": "2024-08-07",
+        "opponent": {
+          "username": "ALieRaiseAFireOozeUh",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/116795971219?tab=analysis&flip=false&move=02"
+      },
+      "116795381095": {
+        "date": "2024-08-07",
+        "opponent": {
+          "username": "ALieRaiseAFireOozeUh",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/116795381095?tab=analysis&flip=false&move=02"
+      },
+      "116721637785": {
+        "date": "2024-08-06",
+        "opponent": {
+          "username": "Beca95",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/116721637785?tab=analysis&flip=false&move=02"
+      },
+      "116720438617": {
+        "date": "2024-08-06",
+        "opponent": {
+          "username": "Kirill_Klukin",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/116720438617?tab=analysis&flip=false&move=02"
+      },
+      "115577278589": {
+        "date": "2024-07-24",
+        "opponent": {
+          "username": "TigrVShlyape",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/115577278589?tab=analysis&flip=false&move=02"
+      },
+      "115511879541": {
+        "date": "2024-07-23",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/115511879541?tab=analysis&flip=false&move=02"
+      },
+      "115510163503": {
+        "date": "2024-07-23",
+        "opponent": {
+          "username": "tptagain",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/115510163503?tab=analysis&flip=false&move=02"
+      },
+      "115325895299": {
+        "date": "2024-07-21",
+        "opponent": {
+          "username": "I_now_Know_my_Name",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/115325895299?tab=analysis&flip=false&move=02"
+      },
+      "114908912811": {
+        "date": "2024-07-16",
+        "opponent": {
+          "username": "DominguezOnYoutube",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/114908912811?tab=analysis&flip=false&move=02"
+      },
+      "114299466687": {
+        "date": "2024-07-09",
+        "opponent": {
+          "username": "HeartAblaze",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/114299466687?tab=analysis&flip=false&move=02"
+      },
+      "113762381269": {
+        "date": "2024-07-03",
+        "opponent": {
+          "username": "Parthichess1",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/113762381269?tab=analysis&flip=false&move=02"
+      },
+      "111864181657": {
+        "date": "2024-06-11",
+        "opponent": {
+          "username": "HansOnTwitch",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/111864181657?tab=analysis&flip=false&move=02"
+      },
+      "101669598171": {
+        "date": "2024-02-14",
+        "opponent": {
+          "username": "OblomchiKiyt",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/101669598171?tab=analysis&flip=false&move=02"
+      },
+      "99250586853": {
+        "date": "2024-01-17",
+        "opponent": {
+          "username": "Extremely_Dynamic_Guy7",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/99250586853?tab=analysis&flip=false&move=02"
+      },
+      "99162913153": {
+        "date": "2024-01-16",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/99162913153?tab=analysis&flip=false&move=02"
+      },
+      "99074042991": {
+        "date": "2024-01-15",
+        "opponent": {
+          "username": "artin10862",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/99074042991?tab=analysis&flip=false&move=02"
+      },
+      "98231804139": {
+        "date": "2024-01-05",
+        "opponent": {
+          "username": "artin10862",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/98231804139?tab=analysis&flip=false&move=02"
+      },
+      "98213800145": {
+        "date": "2024-01-05",
+        "opponent": {
+          "username": "klimkoj",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/98213800145?tab=analysis&flip=false&move=02"
+      },
+      "98213271537": {
+        "date": "2024-01-05",
+        "opponent": {
+          "username": "klimkoj",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/98213271537?tab=analysis&flip=false&move=02"
+      },
+      "97967995347": {
+        "date": "2024-01-02",
+        "opponent": {
+          "username": "Maitreia",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/97967995347?tab=analysis&flip=false&move=02"
+      },
+      "97964955161": {
+        "date": "2024-01-02",
+        "opponent": {
+          "username": "Maitreia",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/97964955161?tab=analysis&flip=false&move=02"
+      },
+      "96836545121": {
+        "date": "2023-12-20",
+        "opponent": {
+          "username": "IshqOMohabbat",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/96836545121?tab=analysis&flip=false&move=02"
+      },
+      "96318248055": {
+        "date": "2023-12-14",
+        "opponent": {
+          "username": "play_on_rage",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/96318248055?tab=analysis&flip=false&move=02"
+      },
+      "95558974311": {
+        "date": "2023-12-05",
+        "opponent": {
+          "username": "Jospem",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/95558974311?tab=analysis&flip=false&move=02"
+      },
+      "93806448903": {
+        "date": "2023-11-15",
+        "opponent": {
+          "username": "HansOnTwitch",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/93806448903?tab=analysis&flip=false&move=02"
+      },
+      "93744538575": {
+        "date": "2023-11-14",
+        "opponent": {
+          "username": "TigrVShlyape",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/93744538575?tab=analysis&flip=false&move=02"
+      },
+      "93208328303": {
+        "date": "2023-11-08",
+        "opponent": {
+          "username": "Fandorine",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/93208328303?tab=analysis&flip=false&move=02"
       }
     },
     "English Opening: Anglo-Scandinavian Defense, Schulz Gambit": {
@@ -2009,6 +2825,150 @@
           "title": "IM"
         },
         "link": "https://www.chess.com/analysis/game/live/37492286827?tab=analysis&flip=true&move=03"
+      },
+      "153576400433": {
+        "date": "2025-09-30",
+        "opponent": {
+          "username": "Zuko07",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/153576400433?tab=analysis&flip=true&move=03"
+      },
+      "152969199899": {
+        "date": "2025-09-23",
+        "opponent": {
+          "username": "GabrielCarckeno",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/152969199899?tab=analysis&flip=true&move=03"
+      },
+      "152367481485": {
+        "date": "2025-09-16",
+        "opponent": {
+          "username": "Mnatsakanyan-Aren2012",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/152367481485?tab=analysis&flip=true&move=03"
+      },
+      "146590407565": {
+        "date": "2025-07-11",
+        "opponent": {
+          "username": "Maitreia",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/146590407565?tab=analysis&flip=true&move=03"
+      },
+      "146046809171": {
+        "date": "2025-07-05",
+        "opponent": {
+          "username": "Sanan_Sjugirov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/146046809171?tab=analysis&flip=true&move=03"
+      },
+      "145446567767": {
+        "date": "2025-06-28",
+        "opponent": {
+          "username": "semion03032009",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/145446567767?tab=analysis&flip=true&move=03"
+      },
+      "137584254143": {
+        "date": "2025-03-29",
+        "opponent": {
+          "username": "kyiv-volvo",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/137584254143?tab=analysis&flip=true&move=03"
+      },
+      "137582450723": {
+        "date": "2025-03-29",
+        "opponent": {
+          "username": "kyiv-volvo",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/137582450723?tab=analysis&flip=true&move=03"
+      },
+      "137578257657": {
+        "date": "2025-03-29",
+        "opponent": {
+          "username": "AlexandraSamaganova",
+          "title": "WFM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/137578257657?tab=analysis&flip=true&move=03"
+      },
+      "125516933849": {
+        "date": "2024-11-16",
+        "opponent": {
+          "username": "Nasrin_Babayeva",
+          "title": "WFM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/125516933849?tab=analysis&flip=true&move=03"
+      },
+      "124916975073": {
+        "date": "2024-11-09",
+        "opponent": {
+          "username": "ChessFunMaker",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/124916975073?tab=analysis&flip=true&move=03"
+      },
+      "121283996547": {
+        "date": "2024-09-28",
+        "opponent": {
+          "username": "AnaKuchava",
+          "title": "WFM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/121283996547?tab=analysis&flip=true&move=03"
+      },
+      "120074998789": {
+        "date": "2024-09-14",
+        "opponent": {
+          "username": "TanitoluwaAps116",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/120074998789?tab=analysis&flip=true&move=03"
+      },
+      "115234114721": {
+        "date": "2024-07-20",
+        "opponent": {
+          "username": "GelmanAlexander",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/115234114721?tab=analysis&flip=true&move=03"
+      },
+      "114629917913": {
+        "date": "2024-07-13",
+        "opponent": {
+          "username": "Horokoskii",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/114629917913?tab=analysis&flip=true&move=03"
+      },
+      "104953307875": {
+        "date": "2024-03-23",
+        "opponent": {
+          "username": "jotiacaavaa",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/104953307875?tab=analysis&flip=true&move=03"
+      },
+      "100722894773": {
+        "date": "2024-02-03",
+        "opponent": {
+          "username": "maciek_92",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/100722894773?tab=analysis&flip=true&move=03"
+      },
+      "89227331349": {
+        "date": "2023-09-23",
+        "opponent": {
+          "username": "unbreakablepawn35",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/89227331349?tab=analysis&flip=true&move=03"
       }
     },
     "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit": {
@@ -2083,6 +3043,54 @@
           "title": "GM"
         },
         "link": "https://www.chess.com/analysis/game/live/4313484364?tab=analysis&flip=true&move=03"
+      },
+      "144696569117": {
+        "date": "2025-06-20",
+        "opponent": {
+          "username": "nissou-ach",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/144696569117?tab=analysis&flip=true&move=03"
+      },
+      "144695369895": {
+        "date": "2025-06-20",
+        "opponent": {
+          "username": "nissou-ach",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/144695369895?tab=analysis&flip=true&move=03"
+      },
+      "144695363537": {
+        "date": "2025-06-20",
+        "opponent": {
+          "username": "nissou-ach",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/144695363537?tab=analysis&flip=true&move=03"
+      },
+      "144694766443": {
+        "date": "2025-06-20",
+        "opponent": {
+          "username": "nissou-ach",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/144694766443?tab=analysis&flip=true&move=03"
+      },
+      "115578583975": {
+        "date": "2024-07-24",
+        "opponent": {
+          "username": "Lionel_Messi06",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/115578583975?tab=analysis&flip=true&move=03"
+      },
+      "111880391143": {
+        "date": "2024-06-11",
+        "opponent": {
+          "username": "dropstoneDP",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/111880391143?tab=analysis&flip=true&move=03"
       }
     },
     "Englund Gambit": {
@@ -2189,6 +3197,30 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/4525166176?tab=analysis&flip=true&move=01"
+      },
+      "114021670803": {
+        "date": "2024-07-06",
+        "opponent": {
+          "username": "katharinareinecke",
+          "title": "WCM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/114021670803?tab=analysis&flip=true&move=01"
+      },
+      "113686778097": {
+        "date": "2024-07-02",
+        "opponent": {
+          "username": "SpeedofLight0",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/113686778097?tab=analysis&flip=true&move=01"
+      },
+      "94071154911": {
+        "date": "2023-11-18",
+        "opponent": {
+          "username": "Gyulamiryan-koryun",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/94071154911?tab=analysis&flip=true&move=01"
       }
     },
     "Danish Gambit": {
@@ -2251,6 +3283,14 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/81539460693?tab=analysis&flip=false&move=06"
+      },
+      "126125948367": {
+        "date": "2024-11-23",
+        "opponent": {
+          "username": "AriseSoldier",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/126125948367?tab=analysis&flip=false&move=06"
       }
     },
     "Queen's Gambit": {
@@ -3661,6 +4701,478 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/4393415383?tab=analysis&flip=false&move=02"
+      },
+      "172313414807": {
+        "date": "2026-05-05",
+        "opponent": {
+          "username": "Sina-Movahed",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/172313414807?tab=analysis&flip=false&move=02"
+      },
+      "165479896856": {
+        "date": "2026-03-04",
+        "opponent": {
+          "username": "reevecanada",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/165479896856?tab=analysis&flip=false&move=02"
+      },
+      "164683758722": {
+        "date": "2026-02-14",
+        "opponent": {
+          "username": "GZQSH07",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/164683758722?tab=analysis&flip=false&move=02"
+      },
+      "163589704823": {
+        "date": "2026-01-24",
+        "opponent": {
+          "username": "OhanyanEminChess",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/163589704823?tab=analysis&flip=false&move=02"
+      },
+      "155390196585": {
+        "date": "2025-10-21",
+        "opponent": {
+          "username": "yosephtaher",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/155390196585?tab=analysis&flip=false&move=02"
+      },
+      "144103387514": {
+        "date": "2025-10-09",
+        "opponent": {
+          "username": "Gmlerepompa3000",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/144103387514?tab=analysis&flip=false&move=02"
+      },
+      "143749260968": {
+        "date": "2025-09-30",
+        "opponent": {
+          "username": "GummyFox",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/143749260968?tab=analysis&flip=false&move=02"
+      },
+      "152699802907": {
+        "date": "2025-09-20",
+        "opponent": {
+          "username": "penguingm1",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/152699802907?tab=analysis&flip=false&move=02"
+      },
+      "152698598699": {
+        "date": "2025-09-20",
+        "opponent": {
+          "username": "Ash15K",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/152698598699?tab=analysis&flip=false&move=02"
+      },
+      "152368081019": {
+        "date": "2025-09-16",
+        "opponent": {
+          "username": "penguingm1",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/152368081019?tab=analysis&flip=false&move=02"
+      },
+      "152365683283": {
+        "date": "2025-09-16",
+        "opponent": {
+          "username": "Mnatsakanyan-Aren2012",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/152365683283?tab=analysis&flip=false&move=02"
+      },
+      "152363281925": {
+        "date": "2025-09-16",
+        "opponent": {
+          "username": "GabrielCarckeno",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/152363281925?tab=analysis&flip=false&move=02"
+      },
+      "152353679103": {
+        "date": "2025-09-16",
+        "opponent": {
+          "username": "AljoschaFeuerstack",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/152353679103?tab=analysis&flip=false&move=02"
+      },
+      "141670035532": {
+        "date": "2025-08-09",
+        "opponent": {
+          "username": "WhyUDoThat2012",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141670035532?tab=analysis&flip=false&move=02"
+      },
+      "141669550048": {
+        "date": "2025-08-09",
+        "opponent": {
+          "username": "WhyUDoThat2012",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141669550048?tab=analysis&flip=false&move=02"
+      },
+      "141611592368": {
+        "date": "2025-08-07",
+        "opponent": {
+          "username": "I-Mesquita",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141611592368?tab=analysis&flip=false&move=02"
+      },
+      "141611202346": {
+        "date": "2025-08-07",
+        "opponent": {
+          "username": "I-Mesquita",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141611202346?tab=analysis&flip=false&move=02"
+      },
+      "141610742644": {
+        "date": "2025-08-07",
+        "opponent": {
+          "username": "GrosseMarmotte",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/141610742644?tab=analysis&flip=false&move=02"
+      },
+      "141563938494": {
+        "date": "2025-08-06",
+        "opponent": {
+          "username": "TrixR4Kidzzzzz",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141563938494?tab=analysis&flip=false&move=02"
+      },
+      "141563581964": {
+        "date": "2025-08-06",
+        "opponent": {
+          "username": "TrixR4Kidzzzzz",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141563581964?tab=analysis&flip=false&move=02"
+      },
+      "141549069770": {
+        "date": "2025-08-06",
+        "opponent": {
+          "username": "BardArtem",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141549069770?tab=analysis&flip=false&move=02"
+      },
+      "141548829562": {
+        "date": "2025-08-06",
+        "opponent": {
+          "username": "BardArtem",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141548829562?tab=analysis&flip=false&move=02"
+      },
+      "141363525540": {
+        "date": "2025-08-01",
+        "opponent": {
+          "username": "GHANDEEVAM2003",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141363525540?tab=analysis&flip=false&move=02"
+      },
+      "141362136218": {
+        "date": "2025-08-01",
+        "opponent": {
+          "username": "GHANDEEVAM2003",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141362136218?tab=analysis&flip=false&move=02"
+      },
+      "141333914710": {
+        "date": "2025-07-31",
+        "opponent": {
+          "username": "MagnusCarlsen",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141333914710?tab=analysis&flip=false&move=02"
+      },
+      "147997998255": {
+        "date": "2025-07-28",
+        "opponent": {
+          "username": "Early_Morning_Coffee",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/147997998255?tab=analysis&flip=false&move=02"
+      },
+      "147523997397": {
+        "date": "2025-07-22",
+        "opponent": {
+          "username": "morphy1984",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/147523997397?tab=analysis&flip=false&move=02"
+      },
+      "147434011329": {
+        "date": "2025-07-21",
+        "opponent": {
+          "username": "carokannlover213",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/147434011329?tab=analysis&flip=false&move=02"
+      },
+      "147434003521": {
+        "date": "2025-07-21",
+        "opponent": {
+          "username": "carokannlover213",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/147434003521?tab=analysis&flip=false&move=02"
+      },
+      "146049800273": {
+        "date": "2025-07-05",
+        "opponent": {
+          "username": "Parhamov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/146049800273?tab=analysis&flip=false&move=02"
+      },
+      "146045001847": {
+        "date": "2025-07-05",
+        "opponent": {
+          "username": "AaronBazanRomero",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/146045001847?tab=analysis&flip=false&move=02"
+      },
+      "145445964771": {
+        "date": "2025-06-28",
+        "opponent": {
+          "username": "Sardaukar-2",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/145445964771?tab=analysis&flip=false&move=02"
+      },
+      "145442383515": {
+        "date": "2025-06-28",
+        "opponent": {
+          "username": "OhanyanEminChess",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/145442383515?tab=analysis&flip=false&move=02"
+      },
+      "145109974537": {
+        "date": "2025-06-24",
+        "opponent": {
+          "username": "aa175",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/145109974537?tab=analysis&flip=false&move=02"
+      },
+      "144826766297": {
+        "date": "2025-06-21",
+        "opponent": {
+          "username": "only_strong_moves",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/144826766297?tab=analysis&flip=false&move=02"
+      },
+      "140601657757": {
+        "date": "2025-05-03",
+        "opponent": {
+          "username": "Little_Skib",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/140601657757?tab=analysis&flip=false&move=02"
+      },
+      "131931017433": {
+        "date": "2025-01-29",
+        "opponent": {
+          "username": "alexrustemov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/131931017433?tab=analysis&flip=false&move=02"
+      },
+      "131930949361": {
+        "date": "2025-01-29",
+        "opponent": {
+          "username": "alexrustemov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/131930949361?tab=analysis&flip=false&move=02"
+      },
+      "131930350227": {
+        "date": "2025-01-29",
+        "opponent": {
+          "username": "alexrustemov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/131930350227?tab=analysis&flip=false&move=02"
+      },
+      "124909797705": {
+        "date": "2024-11-09",
+        "opponent": {
+          "username": "nihalsarin",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/124909797705?tab=analysis&flip=false&move=02"
+      },
+      "115490872191": {
+        "date": "2024-07-23",
+        "opponent": {
+          "username": "Prizant_academy",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/115490872191?tab=analysis&flip=false&move=02"
+      },
+      "114454235609": {
+        "date": "2024-07-11",
+        "opponent": {
+          "username": "penguingm1",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/114454235609?tab=analysis&flip=false&move=02"
+      },
+      "113770764837": {
+        "date": "2024-07-03",
+        "opponent": {
+          "username": "aa175",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/113770764837?tab=analysis&flip=false&move=02"
+      },
+      "113690981041": {
+        "date": "2024-07-02",
+        "opponent": {
+          "username": "FarewellToKings2112",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/113690981041?tab=analysis&flip=false&move=02"
+      },
+      "113096387531": {
+        "date": "2024-06-25",
+        "opponent": {
+          "username": "artin10862",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/113096387531?tab=analysis&flip=false&move=02"
+      },
+      "113087426341": {
+        "date": "2024-06-25",
+        "opponent": {
+          "username": "Msb2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/113087426341?tab=analysis&flip=false&move=02"
+      },
+      "113086828845": {
+        "date": "2024-06-25",
+        "opponent": {
+          "username": "Msb2",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/113086828845?tab=analysis&flip=false&move=02"
+      },
+      "113068758417": {
+        "date": "2024-06-25",
+        "opponent": {
+          "username": "AllCer7",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/113068758417?tab=analysis&flip=false&move=02"
+      },
+      "113065267697": {
+        "date": "2024-06-25",
+        "opponent": {
+          "username": "Bigfish1995",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/113065267697?tab=analysis&flip=false&move=02"
+      },
+      "112544442929": {
+        "date": "2024-06-19",
+        "opponent": {
+          "username": "artooon",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/112544442929?tab=analysis&flip=false&move=02"
+      },
+      "112490438471": {
+        "date": "2024-06-18",
+        "opponent": {
+          "username": "wonderfultime",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/112490438471?tab=analysis&flip=false&move=02"
+      },
+      "111883377317": {
+        "date": "2024-06-11",
+        "opponent": {
+          "username": "rasmussvane",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/111883377317?tab=analysis&flip=false&move=02"
+      },
+      "111855720545": {
+        "date": "2024-06-11",
+        "opponent": {
+          "username": "HuntressesofArtemis",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/111855720545?tab=analysis&flip=false&move=02"
+      },
+      "108241833665": {
+        "date": "2024-04-30",
+        "opponent": {
+          "username": "JustinWang1234",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/108241833665?tab=analysis&flip=false&move=02"
+      },
+      "104019645031": {
+        "date": "2024-03-12",
+        "opponent": {
+          "username": "shimastream",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/104019645031?tab=analysis&flip=false&move=02"
+      },
+      "101688142207": {
+        "date": "2024-02-14",
+        "opponent": {
+          "username": "Snowflake",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/101688142207?tab=analysis&flip=false&move=02"
+      },
+      "100970063531": {
+        "date": "2024-02-06",
+        "opponent": {
+          "username": "bubeliang",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/100970063531?tab=analysis&flip=false&move=02"
+      },
+      "99149730177": {
+        "date": "2024-01-16",
+        "opponent": {
+          "username": "Prizant_academy",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/99149730177?tab=analysis&flip=false&move=02"
+      },
+      "95619563271": {
+        "date": "2023-12-06",
+        "opponent": {
+          "username": "Prizant_academy",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/95619563271?tab=analysis&flip=false&move=02"
       }
     },
     "Semi-Slav Defense: Marshall Gambit": {
@@ -3795,6 +5307,14 @@
           "title": "GM"
         },
         "link": "https://www.chess.com/analysis/game/live/5967113514?tab=analysis&flip=false&move=04"
+      },
+      "88632174725": {
+        "date": "2023-09-16",
+        "opponent": {
+          "username": "dropstoneDP",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/88632174725?tab=analysis&flip=false&move=04"
       }
     },
     "Ruy Lopez: Exchange Variation, Alapin Gambit": {
@@ -3863,6 +5383,14 @@
           "title": "IM"
         },
         "link": "https://www.chess.com/analysis/game/live/5114480299?tab=analysis&flip=false&move=010"
+      },
+      "89837994199": {
+        "date": "2023-09-30",
+        "opponent": {
+          "username": "Aradhya2000",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/89837994199?tab=analysis&flip=false&move=010"
       }
     },
     "Vienna Gambit, with Max Lange Defense: Hamppe-Muzio Gambit": {
@@ -3913,6 +5441,14 @@
           "title": "IM"
         },
         "link": "https://www.chess.com/analysis/game/live/5114480299?tab=analysis&flip=false&move=011"
+      },
+      "89837994199": {
+        "date": "2023-09-30",
+        "opponent": {
+          "username": "Aradhya2000",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/89837994199?tab=analysis&flip=false&move=011"
       }
     },
     "Grob Opening: Grob Gambit": {
@@ -4035,6 +5571,14 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/4683117373?tab=analysis&flip=false&move=02"
+      },
+      "120145189913": {
+        "date": "2024-09-15",
+        "opponent": {
+          "username": "alexrustemov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/120145189913?tab=analysis&flip=false&move=02"
       }
     },
     "Grob Opening: Grob Gambit, Fritz Gambit": {
@@ -4069,6 +5613,14 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/10607201325?tab=analysis&flip=false&move=04"
+      },
+      "120145189913": {
+        "date": "2024-09-15",
+        "opponent": {
+          "username": "alexrustemov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/120145189913?tab=analysis&flip=false&move=04"
       }
     },
     "Réti Opening: Advance Variation, Michel Gambit": {
@@ -4111,6 +5663,14 @@
           "title": "GM"
         },
         "link": "https://www.chess.com/analysis/game/live/67111363149?tab=analysis&flip=true&move=05"
+      },
+      "90009079369": {
+        "date": "2023-10-02",
+        "opponent": {
+          "username": "GMKrikor",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/90009079369?tab=analysis&flip=true&move=05"
       }
     },
     "Zukertort Opening: Ross Gambit": {
@@ -4179,6 +5739,14 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/4683196047?tab=analysis&flip=false&move=04"
+      },
+      "129754231281": {
+        "date": "2025-01-04",
+        "opponent": {
+          "username": "AnaKuchava",
+          "title": "WFM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/129754231281?tab=analysis&flip=false&move=04"
       }
     },
     "Philidor Defense: Morphy Gambit": {
@@ -4387,6 +5955,14 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/59844714213?tab=analysis&flip=true&move=03"
+      },
+      "110055734563": {
+        "date": "2024-05-21",
+        "opponent": {
+          "username": "Saveliy_Golubov",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/110055734563?tab=analysis&flip=true&move=01"
       }
     },
     "Borg Defense: Troon Gambit": {
@@ -4511,6 +6087,14 @@
           "title": "GM"
         },
         "link": "https://www.chess.com/analysis/game/live/32127062885?tab=analysis&flip=false&move=02"
+      },
+      "114464420747": {
+        "date": "2024-07-11",
+        "opponent": {
+          "username": "nephophile16",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/114464420747?tab=analysis&flip=false&move=02"
       }
     },
     "Slav Defense: Geller Gambit": {
@@ -4651,6 +6235,14 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/21414656357?tab=analysis&flip=true&move=011"
+      },
+      "108991246623": {
+        "date": "2024-05-09",
+        "opponent": {
+          "username": "Blackmind96",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/108991246623?tab=analysis&flip=true&move=011"
       }
     },
     "Grob Opening: Romford Countergambit": {
@@ -4679,6 +6271,22 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/16322110673?tab=analysis&flip=false&move=04"
+      },
+      "125515205129": {
+        "date": "2024-11-16",
+        "opponent": {
+          "username": "TheKingDoctor",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/125515205129?tab=analysis&flip=false&move=04"
+      },
+      "95285367167": {
+        "date": "2023-12-02",
+        "opponent": {
+          "username": "rquery98",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/95285367167?tab=analysis&flip=false&move=04"
       }
     },
     "Scandinavian Defense: Main Line, Leonhardt Gambit": {
@@ -4777,6 +6385,22 @@
           "title": "NM"
         },
         "link": "https://www.chess.com/analysis/game/live/8623012573?tab=analysis&flip=false&move=06"
+      },
+      "124655978769": {
+        "date": "2024-11-06",
+        "opponent": {
+          "username": "Blitzstream",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/124655978769?tab=analysis&flip=false&move=06"
+      },
+      "121022433333": {
+        "date": "2024-09-25",
+        "opponent": {
+          "username": "Blitzstream",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/121022433333?tab=analysis&flip=false&move=06"
       }
     },
     "Nimzo-Indian Defense: Classical Variation, Vitolins-Adorjan Gambit": {
@@ -4997,6 +6621,14 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/3913439246?tab=analysis&flip=false&move=02"
+      },
+      "141614183784": {
+        "date": "2025-08-07",
+        "opponent": {
+          "username": "JoeAssaad",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141614183784?tab=analysis&flip=false&move=02"
       }
     },
     "Dutch Defense: Staunton Gambit, Lasker Variation": {
@@ -5015,6 +6647,14 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/3913439246?tab=analysis&flip=false&move=06"
+      },
+      "141614183784": {
+        "date": "2025-08-07",
+        "opponent": {
+          "username": "JoeAssaad",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/141614183784?tab=analysis&flip=false&move=06"
       }
     },
     "English Opening: Jaenisch Gambit": {
@@ -5131,6 +6771,14 @@
           "title": "GM"
         },
         "link": "https://www.chess.com/analysis/game/live/3241940353?tab=analysis&flip=false&move=04"
+      },
+      "152368686591": {
+        "date": "2025-09-16",
+        "opponent": {
+          "username": "Mise2020",
+          "title": "NM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/152368686591?tab=analysis&flip=false&move=04"
       }
     },
     "Englund Gambit Complex: Hartlaub-Charlick Gambit": {
@@ -5209,6 +6857,14 @@
           "title": "GM"
         },
         "link": "https://www.chess.com/analysis/game/live/1389497430?tab=analysis&flip=true&move=03"
+      },
+      "116980772185": {
+        "date": "2024-08-09",
+        "opponent": {
+          "username": "lachesisQ",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/116980772185?tab=analysis&flip=true&move=03"
       }
     },
     "Slav Indian: Kudischewitsch Gambit": {
@@ -5220,6 +6876,657 @@
         },
         "link": "https://www.chess.com/analysis/game/daily/82602658?tab=analysis&flip=true&move=05"
       }
-    }
+    },
+    "Amar Gambit": {},
+    "Amar Opening: Gent Gambit": {},
+    "Amar Opening: Paris Gambit": {},
+    "Anderssen's Opening: Polish Gambit": {},
+    "Barnes Opening: Gedult Gambit": {},
+    "Clemenz Opening: Spike Lee Gambit": {},
+    "Grob Opening: Alessi Gambit": {},
+    "Grob Opening: Double Grob, Coca-Cola Gambit": {},
+    "Grob Opening: Grob Gambit, Basman Gambit": {},
+    "Grob Opening: Grob Gambit, Keres Gambit": {},
+    "Grob Opening: Grob Gambit, Richter-Grob Gambit": {},
+    "Grob Opening: Zilbermints Gambit": {},
+    "Grob Opening: Zilbermints Gambit, Zilbermints-Hartlaub Gambit": {},
+    "Hungarian Opening: Asten Gambit": {},
+    "Hungarian Opening: Burk Gambit": {},
+    "Hungarian Opening: Bücker Gambit": {},
+    "Hungarian Opening: Pachman Gambit": {},
+    "Hungarian Opening: Paris Gambit": {},
+    "Hungarian Opening: Reversed Brooklyn Defense, Brooklyn Benko Gambit": {},
+    "Hungarian Opening: Van Kuijk Gambit": {
+      "133985346757": {
+        "date": "2025-02-22",
+        "opponent": {
+          "username": "Juandiv_Chessmood",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/133985346757?tab=analysis&flip=true&move=03"
+      }
+    },
+    "Hungarian Opening: Winterberg Gambit": {},
+    "Kádas Opening: Kádas Gambit": {},
+    "Kádas Opening: Schneider Gambit": {},
+    "Kádas Opening: Steinbok Gambit": {},
+    "Polish Opening: Birmingham Gambit": {},
+    "Polish Opening: Schuehler Gambit": {},
+    "Polish Opening: Tartakower Gambit": {},
+    "Polish Opening: Wolferts Gambit": {},
+    "Sodium Attack: Durkin Gambit": {},
+    "Van Geet Opening: Billockus-Johansen Gambit": {},
+    "Van Geet Opening: Damhaug Gambit": {},
+    "Van Geet Opening: Dougherty Gambit": {},
+    "Van Geet Opening: Dunst-Perrenet Gambit": {},
+    "Van Geet Opening: Düsseldorf Gambit": {},
+    "Van Geet Opening: Gladbacher Gambit": {},
+    "Van Geet Opening: Hector Gambit": {},
+    "Van Geet Opening: Hergert Gambit": {},
+    "Van Geet Opening: Hulsemann Gambit": {},
+    "Van Geet Opening: Jendrossek Gambit": {},
+    "Van Geet Opening: Kluever Gambit": {},
+    "Van Geet Opening: Laroche Gambit": {},
+    "Van Geet Opening: Liebig Gambit": {},
+    "Van Geet Opening: Melleby Gambit": {},
+    "Van Geet Opening: Nowokunski Gambit": {},
+    "Van Geet Opening: Pfeiffer Gambit": {},
+    "Van Geet Opening: Pfeiffer Gambit, Sleipnir Countergambit": {},
+    "Van Geet Opening: Sleipnir Gambit": {},
+    "Van Geet Opening: Tübingen Gambit": {},
+    "Van Geet Opening: Warsteiner Gambit": {},
+    "Ware Opening: Ware Gambit": {},
+    "Ware Opening: Wing Gambit": {},
+    "Nimzo-Larsen Attack: Pachman Gambit": {},
+    "Nimzo-Larsen Attack: Ringelbach Gambit": {},
+    "Bird Opening: From's Gambit, Bahr Gambit": {},
+    "Bird Opening: From's Gambit, Langheld Gambit": {},
+    "Bird Opening: Hobbs Gambit": {},
+    "Bird Opening: Hobbs-Zilbermints Gambit": {},
+    "Bird Opening: Lasker Gambit": {},
+    "Bird Opening: Platz Gambit": {},
+    "Bird Opening: Schlechter Gambit": {},
+    "Bird Opening: Siegener Gambit": {},
+    "Bird Opening: Swiss Gambit": {},
+    "Bird Opening: Wagner-Zwitersch Gambit": {},
+    "Bird Opening: Dutch Variation, Dudweiler Gambit": {},
+    "Bird Opening: Sturm Gambit": {},
+    "Bird Opening: Thomas Gambit": {},
+    "Bird Opening: Williams Gambit": {},
+    "Bird Opening: Williams-Zilbermints Gambit": {},
+    "Zukertort Opening: Herrstrom Gambit": {},
+    "Zukertort Opening: Lisitsyn Gambit": {
+      "151759678449": {
+        "date": "2025-09-09",
+        "opponent": {
+          "username": "Slawomir_Kurpiewski",
+          "title": "CM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/151759678449?tab=analysis&flip=false&move=02"
+      },
+      "91648245999": {
+        "date": "2023-10-21",
+        "opponent": {
+          "username": "hongnhung1234",
+          "title": "WFM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/91648245999?tab=analysis&flip=false&move=02"
+      }
+    },
+    "Zukertort Opening: Shabalov Gambit": {},
+    "Zukertort Opening: Speelsmet Gambit": {},
+    "Zukertort Opening: Vos Gambit": {},
+    "Zukertort Opening: Lemberger Gambit": {},
+    "Nimzo-Larsen Attack: Norfolk Gambit": {},
+    "Zukertort Opening: Pachman Gambit": {},
+    "Zukertort Opening: Regina-Nu Gambit": {},
+    "Hungarian Opening: Wiedenhagen-Beta Gambit": {},
+    "King's Indian Attack: Omega-Delta Gambit": {},
+    "Réti Opening: Zilbermints Gambit": {},
+    "English Opening: Achilles-Omega Gambit": {},
+    "English Opening: Anglo-Dutch Defense, Hickmann Gambit": {},
+    "English Opening: Anglo-Dutch Variation, Chabanon Gambit": {},
+    "English Opening: Anglo-Dutch Variation, Ferenc Gambit": {},
+    "English Opening: Anglo-Scandinavian Defense, Löhn Gambit": {},
+    "English Opening: Myers Gambit": {},
+    "English Opening: Wade Gambit": {},
+    "English Opening: Zilbermints Gambit": {},
+    "English Opening: Romanishin Gambit": {},
+    "English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit": {},
+    "English Opening: King's English Variation, Kahiko-Hula Gambit": {},
+    "English Opening: King's English Variation, Bellon Gambit": {},
+    "English Opening: King's English, Erbenheimer Gambit": {},
+    "English Opening: Symmetrical Variation, Napolitano Gambit": {},
+    "English Opening: Wing Gambit": {},
+    "English Defense: Eastbourne Gambit": {},
+    "English Defense: Poli Gambit": {},
+    "Englund Gambit Complex: Englund Gambit": {},
+    "Englund Gambit Complex: Felbecker Gambit": {},
+    "Englund Gambit Complex: Mosquito Gambit": {},
+    "Englund Gambit Complex: Soller Gambit": {},
+    "Englund Gambit Complex: Zilbermints Gambit": {},
+    "Horwitz Defense: Zilbermints Gambit": {},
+    "Mikenas Defense: Pozarek Gambit": {},
+    "Modern Defense: Lizard Defense, Pirc-Diemer Gambit": {},
+    "Rat Defense: English Rat, Lisbon Gambit": {},
+    "Rat Defense: English Rat, Pounds Gambit": {},
+    "Benoni Defense: Benoni-Staunton Gambit": {},
+    "Benoni Defense: Cormorant Gambit": {},
+    "Benoni Defense: Zilbermints-Benoni Gambit": {},
+    "Benoni Defense: Zilbermints-Benoni Gambit, Tamarkin Countergambit": {},
+    "Queen's Pawn Game: Liedmann Gambit": {},
+    "Indian Defense: Gibbins-Weidenhagen Gambit": {},
+    "Indian Defense: Gibbins-Weidenhagen Gambit, Stummer Gambit": {},
+    "Indian Defense: Maddigan Gambit": {},
+    "Indian Defense: Omega Gambit": {},
+    "Indian Defense: Omega Gambit, Arafat Gambit": {},
+    "Trompowsky Attack: Edge Variation, Hergert Gambit": {},
+    "Trompowsky Attack: Raptor Variation, Hergert Gambit": {},
+    "Torre Attack: Classical Defense, Petrosian Gambit": {},
+    "Torre Attack: Wagner Gambit": {},
+    "Indian Defense: Schnepper Gambit": {},
+    "Indian Defense: Medusa Gambit": {},
+    "Indian Defense: Pyrenees Gambit": {},
+    "Mexican Defense: Horsefly Gambit": {},
+    "Old Indian Defense: Aged Gibbon Gambit": {},
+    "Old Indian Defense: Janowski Variation, Grinberg Gambit": {},
+    "Benko Gambit Declined: Hjørring Countergambit": {},
+    "Benko Gambit: Mutkin Countergambit": {},
+    "Dutch Defense: Hevendehl Gambit": {},
+    "Dutch Defense: Janzen-Korchnoi Gambit": {},
+    "Dutch Defense: Kingfisher Gambit": {},
+    "Dutch Defense: Krejcik Gambit, Tate Gambit": {},
+    "Dutch Defense: Omega-Isis Gambit": {},
+    "Dutch Defense: Senechaud Gambit": {},
+    "Dutch Defense: Spielmann Gambit": {},
+    "Dutch Defense: Blackmar's Second Gambit": {},
+    "Dutch Defense: Bellon Gambit": {},
+    "Borg Defense: Zilbermints Gambit": {},
+    "Carr Defense: Zilbermints Gambit": {},
+    "Nimzowitsch Defense: Colorado Countergambit": {},
+    "Nimzowitsch Defense: El Columpio Defense, El Columpio Gambit": {},
+    "Nimzowitsch Defense: Hornung Gambit": {},
+    "Nimzowitsch Defense: Kennedy Variation, Bielefelder Gambit": {},
+    "Nimzowitsch Defense: Kennedy Variation, Hammer Gambit": {},
+    "Nimzowitsch Defense: Kennedy Variation, Herford Gambit": {},
+    "Nimzowitsch Defense: Kennedy Variation, de Smet Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Aachen Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Brandics Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Erben Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Heinola-Deppe Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Nimzowitsch Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Richter Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Exchange Variation, Marshall Gambit": {},
+    "Nimzowitsch Defense: Wheeler Gambit": {},
+    "Owen Defense: Hekili-Loa Gambit": {},
+    "Owen Defense: Matovinsky Gambit": {},
+    "Owen Defense: Naselwaus Gambit": {},
+    "Owen Defense: Smith Gambit": {},
+    "Owen Defense: Wind Gambit": {},
+    "Pirc Defense: Roscher Gambit": {},
+    "Rat Defense: Fuller Gambit": {},
+    "St. George Defense: Zilbermints Gambit": {},
+    "Van Geet Opening: Berlin Gambit": {},
+    "Scandinavian Defense: Boehnke Gambit": {},
+    "Scandinavian Defense: Icelandic-Palme Gambit": {},
+    "Scandinavian Defense: Kloosterboer Gambit": {},
+    "Scandinavian Defense: Kádas Gambit": {},
+    "Scandinavian Defense: Modern Variation, Wing Gambit": {},
+    "Scandinavian Defense: Portuguese Gambit": {},
+    "Scandinavian Defense: Zilbermints Gambit": {},
+    "Alekhine Defense: Hunt Variation, Lasker Simul Gambit": {},
+    "Alekhine Defense: Hunt Variation, Matsukevich Gambit": {},
+    "Alekhine Defense: Hunt Variation, Mikenas Gambit": {},
+    "Alekhine Defense: Krejcik Variation, Krejcik Gambit": {},
+    "Alekhine Defense: Scandinavian Variation, Geschev Gambit": {},
+    "Alekhine Defense: Scandinavian Variation, Myers Gambit": {},
+    "Alekhine Defense: Four Pawns Attack, Cambridge Gambit": {},
+    "Alekhine Defense: Modern Variation, Alekhine Gambit": {},
+    "Alekhine Defense: O'Sullivan Gambit": {},
+    "Modern Defense: Bishop Attack, Bücker Gambit": {},
+    "Modern Defense: Fianchetto Gambit": {},
+    "Modern Defense: Masur Gambit": {},
+    "Modern Defense: Norwegian Defense, Norwegian Gambit": {},
+    "Modern Defense: Two Knights Variation, Suttles Variation, Tal Gambit": {},
+    "Modern Defense: Westermann Gambit": {},
+    "Modern Defense: Wind Gambit": {},
+    "Pterodactyl Defense: Central, Quetzalcoatlus Gambit": {},
+    "Lion Defense: Anti-Philidor, Lion's Cave, Lion Claw Gambit": {},
+    "Caro-Kann Defense: Hector Gambit": {},
+    "Caro-Kann Defense: Hillbilly Attack, Schaeffer Gambit": {},
+    "Caro-Kann Defense: Labahn Attack, Double Gambit": {},
+    "Caro-Kann Defense: Scorpion-Horus Gambit": {},
+    "Caro-Kann Defense: Spike Variation, Scorpion-Grob Gambit": {},
+    "Caro-Kann Defense: Toikkanen Gambit": {},
+    "Caro-Kann Defense: Maróczy Variation, Maróczy Gambit": {},
+    "Caro-Kann Defense: Mieses Attack, Landau Gambit": {},
+    "Caro-Kann Defense: Mieses Gambit": {},
+    "Caro-Kann Defense: Ulysses Gambit": {},
+    "Caro-Kann Defense: Alekhine Gambit": {},
+    "Caro-Kann Defense: Rasa-Studier Gambit": {},
+    "Caro-Kann Defense: von Hennig Gambit": {},
+    "Sicilian Defense: Euwe Attack, Prins Gambit": {},
+    "Sicilian Defense: Kronberger Variation, Nemeth Gambit": {},
+    "Sicilian Defense: Wing Gambit, Nanu Gambit": {},
+    "Bird Opening: Dutch Variation, Batavo Gambit": {},
+    "Sicilian Defense: Coles Sicilian Gambit": {},
+    "Sicilian Defense: Halasz Gambit": {},
+    "Sicilian Defense: McDonnell Attack, Tal Gambit": {},
+    "Sicilian Defense: Morphy Gambit, Andreaschek Gambit": {},
+    "Pterodactyl Defense: Sicilian, Benoni Gambit": {},
+    "Sicilian Defense: Brussels Gambit": {},
+    "Sicilian Defense: Double-Dutch Gambit": {},
+    "Sicilian Defense: Polish Gambit": {},
+    "Sicilian Defense: O'Kelly Variation, Normal System, Cortlever Gambit": {},
+    "Sicilian Defense: O'Kelly Variation, Wing Gambit": {},
+    "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, San Francisco Gambit": {},
+    "Sicilian Defense: Portsmouth Gambit": {},
+    "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Gufeld Gambit": {},
+    "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Lutikov Gambit": {},
+    "Sicilian Defense: Taimanov Variation, Gary Gambit": {},
+    "Sicilian Defense: Delayed Alapin Variation, Basman-Palatnik Double Gambit": {},
+    "Sicilian Defense: Delayed Alapin Variation, Basman-Palatnik Gambit": {},
+    "Sicilian Defense: Kotov Gambit": {},
+    "Sicilian Defense: Moscow Variation, Dorfman Gambit": {},
+    "Sicilian Defense: Moscow Variation, Moscow Gambit": {},
+    "Sicilian Defense: Modern Variations, Ginsberg Gambit": {},
+    "Sicilian Defense: Dragon Variation, Classical Variation, Zollner Gambit": {},
+    "Sicilian Defense: Najdorf Variation, Dekker Gambit": {},
+    "Sicilian Defense: Scheveningen Variation, Delayed Keres Attack, Perenyi Gambit": {},
+    "French Defense: Alapin Gambit": {},
+    "French Defense: Baeuerle Gambit": {},
+    "French Defense: Banzai-Leong Gambit": {},
+    "French Defense: Banzai-Leong Gambit, Pinova Gambit": {},
+    "French Defense: Carlson Gambit": {},
+    "French Defense: Diemer-Duhm Gambit": {},
+    "French Defense: Franco-Hiva Gambit": {},
+    "French Defense: Hoffmann Gambit": {},
+    "French Defense: Horwitz Attack, Papa-Ticulat Gambit": {},
+    "French Defense: King's Indian Attack, Franco-Hiva Gambit": {},
+    "French Defense: Knight Variation, Franco-Hiva Gambit": {},
+    "French Defense: La Bourdonnais Variation, Reuter Gambit": {},
+    "French Defense: Morphy Gambit": {},
+    "French Defense: Orthoschnapp Gambit": {},
+    "French Defense: Perseus Gambit": {},
+    "French Defense: St. George Defense, Sanky-George Gambit": {},
+    "French Defense: St. George Defense, St. George Gambit": {},
+    "French Defense: Wing Gambit": {},
+    "French Defense: Advance Variation, Frenkel Gambit": {},
+    "French Defense: Advance Variation, Nimzowitsch Gambit": {},
+    "French Defense: Advance Variation, Ruisdonk Gambit": {},
+    "French Defense: Tarrasch Variation, Open System, Shaposhnikov Gambit": {},
+    "French Defense: Rubinstein Variation, Ellis Gambit": {},
+    "Sicilian Defense: Marshall Gambit": {},
+    "French Defense: Alekhine-Chatard Attack, Albin-Chatard Gambit": {},
+    "French Defense: MacCutcheon Variation, Wolf Gambit": {},
+    "French Defense: Winawer Variation, Alekhine-Maróczy Gambit": {},
+    "French Defense: Winawer Variation, Fingerslip Variation, Kunin Double Gambit": {},
+    "French Defense: Winawer Variation, Winckelmann-Riemer Gambit": {},
+    "King's Pawn Game: Bavarian Gambit": {},
+    "King's Pawn Game: Beyer Gambit": {},
+    "King's Pawn Game: Clam Variation, Radisch Gambit": {},
+    "King's Pawn Game: MacLeod Attack, Lasa Gambit": {},
+    "King's Pawn Game: MacLeod Attack, Norwalde Gambit": {},
+    "King's Pawn Game: Philidor Gambit": {},
+    "King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit": {},
+    "King's Pawn Game: Wayward Queen Attack, Mellon Gambit": {},
+    "King's Pawn Game: Weber Gambit": {},
+    "King's Pawn Opening: Van Hooydoon Gambit": {},
+    "Portuguese Opening: Miguel Gambit": {},
+    "Portuguese Opening: Portuguese Gambit": {},
+    "Center Game: Halasz-McDonnell Gambit": {},
+    "Center Game: Lanc-Arnold Gambit": {},
+    "Center Game: Lanc-Arnold Gambit, Schippler Gambit": {},
+    "Center Game: Ross Gambit": {},
+    "Center Game: von der Lasa Gambit": {},
+    "Bishop's Opening: Anderssen Gambit": {},
+    "Bishop's Opening: Calabrese Countergambit": {},
+    "Bishop's Opening: Four Pawns Gambit": {},
+    "Bishop's Opening: Khan Gambit": {},
+    "Bishop's Opening: Lewis Countergambit": {},
+    "Bishop's Opening: Lewis Gambit": {},
+    "Bishop's Opening: Lopez Gambit": {},
+    "Bishop's Opening: Lopez Variation, Lopez Gambit": {},
+    "Bishop's Opening: McDonnell Gambit": {},
+    "Bishop's Opening: McDonnell Gambit, La Bourdonnais-Denker Gambit": {},
+    "Bishop's Opening: McDonnell Gambit, McDonnell Double Gambit": {},
+    "Bishop's Opening: Stein Gambit": {},
+    "Bishop's Opening: Thorold Gambit": {},
+    "Bishop's Opening: Berlin Defense, Greco Gambit": {},
+    "Bishop's Opening: Krejcik Gambit": {},
+    "Bishop's Opening: Pachman Gambit": {},
+    "Bishop's Opening: Warsaw Gambit": {},
+    "Vienna Gambit, with Max Lange Defense: Hamppe-Allgaier Gambit": {},
+    "Vienna Gambit, with Max Lange Defense: Pierce Gambit": {
+      "89232050029": {
+        "date": "2023-09-23",
+        "opponent": {
+          "username": "Mysterio47",
+          "title": "FM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/89232050029?tab=analysis&flip=false&move=08"
+      }
+    },
+    "Vienna Gambit, with Max Lange Defense: Quelle Gambit": {},
+    "Vienna Game: Paulsen Variation, Mariotti Gambit": {},
+    "Vienna Game: Philidor Countergambit": {},
+    "Vienna Game: Stanley Variation, Meitner-Mieses Gambit": {},
+    "Vienna Game: Zhuravlev Countergambit": {},
+    "Bishop's Opening: Horwitz Gambit": {},
+    "Vienna Game: Mieses Variation, Erben Gambit": {},
+    "Vienna Game: Paulsen Variation, Pollock Gambit": {},
+    "Vienna Game: Stanley Variation, Eifel Gambit": {},
+    "Bishop's Opening: Boden-Kieseritzky Gambit": {},
+    "A50 Indian Defense: Normal Variation, Wagon Gambit": {},
+    "Vienna Game: Adams' Gambit": {},
+    "Vienna Game: Stanley Variation, Bronstein Gambit": {},
+    "King's Gambit Declined: Classical Variation, Rotlewi Countergambit": {},
+    "King's Gambit Declined: Classical Variation, Rubinstein Countergambit": {},
+    "King's Gambit Declined: Hobbs-Zilbermints Gambit": {},
+    "King's Gambit Declined: Norwalde Variation, Bücker Gambit": {},
+    "King's Gambit Declined: Panteldakis Countergambit": {},
+    "King's Gambit Declined: Senechaud Countergambit": {},
+    "King's Gambit Declined: Soller-Zilbermints Gambit": {},
+    "King's Gambit Declined: Zilbermints Double Countergambit": {},
+    "King's Gambit Declined: Zilbermints Double Gambit": {},
+    "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit": {},
+    "King's Gambit Declined: Falkbeer Countergambit, Hinrichsen Gambit": {},
+    "King's Gambit Declined: Falkbeer Countergambit, Miles Gambit": {},
+    "King's Gambit Declined: Falkbeer Countergambit, Nimzowitsch-Marshall Countergambit": {},
+    "King's Gambit Declined: Falkbeer Countergambit, Pickler Gambit": {},
+    "Van Geet Opening: Grünfeld Defense, Steiner Gambit": {},
+    "King's Gambit Accepted: Basman Gambit": {},
+    "King's Gambit Accepted: Bishop's Gambit, Bledow Countergambit": {},
+    "King's Gambit Accepted: Bishop's Gambit, Bryan Countergambit": {},
+    "King's Gambit Accepted: Bishop's Gambit, Gianutio Gambit": {},
+    "King's Gambit Accepted: Bishop's Gambit, Kieseritzky Gambit": {},
+    "King's Gambit Accepted: Breyer Gambit": {},
+    "King's Gambit Accepted: Carrera Gambit": {},
+    "King's Gambit Accepted: Gaga Gambit": {},
+    "King's Gambit Accepted: Mason-Keres Gambit": {},
+    "King's Gambit Accepted: Orsini Gambit": {},
+    "King's Gambit Accepted: Paris Gambit": {},
+    "King's Gambit Accepted: Polerio Gambit": {},
+    "King's Gambit Accepted: Stamma Gambit": {},
+    "King's Gambit Accepted: Tartakower Gambit": {},
+    "King's Gambit Accepted: Fischer Defense, Schulder Gambit": {},
+    "King's Gambit Accepted: Gianutio Countergambit": {},
+    "King's Gambit Accepted: Greco Gambit": {},
+    "King's Gambit Accepted: Cunningham Defense, Bertin Gambit": {},
+    "King's Gambit Accepted: Australian Gambit": {},
+    "King's Gambit Accepted: Blachly Gambit": {},
+    "King's Gambit Accepted: Double Muzio Gambit": {},
+    "King's Gambit Accepted: Double Muzio Gambit, Baldwin Gambit": {},
+    "King's Gambit Accepted: Double Muzio Gambit, Bello Gambit": {},
+    "King's Gambit Accepted: Double Muzio Gambit, Young Gambit": {},
+    "King's Gambit Accepted: Ghulam-Kassim Gambit": {},
+    "King's Gambit Accepted: Kotov Gambit": {},
+    "King's Gambit Accepted: Lolli Gambit": {},
+    "King's Gambit Accepted: McDonnell Gambit": {},
+    "King's Gambit Accepted: Middleton Countergambit": {},
+    "King's Gambit Accepted: Quade Gambit": {},
+    "King's Gambit Accepted: Rosentreter Gambit": {},
+    "King's Gambit Accepted: Rosentreter Gambit, Bird Gambit": {},
+    "King's Gambit Accepted: Rosentreter Gambit, Sörensen Gambit": {},
+    "King's Gambit Accepted: Salvio Gambit": {},
+    "King's Gambit Accepted: Salvio Gambit, Cochrane Gambit": {},
+    "King's Gambit Accepted: Silberschmidt Gambit": {},
+    "King's Gambit Accepted: Sörensen Gambit": {},
+    "King's Gambit Accepted: Hanstein Gambit": {},
+    "King's Gambit Accepted: Mayet Gambit": {},
+    "King's Gambit Accepted: Philidor Gambit": {},
+    "King's Gambit Accepted: Allgaier Gambit": {},
+    "King's Gambit Accepted: Allgaier, Blackburne Gambit": {},
+    "King's Gambit Accepted: Kieseritzky Gambit": {
+      "88632174725": {
+        "date": "2023-09-16",
+        "opponent": {
+          "username": "dropstoneDP",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/88632174725?tab=analysis&flip=false&move=08"
+      }
+    },
+    "King's Gambit Accepted: Kieseritzky Gambit, Anderssen-Cordel Gambit": {},
+    "King's Gambit Accepted: Kieseritzky Gambit, Cotter Gambit": {},
+    "King's Gambit Accepted: Kieseritzky Gambit, Rice Gambit": {},
+    "King's Gambit Accepted: Kieseritzky, Rice Gambit": {},
+    "Elephant Gambit": {
+      "169131199650": {
+        "date": "2026-05-23",
+        "opponent": {
+          "username": "Connorleo2012",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/169131199650?tab=analysis&flip=true&move=03"
+      },
+      "121278064005": {
+        "date": "2024-09-28",
+        "opponent": {
+          "username": "deepfear",
+          "title": "WCM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/121278064005?tab=analysis&flip=true&move=03"
+      }
+    },
+    "Elephant Gambit: Maróczy Gambit": {},
+    "Elephant Gambit: Paulsen Countergambit": {
+      "169131199650": {
+        "date": "2026-05-23",
+        "opponent": {
+          "username": "Connorleo2012",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/169131199650?tab=analysis&flip=true&move=05"
+      },
+      "121278064005": {
+        "date": "2024-09-28",
+        "opponent": {
+          "username": "deepfear",
+          "title": "WCM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/121278064005?tab=analysis&flip=true&move=05"
+      }
+    },
+    "King's Pawn Game: Busch-Gass Gambit, Chiodini Gambit": {},
+    "King's Pawn Game: Damiano Defense, Damiano Gambit": {},
+    "King's Pawn Game: Damiano Defense, Damiano Gambit, Chigorin Gambit": {},
+    "King's Pawn Game: Gunderam Defense, Gunderam Gambit": {},
+    "King's Pawn Game: Gunderam Gambit": {},
+    "King's Pawn Game: La Bourdonnais Gambit": {},
+    "Latvian Gambit Accepted: Bronstein Gambit": {},
+    "Latvian Gambit: Corkscrew Countergambit": {},
+    "Latvian Gambit: Corkscrew Gambit": {},
+    "Latvian Gambit: Diepstraten Countergambit": {},
+    "Latvian Gambit: Lobster Gambit": {},
+    "Latvian Gambit: Mason Countergambit": {},
+    "Latvian Gambit: Mayet Attack, Strautins Gambit": {},
+    "Latvian Gambit: Senechaud Gambit": {},
+    "Philidor Defense: Albin-Blackburne Gambit": {},
+    "Philidor Defense: Bird Gambit": {},
+    "Philidor Defense: Lion Variation, Shirov Gambit": {},
+    "Philidor Defense: Lopez Countergambit": {},
+    "Philidor Defense: Philidor Countergambit": {},
+    "Philidor Defense: Philidor Gambit": {},
+    "Russian Game: Classical Attack, Marshall Variation, Chinese Gambit": {},
+    "Russian Game: Damiano Variation, Kholmov Gambit": {
+      "102280520919": {
+        "date": "2024-02-21",
+        "opponent": {
+          "username": "Oleksandr_Bortnyk",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/102280520919?tab=analysis&flip=true&move=07"
+      },
+      "102210257365": {
+        "date": "2024-02-20",
+        "opponent": {
+          "username": "jefferyx",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/102210257365?tab=analysis&flip=true&move=07"
+      }
+    },
+    "Russian Game: Moody Gambit": {},
+    "Russian Game: Stafford Gambit": {},
+    "Bishop's Opening: Urusov Gambit": {},
+    "Bishop's Opening: Urusov Gambit, Keidansky Gambit": {},
+    "Russian Game: Modern Attack, Tal Gambit": {},
+    "Irish Gambit": {},
+    "King's Pawn Game: Pachman Wing Gambit": {},
+    "King's Pawn Game: Schulze-Müller Gambit": {},
+    "King's Pawn Game: Tayler Opening, Basman Gambit": {},
+    "Latvian Gambit: Clam Gambit": {},
+    "Ponziani Opening: Caro Gambit": {},
+    "Ponziani Opening: Neumann Gambit": {},
+    "Ponziani Opening: Vukovic Gambit": {},
+    "Scotch Game: Haxo Gambit": {},
+    "Scotch Game: Napoleon Gambit": {},
+    "Scotch Game: Relfsson Gambit": {},
+    "Scotch Game: Alekhine Gambit": {},
+    "Four Knights Game: Italian Variation, Noa Gambit": {},
+    "Four Knights Game: Scotch Variation, Belgrade Gambit": {},
+    "Four Knights Game: Scotch Variation, Krause Gambit": {},
+    "Four Knights Game: Scotch Variation, Oxford Gambit": {},
+    "Four Knights Game: Spanish Variation, Rubinstein Variation, Marshall Gambit": {},
+    "Italian Game: Deutz Gambit": {},
+    "Italian Game: Giuoco Pianissimo, Lucchini Gambit": {},
+    "Italian Game: Jerome Gambit": {},
+    "Italian Game: Rousseau Gambit": {},
+    "Italian Game: Evans Gambit, Fontaine Countergambit": {},
+    "Italian Game: Evans Gambit, Hein Countergambit": {},
+    "Italian Game: Evans Gambit, Mortimer-Evans Gambit": {},
+    "Italian Game: Evans Gambit, Leonhardt Countergambit": {},
+    "Italian Game: Classical Variation, Alexandre Gambit": {},
+    "Italian Game: Scotch Gambit, Walbrodt-Baird Gambit": {},
+    "Italian Game: Scotch Gambit": {},
+    "Italian Game: Scotch Gambit, Nakhmanson Gambit": {},
+    "Italian Game: Two Knights Defense, Kloss Gambit": {},
+    "Italian Game: Two Knights Defense, Ponziani-Steinitz Gambit": {},
+    "Italian Game: Two Knights Defense, Traxler Variation, Trencianske-Teplice Gambit": {},
+    "Italian Game: Two Knights Defense, Ulvestad Variation, Kurkin Gambit": {},
+    "Ruy Lopez: Alapin Defense, Alapin Gambit": {},
+    "Ruy Lopez: Brentano Gambit": {},
+    "Ruy Lopez: Cozio Defense, Tartakower Gambit": {},
+    "Ruy Lopez: Fianchetto Defense, Kevitz Gambit": {},
+    "Ruy Lopez: Rotary-Albany Gambit": {},
+    "Ruy Lopez: Spanish Countergambit": {},
+    "Ruy Lopez: Spanish Countergambit, Harding Countergambit, Fricke Gambit": {},
+    "Ruy Lopez: Spanish Countergambit, Harding Gambit": {},
+    "Ruy Lopez: Steinitz Defense, Center Gambit": {},
+    "Ruy Lopez: Classical Variation, Cordel Gambit": {},
+    "Ruy Lopez: Classical Variation, Konikowski Gambit": {},
+    "Ruy Lopez: Classical Variation, Spanish Wing Gambit": {},
+    "Ruy Lopez: Classical Variation, Zukertort Gambit": {},
+    "Ruy Lopez: Morphy Defense, Norwegian Variation, Nightingale Gambit": {},
+    "Ruy Lopez: Morphy Defense, Jaffe Gambit": {},
+    "Ruy Lopez: Central Countergambit": {},
+    "Ruy Lopez: Open, Harksen Gambit": {},
+    "Ruy Lopez: Open, Karpov Gambit": {},
+    "Ruy Lopez: Open, Skipworth Gambit": {},
+    "Ruy Lopez: Closed, Basque Gambit": {},
+    "Ruy Lopez: Closed, Center Attack, Basque Gambit": {},
+    "Ruy Lopez: Closed, Alekhine Gambit": {},
+    "Blackmar-Diemer Gambit Accepted: Euwe Defense, Zilbermints Gambit": {},
+    "Blackmar-Diemer Gambit Accepted: Ryder Gambit": {},
+    "Blackmar-Diemer Gambit Declined: Brombacher Countergambit": {},
+    "Blackmar-Diemer Gambit Declined: Elbert Countergambit": {},
+    "Blackmar-Diemer Gambit: Blackmar Gambit": {},
+    "Blackmar-Diemer Gambit: Lemberger Countergambit": {},
+    "Blackmar-Diemer Gambit: Lemberger Countergambit, Lange Gambit": {},
+    "Blackmar-Diemer Gambit: Rasa-Studier Gambit": {},
+    "Blackmar-Diemer Gambit: Reversed Albin Countergambit": {},
+    "Blackmar-Diemer Gambit: von Popiel Gambit": {},
+    "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit, Morris Countergambit": {},
+    "Queen's Pawn Game: Chigorin Variation, Shaviliuk Gambit": {},
+    "Queen's Pawn Game: Zurich Gambit": {},
+    "Richter-Veresov Attack: Malich Gambit": {},
+    "Queen's Pawn Game: Chandler Gambit": {},
+    "Queen's Pawn Game: Zilbermints Countergambit": {},
+    "Queen's Gambit Declined: Austrian Attack, Salvio Countergambit": {},
+    "Queen's Gambit Declined: Austrian Defense, Gusev Countergambit": {
+      "135447574747": {
+        "date": "2025-03-11",
+        "opponent": {
+          "username": "Jumbo",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/135447574747?tab=analysis&flip=true&move=05"
+      },
+      "125098122851": {
+        "date": "2024-11-11",
+        "opponent": {
+          "username": "alexrustemov",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/125098122851?tab=analysis&flip=true&move=05"
+      },
+      "118012218009": {
+        "date": "2024-08-21",
+        "opponent": {
+          "username": "FairChess_on_YouTube",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/118012218009?tab=analysis&flip=true&move=05"
+      },
+      "118009724693": {
+        "date": "2024-08-21",
+        "opponent": {
+          "username": "DenLaz",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/118009724693?tab=analysis&flip=true&move=05"
+      }
+    },
+    "Queen's Gambit Declined: Baltic Defense, Argentinian Gambit": {},
+    "Queen's Gambit Declined: Marshall Defense, Tan Gambit": {},
+    "Queen's Gambit Declined: Zilbermints Gambit": {},
+    "Queen's Gambit Declined: Chigorin Defense, Lazard Gambit": {},
+    "Queen's Gambit Declined: Chigorin Defense, Modern Gambit": {},
+    "Queen's Gambit Declined: Chigorin Defense, Tartakower Gambit": {},
+    "Slav Defense: Diemer Gambit": {},
+    "Slav Defense: Winawer Countergambit": {},
+    "Slav Defense: Winawer Countergambit, Anti-Winawer Gambit": {},
+    "Slav Defense: Bonet Gambit": {},
+    "Slav Defense: Czech Variation, Krause Attack, Fazekas Gambit": {},
+    "Queen's Gambit Accepted: Central Variation, McDonnell Defense, Somov Gambit": {},
+    "Queen's Gambit Accepted: Central Variation, Rubinstein Defense, Yefimov Gambit": {},
+    "Queen's Gambit Accepted: Old Variation, Billinger Gambit": {},
+    "Queen's Gambit Accepted: Old Variation, Christensen Gambit": {},
+    "Queen's Gambit Accepted: Old Variation, Korchnoi Gambit": {},
+    "Queen's Gambit Accepted: Old Variation, Novikov Gambit": {},
+    "Queen's Gambit Accepted: Slav Gambit": {},
+    "Queen's Gambit Accepted: Gunsberg Defense, Prianishenmo Gambit": {},
+    "Queen's Gambit Accepted: Classical Defense, Russian Gambit": {},
+    "Queen's Gambit Declined: Charousek Variation, Miladinovic Gambit": {},
+    "Semi-Slav Defense: Anti-Noteboom, Stonewall Variation, Portisch Gambit": {},
+    "Semi-Slav Defense: Gunderam Gambit": {},
+    "Semi-Slav Defense: Noteboom Variation, Anti-Noteboom Gambit": {},
+    "Tarrasch Defense: Grünfeld Gambit": {},
+    "Tarrasch Defense: Marshall Gambit": {},
+    "Tarrasch Defense: Schara Gambit": {},
+    "Tarrasch Defense: Tarrasch Gambit": {},
+    "Tarrasch Defense: von Hennig Gambit": {},
+    "Tarrasch Defense: Classical Variation, Classical Tarrasch Gambit": {},
+    "Queen's Gambit Declined: Knight Defense, Alekhine Gambit": {},
+    "Semi-Slav Defense: Meran Variation, Wade Variation, Kaidanov Gambit": {},
+    "Queen's Gambit Declined: Lasker Defense, Bernstein Variation, Mar del Plata Gambit": {},
+    "Grünfeld Defense: Gibbon Gambit": {},
+    "Grünfeld Defense: Zaitsev Gambit": {},
+    "Grünfeld Defense: Brinckmann Attack, Reshevsky Gambit": {},
+    "Catalan Opening: Hungarian Gambit": {},
+    "Indian Defense: Devin Gambit": {},
+    "Catalan Opening: Closed, Spassky Gambit": {},
+    "Queen's Indian Defense: Kasparov-Petrosian Variation, Polovodin Gambit": {},
+    "Queen's Indian Defense: Classical Variation, Polugaevsky Gambit": {},
+    "Queen's Indian Defense: Classical Variation, Taimanov Gambit": {},
+    "Nimzo-Indian Defense: Three Knights Variation, Shocron Gambit": {},
+    "Nimzo-Indian Defense: Spielmann Variation, Romanovsky Gambit": {},
+    "Nimzo-Indian Defense: Leningrad Variation, Averbakh Gambit": {},
+    "Nimzo-Indian Defense: Classical Variation, Belyavsky Gambit": {},
+    "Indian Defense: Anti-Grünfeld, Adorjan Gambit": {},
+    "Indian Defense: Anti-Grünfeld, Alekhine Variation, Leko Gambit": {},
+    "King's Indian Defense: Four Pawns Attack, Florentine Gambit": {},
+    "King's Indian Defense: Orthodox Variation, Classical System, Kozul Gambit": {}
   }
 }

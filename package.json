@@ -2,6 +2,7 @@
   "name": "holy-gambit-grail",
   "scripts": {
     "build": "vite build",
+    "cache:update": "tsx scripts/update-cache.ts",
     "coverage": "vitest run --coverage",
     "dev": "vite",
     "format": "prettier --write .",
@@ -26,10 +27,14 @@
     "postcss": "^8.5.15",
     "prettier": "^3.0.3",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.2.2",
+    "typescript": "^6.0.3",
     "vite": "^8.0.16",
     "vitest": "^4.1.9",
     "vue": "^3.5.38",
     "vue3-chessboard": "^1.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "tsx": "^4.22.4"
   }
 }

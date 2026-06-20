@@ -1,7 +1,7 @@
 {
-  "cache_updated_at": 1695501395682,
-  "games_analyzed": 10324,
-  "moves_analyzed": 10324,
+  "cache_updated_at": 1781986076190,
+  "games_analyzed": 10435,
+  "moves_analyzed": 10435,
   "trophies": {
     "Queen's Gambit": {
       "7jOdKNXh": {
@@ -3368,6 +3368,14 @@
           "title": "GM"
         },
         "link": "https://lichess.org/N0Kfozpc/black#4"
+      },
+      "FdVI4HR4": {
+        "date": "2023-12-22",
+        "opponent": {
+          "username": "WowFlow",
+          "title": ""
+        },
+        "link": "https://lichess.org/FdVI4HR4/black#4"
       }
     },
     "Englund Gambit Complex: Hartlaub-Charlick Gambit": {},

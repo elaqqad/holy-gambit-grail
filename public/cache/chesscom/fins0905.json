@@ -1,7 +1,7 @@
 {
-  "cache_updated_at": 1694940927428,
-  "games_analyzed": 10781,
-  "moves_analyzed": 10781,
+  "cache_updated_at": 1781989559948,
+  "games_analyzed": 11004,
+  "moves_analyzed": 11004,
   "trophies": {
     "Queen's Gambit": {
       "19160789": {
@@ -3203,6 +3203,30 @@
           "title": "GM"
         },
         "link": "https://www.chess.com/analysis/game/live/4788325912?tab=analysis&flip=false&move=02"
+      },
+      "167221419152": {
+        "date": "2026-04-12",
+        "opponent": {
+          "username": "issajacc",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/167221419152?tab=analysis&flip=false&move=02"
+      },
+      "144106662124": {
+        "date": "2025-10-09",
+        "opponent": {
+          "username": "HSH1987",
+          "title": "IM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/144106662124?tab=analysis&flip=false&move=02"
+      },
+      "95121506329": {
+        "date": "2023-11-30",
+        "opponent": {
+          "username": "Ruznamamuna",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/95121506329?tab=analysis&flip=false&move=02"
       }
     },
     "King's Gambit": {
@@ -4426,6 +4450,14 @@
           "title": "IM"
         },
         "link": "https://www.chess.com/analysis/game/live/5656319812?tab=analysis&flip=true&move=03"
+      },
+      "167476818155": {
+        "date": "2026-03-10",
+        "opponent": {
+          "username": "moro182",
+          "title": "GM"
+        },
+        "link": "https://www.chess.com/analysis/game/live/167476818155?tab=analysis&flip=true&move=03"
       }
     },
     "Englund Gambit Complex: Hartlaub-Charlick Gambit": {},
