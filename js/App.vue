@@ -17,20 +17,20 @@
             class="flex flex-row my-8 bg-indigo-100 border-0 drop-shadow-2xl mx-auto p-4 rounded-lg shadow-indigo-500/50 shadow-lg text-yellow-600 md:w-5/6 mb-10"
             v-if="!isDownloading && !isDownloadComplete"
         >
-            <div class="flex mb-1 -ml-4 hidden md:flex">
+            <div class="flex mb-1 -ml-4 hidden xl:flex">
                 <img src="/free_pawn.png" alt="take my pawn" />
             </div>
             <div class="flex mb-1 -ml-4">
                 <form @submit.prevent="startDownload">
                     <div class="flex flex-row mb-2">
-                        <div class="basis-1/6 text-2xl md:text-5xl text-center font-bold">
+                        <div class="basis-1/6 text-xl md:text-5xl text-center font-bold">
                             1
                             <ArrowIcon />
                         </div>
                         <div class="basis-5/6">
                             <div>
-                                <div class="flex flex-column">
-                                    <div class="basis-1/4">Select site:</div>
+                                <div class="md:flex">
+                                    <div class="">Select site:</div>
                                     <div class="text-yellow-900">
                                         <label class="cursor-pointer ml-4">
                                             <input type="radio" name="site" value="chesscom" v-model="inputs.type" />
@@ -44,11 +44,11 @@
                                 </div>
                             </div>
                             <div class="mt-2">
-                                <div class="flex flex-column">
-                                    <div class="basis-1/4">Enter username:</div>
+                                <div class="md:flex">
+                                    <div>Enter username:&nbsp;</div>
                                     <input
                                         type="text"
-                                        class="block basis-3/4 px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                        class="block m-l px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                                         placeholder="Username here"
                                         spellcheck="false"
                                         data-lpignore="true"
@@ -56,7 +56,7 @@
                                     />
                                 </div>
                                 Examples :
-                                <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-1 text-sm">
+                                <div class="grid sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-0 text-xs">
                                     <span
                                         class="dotted-underline text-yellow-900 cursor-pointer inline align-middle"
                                         @click.prevent="formFill('chesscom', 'Hikaru')"
@@ -108,7 +108,7 @@
                     </div>
 
                     <div class="flex flex-row mb-4">
-                        <div class="basis-1/6 text-2xl md:text-5xl text-center font-bold">
+                        <div class="basis-1/6 text-xl md:text-5xl text-center font-bold">
                             2
                             <ArrowIcon />
                         </div>
@@ -142,7 +142,7 @@
                     </div>
 
                     <div class="flex flex-row">
-                        <div class="basis-1/6 text-2xl md:text-5xl text-center font-bold">
+                        <div class="basis-1/6 text-xl md:text-5xl text-center font-bold">
                             3
                             <ArrowIcon />
                         </div>
@@ -234,7 +234,7 @@
                 <strong>{{ counts.analyzed.toLocaleString() }}</strong>
                 rated games analyzed
             </div>
-            <div class="mb-1">Only {{ trophyTypeCount - totalAccomplishmentsCompleted }} remaining to complete the Holy Gambit Grail !</div>
+            <div class="mb-1">Only {{ trophyTypeCount - totalAccomplishmentsCompleted }} remaining to complete the Holy Gambit Grail!</div>
         </div>
 
         <div class="md:flex md:flex-row md:space-x-10">

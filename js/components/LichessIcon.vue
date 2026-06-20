@@ -1,5 +1,5 @@
 <template>
-    <svg class="inline" width="20px" height="20px" viewBox="0 0 1080 1080" xml:space="preserve">
+    <svg class="inline" width="15px" height="15px" viewBox="0 0 1080 1080" xml:space="preserve">
         <desc>Lichess</desc>
         <rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
         <g transform="matrix(1 0 0 1 540 540)" id="a30d8549-04d8-47dc-8a61-ff4565c67aff">
