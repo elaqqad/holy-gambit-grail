@@ -28253,64 +28253,6 @@
         "link": "https://www.chess.com/analysis/game/live/4483343232?tab=analysis&flip=false&move=02"
       }
     },
-    "Benko Gambit, Fully Accepted": {
-      "1569672129": {
-        "date": "2016-05-08",
-        "opponent": {
-          "username": "DeepFakeAttack",
-          "title": "NM"
-        },
-        "link": "https://www.chess.com/analysis/game/live/1569672129?tab=analysis&flip=false&move=016"
-      },
-      "1569677534": {
-        "date": "2016-05-08",
-        "opponent": {
-          "username": "DeepFakeAttack",
-          "title": "NM"
-        },
-        "link": "https://www.chess.com/analysis/game/live/1569677534?tab=analysis&flip=false&move=016"
-      },
-      "1704010127": {
-        "date": "2016-08-25",
-        "opponent": {
-          "username": "aggressive93",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/1704010127?tab=analysis&flip=false&move=016"
-      },
-      "81027195823": {
-        "date": "2023-06-20",
-        "opponent": {
-          "username": "nitsud_prime",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/81027195823?tab=analysis&flip=false&move=016"
-      },
-      "77989439273": {
-        "date": "2023-05-16",
-        "opponent": {
-          "username": "KorolDimitriy75",
-          "title": "NM"
-        },
-        "link": "https://www.chess.com/analysis/game/live/77989439273?tab=analysis&flip=false&move=016"
-      },
-      "59259082039": {
-        "date": "2022-10-11",
-        "opponent": {
-          "username": "Stouuf",
-          "title": "FM"
-        },
-        "link": "https://www.chess.com/analysis/game/live/59259082039?tab=analysis&flip=false&move=016"
-      },
-      "56310335745": {
-        "date": "2022-09-07",
-        "opponent": {
-          "username": "Cha_ChaRealSmooth",
-          "title": ""
-        },
-        "link": "https://www.chess.com/analysis/game/live/56310335745?tab=analysis&flip=false&move=016"
-      }
-    },
     "King's Pawn Game: Damiano Defense, Damiano Gambit": {
       "79740620001": {
         "date": "2023-06-05",
