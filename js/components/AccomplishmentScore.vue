@@ -267,7 +267,7 @@ export default {
             }
             const ply = this.moveNumber
             const moves = pgnFormatter(this.gambitPgn).replace(' ', '+')
-            return `https://www.chess.com/fr/explorer?moveList=${moves}&ply=${ply}`
+            return `https://www.chess.com/explorer?moveList=${moves}&ply=${ply}`
         },
     },
 }
