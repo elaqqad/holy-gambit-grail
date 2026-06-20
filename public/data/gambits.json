@@ -1989,6 +1989,19 @@
         "black": 181
     },
     {
+        "eco": "A59",
+        "name": "Benko Gambit, Fully Accepted",
+        "pgn": "1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. bxa6 g6 6. Nc3 Bxa6 7. e4 Bxf1 8. Kxf1 d6 9. g3",
+        "move": 17,
+        "color": "white",
+        "fen": "rn1qkb1r/4pp1p/3p1np1/2pP4/4P3/2N3P1/PP3P1P/R1BQ1KNR b kq - 0 9",
+        "master": "4RCnSenY",
+        "lichess": "kLjtBXmp",
+        "white": 36814,
+        "draws": 6167,
+        "black": 38372
+    },
+    {
         "eco": "A80",
         "name": "Dutch Defense: Hevendehl Gambit",
         "pgn": "1. d4 f5 2. g4 e5",
@@ -5178,7 +5191,7 @@
         "name": "King's Gambit Accepted: Greco Gambit",
         "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 d6 4. Bc4 h6 5. d4 g5 6. h4 Bg7",
         "move": 12,
-        "color": "white",
+        "color": "black",
         "fen": "rnbqk1nr/ppp2pb1/3p3p/6p1/2BPPp1P/5N2/PPP3P1/RNBQK2R w KQkq - 1 7",
         "master": "mGUw1WTd",
         "lichess": "ZrRgVtmL",
@@ -6556,7 +6569,7 @@
         "name": "Italian Game: Classical Variation, Greco Gambit",
         "pgn": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bc5 5. c3 Nf6 6. e5 d5",
         "move": 12,
-        "color": "white",
+        "color": "black",
         "fen": "r1bqk2r/ppp2ppp/2n2n2/2bpP3/2Bp4/2P2N2/PP3PPP/RNBQK2R w KQkq d6 0 7",
         "master": "vJNXlDGZ",
         "lichess": "XnRKMXiN",
@@ -6741,10 +6754,10 @@
         "color": "white",
         "fen": "r1b1kbnr/ppp2ppp/2n5/1B1pN1q1/4P3/8/PPPP1PPP/RNBQ1RK1 b kq - 2 5",
         "master": null,
-        "lichess": "6gITJpIW",
-        "white": 23,
-        "draws": 1,
-        "black": 18
+        "lichess": null,
+        "white": 0,
+        "draws": 0,
+        "black": 0
     },
     {
         "eco": "C60",
