@@ -6,6 +6,7 @@
     "coverage": "vitest run --coverage",
     "dev": "vite",
     "format": "prettier --write .",
+    "gambits:generate": "python scripts/generate-gambits-json.py",
     "preview": "vite preview",
     "test": "vitest run",
     "tsc": "tsc --noemit",
