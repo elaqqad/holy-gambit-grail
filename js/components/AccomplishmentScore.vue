@@ -123,6 +123,7 @@
                     </svg>
                     Watch Video
                 </a>
+                <p v-if="comment" class="mt-2 text-xs italic text-left opacity-80">{{ comment }}</p>
             </div>
 
             <template v-if="hasTrophies">
@@ -189,6 +190,7 @@ export default {
             required: true,
         },
         youtubeLink: String,
+        comment: String,
         site: String,
         youtube: {
             type: Array,

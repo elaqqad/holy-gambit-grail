@@ -265,6 +265,7 @@
                         :gambit-fen="gambit.opening.fen"
                         :moveNumber="gambit.opening.move"
                         :youtube="gambit.Videos || []"
+                        :comment="gambit.opening.comment"
                     ></accomplishment-score>
                 </div>
             </div>
