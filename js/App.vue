@@ -601,16 +601,11 @@ export default {
                         sinceTimestamp = this.usingCacheBeforeTimestamp
                     }
 
-                    games(url, (game: Game) => this.checkGameForTrophies(game), {
-                        since: sinceTimestamp,
-                        pgnInJson: true,
-                        rated: true,
-                    })
+                    this.fetchAllLichessGames(url, sinceTimestamp)
                         .then(() => {
                             this.isDownloadComplete = true
                         })
                         .catch((e: DOMException) => {
-                            // If the user cancels the download, don't show an error message
                             if (e.message.includes('aborted')) {
                                 return
                             }
@@ -671,11 +666,55 @@ export default {
             this.trophyWonCount++
         },
 
+        // Lichess caps unauthenticated game-export streams at ~10 000 games per request.
+        // This method pages through older batches via the `until` timestamp parameter
+        // until all rated games have been fetched.
+        async fetchAllLichessGames(url: string, since: number): Promise<void> {
+            // Chess.com uses archive-based fetching; a single call handles all pages internally.
+            // A non-zero `since` means we're fetching a recent window or from a cache timestamp —
+            // both fit in one request.
+            if (!url.startsWith('https://lichess.org/') || since > 0) {
+                await games(url, (game: Game) => this.checkGameForTrophies(game), {
+                    ...(since > 0 ? { since } : {}),
+                    pgnInJson: true,
+                    rated: true,
+                })
+                return
+            }
+
+            let until: number | undefined
+
+            while (true) {
+                let batchCount = 0
+                let oldestTimestamp = Infinity
+
+                await games(
+                    url,
+                    (game: Game) => {
+                        batchCount++
+                        if (game.timestamp < oldestTimestamp) oldestTimestamp = game.timestamp
+                        return this.checkGameForTrophies(game)
+                    },
+                    {
+                        pgnInJson: true,
+                        rated: true,
+                        ...(until !== undefined ? { until } : {}),
+                    }
+                )
+
+                if (batchCount === 0 || oldestTimestamp === Infinity) break
+                if (this.counts.downloaded >= this.counts.totalGames * 0.9) break
+
+                until = oldestTimestamp - 1
+            }
+        },
+
         async checkGameForTrophies(game: Game): Promise<void> {
-            // Add a 0ms setTimeout to stop the process from blocking the page
-            // Without this, the page may become unresponsive as games are processed
             this.counts.downloaded++
-            await wait(0)
+            // chess-fetcher does not await our callback; throttle to avoid Promise pile-up.
+            if (this.counts.downloaded % 50 === 0) {
+                await wait(0)
+            }
             // only standard chess starting position games
             // only games won by the current user
             // ignore games against stockfish, anonymous users, and bots
