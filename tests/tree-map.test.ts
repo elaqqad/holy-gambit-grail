@@ -58,14 +58,15 @@ describe('test tree map', () => {
     })
 })
 
-describe('Test error case of TreeMap', () =>
+describe('Test duplicate keys in TreeMap', () =>
     test.each([
-        { k: 'abc', v: 1 },
-        { k: '', v: 2 },
-    ])('Error should be thrown after inserting the same key', (keyValuePair) => {
+        { k: 'abc', v1: 1, v2: 2 },
+        { k: '', v1: 10, v2: 20 },
+    ])('Duplicate keys accumulate values instead of throwing', (pair) => {
         const treeMap = new TreeMap()
-        treeMap.set(keyValuePair.k.split(''), keyValuePair.v)
-        expect(() => treeMap.set(keyValuePair.k.split(''), keyValuePair.v)).toThrowError()
+        treeMap.set(pair.k.split(''), pair.v1)
+        treeMap.set(pair.k.split(''), pair.v2)
+        expect(treeMap.get(pair.k.split(''))).toEqual([pair.v1, pair.v2])
     }))
 
 describe('Test mapIterator', () =>
