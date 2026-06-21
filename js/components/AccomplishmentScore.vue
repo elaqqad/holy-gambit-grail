@@ -87,6 +87,7 @@
 
             <template #popper>
                 <TheChessboard :board-config="boardConfig" />
+                <p v-if="comment" class="max-w-xs p-2 text-xs italic text-gray-300">{{ comment }}</p>
             </template>
         </VTooltip>
 
@@ -189,6 +190,7 @@ export default {
             required: true,
         },
         youtubeLink: String,
+        comment: String,
         site: String,
         youtube: {
             type: Array,
