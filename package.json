@@ -6,6 +6,8 @@
     "coverage": "vitest run --coverage",
     "dev": "vite",
     "format": "prettier --write .",
+    "gambits:build": "python scripts/build-gambits.py",
+    "gambits:build:no-stats": "python scripts/build-gambits.py --no-stats",
     "gambits:generate": "python scripts/generate-gambits-json.py",
     "preview": "vite preview",
     "test": "vitest run",
