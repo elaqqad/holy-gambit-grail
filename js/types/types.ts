@@ -46,6 +46,9 @@ export type GambitOpening = {
     white: number
     draws: number
     black: number
+    original_pgn?: string
+    original_fen?: string
+    comment?: string
 }
 export type DisplayableGambit = {
     shortName: string
