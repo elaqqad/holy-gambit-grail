@@ -558,7 +558,7 @@ export default {
             this.fetchYoutubeTrophies().then(async (trophies: YoutubeTrophy[]) => {
                 for (const youtubeTrophy of trophies) {
                     for (const gambit of Object.keys(this.displayableGambits)) {
-                        if (youtubeTrophy.title.includes(this.shortNames.get(gambit) || gambit)) {
+                        if (youtubeTrophy.title?.includes(this.shortNames.get(gambit) || gambit)) {
                             this.displayableGambits[gambit].Videos.push(youtubeTrophy)
                             this.youtubeVideosCount++
                         }
@@ -636,6 +636,9 @@ export default {
             exportAsCsv(playerTrophiesByType, this.username)
         },
         addTrophyForPlayer(trophyName: string, game: Game, onMoveNumber?: number): void {
+            if (!this.displayableGambits[trophyName]) {
+                return
+            }
             if (this.displayableGambits[trophyName].Trophies[game.id]) {
                 return
             }
