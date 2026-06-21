@@ -1,3 +1,20 @@
+"""
+DEPRECATED — do not run this script.
+
+It overwrites gambits.csv and gambits.json from scratch using the raw Lichess TSV,
+destroying all curated PGN corrections, annotations, and custom entries.
+
+Use the new pipeline instead:
+  python scripts/build-gambits.py             # fetch fresh stats from Lichess API
+  python scripts/build-gambits.py --no-stats  # reuse existing stats (fast)
+
+To produce the initial gambits-delta.csv from the current state:
+  python scripts/bootstrap-delta.py
+"""
+import sys
+print(__doc__)
+sys.exit(1)
+
 from io import StringIO
 import os
 from time import sleep

@@ -1,0 +1,106 @@
+action,eco,name,pgn,new_pgn,comment
+remove,A00,"Amar Opening: Paris Gambit, Gent Gambit",1. Nh3 d5 2. g3 e5 3. f4 Bxh3 4. Bxh3 exf4 5. O-O fxg3 6. hxg3,,
+remove,A00,"Polish Opening: Outflank Variation, Schuehler Gambit",1. b4 c6 2. Bb2 a5 3. b5,,
+remove,A00,Ware Opening: Cologne Gambit,1. a4 b6 2. d4 d5 3. Nc3 Nd7,,
+remove,A09,"Réti Opening: Advance Variation, Navara Gambit",1. Nf3 d5 2. c4 d4 3. b4 g5,,
+remove,A13,English Opening: Romanishin Gambit,1. c4 Nf6 2. Nf3 e6 3. g3 a6 4. Bg2 b5,,
+remove,A19,"English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit",1. c4 e6 2. Nc3 Nf6 3. e4 c5 4. e5 Ng8,,
+remove,A22,"English Opening: King's English Variation, Adhiban Gambit",1. c4 e5 2. Nc3 Nf6 3. Nf3 e4 4. Ng5 c6,,
+remove,A40,Englund Gambit: Felbecker Gambit,1. d4 e5 2. dxe5 Nc6 3. Nf3 Bc5,,
+remove,A40,Englund Gambit: Hartlaub-Charlick Gambit,1. d4 e5 2. dxe5 d6,,
+remove,A40,Englund Gambit: Mosquito Gambit,1. d4 e5 2. dxe5 Qh4,,
+remove,A40,Englund Gambit: Soller Gambit,1. d4 e5 2. dxe5 f6,,
+remove,A40,Englund Gambit: Zilbermints Gambit,1. d4 e5 2. dxe5 Nc6 3. Nf3 Nge7,,
+remove,A51,Indian Defense: Budapest Gambit,1. d4 Nf6 2. c4 e5,,
+remove,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Brandics Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 a6,,
+remove,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Erben Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 g6,,
+remove,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Heinola-Deppe Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 e5,,
+remove,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Nimzowitsch Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5 Ne5,,
+remove,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Richter Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5 Nb8 5. f3,,
+remove,B10,Caro-Kann Defense: Dinic Gambit,1. e4 c6 2. Nf3 d5 3. d3 dxe4 4. Ng5,,
+remove,B15,Caro-Kann Defense: Alien Gambit,1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng5 h6 6. Nxf7,,
+remove,B18,Caro-Kann Defense: Martian Gambit,1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng5 Bg6 6. N1f3 h6 7. Ne6,,
+remove,B21,Sicilian Defense: Smith-Morra Gambit,1. e4 c5 2. d4,,
+remove,B22,"Sicilian Defense: Alapin Variation, Anti-Alapin Gambit",1. e4 c5 2. c3 d5 3. exd5 Nf6,,
+remove,C10,French Defense: Marshall Gambit,1. e4 e6 2. d4 d5 3. Nc3 c5,,
+remove,C15,"French Defense: McCutcheon Variation, Wolf Gambit",1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. Ne2 Nf6 5. Bg5,,
+remove,C15,"French Defense: Winawer Variation, Winckelmann-Reimer Gambit",1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 dxe4 6. f3,,
+remove,C27,Bishop's Opening: Boden-Kieseritzky Gambit,1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. Nc3,,
+remove,C33,King's Gambit Accepted: Villemson Gambit,1. e4 e5 2. f4 exf4 3. d4,,
+remove,C34,King's Gambit Accepted: King's Knight's Gambit,1. e4 e5 2. f4 exf4 3. Nf3 g5,,
+remove,C35,"King's Gambit Accepted: Cunningham Defense, Bertin Gambit",1. e4 e5 2. f4 exf4 3. Nf3 Be7 4. Bc4 Bh4+ 5. g3,,
+remove,C37,King's Gambit Accepted: Ghulam-Kassim Gambit,1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. d4,,
+remove,C37,King's Gambit Accepted: Quaade Gambit,1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3,,
+remove,C42,"Petrov's Defense: Classical Attack, Marshall Variation, Chinese Gambit",1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Bd6 7. O-O O-O 8. c4 c6 9. Re1 Bg4,,
+remove,C42,Petrov's Defense: Cochrane Gambit,1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nxf7,,
+remove,C42,"Petrov's Defense: Damiano Variation, Kholmov Gambit",1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nxe4 4. Qe2 Qe7,,
+remove,C42,Petrov's Defense: Moody Gambit,1. e4 e5 2. Nf3 Nf6 3. Qe2 Nc6 4. d4,,
+remove,C42,Petrov's Defense: Stafford Gambit,1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6,,
+remove,C43,"Petrov's Defense: Modern Attack, Tal Gambit",1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Bb5,,
+remove,C51,Italian Game: Evans Gambit,1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Bc5 6. d4 exd4 7. O-O d6 8. cxd4 Bb6 9. Nc3 Bg4,,
+remove,C56,Italian Game: Scotch Gambit,1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d4 exd4 5. O-O,,
+remove,C56,"Italian Game: Scotch Gambit, Walbrodt-Baird Gambit",1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. O-O,,
+remove,C96,"Ruy Lopez: Closed, Chigorin Defense, Gajewski Gambit",1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5 10. Bc2 d5,,
+remove,D00,Blackmar-Diemer Gambit,1. d4 d5 2. e4 dxe4 3. Nc3 Nf6,,
+remove,D00,"Blackmar-Diemer Gambit Accepted: Euwe Defense, Duthilleul Gambit",1. d4 d5 2. e4 dxe4 3. Nc3 Nf6 4. f3 exf3 5. Nxf3 e6 6. Bd3,,
+remove,D00,"Blackmar-Diemer Gambit Declined: Weinsbach Defense, Pfrang Gambit",1. d4 d5 2. e4 dxe4 3. Nc3 Nf6 4. f3 e6 5. fxe4,,
+remove,E20,Nimzo-Indian Defense: Dilworth Gambit,1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e4,,
+remove,E36,"Nimzo-Indian Defense: Classical Variation, Romanishin Gambit",1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. a3 Bxc3+ 6. Qxc3 c5,,
+modify,A00,Hungarian Opening: Pachman Gambit,1. g3 f5 2. e4 fxe4 3. Qh5+ g6,1. g3 f5 2. e4 fxe4 3. Qh5+,"Lichess includes Black's reply 3...g6 in the gambit PGN. On this site we stop at 3. Qh5+, White's last move, as the check itself is the gambit idea — Black's response does not define it. Note: the true sacrifice begins as early as 1. g3 f5 2. e4 but that position has its own name; we may revisit this boundary in a future update."
+modify,A40,Mikenas Defense: Pozarek Gambit,1. d4 Nc6 2. c4 e5 3. dxe5 Nxe5 4. Nc3 Nxc4,1. d4 Nc6 2. c4 e5 3. dxe5 Nxe5 4. Nc3,"Lichess includes Black's 4...Nxc4 (acceptance) in the PGN. On this site we stop at 4. Nc3, White's last move before the capture."
+modify,B21,"Bird Opening: Dutch Variation, Batavo Gambit",1. e4 c5 2. f4 d5 3. Nf3 dxe4,1. e4 c5 2. f4 d5 3. Nf3,"Lichess includes Black's 3...dxe4 (acceptance) in the PGN. On this site we stop at 3. Nf3, White's last move before Black takes."
+modify,B21,Sicilian Defense: Smith-Morra Gambit,1. e4 c5 2. d4 cxd4 3. c3,1. e4 c5 2. d4,"Lichess classifies the Smith-Morra including Black's 3...cxd4 acceptance and then 3. c3. On this site we use the shorter offer position 1. e4 c5 2. d4, so the gambit is detected as soon as White plays d4 regardless of whether Black accepts."
+modify,C00,"French Defense: La Bourdonnais Variation, Reuter Gambit",1. e4 e6 2. f4 d5 3. Nf3 dxe4,1. e4 e6 2. f4 d5 3. Nf3,"Lichess includes Black's 3...dxe4 in the PGN. On this site we stop at 3. Nf3, White's last move."
+modify,C13,"French Defense: Alekhine-Chatard Attack, Albin-Chatard Gambit",1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. h4 Bxg5 7. hxg5 Qxg5,1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e5 Nfd7 6. h4 Bxg5 7. hxg5,"Lichess includes Black's 7...Qxg5 (taking the bishop) in the PGN, which assigns the gambit to Black. On this site we stop at 7. hxg5, White's sacrifice of the h-pawn, so the trophy correctly goes to White who initiates the attack."
+modify,C25,"Vienna Gambit, with Max Lange Defense: Hamppe-Muzio Gambit",1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. Nf3 g5 5. Bc4 g4 6. O-O gxf3,1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. Nf3 g5 5. Bc4 g4 6. O-O,"Lichess includes Black's 6...gxf3 (acceptance) in the PGN. On this site we stop at 6. O-O, White's last move before Black takes."
+modify,C26,"Vienna Game: Paulsen Variation, Pollock Gambit",1. e4 e5 2. Nc3 Nf6 3. g3 Bc5 4. Bg2 Nc6 5. Nge2 d5 6. exd5,1. e4 e5 2. Nc3 Nf6 3. g3 Bc5 4. Bg2 Nc6 5. Nge2 d5 6. exd5 Nd4,"Lichess stops at 6. exd5, a White move, which would assign the gambit to White. The Pollock Gambit is actually Black's counter-sacrifice: after 6. exd5 Black plays 6...Nd4, the defining move. We extend the PGN to 6...Nd4 so the trophy goes to Black."
+modify,C34,King's Gambit Accepted: Greco Gambit,1. e4 e5 2. f4 exf4 3. Nf3 d6 4. Bc4 h6 5. d4 g5 6. h4 Bg7,1. e4 e5 2. f4 exf4 3. Nf3 d6 4. Bc4 h6 5. d4 g5 6. h4,"Lichess includes Black's 6...Bg7 in the PGN. On this site we stop at 6. h4, White's last move, as White is the gambiteer in the King's Gambit."
+modify,C35,"King's Gambit Accepted: Cunningham Defense, Bertin Gambit",1. e4 e5 2. f4 exf4 3. Nf3 Be7 4. Bc4 Bh4+ 5. g3 fxg3 6. O-O gxh2+ 7. Kh1,1. e4 e5 2. f4 exf4 3. Nf3 Be7 4. Bc4 Bh4+ 5. g3,"Lichess includes Black's 7. Kh1 response in the extended PGN. On this site we stop at 5. g3, White's last gambit move before Black responds."
+modify,C37,King's Gambit Accepted: Blachly Gambit,1. e4 e5 2. f4 exf4 3. Nf3 Nc6 4. Bc4 g5,1. e4 e5 2. f4 exf4 3. Nf3 Nc6 4. Bc4,"Lichess includes Black's 4...g5 in the PGN. On this site we stop at 4. Bc4, White's last move."
+modify,C37,"King's Gambit Accepted: Double Muzio Gambit, Young Gambit",1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. O-O gxf3 6. Qxf3 Qf6 7. Bxf7+ Kxf7 8. d4 Qxd4+ 9. Be3 Qf6 10. Nc3 fxe3,1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. O-O gxf3 6. Qxf3 Qf6 7. Bxf7+ Kxf7 8. d4 Qxd4+ 9. Be3 Qf6 10. Nc3,"Lichess includes Black's 10...fxe3 in the PGN, assigning the gambit to Black. On this site we stop at 10. Nc3, White's last move in the long sacrificial sequence, so the trophy correctly goes to White."
+modify,C37,King's Gambit Accepted: Ghulam-Kassim Gambit,1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. d4 gxf3 6. Qxf3,1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. d4,"Lichess includes Black's 5...gxf3 in the PGN. On this site we stop at 5. d4, White's last gambit push."
+modify,C39,"King's Gambit Accepted: Kieseritzky Gambit, Rice Gambit",1. e4 e5 2. f4 exf4 3. Nf3 g5 4. h4 g4 5. Ne5 Nf6 6. Bc4 d5 7. exd5 Bd6 8. O-O Bxe5,1. e4 e5 2. f4 exf4 3. Nf3 g5 4. h4 g4 5. Ne5 Nf6 6. Bc4 d5 7. exd5 Bd6 8. O-O,"Lichess includes Black's 8...Bxe5 in the PGN. On this site we stop at 8. O-O, White's last move before the capture."
+modify,C44,Scotch Game: Haxo Gambit,1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bc5,1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bc5 5. c3,"Lichess stops at 4...Bc5, a Black move, but without the actual gambit sacrifice. We extend the line to 5. c3 d3 where Black plays the pawn thrust d3 — the real gambit move — so Black is correctly identified as the gambiteer."
+modify,C51,"Italian Game: Evans Gambit, Mortimer-Evans Gambit",1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Bc5 6. d4 exd4 7. O-O d6 8. cxd4 Bb6 9. Nc3 Bg4 10. Qa4 Bd7 11. Qb3 Na5 12. Bxf7+ Kf8 13. Qc2 Kxf7,1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Bc5 6. d4 exd4 7. O-O d6 8. cxd4 Bb6 9. Nc3 Bg4 10. Qa4 Bd7 11. Qb3 Na5 12. Bxf7+ Kf8 13. Qc2,"Lichess includes Black's 13...Kxf7 in the PGN. On this site we stop at 13. Qc2, White's last move."
+modify,C84,"Ruy Lopez: Closed, Center Attack, Basque Gambit",1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d4 exd4 7. e5 Ne4 8. c3 dxc3,1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d4 exd4 7. e5 Ne4 8. c3,"Lichess includes Black's 8...dxc3 (acceptance) in the PGN. On this site we stop at 8. c3, White's last move before Black takes."
+add,A00,Amar Gambit,1. Nh3 d5 2. g3 e5 3. f4 Bxh3 4. Bxh3,,"Lichess attributes this gambit to the position after 4...exf4 (Black's acceptance). On this site we stop at 4. Bxh3, White's last gambit move, so the trophy goes to White who played the creative opening."
+add,A00,Amar Opening: Gent Gambit,1. Nh3 d5 2. g3 e5 3. f4 Bxh3 4. Bxh3 exf4 5. O-O fxg3 6. hxg3,,
+add,A13,English Opening: Romanishin Gambit,1. Nf3 Nf6 2. c4 e6 3. g3 a6 4. Bg2 b5,,
+add,A19,"English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit",1. c4 Nf6 2. Nc3 e6 3. e4 c5 4. e5 Ng8,,
+add,A40,Englund Gambit Complex: Englund Gambit,1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7,,
+add,A40,Englund Gambit Complex: Felbecker Gambit,1. d4 e5 2. dxe5 Nc6 3. Nf3 Bc5,,
+add,A40,Englund Gambit Complex: Hartlaub-Charlick Gambit,1. d4 e5 2. dxe5 d6,,
+add,A40,Englund Gambit Complex: Mosquito Gambit,1. d4 e5 2. dxe5 Qh4,,
+add,A40,Englund Gambit Complex: Soller Gambit,1. d4 e5 2. dxe5 f6,,
+add,A40,Englund Gambit Complex: Zilbermints Gambit,1. d4 e5 2. dxe5 Nc6 3. Nf3 Nge7,,
+add,A50,A50 Indian Defense: Budapest Gambit,1. d4 Nf6 2. c4 e5,,
+add,A50,"A50 Indian Defense: Normal Variation, Wagon Gambit",1. d4 Nf6 2. c4 a6 3. Nc3 b5,,
+add,A51,"A51 Indian Defense: Budapest Defense, Fajarowicz Gambit",1. d4 Nf6 2. c4 e5 3. dxe5 Ne4,,
+add,A83,"Dutch Defense: Staunton Gambit, Lasker Variation",1. d4 f5 2. e4 fxe4 3. Nc3 Nf6 4. Bg5,,
+add,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Brandics Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 a6,,
+add,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Erben Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 g6,,
+add,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Heinola-Deppe Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 e5,,
+add,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Nimzowitsch Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5 Ne5,,
+add,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Richter Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5 Nb8 5. f3,,
+add,B21,Sicilian Defense: Smith-Morra Gambit,1. e4 c5 2. d4 cxd4 3. c3,,
+add,C10,Sicilian Defense: Marshall Gambit,1. e4 c5 2. Nc3 e6 3. d4 d5,,
+add,C15,"French Defense: MacCutcheon Variation, Wolf Gambit",1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. Ne2 Nf6 5. Bg5,,
+add,C15,"French Defense: Winawer Variation, Winckelmann-Riemer Gambit",1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. a3,,
+add,C27,Bishop's Opening: Boden-Kieseritzky Gambit,1. e4 e5 2. Bc4 Nf6 3. Nf3 Nxe4 4. Nc3,,
+add,C33,King's Gambit Accepted: Polerio Gambit,1. e4 e5 2. f4 exf4 3. d4,,
+add,C35,"King's Gambit Accepted: Cunningham Defense, Bertin Gambit",1. e4 e5 2. f4 exf4 3. Nf3 Be7 4. Bc4 Bh4+ 5. g3 fxg3 6. O-O gxh2+ 7. Kh1,,
+add,C37,King's Gambit Accepted: Ghulam-Kassim Gambit,1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. d4 gxf3 6. Qxf3,,
+add,C37,King's Gambit Accepted: Quade Gambit,1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3,,
+add,C42,"Russian Game: Classical Attack, Marshall Variation, Chinese Gambit",1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Bd6 7. O-O O-O 8. c4 c6 9. Re1 Bg4,,
+add,C42,Russian Game: Cochrane Gambit,1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nxf7,,
+add,C42,"Russian Game: Damiano Variation, Kholmov Gambit",1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nxe4 4. Qe2 Qe7,,
+add,C42,Russian Game: Moody Gambit,1. e4 e5 2. Nf3 Nf6 3. Qe2 Nc6 4. d4,,
+add,C42,Russian Game: Stafford Gambit,1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6,,
+add,C42,Russian Game: Stafford Gambit,1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6,,
+add,C43,"Russian Game: Modern Attack, Tal Gambit",1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. e5 Ne4 5. Bb5,,
+add,C51,Italian Game: Evans Gambit,1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Bc5 6. d4 exd4 7. O-O d6 8. cxd4 Bb6 9. Nc3,,
+add,C53,"Italian Game: Classical Variation, Alexandre Gambit",1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 f5,,
+add,C53,"Italian Game: Classical Variation, Greco Gambit",1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bc5 5. c3 Nf6 6. e5,,"Lichess includes Black's 6...d5 in the PGN. On this site we stop at 6. e5, White's gambit thrust."
+add,C53,"Italian Game: Scotch Gambit, Walbrodt-Baird Gambit",1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. O-O,,
+add,C55,Italian Game: Scotch Gambit,1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d4 exd4 5. O-O,,
+add,D00,Blackmar-Diemer Gambit,1. d4 d5 2. e4 dxe4 3. Nc3,,
