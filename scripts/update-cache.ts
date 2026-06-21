@@ -37,14 +37,9 @@ async function main(): Promise<void> {
         return
     }
 
-    const mode = await askChoice('What do you want to update?', [
-        'All existing cache files',
-        'One existing cache file',
-        'A custom username',
-    ])
+    const mode = await askChoice('What do you want to update?', ['All existing cache files', 'One existing cache file', 'A custom username'])
 
-    const selectedTargets =
-        mode === 0 ? targets : mode === 1 ? [await selectExistingTarget(targets)] : [await askCustomTarget()]
+    const selectedTargets = mode === 0 ? targets : mode === 1 ? [await selectExistingTarget(targets)] : [await askCustomTarget()]
 
     const incremental = await askYesNo('Use existing cache and fetch only new games when possible?', true)
     const gambits = await loadGambits()
@@ -131,7 +126,12 @@ async function askYesNo(question: string, defaultValue: boolean): Promise<boolea
     return answer === 'y' || answer === 'yes'
 }
 
-async function updateCache(target: CacheTarget, gambits: GambitOpening[], gambitsByFen: ReturnType<typeof buildGambitPositionIndex>, incremental: boolean): Promise<void> {
+async function updateCache(
+    target: CacheTarget,
+    gambits: GambitOpening[],
+    gambitsByFen: ReturnType<typeof buildGambitPositionIndex>,
+    incremental: boolean
+): Promise<void> {
     const existing = incremental ? await readCacheFile(target.filePath) : undefined
     const url = urlForTarget(target)
     const profile = await player(url)
@@ -146,16 +146,20 @@ async function updateCache(target: CacheTarget, gambits: GambitOpening[], gambit
     ensureTrophyKeys(trophies, gambits)
     console.log(`\nUpdating ${target.site}/${target.username}${since ? ` since ${new Date(since).toISOString()}` : ' from scratch'}...`)
 
-    await games(url, (game: Game) => {
-        checkGameForTrophies(game, profile, username, trophies, gambitsByFen, counts)
-        if (counts.downloaded % 500 === 0) {
-            console.log(`  ${counts.downloaded.toLocaleString()} games downloaded, ${counts.analyzed.toLocaleString()} analyzed`)
+    await games(
+        url,
+        (game: Game) => {
+            checkGameForTrophies(game, profile, username, trophies, gambitsByFen, counts)
+            if (counts.downloaded % 500 === 0) {
+                console.log(`  ${counts.downloaded.toLocaleString()} games downloaded, ${counts.analyzed.toLocaleString()} analyzed`)
+            }
+        },
+        {
+            since,
+            pgnInJson: true,
+            rated: true,
         }
-    }, {
-        since,
-        pgnInJson: true,
-        rated: true,
-    })
+    )
 
     const cacheFile: TrophyCacheFile = {
         cache_updated_at: Date.now(),
