@@ -601,20 +601,12 @@ export default {
                         sinceTimestamp = this.usingCacheBeforeTimestamp
                     }
 
-                    games(url, (game: Game) => this.checkGameForTrophies(game), {
-                        since: sinceTimestamp,
-                        pgnInJson: true,
-                        rated: true,
-                    })
+                    this.fetchAllLichessGames(url, sinceTimestamp)
                         .then(() => {
                             this.isDownloadComplete = true
                         })
                         .catch((e: DOMException) => {
-                            // cancelFetch() triggers an AbortError — hide it so the UI
-                            // doesn't show a spurious error when the user clicks Stop.
-                            // Any other abort (e.g. unexpected stream close) falls through
-                            // and shows the error so it's visible rather than silent.
-                            if (this.isDownloadComplete || e.message === 'The user aborted a request.') {
+                            if (e.message.includes('aborted')) {
                                 return
                             }
                             this.errors.api = e
@@ -674,13 +666,52 @@ export default {
             this.trophyWonCount++
         },
 
+        // Lichess caps unauthenticated game-export streams at ~10 000 games per request.
+        // This method pages through older batches via the `until` timestamp parameter
+        // until all rated games have been fetched.
+        async fetchAllLichessGames(url: string, since: number): Promise<void> {
+            // Chess.com uses archive-based fetching; a single call handles all pages internally.
+            // A non-zero `since` means we're fetching a recent window or from a cache timestamp —
+            // both fit in one request.
+            if (!url.startsWith('https://lichess.org/') || since > 0) {
+                await games(url, (game: Game) => this.checkGameForTrophies(game), {
+                    ...(since > 0 ? { since } : {}),
+                    pgnInJson: true,
+                    rated: true,
+                })
+                return
+            }
+
+            let until: number | undefined
+
+            while (true) {
+                let batchCount = 0
+                let oldestTimestamp = Infinity
+
+                await games(
+                    url,
+                    (game: Game) => {
+                        batchCount++
+                        if (game.timestamp < oldestTimestamp) oldestTimestamp = game.timestamp
+                        return this.checkGameForTrophies(game)
+                    },
+                    {
+                        pgnInJson: true,
+                        rated: true,
+                        ...(until !== undefined ? { until } : {}),
+                    },
+                )
+
+                if (batchCount === 0 || oldestTimestamp === Infinity) break
+                if (this.counts.downloaded >= this.counts.totalGames * 0.9) break
+
+                until = oldestTimestamp - 1
+            }
+        },
+
         async checkGameForTrophies(game: Game): Promise<void> {
             this.counts.downloaded++
-            // chess-fetcher does not await our callback, so every game that hits
-            // `await wait(0)` stays in memory until its setTimeout fires.  Yielding
-            // every game accumulated ~10 000 parsed game objects simultaneously and
-            // caused the browser to abort the ReadableStream under memory pressure.
-            // Yielding every 50 games caps in-flight Promises to ~2-3 at any time.
+            // chess-fetcher does not await our callback; throttle to avoid Promise pile-up.
             if (this.counts.downloaded % 50 === 0) {
                 await wait(0)
             }
