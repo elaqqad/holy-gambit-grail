@@ -13,12 +13,13 @@ import csv
 import json
 import sys
 
-import requests
+import ssl
+
 import urllib3
 
-# Python on Windows often can't verify github.com certs through corporate proxies.
-# These are local dev scripts — suppressing verification is acceptable here.
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+_HTTP = urllib3.PoolManager(ssl_context=ssl._create_unverified_context())  # noqa: SLF001
 
 CHESS_OPENINGS_URL = 'https://raw.githubusercontent.com/lichess-org/chess-openings/master'
 OPENINGS_FILES = ['a', 'b', 'c', 'd', 'e']
@@ -36,9 +37,8 @@ def load_tsv() -> list[tuple[str, str, str]]:
     print('Downloading Lichess TSV files...')
     result: list[tuple[str, str, str]] = []
     for letter in OPENINGS_FILES:
-        resp = requests.get(f'{CHESS_OPENINGS_URL}/{letter}.tsv', timeout=30, verify=False)
-        resp.encoding = 'utf-8'
-        for i, line in enumerate(resp.iter_lines(decode_unicode=True)):
+        resp = _HTTP.request('GET', f'{CHESS_OPENINGS_URL}/{letter}.tsv', timeout=30)
+        for i, line in enumerate(resp.data.decode('utf-8').splitlines()):
             if i == 0:
                 continue
             parts = line.split('\t')

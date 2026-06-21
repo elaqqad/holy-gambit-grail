@@ -32,14 +32,18 @@ import urllib.parse
 from io import StringIO
 from time import sleep
 
+import ssl
+
 import chess
 import chess.pgn
-import requests
 import urllib3
 
-# Python on Windows often can't verify GitHub/Lichess certs through corporate proxies.
-# These are local dev scripts — suppressing verification is acceptable here.
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# urllib3.PoolManager with a custom SSLContext bypasses the Windows certificate
+# store that hangs/crashes on some corporate networks (the issue with plain
+# requests.get(verify=False) or ssl.create_default_context()).
+_HTTP = urllib3.PoolManager(ssl_context=ssl._create_unverified_context())  # noqa: SLF001
 
 CHESS_OPENINGS_URL = 'https://raw.githubusercontent.com/lichess-org/chess-openings/master'
 LICHESS_EXPLORER = (
@@ -90,11 +94,27 @@ def uci_moves_from_pgn(pgn: str) -> list[str]:
 
 # ── API calls ─────────────────────────────────────────────────────────────────
 
+_LICHESS_TOKEN: str = ''  # set via --lichess-token; empty means no auth header
+
+
 def _get(url: str) -> dict:
     sleep(1)
+    headers = {'Accept': 'application/json'}
+    if _LICHESS_TOKEN:
+        headers['Authorization'] = f'Bearer {_LICHESS_TOKEN}'
     try:
-        resp = requests.get(url, headers={'Accept': 'application/json'}, timeout=15, verify=False)
-        return resp.json()
+        resp = _HTTP.request('GET', url, headers=headers, timeout=15)
+        if resp.status == 401:
+            print(
+                f'  Warning: HTTP 401 from {url[:60]} — the Lichess Explorer API may'
+                ' require a token. Pass --lichess-token <token> to authenticate.',
+                file=sys.stderr,
+            )
+            return {}
+        if resp.status != 200:
+            print(f'  Warning: HTTP {resp.status} from {url[:80]}', file=sys.stderr)
+            return {}
+        return json.loads(resp.data)
     except Exception as exc:
         print(f'  Warning: API error for {url[:80]}: {exc}', file=sys.stderr)
         return {}
@@ -124,9 +144,8 @@ def load_tsv() -> list[dict]:
     print('Downloading Lichess TSV files...')
     gambits = []
     for letter in OPENINGS_FILES:
-        resp = requests.get(f'{CHESS_OPENINGS_URL}/{letter}.tsv', timeout=30, verify=False)
-        resp.encoding = 'utf-8'
-        reader = csv.reader(resp.iter_lines(decode_unicode=True), delimiter='\t')
+        resp = _HTTP.request('GET', f'{CHESS_OPENINGS_URL}/{letter}.tsv', timeout=30)
+        reader = csv.reader(resp.data.decode('utf-8').splitlines(), delimiter='\t')
         next(reader)  # skip header
         for row in reader:
             if len(row) >= 3 and is_gambit(row[1]):
@@ -316,5 +335,13 @@ if __name__ == '__main__':
         action='store_true',
         help='Reuse stats from the existing gambits.csv instead of calling the Lichess API',
     )
+    parser.add_argument(
+        '--lichess-token',
+        default='',
+        metavar='TOKEN',
+        help='Lichess API token for the Explorer API (required if your network blocks the API)',
+    )
     args = parser.parse_args()
+    if args.lichess_token:
+        _LICHESS_TOKEN = args.lichess_token
     build(no_stats=args.no_stats)
