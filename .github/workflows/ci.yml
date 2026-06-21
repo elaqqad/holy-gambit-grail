@@ -32,3 +32,16 @@ jobs:
                   node-version: 22
             - run: npm ci
             - run: npx tsc --noEmit
+
+    check-gambits-sync:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-python@v5
+              with:
+                  python-version: '3.11'
+            - run: pip install chess
+            - name: Regenerate JSON from CSV
+              run: python scripts/generate-gambits-json.py
+            - name: Fail if JSON is not in sync with CSV
+              run: git diff --exit-code public/data/gambits.json
