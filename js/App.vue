@@ -699,7 +699,7 @@ export default {
                         pgnInJson: true,
                         rated: true,
                         ...(until !== undefined ? { until } : {}),
-                    },
+                    }
                 )
 
                 if (batchCount === 0 || oldestTimestamp === Infinity) break
