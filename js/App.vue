@@ -610,8 +610,11 @@ export default {
                             this.isDownloadComplete = true
                         })
                         .catch((e: DOMException) => {
-                            // If the user cancels the download, don't show an error message
-                            if (e.message.includes('aborted')) {
+                            // cancelFetch() triggers an AbortError — hide it so the UI
+                            // doesn't show a spurious error when the user clicks Stop.
+                            // Any other abort (e.g. unexpected stream close) falls through
+                            // and shows the error so it's visible rather than silent.
+                            if (this.isDownloadComplete || e.message === 'The user aborted a request.') {
                                 return
                             }
                             this.errors.api = e
@@ -672,10 +675,15 @@ export default {
         },
 
         async checkGameForTrophies(game: Game): Promise<void> {
-            // Add a 0ms setTimeout to stop the process from blocking the page
-            // Without this, the page may become unresponsive as games are processed
             this.counts.downloaded++
-            await wait(0)
+            // chess-fetcher does not await our callback, so every game that hits
+            // `await wait(0)` stays in memory until its setTimeout fires.  Yielding
+            // every game accumulated ~10 000 parsed game objects simultaneously and
+            // caused the browser to abort the ReadableStream under memory pressure.
+            // Yielding every 50 games caps in-flight Promises to ~2-3 at any time.
+            if (this.counts.downloaded % 50 === 0) {
+                await wait(0)
+            }
             // only standard chess starting position games
             // only games won by the current user
             // ignore games against stockfish, anonymous users, and bots
