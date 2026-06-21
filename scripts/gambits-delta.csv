@@ -25,7 +25,6 @@ remove,B22,"Sicilian Defense: Alapin Variation, Anti-Alapin Gambit",1. e4 c5 2. 
 remove,C10,French Defense: Marshall Gambit,1. e4 e6 2. d4 d5 3. Nc3 c5,,
 remove,C15,"French Defense: McCutcheon Variation, Wolf Gambit",1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. Ne2 Nf6 5. Bg5,,
 remove,C15,"French Defense: Winawer Variation, Winckelmann-Reimer Gambit",1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 dxe4 6. f3,,
-remove,C27,Bishop's Opening: Boden-Kieseritzky Gambit,1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. Nc3,,
 remove,C33,King's Gambit Accepted: Villemson Gambit,1. e4 e5 2. f4 exf4 3. d4,,
 remove,C34,King's Gambit Accepted: King's Knight's Gambit,1. e4 e5 2. f4 exf4 3. Nf3 g5,,
 remove,C35,"King's Gambit Accepted: Cunningham Defense, Bertin Gambit",1. e4 e5 2. f4 exf4 3. Nf3 Be7 4. Bc4 Bh4+ 5. g3,,
