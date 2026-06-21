@@ -13,31 +13,20 @@ export class TreeMap<K, V> {
                 node = newNode
             }
         }
-        this.add(key, node, value)
-    }
-    private add(key: K[], node: TreeNode<K, V>, value: V) {
-        if (node.value !== undefined) {
-            throw new Error(`Key ${key.join(',')} already has a value ${node.value}, cannot add ${value}`)
-        } else {
-            node.value = value
-        }
+        node.values.push(value)
     }
     public get(key: Iterable<K>): V[] {
         return this.getMap(key, (a: K) => a)
     }
     public getMap<U>(key: Iterable<U>, map: (x: U) => K): V[] {
-        const result = new Array()
+        const result = new Array<V>()
         let node = this.root
-        if (node.value != undefined) {
-            result.push(node.value)
-        }
+        result.push(...node.values)
         for (const next of key) {
             const exists = node.children.get(map(next))
             if (exists !== undefined) {
                 node = exists
-                if (node.value != undefined) {
-                    result.push(node.value)
-                }
+                result.push(...node.values)
             } else {
                 return result
             }
@@ -46,7 +35,7 @@ export class TreeMap<K, V> {
     }
 }
 class TreeNode<K, V> {
-    public value?: V
+    public values: V[] = []
     public children: Map<K, TreeNode<K, V>> = new Map<K, TreeNode<K, V>>()
 }
 
