@@ -49,6 +49,7 @@ export type GambitOpening = {
     original_pgn?: string
     original_fen?: string
     comment?: string
+    transpositions?: string[]
 }
 export type DisplayableGambit = {
     shortName: string

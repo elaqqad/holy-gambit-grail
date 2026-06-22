@@ -306,7 +306,7 @@ import LichessIcon from './components/LichessIcon.vue'
 import UsernameFormatter from './components/UsernameFormatter.vue'
 import RecentUpdates from './components/RecentUpdates.vue'
 import TrophyCollection from './components/TrophyCollection.vue'
-import { gambitTrophy, allGambits, gameAgainstBot, winnerIsUser, pgnPrefix } from './goals/gambit-openings'
+import { gambitTrophy, allGambits, gameAgainstBot, winnerIsUser, pgnPrefix, pgnToMoves } from './goals/gambit-openings'
 import { DisplayableGambits, GambitOpening, PlayerTrophiesByType, YoutubeTrophy } from './types/types'
 import { formatSinceDate } from './utils/format-since-date'
 import { TreeMap } from './utils/TreeMap'
@@ -467,6 +467,9 @@ export default {
                 }
                 const key = pgnPrefix(a)
                 this.gambitsTree.set(key, a)
+                for (const pgn of (a.transpositions ?? [])) {
+                    this.gambitsTree.set(pgnToMoves(pgn), a)
+                }
             }
             result.sort((a, b) => (a.white + a.black + a.draws < b.white + b.black + b.draws ? 1 : -1))
             this.shortNames = this.shortenOpenings(result.map((a) => a.name))
