@@ -10,8 +10,8 @@ Transpositions are discovered from real game data, not theoretical permutations,
 so only move orders that actually appear in many Lichess games are returned.
 
 Usage (from the project root):
-    python scripts/build-transpositions.py
-    python scripts/build-transpositions.py --min-games 2000 --max-depth 10 --sleep 1.0
+    python scripts/build-transpositions.py --lichess-token <token>
+    python scripts/build-transpositions.py --lichess-token <token> --min-games 2000 --max-depth 10
 
 After this script completes, regenerate the JSON so transpositions are included:
     python scripts/generate-gambits-json.py
@@ -46,11 +46,23 @@ EXPLORER_URL = (
     '&fen='
 )
 
+_LICHESS_TOKEN: str = ''
+
 
 def _http_get(url: str, delay: float) -> dict:
     sleep(delay)
+    headers = {'Accept': 'application/json'}
+    if _LICHESS_TOKEN:
+        headers['Authorization'] = f'Bearer {_LICHESS_TOKEN}'
     try:
-        resp = _HTTP.request('GET', url, timeout=15)
+        resp = _HTTP.request('GET', url, headers=headers, timeout=15)
+        if resp.status == 401:
+            print(
+                '  Warning: HTTP 401 from Explorer — '
+                'pass --lichess-token <token> to authenticate.',
+                file=sys.stderr,
+            )
+            return {}
         if resp.status != 200:
             print(f'  Warning: HTTP {resp.status} from {url[:80]}', file=sys.stderr)
             return {}
@@ -100,7 +112,17 @@ def main() -> None:
         '--sleep', type=float, default=0.5,
         help='Seconds to sleep between Explorer API calls (default: 0.5)',
     )
+    parser.add_argument(
+        '--lichess-token',
+        default='',
+        metavar='TOKEN',
+        help='Lichess OAuth token — required on networks that proxy/block the Explorer API',
+    )
     args = parser.parse_args()
+
+    global _LICHESS_TOKEN
+    if args.lichess_token:
+        _LICHESS_TOKEN = args.lichess_token
 
     with open(GAMBITS_JSON, encoding='utf-8') as f:
         gambits = json.load(f)
