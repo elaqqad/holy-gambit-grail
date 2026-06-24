@@ -6,12 +6,18 @@ common continuations.  Every time a node's FEN matches a gambit's target positio
 the move path taken to reach it is recorded as a transposition — unless the path is
 identical to the gambit's own main-line PGN.
 
+Key optimisation: the BFS only follows paths whose move-bag (multiset of SAN moves,
+split by colour) is a sub-bag of some gambit's move-bag.  A transposition for gambit
+G must use the exact same moves as G's canonical PGN, just in a different order —
+so any path that includes a move not in G's move-set cannot lead to G's position.
+This prunes the search to a few thousand positions instead of 100 k+.
+
 Transpositions are discovered from real game data, not theoretical permutations,
 so only move orders that actually appear in many Lichess games are returned.
 
 Usage (from the project root):
     python scripts/build-transpositions.py --lichess-token <token>
-    python scripts/build-transpositions.py --lichess-token <token> --min-games 2000 --max-depth 10
+    python scripts/build-transpositions.py --lichess-token <token> --min-games 2000
 
 After this script completes, regenerate the JSON so transpositions are included:
     python scripts/generate-gambits-json.py
@@ -25,7 +31,7 @@ import re
 import ssl
 import sys
 import urllib.parse
-from collections import deque
+from collections import Counter, deque
 from time import sleep
 
 import chess
@@ -140,6 +146,30 @@ def main() -> None:
         f'BFS: min_games={args.min_games}  max_depth={args.max_depth}  sleep={args.sleep}s\n'
     )
 
+    # Precompute per-gambit move-bags so we can prune the BFS early.
+    # A transposition for gambit G must use the same multiset of moves as G
+    # (split by colour), so any BFS path whose move-bag is NOT a sub-bag of G's
+    # move-bag can never reach G's target position.
+    _gambit_bags: list[tuple[Counter, Counter, int]] = []
+    for g in gambits:
+        moves = normalize_pgn(g['pgn'])   # tuple of SAN strings
+        white_bag = Counter(moves[i] for i in range(0, len(moves), 2))
+        black_bag = Counter(moves[i] for i in range(1, len(moves), 2))
+        _gambit_bags.append((white_bag, black_bag, len(moves)))
+
+    def _can_reach_gambit(san_moves: list[str]) -> bool:
+        """Return True iff san_moves is a valid prefix (by move-bag) of some gambit."""
+        depth = len(san_moves)
+        white_so_far = Counter(san_moves[i] for i in range(0, depth, 2))
+        black_so_far = Counter(san_moves[i] for i in range(1, depth, 2))
+        for white_bag, black_bag, gd in _gambit_bags:
+            if depth >= gd:
+                continue
+            if (all(white_so_far[m] <= white_bag[m] for m in white_so_far) and
+                    all(black_so_far[m] <= black_bag[m] for m in black_so_far)):
+                return True
+        return False
+
     # (eco, name, pgn) → set of transposition PGN strings
     transpositions: dict[tuple, set] = {
         (g['eco'], g['name'], g['pgn']): set()
@@ -200,7 +230,7 @@ def main() -> None:
                             transpositions[key].add(pgn_str)
                             print(f'  ✓ {g["name"]}: {pgn_str}  ({move_total:,} games)')
 
-            if new_fkey not in visited:
+            if new_fkey not in visited and _can_reach_gambit(new_moves):
                 visited.add(new_fkey)
                 queue.append((new_board, new_moves))
 
