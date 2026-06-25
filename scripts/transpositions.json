@@ -1,0 +1,2046 @@
+[
+    {
+        "eco": "D06",
+        "name": "Queen's Gambit",
+        "pgn": "1. d4 d5 2. c4",
+        "transpositions": [
+            "1. c4 d5 2. d4"
+        ]
+    },
+    {
+        "eco": "C30",
+        "name": "King's Gambit",
+        "pgn": "1. e4 e5 2. f4",
+        "transpositions": [
+            "1. f4 e5 2. e4"
+        ]
+    },
+    {
+        "eco": "B21",
+        "name": "Sicilian Defense: Smith-Morra Gambit",
+        "pgn": "1. e4 c5 2. d4",
+        "transpositions": [
+            "1. d4 c5 2. e4"
+        ]
+    },
+    {
+        "eco": "A06",
+        "name": "Zukertort Opening: Tennison Gambit",
+        "pgn": "1. e4 d5 2. Nf3",
+        "transpositions": [
+            "1. Nf3 d5 2. e4"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Blackmar-Diemer Gambit",
+        "pgn": "1. d4 d5 2. e4",
+        "transpositions": [
+            "1. e4 d5 2. d4"
+        ]
+    },
+    {
+        "eco": "C44",
+        "name": "Scotch Game: Scotch Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4",
+        "transpositions": [
+            "1. e4 e5 2. Bc4 Nc6 3. d4 exd4 4. Nf3"
+        ]
+    },
+    {
+        "eco": "A50",
+        "name": "A50 Indian Defense: Budapest Gambit",
+        "pgn": "1. d4 Nf6 2. c4 e5",
+        "transpositions": [
+            "1. d4 e5 2. c4 Nf6"
+        ]
+    },
+    {
+        "eco": "C40",
+        "name": "Elephant Gambit",
+        "pgn": "1. e4 e5 2. Nf3 d5",
+        "transpositions": [
+            "1. e4 d5 2. Nf3 e5"
+        ]
+    },
+    {
+        "eco": "D08",
+        "name": "Queen's Gambit Declined: Albin Countergambit",
+        "pgn": "1. d4 d5 2. c4 e5",
+        "transpositions": [
+            "1. d4 e5 2. c4 d5"
+        ]
+    },
+    {
+        "eco": "C31",
+        "name": "King's Gambit Declined: Falkbeer Countergambit",
+        "pgn": "1. e4 e5 2. f4 d5",
+        "transpositions": [
+            "1. e4 d5 2. f4 e5"
+        ]
+    },
+    {
+        "eco": "A57",
+        "name": "Benko Gambit",
+        "pgn": "1. d4 Nf6 2. c4 c5 3. d5 b5",
+        "transpositions": [
+            "1. d4 c5 2. d5 b5 3. c4 Nf6"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Blackmar-Diemer Gambit",
+        "pgn": "1. d4 d5 2. e4 dxe4 3. Nc3",
+        "transpositions": [
+            "1. e4 d5 2. d4 dxe4 3. Nc3"
+        ]
+    },
+    {
+        "eco": "A40",
+        "name": "Englund Gambit Complex: Englund Gambit",
+        "pgn": "1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7",
+        "transpositions": [
+            "1. d4 e5 2. dxe5 Qe7 3. Nf3 Nc6"
+        ]
+    },
+    {
+        "eco": "C40",
+        "name": "Latvian Gambit",
+        "pgn": "1. e4 e5 2. Nf3 f5",
+        "transpositions": [
+            "1. e4 f5 2. Nf3 e5"
+        ]
+    },
+    {
+        "eco": "C29",
+        "name": "Vienna Game: Vienna Gambit",
+        "pgn": "1. e4 e5 2. Nc3 Nf6 3. f4",
+        "transpositions": [
+            "1. e4 e5 2. f4 Nf6 3. Nc3"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit",
+        "pgn": "1. d4 d5 2. Bf4 c5",
+        "transpositions": [
+            "1. d4 c5 2. Bf4 d5"
+        ]
+    },
+    {
+        "eco": "C44",
+        "name": "Scotch Game: Göring Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. c3",
+        "transpositions": [
+            "1. e4 e5 2. d4 exd4 3. c3 Nc6 4. Nf3"
+        ]
+    },
+    {
+        "eco": "A05",
+        "name": "Zukertort Opening: Lemberger Gambit",
+        "pgn": "1. Nf3 Nf6 2. e4",
+        "transpositions": [
+            "1. e4 Nf6 2. Nf3"
+        ]
+    },
+    {
+        "eco": "C42",
+        "name": "Russian Game: Stafford Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6",
+        "transpositions": [
+            "1. Nf3 e5 2. Nxe5 Nc6 3. Nxc6 dxc6 4. e4 Nf6"
+        ]
+    },
+    {
+        "eco": "C02",
+        "name": "French Defense: Advance Variation, Milner-Barry Gambit",
+        "pgn": "1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3",
+        "transpositions": [
+            "1. e4 c5 2. Nf3 Nc6 3. d4 d5 4. e5 e6 5. Bd3 Qb6 6. c3",
+            "1. e4 c5 2. Nf3 Nc6 3. d4 e6 4. c3 d5 5. e5 Qb6 6. Bd3",
+            "1. e4 c5 2. d4 Nc6 3. c3 d5 4. e5 e6 5. Bd3 Qb6 6. Nf3"
+        ]
+    },
+    {
+        "eco": "A45",
+        "name": "Indian Defense: Omega Gambit",
+        "pgn": "1. d4 Nf6 2. e4",
+        "transpositions": [
+            "1. e4 Nf6 2. d4"
+        ]
+    },
+    {
+        "eco": "B01",
+        "name": "Scandinavian Defense: Icelandic-Palme Gambit",
+        "pgn": "1. e4 d5 2. exd5 Nf6 3. c4 e6",
+        "transpositions": [
+            "1. e4 e6 2. c4 d5 3. exd5 Nf6"
+        ]
+    },
+    {
+        "eco": "C50",
+        "name": "Italian Game: Rousseau Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 f5",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. Bc4 Nc6"
+        ]
+    },
+    {
+        "eco": "C37",
+        "name": "King's Gambit Accepted: King's Knight's Gambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Bc4 g5 4. Nf3"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Queen's Pawn Game: Hübsch Gambit",
+        "pgn": "1. d4 Nf6 2. Nc3 d5 3. e4",
+        "transpositions": [
+            "1. d4 d5 2. Nc3 Nf6 3. e4",
+            "1. e4 d5 2. Nc3 Nf6 3. d4",
+            "1. e4 d5 2. d4 Nf6 3. Nc3"
+        ]
+    },
+    {
+        "eco": "C50",
+        "name": "Italian Game: Classical Variation, Albin Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. c3",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. O-O"
+        ]
+    },
+    {
+        "eco": "C44",
+        "name": "Scotch Game: Haxo Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bc5 5. c3",
+        "transpositions": [
+            "1. e4 e5 2. Bc4 Nc6 3. c3 Bc5 4. d4 exd4 5. Nf3",
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d4 exd4 5. c3",
+            "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. c3 Bc5 5. Bc4"
+        ]
+    },
+    {
+        "eco": "C37",
+        "name": "King's Gambit Accepted: Blachly Gambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 Nc6 4. Bc4",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Bc4 Nc6 4. Nf3"
+        ]
+    },
+    {
+        "eco": "B02",
+        "name": "Alekhine Defense: Scandinavian Variation, Geschev Gambit",
+        "pgn": "1. e4 Nf6 2. Nc3 d5 3. exd5 c6",
+        "transpositions": [
+            "1. e4 d5 2. exd5 Nf6 3. Nc3 c6",
+            "1. e4 d5 2. exd5 c6 3. Nc3 Nf6"
+        ]
+    },
+    {
+        "eco": "C10",
+        "name": "Sicilian Defense: Marshall Gambit",
+        "pgn": "1. e4 c5 2. Nc3 e6 3. d4 d5",
+        "transpositions": [
+            "1. e4 c5 2. Nc3 d5 3. d4 e6",
+            "1. e4 e6 2. d4 d5 3. Nc3 c5"
+        ]
+    },
+    {
+        "eco": "C00",
+        "name": "French Defense: Wing Gambit",
+        "pgn": "1. e4 e6 2. Nf3 d5 3. e5 c5 4. b4",
+        "transpositions": [
+            "1. e4 c5 2. Nf3 d5 3. e5 e6 4. b4",
+            "1. e4 c5 2. Nf3 e6 3. b4 d5 4. e5",
+            "1. e4 c5 2. Nf3 e6 3. e5 d5 4. b4"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Blackmar-Diemer Gambit: Blackmar Gambit",
+        "pgn": "1. d4 d5 2. e4 dxe4 3. f3",
+        "transpositions": [
+            "1. e4 d5 2. d4 dxe4 3. f3"
+        ]
+    },
+    {
+        "eco": "D31",
+        "name": "Semi-Slav Defense: Marshall Gambit",
+        "pgn": "1. d4 d5 2. c4 e6 3. Nc3 c6 4. e4",
+        "transpositions": [
+            "1. e4 e6 2. c4 d5 3. Nc3 c6 4. d4",
+            "1. e4 e6 2. d4 d5 3. c4 c6 4. Nc3"
+        ]
+    },
+    {
+        "eco": "B15",
+        "name": "Caro-Kann Defense: Rasa-Studier Gambit",
+        "pgn": "1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. f3",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 c6 3. d4 dxe4 4. f3",
+            "1. e4 d5 2. d4 dxe4 3. f3 c6 4. Nc3"
+        ]
+    },
+    {
+        "eco": "C24",
+        "name": "Bishop's Opening: Ponziani Gambit",
+        "pgn": "1. e4 e5 2. Bc4 Nf6 3. d4",
+        "transpositions": [
+            "1. e4 e5 2. d4 Nf6 3. Bc4"
+        ]
+    },
+    {
+        "eco": "A82",
+        "name": "Dutch Defense: Staunton Gambit",
+        "pgn": "1. d4 f5 2. e4",
+        "transpositions": [
+            "1. e4 f5 2. d4"
+        ]
+    },
+    {
+        "eco": "A03",
+        "name": "Bird Opening: Williams Gambit",
+        "pgn": "1. f4 d5 2. e4",
+        "transpositions": [
+            "1. e4 d5 2. f4"
+        ]
+    },
+    {
+        "eco": "C50",
+        "name": "Italian Game: Rosentreter Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d4",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. d4 Bc5 4. Bc4"
+        ]
+    },
+    {
+        "eco": "C00",
+        "name": "French Defense: Horwitz Attack, Papa-Ticulat Gambit",
+        "pgn": "1. e4 e6 2. b3 d5 3. Bb2",
+        "transpositions": [
+            "1. b3 d5 2. Bb2 e6 3. e4"
+        ]
+    },
+    {
+        "eco": "C53",
+        "name": "Italian Game: Classical Variation, Greco Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bc5 5. c3 Nf6 6. e5",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Pirc Defense: Roscher Gambit",
+        "pgn": "1. e4 d6 2. d4 Nf6 3. Nf3",
+        "transpositions": [
+            "1. d4 Nf6 2. Nf3 d6 3. e4",
+            "1. e4 d6 2. Nf3 Nf6 3. d4"
+        ]
+    },
+    {
+        "eco": "C00",
+        "name": "French Defense: Perseus Gambit",
+        "pgn": "1. e4 e6 2. d4 d5 3. Nf3",
+        "transpositions": [
+            "1. d4 d5 2. Nf3 e6 3. e4",
+            "1. e4 e6 2. Nf3 d5 3. d4"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Blackmar-Diemer Gambit: von Popiel Gambit",
+        "pgn": "1. d4 d5 2. e4 dxe4 3. Nc3 Nf6 4. Bg5",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d4 Nf6 4. Bg5"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Colorado Countergambit",
+        "pgn": "1. e4 Nc6 2. Nf3 f5",
+        "transpositions": [
+            "1. e4 f5 2. Nf3 Nc6"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Kennedy Variation, de Smet Gambit",
+        "pgn": "1. e4 Nc6 2. d4 e5 3. dxe5 d6",
+        "transpositions": [
+            "1. e4 e5 2. d4 Nc6 3. dxe5 d6",
+            "1. e4 e5 2. d4 d6 3. dxe5 Nc6"
+        ]
+    },
+    {
+        "eco": "B30",
+        "name": "Sicilian Defense: Portsmouth Gambit",
+        "pgn": "1. e4 c5 2. Nf3 Nc6 3. b4",
+        "transpositions": [
+            "1. e4 c5 2. b4 Nc6 3. Nf3"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Van Geet Opening: Dunst-Perrenet Gambit",
+        "pgn": "1. Nc3 d5 2. e4 dxe4 3. d3",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d3",
+            "1. e4 d5 2. d3 dxe4 3. Nc3"
+        ]
+    },
+    {
+        "eco": "C44",
+        "name": "Ponziani Opening: Neumann Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. c3 Nf6 4. Bc4",
+        "transpositions": [
+            "1. e4 e5 2. Bc4 Nc6 3. c3 Nf6 4. Nf3",
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. c3"
+        ]
+    },
+    {
+        "eco": "A04",
+        "name": "Zukertort Opening: Vos Gambit",
+        "pgn": "1. Nf3 d6 2. d4 e5",
+        "transpositions": [
+            "1. d4 d6 2. Nf3 e5",
+            "1. d4 e5 2. Nf3 d6"
+        ]
+    },
+    {
+        "eco": "C65",
+        "name": "Ruy Lopez: Classical Variation, Zukertort Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Bc5 5. c3",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. c3 Bc5 5. O-O"
+        ]
+    },
+    {
+        "eco": "C25",
+        "name": "Vienna Game: Omaha Gambit",
+        "pgn": "1. e4 e5 2. Nc3 d6 3. f4",
+        "transpositions": [
+            "1. e4 e5 2. f4 d6 3. Nc3",
+            "1. f4 e5 2. Nc3 d6 3. e4"
+        ]
+    },
+    {
+        "eco": "C41",
+        "name": "Philidor Defense: Morphy Gambit",
+        "pgn": "1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Bc4",
+        "transpositions": [
+            "1. e4 e5 2. Bc4 d6 3. d4 exd4 4. Nf3"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Owen Defense: Smith Gambit",
+        "pgn": "1. e4 b6 2. d4 Bb7 3. Nf3",
+        "transpositions": [
+            "1. d4 b6 2. Nf3 Bb7 3. e4",
+            "1. e4 b6 2. Nf3 Bb7 3. d4"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Queen's Pawn Game: Chigorin Variation, Irish Gambit",
+        "pgn": "1. d4 d5 2. Nc3 c5",
+        "transpositions": [
+            "1. d4 c5 2. Nc3 d5"
+        ]
+    },
+    {
+        "eco": "C47",
+        "name": "Four Knights Game: Halloween Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Nxe5",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nc3"
+        ]
+    },
+    {
+        "eco": "C20",
+        "name": "King's Pawn Game: Beyer Gambit",
+        "pgn": "1. e4 e5 2. d4 d5",
+        "transpositions": [
+            "1. e4 d5 2. d4 e5"
+        ]
+    },
+    {
+        "eco": "A40",
+        "name": "Englund Gambit Complex: Felbecker Gambit",
+        "pgn": "1. d4 e5 2. dxe5 Nc6 3. Nf3 Bc5",
+        "transpositions": [
+            "1. d4 e5 2. dxe5 Bc5 3. Nf3 Nc6"
+        ]
+    },
+    {
+        "eco": "C00",
+        "name": "French Defense: Diemer-Duhm Gambit",
+        "pgn": "1. e4 e6 2. d4 d5 3. c4",
+        "transpositions": [
+            "1. d4 d5 2. c4 e6 3. e4",
+            "1. e4 e6 2. c4 d5 3. d4"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Blackmar-Diemer Gambit Accepted: Ryder Gambit",
+        "pgn": "1. d4 d5 2. e4 dxe4 3. Nc3 Nf6 4. f3 exf3 5. Qxf3",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. f3 exf3 4. d4 Nf6 5. Qxf3",
+            "1. e4 d5 2. d4 dxe4 3. f3 exf3 4. Qxf3 Nf6 5. Nc3"
+        ]
+    },
+    {
+        "eco": "D15",
+        "name": "Slav Defense: Geller Gambit",
+        "pgn": "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. e4",
+        "transpositions": [
+            "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 dxc4 5. e4",
+            "1. e4 d5 2. d4 c6 3. c4 Nf6 4. Nc3 dxc4 5. Nf3",
+            "1. e4 d5 2. d4 c6 3. c4 dxc4 4. Nf3 Nf6 5. Nc3"
+        ]
+    },
+    {
+        "eco": "C43",
+        "name": "Bishop's Opening: Urusov Gambit",
+        "pgn": "1. e4 e5 2. Bc4 Nf6 3. d4 exd4 4. Nf3",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. Bc4"
+        ]
+    },
+    {
+        "eco": "E81",
+        "name": "King's Indian Defense: Sämisch Variation, Sämisch Gambit",
+        "pgn": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5",
+        "transpositions": [
+            "1. e4 d6 2. d4 Nf6 3. f3 g6 4. c4 Bg7 5. Nc3 O-O 6. Be3 c5",
+            "1. e4 d6 2. d4 Nf6 3. f3 g6 4. c4 Bg7 5. Nc3 c5 6. Be3 O-O"
+        ]
+    },
+    {
+        "eco": "C41",
+        "name": "Philidor Defense: Lopez Countergambit",
+        "pgn": "1. e4 e5 2. Nf3 d6 3. Bc4 f5",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. Bc4 d6"
+        ]
+    },
+    {
+        "eco": "D10",
+        "name": "Slav Defense: Diemer Gambit",
+        "pgn": "1. d4 d5 2. c4 c6 3. e4",
+        "transpositions": [
+            "1. e4 c6 2. c4 d5 3. d4",
+            "1. e4 d5 2. d4 c6 3. c4"
+        ]
+    },
+    {
+        "eco": "D06",
+        "name": "Queen's Gambit Declined: Marshall Defense, Tan Gambit",
+        "pgn": "1. d4 d5 2. c4 Nf6 3. cxd5 c6",
+        "transpositions": [
+            "1. d4 d5 2. c4 c6 3. cxd5 Nf6"
+        ]
+    },
+    {
+        "eco": "A83",
+        "name": "Dutch Defense: Staunton Gambit",
+        "pgn": "1. d4 f5 2. e4 fxe4 3. Nc3 Nf6 4. Bg5",
+        "transpositions": [
+            "1. e4 f5 2. Nc3 fxe4 3. d4 Nf6 4. Bg5",
+            "1. e4 f5 2. d4 fxe4 3. Bg5 Nf6 4. Nc3"
+        ]
+    },
+    {
+        "eco": "A83",
+        "name": "Dutch Defense: Staunton Gambit, Lasker Variation",
+        "pgn": "1. d4 f5 2. e4 fxe4 3. Nc3 Nf6 4. Bg5",
+        "transpositions": [
+            "1. e4 f5 2. Nc3 fxe4 3. d4 Nf6 4. Bg5",
+            "1. e4 f5 2. d4 fxe4 3. Bg5 Nf6 4. Nc3"
+        ]
+    },
+    {
+        "eco": "C40",
+        "name": "King's Pawn Game: Gunderam Gambit",
+        "pgn": "1. e4 e5 2. Nf3 c6",
+        "transpositions": [
+            "1. e4 c6 2. Nf3 e5"
+        ]
+    },
+    {
+        "eco": "C40",
+        "name": "Latvian Gambit: Mason Countergambit",
+        "pgn": "1. e4 e5 2. Nf3 f5 3. d4",
+        "transpositions": [
+            "1. e4 e5 2. d4 f5 3. Nf3"
+        ]
+    },
+    {
+        "eco": "C23",
+        "name": "Bishop's Opening: Calabrese Countergambit",
+        "pgn": "1. e4 e5 2. Bc4 f5",
+        "transpositions": [
+            "1. e4 f5 2. Bc4 e5"
+        ]
+    },
+    {
+        "eco": "C41",
+        "name": "Philidor Defense: Bird Gambit",
+        "pgn": "1. e4 e5 2. Nf3 d6 3. d4 exd4 4. c3",
+        "transpositions": [
+            "1. e4 e5 2. d4 exd4 3. c3 d6 4. Nf3"
+        ]
+    },
+    {
+        "eco": "B15",
+        "name": "Caro-Kann Defense: von Hennig Gambit",
+        "pgn": "1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Bc4",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 c6 3. d4 dxe4 4. Bc4"
+        ]
+    },
+    {
+        "eco": "C37",
+        "name": "King's Gambit Accepted: Rosentreter Gambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. d4",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. d4 g5 4. Nf3"
+        ]
+    },
+    {
+        "eco": "D07",
+        "name": "Queen's Gambit Declined: Chigorin Defense, Modern Gambit",
+        "pgn": "1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3 Nf6",
+        "transpositions": [
+            "1. d4 d5 2. c4 Nf6 3. Nc3 Nc6 4. Nf3 dxc4",
+            "1. d4 d5 2. c4 Nf6 3. Nc3 dxc4 4. Nf3 Nc6",
+            "1. d4 d5 2. c4 dxc4 3. Nc3 Nc6 4. Nf3 Nf6"
+        ]
+    },
+    {
+        "eco": "A04",
+        "name": "Zukertort Opening: Speelsmet Gambit",
+        "pgn": "1. Nf3 c5 2. d4 cxd4 3. e3",
+        "transpositions": [
+            "1. d4 c5 2. Nf3 cxd4 3. e3",
+            "1. d4 c5 2. e3 cxd4 3. Nf3"
+        ]
+    },
+    {
+        "eco": "C41",
+        "name": "Philidor Defense: Philidor Countergambit",
+        "pgn": "1. e4 e5 2. Nf3 d6 3. d4 f5",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. d4 d6"
+        ]
+    },
+    {
+        "eco": "A04",
+        "name": "Zukertort Opening: Lisitsyn Gambit",
+        "pgn": "1. Nf3 f5 2. e4",
+        "transpositions": [
+            "1. e4 f5 2. Nf3"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Blackmar-Diemer Gambit: Lemberger Countergambit",
+        "pgn": "1. d4 d5 2. e4 dxe4 3. Nc3 e5",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d4 e5",
+            "1. e4 d5 2. d4 dxe4 3. Nc3 e5",
+            "1. e4 e5 2. Nc3 d5 3. d4 dxe4"
+        ]
+    },
+    {
+        "eco": "A41",
+        "name": "Rat Defense: English Rat, Lisbon Gambit",
+        "pgn": "1. d4 d6 2. c4 e5 3. dxe5 Nc6",
+        "transpositions": [
+            "1. d4 e5 2. dxe5 Nc6 3. c4 d6",
+            "1. d4 e5 2. dxe5 d6 3. c4 Nc6"
+        ]
+    },
+    {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit",
+        "pgn": "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Bg5",
+        "transpositions": [
+            "1. d4 d5 2. Nf3 Nf6 3. Bg5 c6 4. c4",
+            "1. d4 d5 2. c4 Nf6 3. Bg5 c6 4. Nf3"
+        ]
+    },
+    {
+        "eco": "B12",
+        "name": "Caro-Kann Defense: Ulysses Gambit",
+        "pgn": "1. e4 c6 2. d4 d5 3. Nf3 dxe4 4. Ng5",
+        "transpositions": [
+            "1. e4 d5 2. Nf3 c6 3. d4 dxe4 4. Ng5"
+        ]
+    },
+    {
+        "eco": "B21",
+        "name": "Bird Opening: Dutch Variation, Batavo Gambit",
+        "pgn": "1. e4 c5 2. f4 d5 3. Nf3",
+        "transpositions": [
+            "1. f4 d5 2. Nf3 c5 3. e4"
+        ]
+    },
+    {
+        "eco": "B12",
+        "name": "Caro-Kann Defense: Maróczy Variation, Maróczy Gambit",
+        "pgn": "1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 exd4 6. Bc4",
+        "transpositions": [
+            "1. e4 d5 2. d4 dxe4 3. f3 c6 4. fxe4 e5 5. Bc4 exd4 6. Nf3",
+            "1. e4 d5 2. d4 dxe4 3. f3 c6 4. fxe4 e5 5. Nf3 exd4 6. Bc4"
+        ]
+    },
+    {
+        "eco": "B15",
+        "name": "Caro-Kann Defense: Alekhine Gambit",
+        "pgn": "1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Bd3",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 c6 3. d4 Nf6 4. Bd3 dxe4 5. Nxe4",
+            "1. e4 d5 2. Nc3 dxe4 3. Nxe4 c6 4. d4 Nf6 5. Bd3"
+        ]
+    },
+    {
+        "eco": "C00",
+        "name": "French Defense: Franco-Hiva Gambit",
+        "pgn": "1. e4 e6 2. d4 f5",
+        "transpositions": [
+            "1. e4 f5 2. d4 e6"
+        ]
+    },
+    {
+        "eco": "C00",
+        "name": "French Defense: La Bourdonnais Variation, Reuter Gambit",
+        "pgn": "1. e4 e6 2. f4 d5 3. Nf3",
+        "transpositions": [
+            "1. f4 d5 2. Nf3 e6 3. e4"
+        ]
+    },
+    {
+        "eco": "A07",
+        "name": "King's Indian Attack: Omega-Delta Gambit",
+        "pgn": "1. Nf3 d5 2. g3 e5",
+        "transpositions": [
+            "1. Nf3 e5 2. g3 d5"
+        ]
+    },
+    {
+        "eco": "B06",
+        "name": "Modern Defense: Lizard Defense, Mittenberger Gambit",
+        "pgn": "1. e4 g6 2. d4 Bg7 3. Nc3 d5",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 g6 3. d4 Bg7"
+        ]
+    },
+    {
+        "eco": "B21",
+        "name": "Sicilian Defense: Morphy Gambit, Andreaschek Gambit",
+        "pgn": "1. e4 c5 2. d4 cxd4 3. Nf3 e5 4. c3",
+        "transpositions": [
+            "1. e4 c5 2. Nf3 e5 3. d4 cxd4 4. c3",
+            "1. e4 c5 2. d4 cxd4 3. c3 e5 4. Nf3"
+        ]
+    },
+    {
+        "eco": "C53",
+        "name": "Italian Game: Scotch Gambit, Walbrodt-Baird Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. O-O",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d4 exd4 6. c3"
+        ]
+    },
+    {
+        "eco": "D43",
+        "name": "Semi-Slav Defense: Anti-Moscow Gambit",
+        "pgn": "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bh4",
+        "transpositions": [
+            "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 h6 5. Bh4 c6 6. Nf3",
+            "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 c6 5. Bg5 h6 6. Bh4",
+            "1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Bg5 h6 5. Bh4 c6 6. Nc3"
+        ]
+    },
+    {
+        "eco": "C27",
+        "name": "Bishop's Opening: Boden-Kieseritzky Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. Nc3",
+        "transpositions": [
+            "1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Nf3",
+            "1. e4 e5 2. Nf3 Nf6 3. Nc3 Nxe4 4. Bc4"
+        ]
+    },
+    {
+        "eco": "C27",
+        "name": "Bishop's Opening: Boden-Kieseritzky Gambit",
+        "pgn": "1. e4 e5 2. Bc4 Nf6 3. Nf3 Nxe4 4. Nc3",
+        "transpositions": [
+            "1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Nf3",
+            "1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. Nc3",
+            "1. e4 e5 2. Nf3 Nf6 3. Nc3 Nxe4 4. Bc4"
+        ]
+    },
+    {
+        "eco": "D10",
+        "name": "Slav Defense: Winawer Countergambit",
+        "pgn": "1. d4 d5 2. c4 c6 3. Nc3 e5",
+        "transpositions": [
+            "1. d4 d5 2. c4 e5 3. Nc3 c6",
+            "1. d4 e5 2. c4 c6 3. Nc3 d5"
+        ]
+    },
+    {
+        "eco": "C47",
+        "name": "Four Knights Game: Scotch Variation, Belgrade Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nd5",
+        "transpositions": [
+            "1. e4 e5 2. Nc3 Nc6 3. d4 exd4 4. Nd5 Nf6 5. Nf3",
+            "1. e4 e5 2. Nf3 Nc6 3. d4 Nf6 4. Nc3 exd4 5. Nd5"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Van Geet Opening: Berlin Gambit",
+        "pgn": "1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nc6 3. d4 dxe4 4. d5"
+        ]
+    },
+    {
+        "eco": "C30",
+        "name": "King's Gambit Declined: Panteldakis Countergambit",
+        "pgn": "1. e4 e5 2. f4 f5",
+        "transpositions": [
+            "1. e4 f5 2. f4 e5"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Queen's Pawn Game: Chigorin Variation, Shaviliuk Gambit",
+        "pgn": "1. d4 d5 2. Nc3 e5",
+        "transpositions": [
+            "1. d4 e5 2. Nc3 d5"
+        ]
+    },
+    {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Bg4 6. h3 h5",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. h3 h5 6. O-O Bg4"
+        ]
+    },
+    {
+        "eco": "D83",
+        "name": "Grünfeld Defense: Brinckmann Attack, Grünfeld Gambit",
+        "pgn": "1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4 Bg7 5. e3 O-O",
+        "transpositions": [
+            "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Bf4 O-O 5. e3 d5",
+            "1. d4 d5 2. c4 Nf6 3. Nc3 g6 4. Bf4 Bg7 5. e3 O-O"
+        ]
+    },
+    {
+        "eco": "B02",
+        "name": "Alekhine Defense: Hunt Variation, Lasker Simul Gambit",
+        "pgn": "1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. c5 Nd5 5. Bc4 e6 6. Nc3",
+        "transpositions": [
+            "1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. c5 Nd5 5. Nc3 e6 6. Bc4"
+        ]
+    },
+    {
+        "eco": "B54",
+        "name": "Sicilian Defense: Modern Variations, Ginsberg Gambit",
+        "pgn": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Bc4",
+        "transpositions": [
+            "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Bc4 Nf6 5. Nxd4"
+        ]
+    },
+    {
+        "eco": "B10",
+        "name": "Caro-Kann Defense: Hillbilly Attack, Schaeffer Gambit",
+        "pgn": "1. e4 c6 2. Bc4 d5 3. Bb3 dxe4 4. Qh5",
+        "transpositions": [
+            "1. e4 d5 2. Bc4 c6 3. Bb3 dxe4 4. Qh5"
+        ]
+    },
+    {
+        "eco": "C02",
+        "name": "French Defense: Advance Variation, Nimzowitsch Gambit",
+        "pgn": "1. e4 e6 2. d4 d5 3. e5 c5 4. Qg4 cxd4 5. Nf3",
+        "transpositions": [
+            "1. e4 c5 2. d4 d5 3. e5 e6 4. Qg4 cxd4 5. Nf3"
+        ]
+    },
+    {
+        "eco": "A09",
+        "name": "Réti Opening: Reversed Blumenfeld Gambit",
+        "pgn": "1. Nf3 d5 2. c4 d4 3. e3 c5 4. b4",
+        "transpositions": [
+            "1. Nf3 d5 2. c4 d4 3. b4 c5 4. e3"
+        ]
+    },
+    {
+        "eco": "D15",
+        "name": "Slav Defense: Geller Gambit",
+        "pgn": "1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. e4 b5 6. e5",
+        "transpositions": [
+            "1. e4 d5 2. d4 c6 3. c4 Nf6 4. Nc3 dxc4 5. Nf3 b5 6. e5"
+        ]
+    },
+    {
+        "eco": "C44",
+        "name": "Ponziani Opening: Ponziani Countergambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. c3 f5",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. c3 Nc6"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Scandinavian Variation, Exchange Variation, Marshall Gambit",
+        "pgn": "1. e4 Nc6 2. d4 d5 3. exd5 Qxd5 4. Nc3",
+        "transpositions": [
+            "1. e4 d5 2. exd5 Nc6 3. Nc3 Qxd5 4. d4",
+            "1. e4 d5 2. exd5 Qxd5 3. d4 Nc6 4. Nc3"
+        ]
+    },
+    {
+        "eco": "C50",
+        "name": "Italian Game: Giuoco Pianissimo, Lucchini Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 f5",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 f5 4. d3 Bc5"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Blackmar-Diemer Gambit: Reversed Albin Countergambit",
+        "pgn": "1. d4 d5 2. e4 dxe4 3. Nc3 c5",
+        "transpositions": [
+            "1. e4 c5 2. Nc3 d5 3. d4 dxe4",
+            "1. e4 d5 2. d4 dxe4 3. Nc3 c5"
+        ]
+    },
+    {
+        "eco": "A45",
+        "name": "Indian Defense: Maddigan Gambit",
+        "pgn": "1. d4 Nf6 2. Nc3 e5",
+        "transpositions": [
+            "1. d4 e5 2. Nc3 Nf6"
+        ]
+    },
+    {
+        "eco": "D07",
+        "name": "Queen's Gambit Declined: Chigorin Defense, Lazard Gambit",
+        "pgn": "1. d4 d5 2. c4 Nc6 3. Nf3 e5",
+        "transpositions": [
+            "1. d4 d5 2. c4 e5 3. Nf3 Nc6"
+        ]
+    },
+    {
+        "eco": "D07",
+        "name": "Queen's Gambit Declined: Chigorin Defense, Tartakower Gambit",
+        "pgn": "1. d4 d5 2. c4 Nc6 3. Nc3 e5",
+        "transpositions": [
+            "1. d4 d5 2. c4 e5 3. Nc3 Nc6"
+        ]
+    },
+    {
+        "eco": "C25",
+        "name": "Vienna Game: Fyfe Gambit",
+        "pgn": "1. e4 e5 2. Nc3 Nc6 3. d4",
+        "transpositions": [
+            "1. d4 e5 2. Nc3 Nc6 3. e4",
+            "1. e4 e5 2. d4 Nc6 3. Nc3"
+        ]
+    },
+    {
+        "eco": "C31",
+        "name": "King's Gambit Declined: Falkbeer Countergambit, Hinrichsen Gambit",
+        "pgn": "1. e4 e5 2. f4 d5 3. d4",
+        "transpositions": [
+            "1. e4 e5 2. d4 d5 3. f4"
+        ]
+    },
+    {
+        "eco": "A82",
+        "name": "Dutch Defense: Blackmar's Second Gambit",
+        "pgn": "1. d4 f5 2. e4 fxe4 3. Nc3 Nf6 4. f3",
+        "transpositions": [
+            "1. e4 f5 2. Nc3 fxe4 3. d4 Nf6 4. f3",
+            "1. e4 f5 2. d4 fxe4 3. f3 Nf6 4. Nc3"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Blackmar-Diemer Gambit: Rasa-Studier Gambit",
+        "pgn": "1. d4 d5 2. e4 dxe4 3. Nc3 Nf6 4. Be3",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d4 Nf6 4. Be3",
+            "1. e4 d5 2. d4 dxe4 3. Be3 Nf6 4. Nc3"
+        ]
+    },
+    {
+        "eco": "E10",
+        "name": "Blumenfeld Countergambit",
+        "pgn": "1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 b5",
+        "transpositions": [
+            "1. d4 Nf6 2. c4 c5 3. d5 b5 4. Nf3 e6"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Nimzowitsch Gambit",
+        "pgn": "1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5 Ne5",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nc6 3. d4 dxe4 4. d5 Ne5"
+        ]
+    },
+    {
+        "eco": "B14",
+        "name": "Caro-Kann Defense: Panov Attack, Fianchetto Defense, Fianchetto Gambit",
+        "pgn": "1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 g6 6. cxd5 Bg7",
+        "transpositions": [
+            "1. e4 d5 2. exd5 Nf6 3. d4 c6 4. c4 cxd5 5. Nc3 g6 6. cxd5 Bg7",
+            "1. e4 d5 2. exd5 c6 3. d4 cxd5 4. c4 g6 5. Nc3 Bg7 6. cxd5 Nf6"
+        ]
+    },
+    {
+        "eco": "C25",
+        "name": "Vienna Gambit, with Max Lange Defense: Pierce Gambit",
+        "pgn": "1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. Nf3 g5 5. d4",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nc3 Nc6 4. d4 g5 5. Nf3",
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3 Nc6 5. d4",
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. d4 Nc6 5. Nc3"
+        ]
+    },
+    {
+        "eco": "C02",
+        "name": "French Defense: Advance Variation, Ruisdonk Gambit",
+        "pgn": "1. e4 e6 2. d4 d5 3. e5 c5 4. Nf3 cxd4 5. Bd3",
+        "transpositions": [
+            "1. e4 c5 2. Nf3 e6 3. d4 d5 4. e5 cxd4 5. Bd3",
+            "1. e4 c5 2. d4 e6 3. Bd3 d5 4. e5 cxd4 5. Nf3"
+        ]
+    },
+    {
+        "eco": "A19",
+        "name": "English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit",
+        "pgn": "1. c4 Nf6 2. Nc3 e6 3. e4 c5 4. e5 Ng8",
+        "transpositions": [
+            "1. e4 c5 2. c4 e6 3. Nc3 Nf6 4. e5 Ng8"
+        ]
+    },
+    {
+        "eco": "C25",
+        "name": "Vienna Gambit, with Max Lange Defense: Steinitz Gambit",
+        "pgn": "1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. d4",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nc3 Nc6 4. d4"
+        ]
+    },
+    {
+        "eco": "C00",
+        "name": "French Defense: Knight Variation, Franco-Hiva Gambit",
+        "pgn": "1. e4 e6 2. Nf3 f5",
+        "transpositions": [
+            "1. e4 f5 2. Nf3 e6"
+        ]
+    },
+    {
+        "eco": "C56",
+        "name": "Italian Game: Scotch Gambit, Nakhmanson Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d4 exd4 5. O-O Nxe4 6. Nc3",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. O-O Nxe4 5. d4 exd4 6. Nc3"
+        ]
+    },
+    {
+        "eco": "C43",
+        "name": "Bishop's Opening: Urusov Gambit, Keidansky Gambit",
+        "pgn": "1. e4 e5 2. Bc4 Nf6 3. d4 exd4 4. Nf3 Nxe4 5. Qxd4",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. d4 exd4 5. Qxd4"
+        ]
+    },
+    {
+        "eco": "A02",
+        "name": "Bird Opening: Wagner-Zwitersch Gambit",
+        "pgn": "1. f4 f5 2. e4",
+        "transpositions": [
+            "1. e4 f5 2. f4"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Van Geet Opening: Dougherty Gambit",
+        "pgn": "1. Nc3 d5 2. e4 dxe4 3. f3",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. f3",
+            "1. e4 d5 2. f3 dxe4 3. Nc3"
+        ]
+    },
+    {
+        "eco": "B02",
+        "name": "Alekhine Defense: Spielmann Gambit",
+        "pgn": "1. e4 Nf6 2. Nc3 d5 3. e5 Nfd7 4. e6",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nf6 3. e5 Nfd7 4. e6"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Blackmar-Diemer Gambit Declined: Elbert Countergambit",
+        "pgn": "1. d4 d5 2. e4 dxe4 3. Nc3 Nf6 4. f3 e5",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d4 Nf6 4. f3 e5",
+            "1. e4 e5 2. Nc3 Nf6 3. f3 d5 4. d4 dxe4"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Blackmar-Diemer Gambit Declined: Brombacher Countergambit",
+        "pgn": "1. d4 d5 2. e4 dxe4 3. Nc3 Nf6 4. f3 c5",
+        "transpositions": [
+            "1. e4 c5 2. Nc3 d5 3. d4 Nf6 4. f3 dxe4",
+            "1. e4 d5 2. Nc3 dxe4 3. d4 Nf6 4. f3 c5"
+        ]
+    },
+    {
+        "eco": "C37",
+        "name": "King's Gambit Accepted: Quade Gambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nc3 g5 4. Nf3"
+        ]
+    },
+    {
+        "eco": "B50",
+        "name": "Sicilian Defense: Delayed Alapin Variation, Basman-Palatnik Gambit",
+        "pgn": "1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Be2 Nc6 5. d4 cxd4 6. cxd4 Nxe4",
+        "transpositions": [
+            "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. c3 Nf6 5. cxd4 d6 6. Be2 Nxe4"
+        ]
+    },
+    {
+        "eco": "B03",
+        "name": "Alekhine Defense: Modern Variation, Alekhine Gambit",
+        "pgn": "1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. Nf3 Bg4 6. Be2",
+        "transpositions": [
+            "1. e4 d6 2. d4 Nf6 3. e5 Nd5 4. c4 Nb6 5. Nf3 Bg4 6. Be2"
+        ]
+    },
+    {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Jaffe Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. c3",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. c3 a6 5. Ba4"
+        ]
+    },
+    {
+        "eco": "C31",
+        "name": "Van Geet Opening: Grünfeld Defense, Steiner Gambit",
+        "pgn": "1. e4 e5 2. f4 d5 3. Nc3 dxe4 4. Nxe4",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. Nxe4 e5 4. f4"
+        ]
+    },
+    {
+        "eco": "B20",
+        "name": "Sicilian Defense: Euwe Attack, Prins Gambit",
+        "pgn": "1. e4 c5 2. b3 d5 3. Bb2",
+        "transpositions": [
+            "1. b3 d5 2. Bb2 c5 3. e4"
+        ]
+    },
+    {
+        "eco": "D02",
+        "name": "Queen's Pawn Game: Chandler Gambit",
+        "pgn": "1. d4 d5 2. Nf3 c5 3. g3 cxd4 4. Bg2",
+        "transpositions": [
+            "1. d4 d5 2. g3 c5 3. Bg2 cxd4 4. Nf3"
+        ]
+    },
+    {
+        "eco": "C24",
+        "name": "Bishop's Opening: Berlin Defense, Greco Gambit",
+        "pgn": "1. e4 e5 2. Bc4 Nf6 3. f4",
+        "transpositions": [
+            "1. e4 e5 2. f4 Nf6 3. Bc4"
+        ]
+    },
+    {
+        "eco": "B02",
+        "name": "Alekhine Defense: Scandinavian Variation, Myers Gambit",
+        "pgn": "1. e4 Nf6 2. Nc3 d5 3. d3 dxe4 4. Bg5",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d3 Nf6 4. Bg5",
+            "1. e4 d5 2. d3 Nf6 3. Bg5 dxe4 4. Nc3"
+        ]
+    },
+    {
+        "eco": "A01",
+        "name": "Nimzo-Larsen Attack: Pachman Gambit",
+        "pgn": "1. b3 e5 2. Bb2 Nc6 3. f4",
+        "transpositions": [
+            "1. f4 e5 2. b3 Nc6 3. Bb2"
+        ]
+    },
+    {
+        "eco": "C52",
+        "name": "Italian Game: Evans Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Ba5 6. O-O d6",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O d6 5. b4 Bxb4 6. c3 Ba5"
+        ]
+    },
+    {
+        "eco": "C21",
+        "name": "Center Game: Lanc-Arnold Gambit",
+        "pgn": "1. e4 e5 2. d4 exd4 3. Nf3 Bc5 4. c3",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Bc5 3. d4 exd4 4. c3",
+            "1. e4 e5 2. d4 exd4 3. c3 Bc5 4. Nf3"
+        ]
+    },
+    {
+        "eco": "C21",
+        "name": "Center Game: Lanc-Arnold Gambit, Schippler Gambit",
+        "pgn": "1. e4 e5 2. d4 exd4 3. Nf3 Bc5 4. c3 dxc3 5. Bc4",
+        "transpositions": [
+            "1. e4 e5 2. Bc4 Bc5 3. d4 exd4 4. c3 dxc3 5. Nf3",
+            "1. e4 e5 2. Nf3 Bc5 3. d4 exd4 4. c3 dxc3 5. Bc4"
+        ]
+    },
+    {
+        "eco": "C44",
+        "name": "Latvian Gambit: Clam Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. d3 f5 4. exf5",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. exf5 Nc6 4. d3"
+        ]
+    },
+    {
+        "eco": "B12",
+        "name": "Caro-Kann Defense: Mieses Gambit",
+        "pgn": "1. e4 c6 2. d4 d5 3. Be3",
+        "transpositions": [
+            "1. e4 d5 2. d4 c6 3. Be3"
+        ]
+    },
+    {
+        "eco": "B10",
+        "name": "Caro-Kann Defense: Toikkanen Gambit",
+        "pgn": "1. e4 c6 2. c4 d5 3. e5",
+        "transpositions": [
+            "1. e4 c6 2. e5 d5 3. c4",
+            "1. e4 d5 2. e5 c6 3. c4"
+        ]
+    },
+    {
+        "eco": "C24",
+        "name": "Bishop's Opening: Warsaw Gambit",
+        "pgn": "1. e4 e5 2. Bc4 Nf6 3. d4 exd4 4. c3",
+        "transpositions": [
+            "1. e4 e5 2. d4 exd4 3. c3 Nf6 4. Bc4"
+        ]
+    },
+    {
+        "eco": "D31",
+        "name": "Semi-Slav Defense: Noteboom Variation, Anti-Noteboom Gambit",
+        "pgn": "1. d4 d5 2. c4 e6 3. Nc3 c6 4. Nf3 dxc4 5. g3",
+        "transpositions": [
+            "1. d4 d5 2. c4 e6 3. Nf3 c6 4. g3 dxc4 5. Nc3"
+        ]
+    },
+    {
+        "eco": "D00",
+        "name": "Blackmar-Diemer Gambit: Lemberger Countergambit, Lange Gambit",
+        "pgn": "1. d4 d5 2. e4 dxe4 3. Nc3 e5 4. Nxe4",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. Nxe4 e5 4. d4",
+            "1. e4 e5 2. Nc3 d5 3. d4 dxe4 4. Nxe4"
+        ]
+    },
+    {
+        "eco": "A84",
+        "name": "Dutch Defense: Bellon Gambit",
+        "pgn": "1. d4 f5 2. c4 e6 3. e4",
+        "transpositions": [
+            "1. d4 e6 2. c4 f5 3. e4",
+            "1. e4 e6 2. d4 f5 3. c4"
+        ]
+    },
+    {
+        "eco": "C23",
+        "name": "Bishop's Opening: Stein Gambit",
+        "pgn": "1. e4 e5 2. Bc4 Bc5 3. f4",
+        "transpositions": [
+            "1. e4 e5 2. f4 Bc5 3. Bc4"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Kennedy Variation, Hammer Gambit",
+        "pgn": "1. e4 Nc6 2. d4 e5 3. dxe5 f6",
+        "transpositions": [
+            "1. e4 e5 2. d4 Nc6 3. dxe5 f6",
+            "1. e4 e5 2. d4 f6 3. dxe5 Nc6"
+        ]
+    },
+    {
+        "eco": "C37",
+        "name": "King's Gambit Accepted: Ghulam-Kassim Gambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. d4",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. d4 g4 5. Bc4"
+        ]
+    },
+    {
+        "eco": "A03",
+        "name": "Bird Opening: Williams Gambit",
+        "pgn": "1. f4 d5 2. e4 dxe4 3. Nc3 Nf6 4. Qe2",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. f4 Nf6 4. Qe2",
+            "1. e4 d5 2. f4 dxe4 3. Qe2 Nf6 4. Nc3"
+        ]
+    },
+    {
+        "eco": "A03",
+        "name": "Bird Opening: Williams-Zilbermints Gambit",
+        "pgn": "1. f4 d5 2. e4 dxe4 3. Nc3 Nf6 4. Nge2",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. f4 Nf6 4. Nge2"
+        ]
+    },
+    {
+        "eco": "C47",
+        "name": "Four Knights Game: Scotch Variation, Krause Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 Bb4 5. Nxe5",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Nxe5 Bb4 5. d4",
+            "1. e4 e5 2. Nf3 Nc6 3. d4 Nf6 4. Nc3 Bb4 5. Nxe5"
+        ]
+    },
+    {
+        "eco": "B03",
+        "name": "Alekhine Defense: Four Pawns Attack, Cambridge Gambit",
+        "pgn": "1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. f4 g5",
+        "transpositions": [
+            "1. e4 d6 2. d4 Nf6 3. e5 Nd5 4. c4 Nb6 5. f4 g5",
+            "1. e4 d6 2. d4 Nf6 3. e5 Nd5 4. f4 g5 5. c4 Nb6"
+        ]
+    },
+    {
+        "eco": "C38",
+        "name": "King's Gambit Accepted: Mayet Gambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 Bg7 5. d4 d6 6. c3",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 Bg7 5. c3 d6 6. d4",
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. d4 Bg7 5. c3 d6 6. Bc4"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Kennedy Variation, Bielefelder Gambit",
+        "pgn": "1. e4 Nc6 2. d4 e5 3. dxe5 Bc5",
+        "transpositions": [
+            "1. e4 e5 2. d4 Bc5 3. dxe5 Nc6",
+            "1. e4 e5 2. d4 Nc6 3. dxe5 Bc5"
+        ]
+    },
+    {
+        "eco": "C34",
+        "name": "King's Gambit Accepted: Gianutio Countergambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 f5",
+        "transpositions": [
+            "1. e4 e5 2. f4 f5 3. Nf3 exf4"
+        ]
+    },
+    {
+        "eco": "C20",
+        "name": "King's Pawn Game: Weber Gambit",
+        "pgn": "1. e4 e5 2. d3 d5 3. exd5 c6 4. dxc6 Nxc6",
+        "transpositions": [
+            "1. e4 d5 2. exd5 c6 3. dxc6 Nxc6 4. d3 e5"
+        ]
+    },
+    {
+        "eco": "C38",
+        "name": "King's Gambit Accepted: Philidor Gambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 Bg7 5. h4",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Bc4 g5 4. h4 Bg7 5. Nf3"
+        ]
+    },
+    {
+        "eco": "C15",
+        "name": "French Defense: MacCutcheon Variation, Wolf Gambit",
+        "pgn": "1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. Ne2 Nf6 5. Bg5",
+        "transpositions": [
+            "1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4 5. Ne2"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Van Geet Opening: Kluever Gambit",
+        "pgn": "1. Nc3 f5 2. e4 fxe4 3. d3",
+        "transpositions": [
+            "1. e4 f5 2. Nc3 fxe4 3. d3",
+            "1. e4 f5 2. d3 fxe4 3. Nc3"
+        ]
+    },
+    {
+        "eco": "A02",
+        "name": "Bird Opening: From's Gambit, Bahr Gambit",
+        "pgn": "1. f4 e5 2. Nc3",
+        "transpositions": [
+            "1. Nc3 e5 2. f4"
+        ]
+    },
+    {
+        "eco": "B10",
+        "name": "Caro-Kann Defense: Hector Gambit",
+        "pgn": "1. e4 c6 2. Nc3 d5 3. Nf3 dxe4 4. Ng5",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 c6 3. Nf3 dxe4 4. Ng5",
+            "1. e4 d5 2. Nf3 dxe4 3. Ng5 c6 4. Nc3"
+        ]
+    },
+    {
+        "eco": "C44",
+        "name": "Ponziani Opening: Vukovic Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. c3 Nf6 4. d4 Nxe4 5. d5 Bc5",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. d4 Nf6 4. c3 Nxe4 5. d5 Bc5"
+        ]
+    },
+    {
+        "eco": "C25",
+        "name": "Vienna Gambit, with Max Lange Defense: Hamppe-Allgaier Gambit",
+        "pgn": "1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. Nf3 g5 5. h4 g4 6. Ng5",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3 Nc6 5. h4 g4 6. Ng5"
+        ]
+    },
+    {
+        "eco": "C34",
+        "name": "King's Gambit Accepted: Greco Gambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 d6 4. Bc4 h6 5. d4 g5 6. h4",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 d6 5. d4 h6 6. h4"
+        ]
+    },
+    {
+        "eco": "D80",
+        "name": "Grünfeld Defense: Zaitsev Gambit",
+        "pgn": "1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. h4",
+        "transpositions": [
+            "1. d4 Nf6 2. c4 g6 3. h4 d5 4. Nc3",
+            "1. d4 d5 2. c4 Nf6 3. Nc3 g6 4. h4"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Van Geet Opening: Hector Gambit",
+        "pgn": "1. Nc3 d5 2. e4 dxe4 3. Bc4",
+        "transpositions": [
+            "1. e4 d5 2. Bc4 dxe4 3. Nc3",
+            "1. e4 d5 2. Nc3 dxe4 3. Bc4"
+        ]
+    },
+    {
+        "eco": "D31",
+        "name": "Semi-Slav Defense: Gunderam Gambit",
+        "pgn": "1. d4 d5 2. c4 e6 3. Nc3 c6 4. e4 dxe4 5. f3",
+        "transpositions": [
+            "1. e4 e6 2. d4 d5 3. c4 c6 4. f3 dxe4 5. Nc3",
+            "1. e4 e6 2. d4 d5 3. c4 dxe4 4. Nc3 c6 5. f3"
+        ]
+    },
+    {
+        "eco": "B28",
+        "name": "Sicilian Defense: O'Kelly Variation, Normal System, Cortlever Gambit",
+        "pgn": "1. e4 c5 2. Nf3 a6 3. d4 cxd4 4. Bc4",
+        "transpositions": [
+            "1. e4 c5 2. d4 cxd4 3. Bc4 a6 4. Nf3"
+        ]
+    },
+    {
+        "eco": "D20",
+        "name": "Queen's Gambit Accepted: Central Variation, McDonnell Defense, Somov Gambit",
+        "pgn": "1. d4 d5 2. c4 dxc4 3. e4 e5 4. Bxc4",
+        "transpositions": [
+            "1. e4 e5 2. d4 d5 3. c4 dxc4 4. Bxc4"
+        ]
+    },
+    {
+        "eco": "C00",
+        "name": "French Defense: King's Indian Attack, Franco-Hiva Gambit",
+        "pgn": "1. e4 e6 2. d3 f5",
+        "transpositions": [
+            "1. e4 f5 2. d3 e6"
+        ]
+    },
+    {
+        "eco": "C00",
+        "name": "French Defense: St. George Defense, Sanky-George Gambit",
+        "pgn": "1. e4 e6 2. d4 a6 3. c4 b5",
+        "transpositions": [
+            "1. e4 a6 2. d4 b5 3. c4 e6"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Heinola-Deppe Gambit",
+        "pgn": "1. e4 Nc6 2. d4 d5 3. Nc3 e5",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nc6 3. d4 e5"
+        ]
+    },
+    {
+        "eco": "C25",
+        "name": "Vienna Gambit, with Max Lange Defense: Hamppe-Muzio Gambit",
+        "pgn": "1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. Nf3 g5 5. Bc4 g4 6. O-O",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 Nc6 5. Nc3 g4 6. O-O",
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. O-O Nc6 6. Nc3"
+        ]
+    },
+    {
+        "eco": "C25",
+        "name": "Vienna Game: Hamppe-Muzio Gambit",
+        "pgn": "1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. Nf3 g5 5. Bc4 g4 6. O-O",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 Nc6 5. Nc3 g4 6. O-O",
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. O-O Nc6 6. Nc3"
+        ]
+    },
+    {
+        "eco": "C40",
+        "name": "Latvian Gambit: Corkscrew Countergambit",
+        "pgn": "1. e4 e5 2. Nf3 f5 3. Bc4 fxe4 4. Nxe5 Nf6",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. Nxe5 Nf6 4. Bc4 fxe4",
+            "1. e4 e5 2. Nf3 f5 3. Nxe5 fxe4 4. Bc4 Nf6"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Owen Defense: Naselwaus Gambit",
+        "pgn": "1. e4 b6 2. d4 Bb7 3. Bg5",
+        "transpositions": [
+            "1. d4 b6 2. Bg5 Bb7 3. e4"
+        ]
+    },
+    {
+        "eco": "A46",
+        "name": "Torre Attack: Wagner Gambit",
+        "pgn": "1. d4 Nf6 2. Nf3 e6 3. Bg5 c5 4. e4",
+        "transpositions": [
+            "1. e4 c5 2. Nf3 e6 3. d4 Nf6 4. Bg5"
+        ]
+    },
+    {
+        "eco": "A40",
+        "name": "Mikenas Defense: Pozarek Gambit",
+        "pgn": "1. d4 Nc6 2. c4 e5 3. dxe5 Nxe5 4. Nc3",
+        "transpositions": [
+            "1. d4 e5 2. dxe5 Nc6 3. c4 Nxe5 4. Nc3"
+        ]
+    },
+    {
+        "eco": "B06",
+        "name": "Modern Defense: Fianchetto Gambit",
+        "pgn": "1. e4 g6 2. d4 f5",
+        "transpositions": [
+            "1. e4 f5 2. d4 g6"
+        ]
+    },
+    {
+        "eco": "C41",
+        "name": "Philidor Defense: Philidor Gambit",
+        "pgn": "1. e4 e5 2. Nf3 d6 3. d4 Bd7",
+        "transpositions": [
+            "1. e4 d6 2. d4 Bd7 3. Nf3 e5"
+        ]
+    },
+    {
+        "eco": "C02",
+        "name": "French Defense: Advance Variation, Frenkel Gambit",
+        "pgn": "1. e4 e6 2. d4 d5 3. e5 c5 4. b4",
+        "transpositions": [
+            "1. e4 c5 2. d4 d5 3. e5 e6 4. b4"
+        ]
+    },
+    {
+        "eco": "C25",
+        "name": "Vienna Gambit, with Max Lange Defense: Quelle Gambit",
+        "pgn": "1. e4 e5 2. Nc3 Nc6 3. f4 Bc5 4. fxe5 d6",
+        "transpositions": [
+            "1. e4 e5 2. f4 Nc6 3. Nc3 Bc5 4. fxe5 d6"
+        ]
+    },
+    {
+        "eco": "C20",
+        "name": "King's Pawn Game: Clam Variation, Radisch Gambit",
+        "pgn": "1. e4 e5 2. d3 Nf6 3. f4 Bc5",
+        "transpositions": [
+            "1. e4 e5 2. f4 Bc5 3. d3 Nf6",
+            "1. e4 e5 2. f4 Nf6 3. d3 Bc5"
+        ]
+    },
+    {
+        "eco": "C47",
+        "name": "Four Knights Game: Scotch Variation, Oxford Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 Bb4 5. d5 Nd4",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. d4 Nf6 4. Nc3 Bb4 5. d5 Nd4"
+        ]
+    },
+    {
+        "eco": "A01",
+        "name": "Nimzo-Larsen Attack: Ringelbach Gambit",
+        "pgn": "1. b3 f5 2. Bb2 e6 3. e4",
+        "transpositions": [
+            "1. b3 e6 2. Bb2 f5 3. e4"
+        ]
+    },
+    {
+        "eco": "A22",
+        "name": "English Opening: King's English Variation, Bellon Gambit",
+        "pgn": "1. c4 e5 2. Nc3 Nf6 3. Nf3 e4 4. Ng5 b5",
+        "transpositions": [
+            "1. Nf3 Nf6 2. c4 e5 3. Nc3 e4 4. Ng5 b5"
+        ]
+    },
+    {
+        "eco": "C00",
+        "name": "French Defense: St. George Defense, St. George Gambit",
+        "pgn": "1. e4 e6 2. d4 a6 3. c4 b5 4. cxb5 axb5",
+        "transpositions": [
+            "1. d4 a6 2. c4 b5 3. cxb5 axb5 4. e4 e6"
+        ]
+    },
+    {
+        "eco": "A80",
+        "name": "Dutch Defense: Kingfisher Gambit",
+        "pgn": "1. d4 f5 2. Nc3 d5 3. e4",
+        "transpositions": [
+            "1. d4 d5 2. Nc3 f5 3. e4",
+            "1. e4 f5 2. d4 d5 3. Nc3"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Anderssen's Opening: Polish Gambit",
+        "pgn": "1. a3 a5 2. b4",
+        "transpositions": [
+            "1. b4 a5 2. a3"
+        ]
+    },
+    {
+        "eco": "A45",
+        "name": "Indian Defense: Omega Gambit, Arafat Gambit",
+        "pgn": "1. d4 Nf6 2. e4 Nxe4 3. Bd3 Nf6 4. Bg5",
+        "transpositions": [
+            "1. e4 Nf6 2. d4 Nxe4 3. Bd3 Nf6 4. Bg5"
+        ]
+    },
+    {
+        "eco": "A41",
+        "name": "Rat Defense: English Rat, Pounds Gambit",
+        "pgn": "1. d4 d6 2. c4 e5 3. dxe5 Be6",
+        "transpositions": [
+            "1. d4 e5 2. dxe5 d6 3. c4 Be6"
+        ]
+    },
+    {
+        "eco": "B10",
+        "name": "Caro-Kann Defense: Scorpion-Horus Gambit",
+        "pgn": "1. e4 c6 2. Nc3 d5 3. d3 dxe4 4. Bg5",
+        "transpositions": [
+            "1. d3 d5 2. Bg5 c6 3. e4 dxe4 4. Nc3",
+            "1. e4 d5 2. Nc3 dxe4 3. d3 c6 4. Bg5"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Van Geet Opening: Billockus-Johansen Gambit",
+        "pgn": "1. Nc3 e5 2. Nf3 Bc5",
+        "transpositions": [
+            "1. Nf3 e5 2. Nc3 Bc5"
+        ]
+    },
+    {
+        "eco": "A02",
+        "name": "Bird Opening: Hobbs-Zilbermints Gambit",
+        "pgn": "1. f4 h6 2. Nf3 g5",
+        "transpositions": [
+            "1. f4 g5 2. Nf3 h6"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Amar Opening: Paris Gambit",
+        "pgn": "1. Nh3 d5 2. g3 e5 3. f4",
+        "transpositions": [
+            "1. g3 d5 2. Nh3 e5 3. f4"
+        ]
+    },
+    {
+        "eco": "A80",
+        "name": "Dutch Defense: Omega-Isis Gambit",
+        "pgn": "1. d4 f5 2. Nf3 e5",
+        "transpositions": [
+            "1. d4 e5 2. Nf3 f5"
+        ]
+    },
+    {
+        "eco": "A13",
+        "name": "English Opening: Romanishin Gambit",
+        "pgn": "1. Nf3 Nf6 2. c4 e6 3. g3 a6 4. Bg2 b5",
+        "transpositions": [
+            "1. Nf3 Nf6 2. g3 e6 3. c4 a6 4. Bg2 b5"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Barnes Opening: Gedult Gambit",
+        "pgn": "1. f3 f5 2. e4 fxe4 3. Nc3",
+        "transpositions": [
+            "1. e4 f5 2. Nc3 fxe4 3. f3"
+        ]
+    },
+    {
+        "eco": "A45",
+        "name": "Indian Defense: Gibbins-Weidenhagen Gambit, Stummer Gambit",
+        "pgn": "1. d4 Nf6 2. g4 Nxg4 3. e4 d6 4. Be2 Nf6 5. Nc3",
+        "transpositions": [
+            "1. Nc3 Nf6 2. g4 Nxg4 3. e4 d6 4. Be2 Nf6 5. d4"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Kennedy Variation, Herford Gambit",
+        "pgn": "1. e4 Nc6 2. d4 e5 3. dxe5 Qh4",
+        "transpositions": [
+            "1. e4 e5 2. d4 Nc6 3. dxe5 Qh4"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Hornung Gambit",
+        "pgn": "1. e4 Nc6 2. d4 d5 3. Be3",
+        "transpositions": [
+            "1. e4 d5 2. d4 Nc6 3. Be3"
+        ]
+    },
+    {
+        "eco": "C25",
+        "name": "Vienna Game: Philidor Countergambit",
+        "pgn": "1. e4 e5 2. Nc3 Nc6 3. d4 f5",
+        "transpositions": [
+            "1. e4 e5 2. Nc3 f5 3. d4 Nc6"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Richter Gambit",
+        "pgn": "1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5 Nb8 5. f3",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nc6 3. d4 dxe4 4. d5 Nb8 5. f3"
+        ]
+    },
+    {
+        "eco": "C44",
+        "name": "Ponziani Opening: Spanish Variation, Harrwitz Attack, Nikitin Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. c3 d5 4. Bb5 dxe4 5. Nxe5 Qd5 6. Qa4",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. c3 d5 4. Qa4 dxe4 5. Nxe5 Qd5 6. Bb5"
+        ]
+    },
+    {
+        "eco": "A80",
+        "name": "Dutch Defense: Senechaud Gambit",
+        "pgn": "1. d4 f5 2. Bf4 e6 3. g4",
+        "transpositions": [
+            "1. d4 e6 2. Bf4 f5 3. g4"
+        ]
+    },
+    {
+        "eco": "C37",
+        "name": "King's Gambit Accepted: McDonnell Gambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. Nc3",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3 g4 5. Bc4"
+        ]
+    },
+    {
+        "eco": "C30",
+        "name": "King's Gambit Declined: Soller-Zilbermints Gambit",
+        "pgn": "1. e4 e5 2. f4 f6 3. fxe5 Nc6",
+        "transpositions": [
+            "1. e4 e5 2. f4 Nc6 3. fxe5 f6"
+        ]
+    },
+    {
+        "eco": "C33",
+        "name": "King's Gambit Accepted: Bishop's Gambit, Gianutio Gambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Bc4 f5",
+        "transpositions": [
+            "1. e4 e5 2. f4 f5 3. Bc4 exf4"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Scandinavian Variation, Aachen Gambit",
+        "pgn": "1. e4 Nc6 2. d4 d5 3. exd5 Nb4",
+        "transpositions": [
+            "1. e4 d5 2. exd5 Nc6 3. d4 Nb4"
+        ]
+    },
+    {
+        "eco": "D31",
+        "name": "Queen's Gambit Declined: Charousek Variation, Miladinovic Gambit",
+        "pgn": "1. d4 d5 2. c4 e6 3. Nc3 Be7 4. e4 dxe4 5. f3",
+        "transpositions": [
+            "1. e4 e6 2. d4 d5 3. c4 dxe4 4. Nc3 Be7 5. f3"
+        ]
+    },
+    {
+        "eco": "C48",
+        "name": "Four Knights Game: Spanish Variation, Rubinstein Variation, Marshall Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Nd4 5. Ba4 Bc5 6. Nxe5 O-O",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. Nc3 Nd4 5. Ba4 Bc5 6. Nxe5 O-O"
+        ]
+    },
+    {
+        "eco": "C28",
+        "name": "Vienna Game: Stanley Variation, Bronstein Gambit",
+        "pgn": "1. e4 e5 2. Nc3 Nc6 3. Bc4 Nf6 4. f4 Nxe4 5. Nf3",
+        "transpositions": [
+            "1. e4 e5 2. f4 Nc6 3. Bc4 Nf6 4. Nc3 Nxe4 5. Nf3"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Polish Opening: Wolferts Gambit",
+        "pgn": "1. b4 e5 2. Bb2 c5",
+        "transpositions": [
+            "1. b4 c5 2. Bb2 e5"
+        ]
+    },
+    {
+        "eco": "A03",
+        "name": "Bird Opening: Thomas Gambit",
+        "pgn": "1. f4 d5 2. b3 Nf6 3. Bb2 d4 4. Nf3 c5 5. e3",
+        "transpositions": [
+            "1. b3 d5 2. Bb2 Nf6 3. e3 c5 4. f4 d4 5. Nf3",
+            "1. b3 d5 2. Bb2 Nf6 3. f4 c5 4. Nf3 d4 5. e3"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Van Geet Opening: Hergert Gambit",
+        "pgn": "1. Nc3 d6 2. f4 e5 3. fxe5 Nc6",
+        "transpositions": [
+            "1. f4 e5 2. fxe5 Nc6 3. Nc3 d6",
+            "1. f4 e5 2. fxe5 d6 3. Nc3 Nc6"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Van Geet Opening: Liebig Gambit",
+        "pgn": "1. Nc3 e5 2. e3 d5 3. Qh5 Nf6",
+        "transpositions": [
+            "1. e3 d5 2. Nc3 e5 3. Qh5 Nf6"
+        ]
+    },
+    {
+        "eco": "B06",
+        "name": "Pterodactyl Defense: Central, Quetzalcoatlus Gambit",
+        "pgn": "1. e4 g6 2. d4 Bg7 3. c4 c5 4. Nc3 d6 5. dxc5 Qa5",
+        "transpositions": [
+            "1. e4 d6 2. d4 g6 3. c4 Bg7 4. Nc3 c5 5. dxc5 Qa5"
+        ]
+    },
+    {
+        "eco": "A40",
+        "name": "Slav Indian: Kudischewitsch Gambit",
+        "pgn": "1. d4 c6 2. Nf3 Nf6 3. c4 b5",
+        "transpositions": [
+            "1. d4 Nf6 2. c4 c6 3. Nf3 b5"
+        ]
+    },
+    {
+        "eco": "E21",
+        "name": "Nimzo-Indian Defense: Three Knights Variation, Shocron Gambit",
+        "pgn": "1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nc3 c5 5. d5 b5",
+        "transpositions": [
+            "1. d4 e6 2. c4 Bb4+ 3. Nc3 c5 4. Nf3 Nf6 5. d5 b5"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Barnes Opening: Gedult Gambit",
+        "pgn": "1. f3 d5 2. e4 g6 3. d4 dxe4 4. c3",
+        "transpositions": [
+            "1. e4 d5 2. d4 g6 3. c3 dxe4 4. f3"
+        ]
+    },
+    {
+        "eco": "A30",
+        "name": "English Opening: Symmetrical Variation, Napolitano Gambit",
+        "pgn": "1. c4 c5 2. Nf3 Nf6 3. b4",
+        "transpositions": [
+            "1. Nf3 Nf6 2. c4 c5 3. b4"
+        ]
+    },
+    {
+        "eco": "D01",
+        "name": "Richter-Veresov Attack: Malich Gambit",
+        "pgn": "1. d4 Nf6 2. Nc3 d5 3. Bg5 c5 4. Bxf6 gxf6 5. e4 dxe4 6. d5",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d4 Nf6 4. Bg5 c5 5. Bxf6 gxf6 6. d5"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Van Geet Opening: Melleby Gambit",
+        "pgn": "1. Nc3 d5 2. f4 d4 3. Ne4 c5",
+        "transpositions": [
+            "1. f4 d5 2. Nc3 d4 3. Ne4 c5"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Van Geet Opening: Damhaug Gambit",
+        "pgn": "1. Nc3 d5 2. f4 e5",
+        "transpositions": [
+            "1. f4 d5 2. Nc3 e5",
+            "1. f4 e5 2. Nc3 d5"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Amar Gambit",
+        "pgn": "1. Nh3 d5 2. g3 e5 3. f4 Bxh3 4. Bxh3",
+        "transpositions": [
+            "1. g3 d5 2. Nh3 e5 3. f4 Bxh3 4. Bxh3"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Brandics Gambit",
+        "pgn": "1. e4 Nc6 2. d4 d5 3. Nc3 a6",
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nc6 3. d4 a6"
+        ]
+    },
+    {
+        "eco": "B12",
+        "name": "Caro-Kann Defense: Mieses Attack, Landau Gambit",
+        "pgn": "1. e4 c6 2. d4 d5 3. Bd3 Nf6 4. e5 Nfd7 5. e6",
+        "transpositions": [
+            "1. e4 d5 2. d4 c6 3. Bd3 Nf6 4. e5 Nfd7 5. e6"
+        ]
+    },
+    {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Open System, Shaposhnikov Gambit",
+        "pgn": "1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Nf6",
+        "transpositions": [
+            "1. e4 c5 2. d4 e6 3. Nd2 d5 4. exd5 Nf6"
+        ]
+    },
+    {
+        "eco": "B06",
+        "name": "Modern Defense: Two Knights Variation, Suttles Variation, Tal Gambit",
+        "pgn": "1. e4 g6 2. d4 Bg7 3. Nc3 d6 4. Nf3 c6 5. Bg5 Qb6 6. Qd2 Qxb2",
+        "transpositions": [
+            "1. e4 c6 2. d4 d6 3. Nc3 g6 4. Nf3 Bg7 5. Bg5 Qb6 6. Qd2 Qxb2"
+        ]
+    },
+    {
+        "eco": "C57",
+        "name": "Italian Game: Two Knights Defense, Traxler Variation, Trencianske-Teplice Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 Bc5 5. Bxf7+ Ke7 6. d4",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Ng5 Nf6 5. Bxf7+ Ke7 6. d4"
+        ]
+    },
+    {
+        "eco": "B10",
+        "name": "Caro-Kann Defense: Labahn Attack, Double Gambit",
+        "pgn": "1. e4 c6 2. b4 d5 3. b5",
+        "transpositions": [
+            "1. b4 c6 2. e4 d5 3. b5"
+        ]
+    },
+    {
+        "eco": "A40",
+        "name": "English Defense: Poli Gambit",
+        "pgn": "1. d4 e6 2. c4 b6 3. e4 Bb7 4. f3 f5 5. exf5 Nh6",
+        "transpositions": [
+            "1. e4 e6 2. d4 b6 3. c4 Bb7 4. f3 f5 5. exf5 Nh6"
+        ]
+    },
+    {
+        "eco": "B00",
+        "name": "Owen Defense: Hekili-Loa Gambit",
+        "pgn": "1. e4 b6 2. d4 c5 3. dxc5 Nc6",
+        "transpositions": [
+            "1. e4 c5 2. d4 Nc6 3. dxc5 b6"
+        ]
+    },
+    {
+        "eco": "C37",
+        "name": "King's Gambit Accepted: Rosentreter Gambit, Sörensen Gambit",
+        "pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. d4 g4 5. Nc3",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3 g4 5. d4"
+        ]
+    },
+    {
+        "eco": "D37",
+        "name": "Queen's Gambit Declined: Knight Defense, Alekhine Gambit",
+        "pgn": "1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. Bg5 h6 6. Bh4 dxc4",
+        "transpositions": [
+            "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 h6 6. Bh4 dxc4"
+        ]
+    },
+    {
+        "eco": "C23",
+        "name": "Bishop's Opening: Lopez Gambit",
+        "pgn": "1. e4 e5 2. Bc4 Bc5 3. Qe2 Nc6 4. c3 Nf6 5. f4",
+        "transpositions": [
+            "1. e4 e5 2. Bc4 Nc6 3. c3 Nf6 4. Qe2 Bc5 5. f4"
+        ]
+    },
+    {
+        "eco": "C30",
+        "name": "King's Gambit Declined: Norwalde Variation, Bücker Gambit",
+        "pgn": "1. e4 e5 2. f4 Qf6 3. Nc3 Qxf4 4. Nf3 Bb4 5. Bc4",
+        "transpositions": [
+            "1. e4 e5 2. f4 Qf6 3. Nf3 Qxf4 4. Nc3 Bb4 5. Bc4"
+        ]
+    },
+    {
+        "eco": "A00",
+        "name": "Van Geet Opening: Nowokunski Gambit",
+        "pgn": "1. Nc3 e5 2. f4 exf4 3. e4",
+        "transpositions": [
+            "1. f4 e5 2. Nc3 exf4 3. e4"
+        ]
+    }
+]

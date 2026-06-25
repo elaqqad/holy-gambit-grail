@@ -10,7 +10,10 @@
         "lichess": "",
         "white": 55352584,
         "draws": 5538619,
-        "black": 46641469
+        "black": 46641469,
+        "transpositions": [
+            "1. c4 d5 2. d4"
+        ]
     },
     {
         "eco": "A40",
@@ -36,7 +39,10 @@
         "lichess": "",
         "white": 16557622,
         "draws": 1212079,
-        "black": 15428814
+        "black": 15428814,
+        "transpositions": [
+            "1. f4 e5 2. e4"
+        ]
     },
     {
         "eco": "B21",
@@ -52,7 +58,10 @@
         "black": 14594493,
         "original_pgn": "1. e4 c5 2. d4 cxd4 3. c3",
         "original_fen": "rnbqkbnr/pp1ppppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 3",
-        "comment": "Lichess classifies the Smith-Morra including Black's 3...cxd4 acceptance and then 3. c3. On this site we use the shorter offer position 1. e4 c5 2. d4, so the gambit is detected as soon as White plays d4 regardless of whether Black accepts."
+        "comment": "Lichess classifies the Smith-Morra including Black's 3...cxd4 acceptance and then 3. c3. On this site we use the shorter offer position 1. e4 c5 2. d4, so the gambit is detected as soon as White plays d4 regardless of whether Black accepts.",
+        "transpositions": [
+            "1. d4 c5 2. e4"
+        ]
     },
     {
         "eco": "B21",
@@ -78,7 +87,10 @@
         "lichess": "",
         "white": 5884345,
         "draws": 482711,
-        "black": 5899293
+        "black": 5899293,
+        "transpositions": [
+            "1. Nf3 d5 2. e4"
+        ]
     },
     {
         "eco": "C34",
@@ -104,7 +116,10 @@
         "lichess": "",
         "white": 5136563,
         "draws": 376098,
-        "black": 4480751
+        "black": 4480751,
+        "transpositions": [
+            "1. e4 d5 2. d4"
+        ]
     },
     {
         "eco": "C44",
@@ -117,7 +132,10 @@
         "lichess": "M9amzNkQ",
         "white": 4800333,
         "draws": 412841,
-        "black": 3925524
+        "black": 3925524,
+        "transpositions": [
+            "1. e4 e5 2. Bc4 Nc6 3. d4 exd4 4. Nf3"
+        ]
     },
     {
         "eco": "C21",
@@ -143,7 +161,10 @@
         "lichess": "",
         "white": 3671484,
         "draws": 382905,
-        "black": 3569786
+        "black": 3569786,
+        "transpositions": [
+            "1. d4 e5 2. c4 Nf6"
+        ]
     },
     {
         "eco": "C40",
@@ -156,7 +177,10 @@
         "lichess": "",
         "white": 3247231,
         "draws": 293926,
-        "black": 3562345
+        "black": 3562345,
+        "transpositions": [
+            "1. e4 d5 2. Nf3 e5"
+        ]
     },
     {
         "eco": "B01",
@@ -182,7 +206,10 @@
         "lichess": "",
         "white": 2577490,
         "draws": 255990,
-        "black": 2453983
+        "black": 2453983,
+        "transpositions": [
+            "1. d4 e5 2. c4 d5"
+        ]
     },
     {
         "eco": "C31",
@@ -195,7 +222,10 @@
         "lichess": "",
         "white": 2426411,
         "draws": 207460,
-        "black": 2617347
+        "black": 2617347,
+        "transpositions": [
+            "1. e4 d5 2. f4 e5"
+        ]
     },
     {
         "eco": "A57",
@@ -208,7 +238,10 @@
         "lichess": "8p7yPrUu",
         "white": 2166072,
         "draws": 260436,
-        "black": 2405525
+        "black": 2405525,
+        "transpositions": [
+            "1. d4 c5 2. d5 b5 3. c4 Nf6"
+        ]
     },
     {
         "eco": "D00",
@@ -221,7 +254,10 @@
         "lichess": "",
         "white": 2462340,
         "draws": 185586,
-        "black": 2097731
+        "black": 2097731,
+        "transpositions": [
+            "1. e4 d5 2. d4 dxe4 3. Nc3"
+        ]
     },
     {
         "eco": "B20",
@@ -273,7 +309,10 @@
         "lichess": "",
         "white": 2164677,
         "draws": 181219,
-        "black": 1921389
+        "black": 1921389,
+        "transpositions": [
+            "1. d4 e5 2. dxe5 Qe7 3. Nf3 Nc6"
+        ]
     },
     {
         "eco": "B21",
@@ -325,7 +364,10 @@
         "lichess": "SQKzRYJV",
         "white": 1774726,
         "draws": 133180,
-        "black": 1824791
+        "black": 1824791,
+        "transpositions": [
+            "1. e4 f5 2. Nf3 e5"
+        ]
     },
     {
         "eco": "C29",
@@ -338,7 +380,10 @@
         "lichess": "hhFm9jIA",
         "white": 1910784,
         "draws": 150260,
-        "black": 1462130
+        "black": 1462130,
+        "transpositions": [
+            "1. e4 e5 2. f4 Nf6 3. Nc3"
+        ]
     },
     {
         "eco": "B00",
@@ -390,7 +435,10 @@
         "lichess": "",
         "white": 1361930,
         "draws": 150012,
-        "black": 1339352
+        "black": 1339352,
+        "transpositions": [
+            "1. d4 c5 2. Bf4 d5"
+        ]
     },
     {
         "eco": "C44",
@@ -403,7 +451,10 @@
         "lichess": "",
         "white": 1540332,
         "draws": 114048,
-        "black": 1190270
+        "black": 1190270,
+        "transpositions": [
+            "1. e4 e5 2. d4 exd4 3. c3 Nc6 4. Nf3"
+        ]
     },
     {
         "eco": "C40",
@@ -429,7 +480,10 @@
         "lichess": "NGmX0StH",
         "white": 1221098,
         "draws": 105193,
-        "black": 1437217
+        "black": 1437217,
+        "transpositions": [
+            "1. e4 Nf6 2. Nf3"
+        ]
     },
     {
         "eco": "A00",
@@ -455,7 +509,10 @@
         "lichess": "7SlopDFV",
         "white": 1136519,
         "draws": 93519,
-        "black": 1182046
+        "black": 1182046,
+        "transpositions": [
+            "1. Nf3 e5 2. Nxe5 Nc6 3. Nxc6 dxc6 4. e4 Nf6"
+        ]
     },
     {
         "eco": "C02",
@@ -468,7 +525,12 @@
         "lichess": "t4YZfxGs",
         "white": 1099098,
         "draws": 88295,
-        "black": 974535
+        "black": 974535,
+        "transpositions": [
+            "1. e4 c5 2. Nf3 Nc6 3. d4 d5 4. e5 e6 5. Bd3 Qb6 6. c3",
+            "1. e4 c5 2. Nf3 Nc6 3. d4 e6 4. c3 d5 5. e5 Qb6 6. Bd3",
+            "1. e4 c5 2. d4 Nc6 3. c3 d5 4. e5 e6 5. Bd3 Qb6 6. Nf3"
+        ]
     },
     {
         "eco": "B01",
@@ -494,7 +556,10 @@
         "lichess": "MdxqQE1f",
         "white": 929253,
         "draws": 68439,
-        "black": 989614
+        "black": 989614,
+        "transpositions": [
+            "1. e4 Nf6 2. d4"
+        ]
     },
     {
         "eco": "C55",
@@ -520,7 +585,10 @@
         "lichess": "R369Cg3m",
         "white": 863220,
         "draws": 82804,
-        "black": 999817
+        "black": 999817,
+        "transpositions": [
+            "1. e4 e6 2. c4 d5 3. exd5 Nf6"
+        ]
     },
     {
         "eco": "C50",
@@ -546,7 +614,10 @@
         "lichess": "aKjGHNxG",
         "white": 854489,
         "draws": 61553,
-        "black": 939335
+        "black": 939335,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. Bc4 Nc6"
+        ]
     },
     {
         "eco": "C37",
@@ -559,7 +630,10 @@
         "lichess": "YEjWI6pZ",
         "white": 868460,
         "draws": 56017,
-        "black": 902116
+        "black": 902116,
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Bc4 g5 4. Nf3"
+        ]
     },
     {
         "eco": "D00",
@@ -572,7 +646,12 @@
         "lichess": "mD0jVxjI",
         "white": 929754,
         "draws": 70463,
-        "black": 817041
+        "black": 817041,
+        "transpositions": [
+            "1. d4 d5 2. Nc3 Nf6 3. e4",
+            "1. e4 d5 2. Nc3 Nf6 3. d4",
+            "1. e4 d5 2. d4 Nf6 3. Nc3"
+        ]
     },
     {
         "eco": "C50",
@@ -585,7 +664,10 @@
         "lichess": "",
         "white": 917100,
         "draws": 72355,
-        "black": 788578
+        "black": 788578,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. O-O"
+        ]
     },
     {
         "eco": "C44",
@@ -601,7 +683,12 @@
         "black": 738113,
         "original_pgn": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bc5",
         "original_fen": "r1bqk1nr/pppp1ppp/2n5/2b5/2BpP3/5N2/PPP2PPP/RNBQK2R w KQkq - 2 5",
-        "comment": "Lichess stops at 4...Bc5, a Black move, but without the actual gambit sacrifice. We extend the line to 5. c3 d3 where Black plays the pawn thrust d3 — the real gambit move — so Black is correctly identified as the gambiteer."
+        "comment": "Lichess stops at 4...Bc5, a Black move, but without the actual gambit sacrifice. We extend the line to 5. c3 d3 where Black plays the pawn thrust d3 — the real gambit move — so Black is correctly identified as the gambiteer.",
+        "transpositions": [
+            "1. e4 e5 2. Bc4 Nc6 3. c3 Bc5 4. d4 exd4 5. Nf3",
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d4 exd4 5. c3",
+            "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. c3 Bc5 5. Bc4"
+        ]
     },
     {
         "eco": "C37",
@@ -617,7 +704,10 @@
         "black": 755342,
         "original_pgn": "1. e4 e5 2. f4 exf4 3. Nf3 Nc6 4. Bc4 g5",
         "original_fen": "r1bqkbnr/pppp1p1p/2n5/6p1/2B1Pp2/5N2/PPPP2PP/RNBQK2R w KQkq - 0 5",
-        "comment": "Lichess includes Black's 4...g5 in the PGN. On this site we stop at 4. Bc4, White's last move."
+        "comment": "Lichess includes Black's 4...g5 in the PGN. On this site we stop at 4. Bc4, White's last move.",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Bc4 Nc6 4. Nf3"
+        ]
     },
     {
         "eco": "B01",
@@ -643,7 +733,11 @@
         "lichess": "",
         "white": 708990,
         "draws": 61569,
-        "black": 745339
+        "black": 745339,
+        "transpositions": [
+            "1. e4 d5 2. exd5 Nf6 3. Nc3 c6",
+            "1. e4 d5 2. exd5 c6 3. Nc3 Nf6"
+        ]
     },
     {
         "eco": "B01",
@@ -669,7 +763,11 @@
         "lichess": "",
         "white": 771555,
         "draws": 61579,
-        "black": 608219
+        "black": 608219,
+        "transpositions": [
+            "1. e4 c5 2. Nc3 d5 3. d4 e6",
+            "1. e4 e6 2. d4 d5 3. Nc3 c5"
+        ]
     },
     {
         "eco": "C00",
@@ -682,7 +780,12 @@
         "lichess": "sdCDRfBz",
         "white": 754792,
         "draws": 54747,
-        "black": 577563
+        "black": 577563,
+        "transpositions": [
+            "1. e4 c5 2. Nf3 d5 3. e5 e6 4. b4",
+            "1. e4 c5 2. Nf3 e6 3. b4 d5 4. e5",
+            "1. e4 c5 2. Nf3 e6 3. e5 d5 4. b4"
+        ]
     },
     {
         "eco": "D00",
@@ -695,7 +798,10 @@
         "lichess": "eelrR8KE",
         "white": 689169,
         "draws": 48798,
-        "black": 628178
+        "black": 628178,
+        "transpositions": [
+            "1. e4 d5 2. d4 dxe4 3. f3"
+        ]
     },
     {
         "eco": "D31",
@@ -708,7 +814,11 @@
         "lichess": "",
         "white": 724174,
         "draws": 59611,
-        "black": 531429
+        "black": 531429,
+        "transpositions": [
+            "1. e4 e6 2. c4 d5 3. Nc3 c6 4. d4",
+            "1. e4 e6 2. d4 d5 3. c4 c6 4. Nc3"
+        ]
     },
     {
         "eco": "B15",
@@ -721,7 +831,11 @@
         "lichess": "QL8X7qSi",
         "white": 657578,
         "draws": 47889,
-        "black": 534833
+        "black": 534833,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 c6 3. d4 dxe4 4. f3",
+            "1. e4 d5 2. d4 dxe4 3. f3 c6 4. Nc3"
+        ]
     },
     {
         "eco": "C33",
@@ -760,7 +874,10 @@
         "lichess": "5ICDHI2D",
         "white": 628463,
         "draws": 48386,
-        "black": 472420
+        "black": 472420,
+        "transpositions": [
+            "1. e4 e5 2. d4 Nf6 3. Bc4"
+        ]
     },
     {
         "eco": "A82",
@@ -773,7 +890,10 @@
         "lichess": "cDScoYJ5",
         "white": 626791,
         "draws": 51233,
-        "black": 470262
+        "black": 470262,
+        "transpositions": [
+            "1. e4 f5 2. d4"
+        ]
     },
     {
         "eco": "A40",
@@ -799,7 +919,10 @@
         "lichess": "iifCImXc",
         "white": 463410,
         "draws": 34335,
-        "black": 504900
+        "black": 504900,
+        "transpositions": [
+            "1. e4 d5 2. f4"
+        ]
     },
     {
         "eco": "C50",
@@ -812,7 +935,10 @@
         "lichess": "L3XN2KBg",
         "white": 508462,
         "draws": 38790,
-        "black": 455036
+        "black": 455036,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. d4 Bc5 4. Bc4"
+        ]
     },
     {
         "eco": "B01",
@@ -838,7 +964,10 @@
         "lichess": "SkT8sqiL",
         "white": 511827,
         "draws": 43941,
-        "black": 429511
+        "black": 429511,
+        "transpositions": [
+            "1. b3 d5 2. Bb2 e6 3. e4"
+        ]
     },
     {
         "eco": "C53",
@@ -854,7 +983,10 @@
         "black": 422020,
         "original_pgn": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bc5 5. c3 Nf6 6. e5 d5",
         "original_fen": "r1bqk2r/ppp2ppp/2n2n2/2bpP3/2Bp4/2P2N2/PP3PPP/RNBQK2R w KQkq d6 0 7",
-        "comment": "Lichess includes Black's 6...d5 in the PGN. On this site we stop at 6. e5, White's gambit thrust."
+        "comment": "Lichess includes Black's 6...d5 in the PGN. On this site we stop at 6. e5, White's gambit thrust.",
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5"
+        ]
     },
     {
         "eco": "A00",
@@ -893,7 +1025,11 @@
         "lichess": "kZsa5aiv",
         "white": 446150,
         "draws": 40395,
-        "black": 484274
+        "black": 484274,
+        "transpositions": [
+            "1. d4 Nf6 2. Nf3 d6 3. e4",
+            "1. e4 d6 2. Nf3 Nf6 3. d4"
+        ]
     },
     {
         "eco": "C00",
@@ -906,7 +1042,11 @@
         "lichess": "hEM7jyuh",
         "white": 433083,
         "draws": 36572,
-        "black": 488880
+        "black": 488880,
+        "transpositions": [
+            "1. d4 d5 2. Nf3 e6 3. e4",
+            "1. e4 e6 2. Nf3 d5 3. d4"
+        ]
     },
     {
         "eco": "D00",
@@ -919,7 +1059,10 @@
         "lichess": "hXEgaf5c",
         "white": 481257,
         "draws": 37532,
-        "black": 403191
+        "black": 403191,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d4 Nf6 4. Bg5"
+        ]
     },
     {
         "eco": "B00",
@@ -932,7 +1075,10 @@
         "lichess": "UJSuiZjP",
         "white": 422915,
         "draws": 37731,
-        "black": 458727
+        "black": 458727,
+        "transpositions": [
+            "1. e4 f5 2. Nf3 Nc6"
+        ]
     },
     {
         "eco": "B00",
@@ -945,7 +1091,11 @@
         "lichess": "0eEaIIyJ",
         "white": 424870,
         "draws": 35653,
-        "black": 450793
+        "black": 450793,
+        "transpositions": [
+            "1. e4 e5 2. d4 Nc6 3. dxe5 d6",
+            "1. e4 e5 2. d4 d6 3. dxe5 Nc6"
+        ]
     },
     {
         "eco": "B30",
@@ -958,7 +1108,10 @@
         "lichess": "SRgSDsyP",
         "white": 459010,
         "draws": 31166,
-        "black": 371504
+        "black": 371504,
+        "transpositions": [
+            "1. e4 c5 2. b4 Nc6 3. Nf3"
+        ]
     },
     {
         "eco": "C21",
@@ -997,7 +1150,11 @@
         "lichess": "fVDAXL3Q",
         "white": 434893,
         "draws": 30910,
-        "black": 361560
+        "black": 361560,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d3",
+            "1. e4 d5 2. d3 dxe4 3. Nc3"
+        ]
     },
     {
         "eco": "C44",
@@ -1010,7 +1167,11 @@
         "lichess": "bBVaFayv",
         "white": 359721,
         "draws": 29358,
-        "black": 374428
+        "black": 374428,
+        "transpositions": [
+            "1. e4 e5 2. Bc4 Nc6 3. c3 Nf6 4. Nf3",
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. c3"
+        ]
     },
     {
         "eco": "B01",
@@ -1036,7 +1197,11 @@
         "lichess": "",
         "white": 381780,
         "draws": 29735,
-        "black": 343158
+        "black": 343158,
+        "transpositions": [
+            "1. d4 d6 2. Nf3 e5",
+            "1. d4 e5 2. Nf3 d6"
+        ]
     },
     {
         "eco": "C65",
@@ -1049,7 +1214,10 @@
         "lichess": "quEkoNt5",
         "white": 422055,
         "draws": 28405,
-        "black": 298786
+        "black": 298786,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. c3 Bc5 5. O-O"
+        ]
     },
     {
         "eco": "C25",
@@ -1062,7 +1230,11 @@
         "lichess": "GdToClFW",
         "white": 413904,
         "draws": 26519,
-        "black": 308700
+        "black": 308700,
+        "transpositions": [
+            "1. e4 e5 2. f4 d6 3. Nc3",
+            "1. f4 e5 2. Nc3 d6 3. e4"
+        ]
     },
     {
         "eco": "C41",
@@ -1075,7 +1247,10 @@
         "lichess": "OyfWM51x",
         "white": 397287,
         "draws": 30846,
-        "black": 315181
+        "black": 315181,
+        "transpositions": [
+            "1. e4 e5 2. Bc4 d6 3. d4 exd4 4. Nf3"
+        ]
     },
     {
         "eco": "B00",
@@ -1088,7 +1263,11 @@
         "lichess": "",
         "white": 357873,
         "draws": 27791,
-        "black": 353484
+        "black": 353484,
+        "transpositions": [
+            "1. d4 b6 2. Nf3 Bb7 3. e4",
+            "1. e4 b6 2. Nf3 Bb7 3. d4"
+        ]
     },
     {
         "eco": "D00",
@@ -1101,7 +1280,10 @@
         "lichess": "hMiqIjYC",
         "white": 329528,
         "draws": 28485,
-        "black": 320702
+        "black": 320702,
+        "transpositions": [
+            "1. d4 c5 2. Nc3 d5"
+        ]
     },
     {
         "eco": "C39",
@@ -1127,7 +1309,10 @@
         "lichess": "0lqSQnqM",
         "white": 341380,
         "draws": 24402,
-        "black": 284429
+        "black": 284429,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nc3"
+        ]
     },
     {
         "eco": "C20",
@@ -1140,7 +1325,10 @@
         "lichess": "",
         "white": 341957,
         "draws": 25004,
-        "black": 274625
+        "black": 274625,
+        "transpositions": [
+            "1. e4 d5 2. d4 e5"
+        ]
     },
     {
         "eco": "A43",
@@ -1166,7 +1354,10 @@
         "lichess": "rMPgxwIr",
         "white": 327323,
         "draws": 24280,
-        "black": 276819
+        "black": 276819,
+        "transpositions": [
+            "1. d4 e5 2. dxe5 Bc5 3. Nf3 Nc6"
+        ]
     },
     {
         "eco": "C00",
@@ -1179,7 +1370,11 @@
         "lichess": "",
         "white": 314303,
         "draws": 23663,
-        "black": 285531
+        "black": 285531,
+        "transpositions": [
+            "1. d4 d5 2. c4 e6 3. e4",
+            "1. e4 e6 2. c4 d5 3. d4"
+        ]
     },
     {
         "eco": "D00",
@@ -1192,7 +1387,11 @@
         "lichess": "8cksciov",
         "white": 314173,
         "draws": 20827,
-        "black": 285804
+        "black": 285804,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. f3 exf3 4. d4 Nf6 5. Qxf3",
+            "1. e4 d5 2. d4 dxe4 3. f3 exf3 4. Qxf3 Nf6 5. Nc3"
+        ]
     },
     {
         "eco": "D15",
@@ -1205,7 +1404,12 @@
         "lichess": "apMtcQpA",
         "white": 302739,
         "draws": 25688,
-        "black": 285014
+        "black": 285014,
+        "transpositions": [
+            "1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. Nf3 dxc4 5. e4",
+            "1. e4 d5 2. d4 c6 3. c4 Nf6 4. Nc3 dxc4 5. Nf3",
+            "1. e4 d5 2. d4 c6 3. c4 dxc4 4. Nf3 Nf6 5. Nc3"
+        ]
     },
     {
         "eco": "C43",
@@ -1218,7 +1422,10 @@
         "lichess": "5ICDHI2D",
         "white": 316380,
         "draws": 26516,
-        "black": 263174
+        "black": 263174,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nf6 3. d4 exd4 4. Bc4"
+        ]
     },
     {
         "eco": "A51",
@@ -1270,7 +1477,11 @@
         "lichess": "OcE5SeAG",
         "white": 242971,
         "draws": 29814,
-        "black": 242286
+        "black": 242286,
+        "transpositions": [
+            "1. e4 d6 2. d4 Nf6 3. f3 g6 4. c4 Bg7 5. Nc3 O-O 6. Be3 c5",
+            "1. e4 d6 2. d4 Nf6 3. f3 g6 4. c4 Bg7 5. Nc3 c5 6. Be3 O-O"
+        ]
     },
     {
         "eco": "C21",
@@ -1296,7 +1507,10 @@
         "lichess": "7awxjIzN",
         "white": 246434,
         "draws": 15676,
-        "black": 231307
+        "black": 231307,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. Bc4 d6"
+        ]
     },
     {
         "eco": "D10",
@@ -1309,7 +1523,11 @@
         "lichess": "o0ZmzUjG",
         "white": 238475,
         "draws": 19333,
-        "black": 229087
+        "black": 229087,
+        "transpositions": [
+            "1. e4 c6 2. c4 d5 3. d4",
+            "1. e4 d5 2. d4 c6 3. c4"
+        ]
     },
     {
         "eco": "D06",
@@ -1322,7 +1540,10 @@
         "lichess": "Sce5X31C",
         "white": 241035,
         "draws": 23448,
-        "black": 219795
+        "black": 219795,
+        "transpositions": [
+            "1. d4 d5 2. c4 c6 3. cxd5 Nf6"
+        ]
     },
     {
         "eco": "A04",
@@ -1361,7 +1582,11 @@
         "lichess": "cDScoYJ5",
         "white": 244621,
         "draws": 25816,
-        "black": 187801
+        "black": 187801,
+        "transpositions": [
+            "1. e4 f5 2. Nc3 fxe4 3. d4 Nf6 4. Bg5",
+            "1. e4 f5 2. d4 fxe4 3. Bg5 Nf6 4. Nc3"
+        ]
     },
     {
         "eco": "A83",
@@ -1374,7 +1599,11 @@
         "lichess": "cDScoYJ5",
         "white": 244621,
         "draws": 25816,
-        "black": 187801
+        "black": 187801,
+        "transpositions": [
+            "1. e4 f5 2. Nc3 fxe4 3. d4 Nf6 4. Bg5",
+            "1. e4 f5 2. d4 fxe4 3. Bg5 Nf6 4. Nc3"
+        ]
     },
     {
         "eco": "C40",
@@ -1387,7 +1616,10 @@
         "lichess": "xJf2zOHN",
         "white": 238866,
         "draws": 17701,
-        "black": 196403
+        "black": 196403,
+        "transpositions": [
+            "1. e4 c6 2. Nf3 e5"
+        ]
     },
     {
         "eco": "A00",
@@ -1413,7 +1645,10 @@
         "lichess": "",
         "white": 206364,
         "draws": 14711,
-        "black": 205454
+        "black": 205454,
+        "transpositions": [
+            "1. e4 e5 2. d4 f5 3. Nf3"
+        ]
     },
     {
         "eco": "C23",
@@ -1426,7 +1661,10 @@
         "lichess": "",
         "white": 202080,
         "draws": 13209,
-        "black": 208202
+        "black": 208202,
+        "transpositions": [
+            "1. e4 f5 2. Bc4 e5"
+        ]
     },
     {
         "eco": "C41",
@@ -1439,7 +1677,10 @@
         "lichess": "bkyDx7J1",
         "white": 233347,
         "draws": 16314,
-        "black": 171113
+        "black": 171113,
+        "transpositions": [
+            "1. e4 e5 2. d4 exd4 3. c3 d6 4. Nf3"
+        ]
     },
     {
         "eco": "B15",
@@ -1452,7 +1693,10 @@
         "lichess": "Q8vVDR8g",
         "white": 225406,
         "draws": 16380,
-        "black": 165356
+        "black": 165356,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 c6 3. d4 dxe4 4. Bc4"
+        ]
     },
     {
         "eco": "C37",
@@ -1465,7 +1709,10 @@
         "lichess": "xl2xIuuN",
         "white": 184580,
         "draws": 12430,
-        "black": 204913
+        "black": 204913,
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. d4 g5 4. Nf3"
+        ]
     },
     {
         "eco": "A40",
@@ -1491,7 +1738,12 @@
         "lichess": "dT0MBSpM",
         "white": 228226,
         "draws": 16400,
-        "black": 155912
+        "black": 155912,
+        "transpositions": [
+            "1. d4 d5 2. c4 Nf6 3. Nc3 Nc6 4. Nf3 dxc4",
+            "1. d4 d5 2. c4 Nf6 3. Nc3 dxc4 4. Nf3 Nc6",
+            "1. d4 d5 2. c4 dxc4 3. Nc3 Nc6 4. Nf3 Nf6"
+        ]
     },
     {
         "eco": "A04",
@@ -1504,7 +1756,11 @@
         "lichess": "",
         "white": 175969,
         "draws": 16588,
-        "black": 192353
+        "black": 192353,
+        "transpositions": [
+            "1. d4 c5 2. Nf3 cxd4 3. e3",
+            "1. d4 c5 2. e3 cxd4 3. Nf3"
+        ]
     },
     {
         "eco": "C41",
@@ -1517,7 +1773,10 @@
         "lichess": "Qcn9iVD2",
         "white": 186294,
         "draws": 13049,
-        "black": 177166
+        "black": 177166,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. d4 d6"
+        ]
     },
     {
         "eco": "C15",
@@ -1543,7 +1802,10 @@
         "lichess": "9P52tHG6",
         "white": 182758,
         "draws": 12441,
-        "black": 173561
+        "black": 173561,
+        "transpositions": [
+            "1. e4 f5 2. Nf3"
+        ]
     },
     {
         "eco": "C39",
@@ -1582,7 +1844,12 @@
         "lichess": "bIxd4ZLw",
         "white": 161755,
         "draws": 16520,
-        "black": 174585
+        "black": 174585,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d4 e5",
+            "1. e4 d5 2. d4 dxe4 3. Nc3 e5",
+            "1. e4 e5 2. Nc3 d5 3. d4 dxe4"
+        ]
     },
     {
         "eco": "C42",
@@ -1621,7 +1888,11 @@
         "lichess": "lXCAdvsi",
         "white": 151831,
         "draws": 11224,
-        "black": 177243
+        "black": 177243,
+        "transpositions": [
+            "1. d4 e5 2. dxe5 Nc6 3. c4 d6",
+            "1. d4 e5 2. dxe5 d6 3. c4 Nc6"
+        ]
     },
     {
         "eco": "C37",
@@ -1647,7 +1918,11 @@
         "lichess": "SMFus1qd",
         "white": 158611,
         "draws": 17772,
-        "black": 157892
+        "black": 157892,
+        "transpositions": [
+            "1. d4 d5 2. Nf3 Nf6 3. Bg5 c6 4. c4",
+            "1. d4 d5 2. c4 Nf6 3. Bg5 c6 4. Nf3"
+        ]
     },
     {
         "eco": "B12",
@@ -1660,7 +1935,10 @@
         "lichess": "",
         "white": 149984,
         "draws": 12240,
-        "black": 169142
+        "black": 169142,
+        "transpositions": [
+            "1. e4 d5 2. Nf3 c6 3. d4 dxe4 4. Ng5"
+        ]
     },
     {
         "eco": "C42",
@@ -1702,7 +1980,10 @@
         "black": 170351,
         "original_pgn": "1. e4 c5 2. f4 d5 3. Nf3 dxe4",
         "original_fen": "rnbqkbnr/pp2pppp/8/2p5/4pP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
-        "comment": "Lichess includes Black's 3...dxe4 (acceptance) in the PGN. On this site we stop at 3. Nf3, White's last move before Black takes."
+        "comment": "Lichess includes Black's 3...dxe4 (acceptance) in the PGN. On this site we stop at 3. Nf3, White's last move before Black takes.",
+        "transpositions": [
+            "1. f4 d5 2. Nf3 c5 3. e4"
+        ]
     },
     {
         "eco": "B12",
@@ -1715,7 +1996,11 @@
         "lichess": "0OPsMAI6",
         "white": 191492,
         "draws": 11585,
-        "black": 111809
+        "black": 111809,
+        "transpositions": [
+            "1. e4 d5 2. d4 dxe4 3. f3 c6 4. fxe4 e5 5. Bc4 exd4 6. Nf3",
+            "1. e4 d5 2. d4 dxe4 3. f3 c6 4. fxe4 e5 5. Nf3 exd4 6. Bc4"
+        ]
     },
     {
         "eco": "B15",
@@ -1728,7 +2013,11 @@
         "lichess": "",
         "white": 155666,
         "draws": 16320,
-        "black": 142453
+        "black": 142453,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 c6 3. d4 Nf6 4. Bd3 dxe4 5. Nxe4",
+            "1. e4 d5 2. Nc3 dxe4 3. Nxe4 c6 4. d4 Nf6 5. Bd3"
+        ]
     },
     {
         "eco": "C00",
@@ -1741,7 +2030,10 @@
         "lichess": "Nj4JaULN",
         "white": 162144,
         "draws": 12392,
-        "black": 138074
+        "black": 138074,
+        "transpositions": [
+            "1. e4 f5 2. d4 e6"
+        ]
     },
     {
         "eco": "C00",
@@ -1757,7 +2049,10 @@
         "black": 159706,
         "original_pgn": "1. e4 e6 2. f4 d5 3. Nf3 dxe4",
         "original_fen": "rnbqkbnr/ppp2ppp/4p3/8/4pP2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4",
-        "comment": "Lichess includes Black's 3...dxe4 in the PGN. On this site we stop at 3. Nf3, White's last move."
+        "comment": "Lichess includes Black's 3...dxe4 in the PGN. On this site we stop at 3. Nf3, White's last move.",
+        "transpositions": [
+            "1. f4 d5 2. Nf3 e6 3. e4"
+        ]
     },
     {
         "eco": "D32",
@@ -1783,7 +2078,10 @@
         "lichess": "",
         "white": 159723,
         "draws": 12046,
-        "black": 126196
+        "black": 126196,
+        "transpositions": [
+            "1. Nf3 e5 2. g3 d5"
+        ]
     },
     {
         "eco": "B00",
@@ -1835,7 +2133,10 @@
         "lichess": "gYP6l8kl",
         "white": 136046,
         "draws": 14227,
-        "black": 129619
+        "black": 129619,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 g6 3. d4 Bg7"
+        ]
     },
     {
         "eco": "B21",
@@ -1848,7 +2149,11 @@
         "lichess": "4MTK09mD",
         "white": 147029,
         "draws": 11345,
-        "black": 121260
+        "black": 121260,
+        "transpositions": [
+            "1. e4 c5 2. Nf3 e5 3. d4 cxd4 4. c3",
+            "1. e4 c5 2. d4 cxd4 3. c3 e5 4. Nf3"
+        ]
     },
     {
         "eco": "B21",
@@ -1903,7 +2208,10 @@
         "lichess": "s4OTPjs1",
         "white": 143986,
         "draws": 11396,
-        "black": 111187
+        "black": 111187,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d4 exd4 6. c3"
+        ]
     },
     {
         "eco": "C57",
@@ -1929,7 +2237,12 @@
         "lichess": "",
         "white": 130892,
         "draws": 12952,
-        "black": 120760
+        "black": 120760,
+        "transpositions": [
+            "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 h6 5. Bh4 c6 6. Nf3",
+            "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 c6 5. Bg5 h6 6. Bh4",
+            "1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Bg5 h6 5. Bh4 c6 6. Nc3"
+        ]
     },
     {
         "eco": "C27",
@@ -1942,7 +2255,11 @@
         "lichess": "",
         "white": 141037,
         "draws": 12539,
-        "black": 108458
+        "black": 108458,
+        "transpositions": [
+            "1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Nf3",
+            "1. e4 e5 2. Nf3 Nf6 3. Nc3 Nxe4 4. Bc4"
+        ]
     },
     {
         "eco": "C27",
@@ -1955,7 +2272,12 @@
         "lichess": "",
         "white": 141037,
         "draws": 12539,
-        "black": 108458
+        "black": 108458,
+        "transpositions": [
+            "1. e4 e5 2. Nc3 Nf6 3. Bc4 Nxe4 4. Nf3",
+            "1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. Nc3",
+            "1. e4 e5 2. Nf3 Nf6 3. Nc3 Nxe4 4. Bc4"
+        ]
     },
     {
         "eco": "D10",
@@ -1968,7 +2290,11 @@
         "lichess": "oSjUnB9j",
         "white": 119643,
         "draws": 11531,
-        "black": 129923
+        "black": 129923,
+        "transpositions": [
+            "1. d4 d5 2. c4 e5 3. Nc3 c6",
+            "1. d4 e5 2. c4 c6 3. Nc3 d5"
+        ]
     },
     {
         "eco": "C47",
@@ -1981,7 +2307,11 @@
         "lichess": "X9lCcXP3",
         "white": 140863,
         "draws": 14174,
-        "black": 104242
+        "black": 104242,
+        "transpositions": [
+            "1. e4 e5 2. Nc3 Nc6 3. d4 exd4 4. Nd5 Nf6 5. Nf3",
+            "1. e4 e5 2. Nf3 Nc6 3. d4 Nf6 4. Nc3 exd4 5. Nd5"
+        ]
     },
     {
         "eco": "B00",
@@ -1994,7 +2324,10 @@
         "lichess": "vpgUgU1t",
         "white": 134412,
         "draws": 10948,
-        "black": 105412
+        "black": 105412,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nc6 3. d4 dxe4 4. d5"
+        ]
     },
     {
         "eco": "C30",
@@ -2007,7 +2340,10 @@
         "lichess": "MNiJh0Mu",
         "white": 122332,
         "draws": 6959,
-        "black": 113329
+        "black": 113329,
+        "transpositions": [
+            "1. e4 f5 2. f4 e5"
+        ]
     },
     {
         "eco": "D00",
@@ -2020,7 +2356,10 @@
         "lichess": "8LUNEbGT",
         "white": 114325,
         "draws": 9294,
-        "black": 113952
+        "black": 113952,
+        "transpositions": [
+            "1. d4 e5 2. Nc3 d5"
+        ]
     },
     {
         "eco": "A10",
@@ -2059,7 +2398,10 @@
         "lichess": "",
         "white": 109701,
         "draws": 14026,
-        "black": 105509
+        "black": 105509,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. h3 h5 6. O-O Bg4"
+        ]
     },
     {
         "eco": "D83",
@@ -2072,7 +2414,11 @@
         "lichess": "SGJs2P61",
         "white": 106874,
         "draws": 14308,
-        "black": 107011
+        "black": 107011,
+        "transpositions": [
+            "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Bf4 O-O 5. e3 d5",
+            "1. d4 d5 2. c4 Nf6 3. Nc3 g6 4. Bf4 Bg7 5. e3 O-O"
+        ]
     },
     {
         "eco": "C40",
@@ -2098,7 +2444,10 @@
         "lichess": "8fwtvodK",
         "white": 117093,
         "draws": 9427,
-        "black": 93364
+        "black": 93364,
+        "transpositions": [
+            "1. e4 Nf6 2. e5 Nd5 3. c4 Nb6 4. c5 Nd5 5. Nc3 e6 6. Bc4"
+        ]
     },
     {
         "eco": "C13",
@@ -2153,7 +2502,10 @@
         "lichess": "ivAehSgr",
         "white": 93869,
         "draws": 8289,
-        "black": 104662
+        "black": 104662,
+        "transpositions": [
+            "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Bc4 Nf6 5. Nxd4"
+        ]
     },
     {
         "eco": "C23",
@@ -2231,7 +2583,10 @@
         "lichess": "Ds4VhAtr",
         "white": 104730,
         "draws": 7675,
-        "black": 76819
+        "black": 76819,
+        "transpositions": [
+            "1. e4 d5 2. Bc4 c6 3. Bb3 dxe4 4. Qh5"
+        ]
     },
     {
         "eco": "C02",
@@ -2244,7 +2599,10 @@
         "lichess": "oczw9Cos",
         "white": 104002,
         "draws": 7415,
-        "black": 77790
+        "black": 77790,
+        "transpositions": [
+            "1. e4 c5 2. d4 d5 3. e5 e6 4. Qg4 cxd4 5. Nf3"
+        ]
     },
     {
         "eco": "A09",
@@ -2257,7 +2615,10 @@
         "lichess": "364jFPyE",
         "white": 102397,
         "draws": 7010,
-        "black": 79461
+        "black": 79461,
+        "transpositions": [
+            "1. Nf3 d5 2. c4 d4 3. b4 c5 4. e3"
+        ]
     },
     {
         "eco": "C33",
@@ -2283,7 +2644,10 @@
         "lichess": "apMtcQpA",
         "white": 90505,
         "draws": 7863,
-        "black": 88039
+        "black": 88039,
+        "transpositions": [
+            "1. e4 d5 2. d4 c6 3. c4 Nf6 4. Nc3 dxc4 5. Nf3 b5 6. e5"
+        ]
     },
     {
         "eco": "C44",
@@ -2296,7 +2660,10 @@
         "lichess": "TWrXdm5I",
         "white": 76052,
         "draws": 6425,
-        "black": 94447
+        "black": 94447,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. c3 Nc6"
+        ]
     },
     {
         "eco": "C00",
@@ -2322,7 +2689,11 @@
         "lichess": "XCFTC7D0",
         "white": 75275,
         "draws": 9128,
-        "black": 90011
+        "black": 90011,
+        "transpositions": [
+            "1. e4 d5 2. exd5 Nc6 3. Nc3 Qxd5 4. d4",
+            "1. e4 d5 2. exd5 Qxd5 3. d4 Nc6 4. Nc3"
+        ]
     },
     {
         "eco": "C50",
@@ -2335,7 +2706,10 @@
         "lichess": "yyroOWXJ",
         "white": 83603,
         "draws": 5720,
-        "black": 79188
+        "black": 79188,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 f5 4. d3 Bc5"
+        ]
     },
     {
         "eco": "D00",
@@ -2348,7 +2722,11 @@
         "lichess": "",
         "white": 81611,
         "draws": 7805,
-        "black": 78207
+        "black": 78207,
+        "transpositions": [
+            "1. e4 c5 2. Nc3 d5 3. d4 dxe4",
+            "1. e4 d5 2. d4 dxe4 3. Nc3 c5"
+        ]
     },
     {
         "eco": "A59",
@@ -2387,7 +2765,10 @@
         "lichess": "1GNP9ag0",
         "white": 84964,
         "draws": 6033,
-        "black": 70360
+        "black": 70360,
+        "transpositions": [
+            "1. d4 e5 2. Nc3 Nf6"
+        ]
     },
     {
         "eco": "D07",
@@ -2400,7 +2781,10 @@
         "lichess": "VST4TDy9",
         "white": 80893,
         "draws": 8330,
-        "black": 69641
+        "black": 69641,
+        "transpositions": [
+            "1. d4 d5 2. c4 e5 3. Nf3 Nc6"
+        ]
     },
     {
         "eco": "C35",
@@ -2426,7 +2810,10 @@
         "lichess": "qzdcESeQ",
         "white": 78235,
         "draws": 7028,
-        "black": 72952
+        "black": 72952,
+        "transpositions": [
+            "1. d4 d5 2. c4 e5 3. Nc3 Nc6"
+        ]
     },
     {
         "eco": "B03",
@@ -2452,7 +2839,11 @@
         "lichess": "",
         "white": 75321,
         "draws": 5714,
-        "black": 73232
+        "black": 73232,
+        "transpositions": [
+            "1. d4 e5 2. Nc3 Nc6 3. e4",
+            "1. e4 e5 2. d4 Nc6 3. Nc3"
+        ]
     },
     {
         "eco": "A80",
@@ -2478,7 +2869,10 @@
         "lichess": "bi0JUVf9",
         "white": 73743,
         "draws": 5654,
-        "black": 72127
+        "black": 72127,
+        "transpositions": [
+            "1. e4 e5 2. d4 d5 3. f4"
+        ]
     },
     {
         "eco": "A82",
@@ -2491,7 +2885,11 @@
         "lichess": "XVydCwf7",
         "white": 81610,
         "draws": 6137,
-        "black": 62702
+        "black": 62702,
+        "transpositions": [
+            "1. e4 f5 2. Nc3 fxe4 3. d4 Nf6 4. f3",
+            "1. e4 f5 2. d4 fxe4 3. f3 Nf6 4. Nc3"
+        ]
     },
     {
         "eco": "D00",
@@ -2504,7 +2902,11 @@
         "lichess": "wfpGmqE5",
         "white": 72545,
         "draws": 5710,
-        "black": 71322
+        "black": 71322,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d4 Nf6 4. Be3",
+            "1. e4 d5 2. d4 dxe4 3. Be3 Nf6 4. Nc3"
+        ]
     },
     {
         "eco": "C44",
@@ -2530,7 +2932,10 @@
         "lichess": "p4XHpDUl",
         "white": 71508,
         "draws": 6975,
-        "black": 68856
+        "black": 68856,
+        "transpositions": [
+            "1. d4 Nf6 2. c4 c5 3. d5 b5 4. Nf3 e6"
+        ]
     },
     {
         "eco": "B00",
@@ -2543,7 +2948,10 @@
         "lichess": "TwiZoXc4",
         "white": 77023,
         "draws": 6324,
-        "black": 63965
+        "black": 63965,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nc6 3. d4 dxe4 4. d5 Ne5"
+        ]
     },
     {
         "eco": "A03",
@@ -2582,7 +2990,11 @@
         "lichess": "r6DdIppp",
         "white": 62743,
         "draws": 9680,
-        "black": 64620
+        "black": 64620,
+        "transpositions": [
+            "1. e4 d5 2. exd5 Nf6 3. d4 c6 4. c4 cxd5 5. Nc3 g6 6. cxd5 Bg7",
+            "1. e4 d5 2. exd5 c6 3. d4 cxd5 4. c4 g6 5. Nc3 Bg7 6. cxd5 Nf6"
+        ]
     },
     {
         "eco": "C20",
@@ -2608,7 +3020,12 @@
         "lichess": "",
         "white": 57340,
         "draws": 3874,
-        "black": 67228
+        "black": 67228,
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nc3 Nc6 4. d4 g5 5. Nf3",
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3 Nc6 5. d4",
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. d4 Nc6 5. Nc3"
+        ]
     },
     {
         "eco": "A02",
@@ -2634,7 +3051,11 @@
         "lichess": "XawlgH2J",
         "white": 65936,
         "draws": 5008,
-        "black": 57211
+        "black": 57211,
+        "transpositions": [
+            "1. e4 c5 2. Nf3 e6 3. d4 d5 4. e5 cxd4 5. Bd3",
+            "1. e4 c5 2. d4 e6 3. Bd3 d5 4. e5 cxd4 5. Nf3"
+        ]
     },
     {
         "eco": "A19",
@@ -2647,7 +3068,10 @@
         "lichess": "Q3PZxcwD",
         "white": 64380,
         "draws": 5942,
-        "black": 54788
+        "black": 54788,
+        "transpositions": [
+            "1. e4 c5 2. c4 e6 3. Nc3 Nf6 4. e5 Ng8"
+        ]
     },
     {
         "eco": "C25",
@@ -2660,7 +3084,10 @@
         "lichess": "KZmyogqg",
         "white": 65025,
         "draws": 4319,
-        "black": 53206
+        "black": 53206,
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nc3 Nc6 4. d4"
+        ]
     },
     {
         "eco": "C00",
@@ -2673,7 +3100,10 @@
         "lichess": "kmkRXnmp",
         "white": 59606,
         "draws": 4476,
-        "black": 56950
+        "black": 56950,
+        "transpositions": [
+            "1. e4 f5 2. Nf3 e6"
+        ]
     },
     {
         "eco": "C56",
@@ -2686,7 +3116,10 @@
         "lichess": "HN98fDwe",
         "white": 60409,
         "draws": 6772,
-        "black": 53009
+        "black": 53009,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. O-O Nxe4 5. d4 exd4 6. Nc3"
+        ]
     },
     {
         "eco": "C21",
@@ -2725,7 +3158,10 @@
         "lichess": "CUQSkGoi",
         "white": 66547,
         "draws": 3852,
-        "black": 44223
+        "black": 44223,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. d4 exd4 5. Qxd4"
+        ]
     },
     {
         "eco": "A02",
@@ -2738,7 +3174,10 @@
         "lichess": "y4slCK2p",
         "white": 57426,
         "draws": 3618,
-        "black": 46140
+        "black": 46140,
+        "transpositions": [
+            "1. e4 f5 2. f4"
+        ]
     },
     {
         "eco": "C44",
@@ -2777,7 +3216,11 @@
         "lichess": "",
         "white": 51918,
         "draws": 3909,
-        "black": 44420
+        "black": 44420,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. f3",
+            "1. e4 d5 2. f3 dxe4 3. Nc3"
+        ]
     },
     {
         "eco": "C39",
@@ -2803,7 +3246,10 @@
         "lichess": "kl4slweJ",
         "white": 50898,
         "draws": 3437,
-        "black": 41996
+        "black": 41996,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nf6 3. e5 Nfd7 4. e6"
+        ]
     },
     {
         "eco": "D21",
@@ -2842,7 +3288,11 @@
         "lichess": "jU1X73QQ",
         "white": 45923,
         "draws": 4439,
-        "black": 42543
+        "black": 42543,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d4 Nf6 4. f3 e5",
+            "1. e4 e5 2. Nc3 Nf6 3. f3 d5 4. d4 dxe4"
+        ]
     },
     {
         "eco": "C41",
@@ -2868,7 +3318,11 @@
         "lichess": "",
         "white": 42669,
         "draws": 4523,
-        "black": 44326
+        "black": 44326,
+        "transpositions": [
+            "1. e4 c5 2. Nc3 d5 3. d4 Nf6 4. f3 dxe4",
+            "1. e4 d5 2. Nc3 dxe4 3. d4 Nf6 4. f3 c5"
+        ]
     },
     {
         "eco": "C44",
@@ -2894,7 +3348,10 @@
         "lichess": "kB5RLCLa",
         "white": 46968,
         "draws": 3184,
-        "black": 37527
+        "black": 37527,
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nc3 g5 4. Nf3"
+        ]
     },
     {
         "eco": "B50",
@@ -2907,7 +3364,10 @@
         "lichess": "",
         "white": 49516,
         "draws": 3621,
-        "black": 33879
+        "black": 33879,
+        "transpositions": [
+            "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. c3 Nf6 5. cxd4 d6 6. Be2 Nxe4"
+        ]
     },
     {
         "eco": "C37",
@@ -2933,7 +3393,10 @@
         "lichess": "voVOGNm1",
         "white": 36549,
         "draws": 4022,
-        "black": 44097
+        "black": 44097,
+        "transpositions": [
+            "1. e4 d6 2. d4 Nf6 3. e5 Nd5 4. c4 Nb6 5. Nf3 Bg4 6. Be2"
+        ]
     },
     {
         "eco": "A00",
@@ -2959,7 +3422,10 @@
         "lichess": "eT8OEpEf",
         "white": 40521,
         "draws": 3659,
-        "black": 38490
+        "black": 38490,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. c3 a6 5. Ba4"
+        ]
     },
     {
         "eco": "C33",
@@ -2985,7 +3451,10 @@
         "lichess": "w6sIjT1t",
         "white": 35903,
         "draws": 3322,
-        "black": 38003
+        "black": 38003,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. Nxe4 e5 4. f4"
+        ]
     },
     {
         "eco": "B20",
@@ -2998,7 +3467,10 @@
         "lichess": "DZHB5ysz",
         "white": 36950,
         "draws": 3058,
-        "black": 36648
+        "black": 36648,
+        "transpositions": [
+            "1. b3 d5 2. Bb2 c5 3. e4"
+        ]
     },
     {
         "eco": "C37",
@@ -3024,7 +3496,10 @@
         "lichess": "",
         "white": 40234,
         "draws": 4142,
-        "black": 31700
+        "black": 31700,
+        "transpositions": [
+            "1. d4 d5 2. g3 c5 3. Bg2 cxd4 4. Nf3"
+        ]
     },
     {
         "eco": "C24",
@@ -3037,7 +3512,10 @@
         "lichess": "MJCD1KCl",
         "white": 34464,
         "draws": 2564,
-        "black": 38584
+        "black": 38584,
+        "transpositions": [
+            "1. e4 e5 2. f4 Nf6 3. Bc4"
+        ]
     },
     {
         "eco": "B02",
@@ -3050,7 +3528,11 @@
         "lichess": "L8Hlywy2",
         "white": 34929,
         "draws": 2853,
-        "black": 31647
+        "black": 31647,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d3 Nf6 4. Bg5",
+            "1. e4 d5 2. d3 Nf6 3. Bg5 dxe4 4. Nc3"
+        ]
     },
     {
         "eco": "A01",
@@ -3063,7 +3545,10 @@
         "lichess": "x3kr0CuA",
         "white": 28747,
         "draws": 2177,
-        "black": 34798
+        "black": 34798,
+        "transpositions": [
+            "1. f4 e5 2. b3 Nc6 3. Bb2"
+        ]
     },
     {
         "eco": "C52",
@@ -3076,7 +3561,10 @@
         "lichess": "RIdZaRg2",
         "white": 31159,
         "draws": 2146,
-        "black": 32390
+        "black": 32390,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O d6 5. b4 Bxb4 6. c3 Ba5"
+        ]
     },
     {
         "eco": "C40",
@@ -3102,7 +3590,11 @@
         "lichess": "Y84PiO5T",
         "white": 38511,
         "draws": 1885,
-        "black": 25181
+        "black": 25181,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Bc5 3. d4 exd4 4. c3",
+            "1. e4 e5 2. d4 exd4 3. c3 Bc5 4. Nf3"
+        ]
     },
     {
         "eco": "D06",
@@ -3128,7 +3620,11 @@
         "lichess": "qhPVKwbm",
         "white": 36698,
         "draws": 1890,
-        "black": 25081
+        "black": 25081,
+        "transpositions": [
+            "1. e4 e5 2. Bc4 Bc5 3. d4 exd4 4. c3 dxc3 5. Nf3",
+            "1. e4 e5 2. Nf3 Bc5 3. d4 exd4 4. c3 dxc3 5. Bc4"
+        ]
     },
     {
         "eco": "C44",
@@ -3141,7 +3637,10 @@
         "lichess": "6KyvDuLs",
         "white": 26354,
         "draws": 2435,
-        "black": 34788
+        "black": 34788,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. exf5 Nc6 4. d3"
+        ]
     },
     {
         "eco": "B12",
@@ -3154,7 +3653,10 @@
         "lichess": "Thuc4cS4",
         "white": 30547,
         "draws": 2248,
-        "black": 29744
+        "black": 29744,
+        "transpositions": [
+            "1. e4 d5 2. d4 c6 3. Be3"
+        ]
     },
     {
         "eco": "A09",
@@ -3206,7 +3708,11 @@
         "lichess": "BCGNPnEU",
         "white": 29437,
         "draws": 2510,
-        "black": 27863
+        "black": 27863,
+        "transpositions": [
+            "1. e4 c6 2. e5 d5 3. c4",
+            "1. e4 d5 2. e5 c6 3. c4"
+        ]
     },
     {
         "eco": "C41",
@@ -3232,7 +3738,10 @@
         "lichess": "Mkqlxm6o",
         "white": 29249,
         "draws": 2034,
-        "black": 26648
+        "black": 26648,
+        "transpositions": [
+            "1. e4 e5 2. d4 exd4 3. c3 Nf6 4. Bc4"
+        ]
     },
     {
         "eco": "A10",
@@ -3284,7 +3793,10 @@
         "lichess": "buVB0a5s",
         "white": 30346,
         "draws": 2317,
-        "black": 23665
+        "black": 23665,
+        "transpositions": [
+            "1. d4 d5 2. c4 e6 3. Nf3 c6 4. g3 dxc4 5. Nc3"
+        ]
     },
     {
         "eco": "D00",
@@ -3297,7 +3809,11 @@
         "lichess": "tUGwIbae",
         "white": 27159,
         "draws": 2584,
-        "black": 26458
+        "black": 26458,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. Nxe4 e5 4. d4",
+            "1. e4 e5 2. Nc3 d5 3. d4 dxe4 4. Nxe4"
+        ]
     },
     {
         "eco": "A84",
@@ -3310,7 +3826,11 @@
         "lichess": "",
         "white": 28409,
         "draws": 2494,
-        "black": 25228
+        "black": 25228,
+        "transpositions": [
+            "1. d4 e6 2. c4 f5 3. e4",
+            "1. e4 e6 2. d4 f5 3. c4"
+        ]
     },
     {
         "eco": "C23",
@@ -3323,7 +3843,10 @@
         "lichess": "2mmVshDe",
         "white": 26848,
         "draws": 1747,
-        "black": 27288
+        "black": 27288,
+        "transpositions": [
+            "1. e4 e5 2. f4 Bc5 3. Bc4"
+        ]
     },
     {
         "eco": "B00",
@@ -3336,7 +3859,11 @@
         "lichess": "aS6N1CS4",
         "white": 28356,
         "draws": 1896,
-        "black": 24395
+        "black": 24395,
+        "transpositions": [
+            "1. e4 e5 2. d4 Nc6 3. dxe5 f6",
+            "1. e4 e5 2. d4 f6 3. dxe5 Nc6"
+        ]
     },
     {
         "eco": "C37",
@@ -3352,7 +3879,10 @@
         "black": 22804,
         "original_pgn": "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. d4 gxf3 6. Qxf3",
         "original_fen": "rnbqkbnr/pppp1p1p/8/8/2BPPp2/5Q2/PPP3PP/RNB1K2R b KQkq - 0 6",
-        "comment": "Lichess includes Black's 5...gxf3 in the PGN. On this site we stop at 5. d4, White's last gambit push."
+        "comment": "Lichess includes Black's 5...gxf3 in the PGN. On this site we stop at 5. d4, White's last gambit push.",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. d4 g4 5. Bc4"
+        ]
     },
     {
         "eco": "A03",
@@ -3365,7 +3895,11 @@
         "lichess": "gYcObsR5",
         "white": 27522,
         "draws": 1622,
-        "black": 25061
+        "black": 25061,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. f4 Nf6 4. Qe2",
+            "1. e4 d5 2. f4 dxe4 3. Qe2 Nf6 4. Nc3"
+        ]
     },
     {
         "eco": "A03",
@@ -3378,7 +3912,10 @@
         "lichess": "VXMaM2B3",
         "white": 25388,
         "draws": 1908,
-        "black": 26878
+        "black": 26878,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. f4 Nf6 4. Nge2"
+        ]
     },
     {
         "eco": "B50",
@@ -3404,7 +3941,11 @@
         "lichess": "GhhHpnxT",
         "white": 28953,
         "draws": 3706,
-        "black": 20659
+        "black": 20659,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Nxe5 Bb4 5. d4",
+            "1. e4 e5 2. Nf3 Nc6 3. d4 Nf6 4. Nc3 Bb4 5. Nxe5"
+        ]
     },
     {
         "eco": "A10",
@@ -3430,7 +3971,11 @@
         "lichess": "",
         "white": 24273,
         "draws": 2206,
-        "black": 26128
+        "black": 26128,
+        "transpositions": [
+            "1. e4 d6 2. d4 Nf6 3. e5 Nd5 4. c4 Nb6 5. f4 g5",
+            "1. e4 d6 2. d4 Nf6 3. e5 Nd5 4. f4 g5 5. c4 Nb6"
+        ]
     },
     {
         "eco": "C38",
@@ -3443,7 +3988,11 @@
         "lichess": "P9i6LRK4",
         "white": 22471,
         "draws": 1836,
-        "black": 27563
+        "black": 27563,
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 Bg7 5. c3 d6 6. d4",
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. d4 Bg7 5. c3 d6 6. Bc4"
+        ]
     },
     {
         "eco": "B00",
@@ -3456,7 +4005,11 @@
         "lichess": "",
         "white": 26481,
         "draws": 1898,
-        "black": 23459
+        "black": 23459,
+        "transpositions": [
+            "1. e4 e5 2. d4 Bc5 3. dxe5 Nc6",
+            "1. e4 e5 2. d4 Nc6 3. dxe5 Bc5"
+        ]
     },
     {
         "eco": "A02",
@@ -3482,7 +4035,10 @@
         "lichess": "nr5dlsbP",
         "white": 24939,
         "draws": 1774,
-        "black": 23674
+        "black": 23674,
+        "transpositions": [
+            "1. e4 e5 2. f4 f5 3. Nf3 exf4"
+        ]
     },
     {
         "eco": "A50",
@@ -3547,7 +4103,10 @@
         "lichess": "v2kkeP8k",
         "white": 20201,
         "draws": 1906,
-        "black": 25150
+        "black": 25150,
+        "transpositions": [
+            "1. e4 d5 2. exd5 c6 3. dxc6 Nxc6 4. d3 e5"
+        ]
     },
     {
         "eco": "C38",
@@ -3560,7 +4119,10 @@
         "lichess": "wzYhvwtT",
         "white": 22183,
         "draws": 1714,
-        "black": 22974
+        "black": 22974,
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Bc4 g5 4. h4 Bg7 5. Nf3"
+        ]
     },
     {
         "eco": "C15",
@@ -3573,7 +4135,10 @@
         "lichess": "DpROl30a",
         "white": 22527,
         "draws": 3019,
-        "black": 19527
+        "black": 19527,
+        "transpositions": [
+            "1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4 5. Ne2"
+        ]
     },
     {
         "eco": "A00",
@@ -3586,7 +4151,11 @@
         "lichess": "tPsYQbLQ",
         "white": 25265,
         "draws": 1487,
-        "black": 18025
+        "black": 18025,
+        "transpositions": [
+            "1. e4 f5 2. Nc3 fxe4 3. d3",
+            "1. e4 f5 2. d3 fxe4 3. Nc3"
+        ]
     },
     {
         "eco": "A02",
@@ -3599,7 +4168,10 @@
         "lichess": "uVxJZejG",
         "white": 22270,
         "draws": 1430,
-        "black": 20960
+        "black": 20960,
+        "transpositions": [
+            "1. Nc3 e5 2. f4"
+        ]
     },
     {
         "eco": "C37",
@@ -3625,7 +4197,11 @@
         "lichess": "yaOxxhAK",
         "white": 20895,
         "draws": 1869,
-        "black": 18389
+        "black": 18389,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 c6 3. Nf3 dxe4 4. Ng5",
+            "1. e4 d5 2. Nf3 dxe4 3. Ng5 c6 4. Nc3"
+        ]
     },
     {
         "eco": "C44",
@@ -3638,7 +4214,10 @@
         "lichess": "wPLKCLeD",
         "white": 16447,
         "draws": 1473,
-        "black": 23233
+        "black": 23233,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. d4 Nf6 4. c3 Nxe4 5. d5 Bc5"
+        ]
     },
     {
         "eco": "B06",
@@ -3664,7 +4243,10 @@
         "lichess": "Vi0gknpv",
         "white": 22859,
         "draws": 1309,
-        "black": 16746
+        "black": 16746,
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3 Nc6 5. h4 g4 6. Ng5"
+        ]
     },
     {
         "eco": "A50",
@@ -3706,7 +4288,10 @@
         "black": 19595,
         "original_pgn": "1. e4 e5 2. f4 exf4 3. Nf3 d6 4. Bc4 h6 5. d4 g5 6. h4 Bg7",
         "original_fen": "rnbqk1nr/ppp2pb1/3p3p/6p1/2BPPp1P/5N2/PPP3P1/RNBQK2R w KQkq - 1 7",
-        "comment": "Lichess includes Black's 6...Bg7 in the PGN. On this site we stop at 6. h4, White's last move, as White is the gambiteer in the King's Gambit."
+        "comment": "Lichess includes Black's 6...Bg7 in the PGN. On this site we stop at 6. h4, White's last move, as White is the gambiteer in the King's Gambit.",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 d6 5. d4 h6 6. h4"
+        ]
     },
     {
         "eco": "D80",
@@ -3719,7 +4304,11 @@
         "lichess": "VNYHBo1G",
         "white": 19247,
         "draws": 1963,
-        "black": 18171
+        "black": 18171,
+        "transpositions": [
+            "1. d4 Nf6 2. c4 g6 3. h4 d5 4. Nc3",
+            "1. d4 d5 2. c4 Nf6 3. Nc3 g6 4. h4"
+        ]
     },
     {
         "eco": "A00",
@@ -3732,7 +4321,11 @@
         "lichess": "o9CN6wbN",
         "white": 18233,
         "draws": 1431,
-        "black": 19282
+        "black": 19282,
+        "transpositions": [
+            "1. e4 d5 2. Bc4 dxe4 3. Nc3",
+            "1. e4 d5 2. Nc3 dxe4 3. Bc4"
+        ]
     },
     {
         "eco": "B31",
@@ -3771,7 +4364,11 @@
         "lichess": "4QmxOUxb",
         "white": 21161,
         "draws": 1165,
-        "black": 13882
+        "black": 13882,
+        "transpositions": [
+            "1. e4 e6 2. d4 d5 3. c4 c6 4. f3 dxe4 5. Nc3",
+            "1. e4 e6 2. d4 d5 3. c4 dxe4 4. Nc3 c6 5. f3"
+        ]
     },
     {
         "eco": "B28",
@@ -3797,7 +4394,10 @@
         "lichess": "nLYPDqPz",
         "white": 17113,
         "draws": 1174,
-        "black": 17001
+        "black": 17001,
+        "transpositions": [
+            "1. e4 c5 2. d4 cxd4 3. Bc4 a6 4. Nf3"
+        ]
     },
     {
         "eco": "D20",
@@ -3810,7 +4410,10 @@
         "lichess": "",
         "white": 15910,
         "draws": 1586,
-        "black": 17379
+        "black": 17379,
+        "transpositions": [
+            "1. e4 e5 2. d4 d5 3. c4 dxc4 4. Bxc4"
+        ]
     },
     {
         "eco": "A43",
@@ -3849,7 +4452,10 @@
         "lichess": "0ImmoFlm",
         "white": 16881,
         "draws": 1345,
-        "black": 15890
+        "black": 15890,
+        "transpositions": [
+            "1. e4 f5 2. d3 e6"
+        ]
     },
     {
         "eco": "C00",
@@ -3862,7 +4468,10 @@
         "lichess": "th9XP4zx",
         "white": 15378,
         "draws": 1384,
-        "black": 16951
+        "black": 16951,
+        "transpositions": [
+            "1. e4 a6 2. d4 b5 3. c4 e6"
+        ]
     },
     {
         "eco": "D32",
@@ -3901,7 +4510,10 @@
         "lichess": "x5nPlmu9",
         "white": 15786,
         "draws": 1504,
-        "black": 14947
+        "black": 14947,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nc6 3. d4 e5"
+        ]
     },
     {
         "eco": "C25",
@@ -3917,7 +4529,11 @@
         "black": 13171,
         "original_pgn": "1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. Nf3 g5 5. Bc4 g4 6. O-O gxf3",
         "original_fen": "r1bqkbnr/pppp1p1p/2n5/8/2B1Pp2/2N2p2/PPPP2PP/R1BQ1RK1 w kq - 0 7",
-        "comment": "Lichess includes Black's 6...gxf3 (acceptance) in the PGN. On this site we stop at 6. O-O, White's last move before Black takes."
+        "comment": "Lichess includes Black's 6...gxf3 (acceptance) in the PGN. On this site we stop at 6. O-O, White's last move before Black takes.",
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 Nc6 5. Nc3 g4 6. O-O",
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. O-O Nc6 6. Nc3"
+        ]
     },
     {
         "eco": "C25",
@@ -3930,7 +4546,11 @@
         "lichess": "Gi8wv36o",
         "white": 17921,
         "draws": 814,
-        "black": 13171
+        "black": 13171,
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 Nc6 5. Nc3 g4 6. O-O",
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. O-O Nc6 6. Nc3"
+        ]
     },
     {
         "eco": "C40",
@@ -3943,7 +4563,11 @@
         "lichess": "vOcK01l8",
         "white": 14096,
         "draws": 683,
-        "black": 17122
+        "black": 17122,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 f5 3. Nxe5 Nf6 4. Bc4 fxe4",
+            "1. e4 e5 2. Nf3 f5 3. Nxe5 fxe4 4. Bc4 Nf6"
+        ]
     },
     {
         "eco": "B00",
@@ -3956,7 +4580,10 @@
         "lichess": "qufg7Vq9",
         "white": 18589,
         "draws": 967,
-        "black": 11525
+        "black": 11525,
+        "transpositions": [
+            "1. d4 b6 2. Bg5 Bb7 3. e4"
+        ]
     },
     {
         "eco": "A50",
@@ -4060,7 +4687,10 @@
         "lichess": "481vhOie",
         "white": 12882,
         "draws": 1130,
-        "black": 14792
+        "black": 14792,
+        "transpositions": [
+            "1. e4 c5 2. Nf3 e6 3. d4 Nf6 4. Bg5"
+        ]
     },
     {
         "eco": "A40",
@@ -4076,7 +4706,10 @@
         "black": 13427,
         "original_pgn": "1. d4 Nc6 2. c4 e5 3. dxe5 Nxe5 4. Nc3 Nxc4",
         "original_fen": "r1bqkbnr/pppp1ppp/8/8/2n5/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 5",
-        "comment": "Lichess includes Black's 4...Nxc4 (acceptance) in the PGN. On this site we stop at 4. Nc3, White's last move before the capture."
+        "comment": "Lichess includes Black's 4...Nxc4 (acceptance) in the PGN. On this site we stop at 4. Nc3, White's last move before the capture.",
+        "transpositions": [
+            "1. d4 e5 2. dxe5 Nc6 3. c4 Nxe5 4. Nc3"
+        ]
     },
     {
         "eco": "A40",
@@ -4141,7 +4774,10 @@
         "lichess": "",
         "white": 15634,
         "draws": 760,
-        "black": 10094
+        "black": 10094,
+        "transpositions": [
+            "1. e4 f5 2. d4 g6"
+        ]
     },
     {
         "eco": "B52",
@@ -4206,7 +4842,10 @@
         "lichess": "",
         "white": 13505,
         "draws": 963,
-        "black": 9865
+        "black": 9865,
+        "transpositions": [
+            "1. e4 d6 2. d4 Bd7 3. Nf3 e5"
+        ]
     },
     {
         "eco": "A10",
@@ -4245,7 +4884,10 @@
         "lichess": "hfqZ61Ve",
         "white": 10659,
         "draws": 976,
-        "black": 11146
+        "black": 11146,
+        "transpositions": [
+            "1. e4 c5 2. d4 d5 3. e5 e6 4. b4"
+        ]
     },
     {
         "eco": "C60",
@@ -4271,7 +4913,10 @@
         "lichess": "W6GIvogm",
         "white": 11033,
         "draws": 770,
-        "black": 10706
+        "black": 10706,
+        "transpositions": [
+            "1. e4 e5 2. f4 Nc6 3. Nc3 Bc5 4. fxe5 d6"
+        ]
     },
     {
         "eco": "C33",
@@ -4297,7 +4942,11 @@
         "lichess": "",
         "white": 10927,
         "draws": 651,
-        "black": 10591
+        "black": 10591,
+        "transpositions": [
+            "1. e4 e5 2. f4 Bc5 3. d3 Nf6",
+            "1. e4 e5 2. f4 Nf6 3. d3 Bc5"
+        ]
     },
     {
         "eco": "E23",
@@ -4492,7 +5141,10 @@
         "lichess": "oGGiBk3q",
         "white": 10400,
         "draws": 706,
-        "black": 6105
+        "black": 6105,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. d4 Nf6 4. Nc3 Bb4 5. d5 Nd4"
+        ]
     },
     {
         "eco": "A01",
@@ -4505,7 +5157,10 @@
         "lichess": "HWXGxIqs",
         "white": 9769,
         "draws": 560,
-        "black": 6419
+        "black": 6419,
+        "transpositions": [
+            "1. b3 e6 2. Bb2 f5 3. e4"
+        ]
     },
     {
         "eco": "C40",
@@ -4531,7 +5186,10 @@
         "lichess": "Nrc0Fi6c",
         "white": 8110,
         "draws": 850,
-        "black": 7557
+        "black": 7557,
+        "transpositions": [
+            "1. Nf3 Nf6 2. c4 e5 3. Nc3 e4 4. Ng5 b5"
+        ]
     },
     {
         "eco": "C64",
@@ -4557,7 +5215,10 @@
         "lichess": "1fvf6jrA",
         "white": 7179,
         "draws": 717,
-        "black": 8280
+        "black": 8280,
+        "transpositions": [
+            "1. d4 a6 2. c4 b5 3. cxb5 axb5 4. e4 e6"
+        ]
     },
     {
         "eco": "A30",
@@ -4609,7 +5270,11 @@
         "lichess": "yTgeyai1",
         "white": 8660,
         "draws": 673,
-        "black": 6320
+        "black": 6320,
+        "transpositions": [
+            "1. d4 d5 2. Nc3 f5 3. e4",
+            "1. e4 f5 2. d4 d5 3. Nc3"
+        ]
     },
     {
         "eco": "A00",
@@ -4622,7 +5287,10 @@
         "lichess": "JyXrchst",
         "white": 7642,
         "draws": 793,
-        "black": 7208
+        "black": 7208,
+        "transpositions": [
+            "1. b4 a5 2. a3"
+        ]
     },
     {
         "eco": "D06",
@@ -4674,7 +5342,10 @@
         "lichess": "IW7Zyufp",
         "white": 6295,
         "draws": 611,
-        "black": 7620
+        "black": 7620,
+        "transpositions": [
+            "1. e4 Nf6 2. d4 Nxe4 3. Bd3 Nf6 4. Bg5"
+        ]
     },
     {
         "eco": "C23",
@@ -4895,7 +5566,10 @@
         "lichess": "0XViEBoL",
         "white": 5748,
         "draws": 364,
-        "black": 6082
+        "black": 6082,
+        "transpositions": [
+            "1. d4 e5 2. dxe5 d6 3. c4 Be6"
+        ]
     },
     {
         "eco": "B10",
@@ -4908,7 +5582,11 @@
         "lichess": "RNF1YlUZ",
         "white": 6614,
         "draws": 367,
-        "black": 4735
+        "black": 4735,
+        "transpositions": [
+            "1. d3 d5 2. Bg5 c6 3. e4 dxe4 4. Nc3",
+            "1. e4 d5 2. Nc3 dxe4 3. d3 c6 4. Bg5"
+        ]
     },
     {
         "eco": "A00",
@@ -4921,7 +5599,10 @@
         "lichess": "dnFVI86g",
         "white": 6717,
         "draws": 376,
-        "black": 4549
+        "black": 4549,
+        "transpositions": [
+            "1. Nf3 e5 2. Nc3 Bc5"
+        ]
     },
     {
         "eco": "D20",
@@ -5051,7 +5732,10 @@
         "lichess": "EvccV7St",
         "white": 4070,
         "draws": 357,
-        "black": 5391
+        "black": 5391,
+        "transpositions": [
+            "1. f4 g5 2. Nf3 h6"
+        ]
     },
     {
         "eco": "A53",
@@ -5077,7 +5761,10 @@
         "lichess": "nCQNXLtI",
         "white": 4994,
         "draws": 421,
-        "black": 4207
+        "black": 4207,
+        "transpositions": [
+            "1. g3 d5 2. Nh3 e5 3. f4"
+        ]
     },
     {
         "eco": "A80",
@@ -5090,7 +5777,10 @@
         "lichess": "vNhSGB4m",
         "white": 5576,
         "draws": 302,
-        "black": 3726
+        "black": 3726,
+        "transpositions": [
+            "1. d4 e5 2. Nf3 f5"
+        ]
     },
     {
         "eco": "A13",
@@ -5103,7 +5793,10 @@
         "lichess": "t5NufA4O",
         "white": 3879,
         "draws": 809,
-        "black": 4388
+        "black": 4388,
+        "transpositions": [
+            "1. Nf3 Nf6 2. g3 e6 3. c4 a6 4. Bg2 b5"
+        ]
     },
     {
         "eco": "E98",
@@ -5155,7 +5848,10 @@
         "lichess": "UpJLAVwW",
         "white": 4785,
         "draws": 287,
-        "black": 3592
+        "black": 3592,
+        "transpositions": [
+            "1. e4 f5 2. Nc3 fxe4 3. f3"
+        ]
     },
     {
         "eco": "B07",
@@ -5246,7 +5942,10 @@
         "lichess": "kMYhjtBg",
         "white": 4081,
         "draws": 376,
-        "black": 3760
+        "black": 3760,
+        "transpositions": [
+            "1. Nc3 Nf6 2. g4 Nxg4 3. e4 d6 4. Be2 Nf6 5. d4"
+        ]
     },
     {
         "eco": "B00",
@@ -5298,7 +5997,10 @@
         "lichess": "347DxYag",
         "white": 4235,
         "draws": 243,
-        "black": 3363
+        "black": 3363,
+        "transpositions": [
+            "1. e4 e5 2. d4 Nc6 3. dxe5 Qh4"
+        ]
     },
     {
         "eco": "B00",
@@ -5311,7 +6013,10 @@
         "lichess": "vEIiqZ6h",
         "white": 3860,
         "draws": 265,
-        "black": 3713
+        "black": 3713,
+        "transpositions": [
+            "1. e4 d5 2. d4 Nc6 3. Be3"
+        ]
     },
     {
         "eco": "C31",
@@ -5337,7 +6042,10 @@
         "lichess": "",
         "white": 3880,
         "draws": 221,
-        "black": 3329
+        "black": 3329,
+        "transpositions": [
+            "1. e4 e5 2. Nc3 f5 3. d4 Nc6"
+        ]
     },
     {
         "eco": "C44",
@@ -5402,7 +6110,10 @@
         "lichess": "VTfGurnq",
         "white": 3687,
         "draws": 276,
-        "black": 2748
+        "black": 2748,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nc6 3. d4 dxe4 4. d5 Nb8 5. f3"
+        ]
     },
     {
         "eco": "C44",
@@ -5415,7 +6126,10 @@
         "lichess": "AQUViX9o",
         "white": 3077,
         "draws": 371,
-        "black": 3100
+        "black": 3100,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. c3 d5 4. Qa4 dxe4 5. Nxe5 Qd5 6. Bb5"
+        ]
     },
     {
         "eco": "B27",
@@ -5454,7 +6168,10 @@
         "lichess": "CInDE6ff",
         "white": 3292,
         "draws": 254,
-        "black": 2616
+        "black": 2616,
+        "transpositions": [
+            "1. d4 e6 2. Bf4 f5 3. g4"
+        ]
     },
     {
         "eco": "A00",
@@ -5480,7 +6197,10 @@
         "lichess": "",
         "white": 3434,
         "draws": 122,
-        "black": 2233
+        "black": 2233,
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3 g4 5. Bc4"
+        ]
     },
     {
         "eco": "C20",
@@ -5519,7 +6239,10 @@
         "lichess": "xvxp3yDa",
         "white": 2668,
         "draws": 177,
-        "black": 2410
+        "black": 2410,
+        "transpositions": [
+            "1. e4 e5 2. f4 Nc6 3. fxe5 f6"
+        ]
     },
     {
         "eco": "C33",
@@ -5532,7 +6255,10 @@
         "lichess": "SavqHK1C",
         "white": 2233,
         "draws": 187,
-        "black": 2776
+        "black": 2776,
+        "transpositions": [
+            "1. e4 e5 2. f4 f5 3. Bc4 exf4"
+        ]
     },
     {
         "eco": "B02",
@@ -5571,7 +6297,10 @@
         "lichess": "",
         "white": 2969,
         "draws": 154,
-        "black": 2029
+        "black": 2029,
+        "transpositions": [
+            "1. e4 d5 2. exd5 Nc6 3. d4 Nb4"
+        ]
     },
     {
         "eco": "C40",
@@ -5636,7 +6365,10 @@
         "lichess": "H2gGH4lr",
         "white": 2508,
         "draws": 139,
-        "black": 2209
+        "black": 2209,
+        "transpositions": [
+            "1. e4 e6 2. d4 d5 3. c4 dxe4 4. Nc3 Be7 5. f3"
+        ]
     },
     {
         "eco": "B02",
@@ -5701,7 +6433,10 @@
         "lichess": "evFD6wUv",
         "white": 2349,
         "draws": 178,
-        "black": 2218
+        "black": 2218,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. Nc3 Nd4 5. Ba4 Bc5 6. Nxe5 O-O"
+        ]
     },
     {
         "eco": "C30",
@@ -5740,7 +6475,10 @@
         "lichess": "m5JqFSFl",
         "white": 2140,
         "draws": 153,
-        "black": 1967
+        "black": 1967,
+        "transpositions": [
+            "1. e4 e5 2. f4 Nc6 3. Bc4 Nf6 4. Nc3 Nxe4 5. Nf3"
+        ]
     },
     {
         "eco": "A00",
@@ -5753,7 +6491,10 @@
         "lichess": "ZERhP2sJ",
         "white": 2168,
         "draws": 135,
-        "black": 1921
+        "black": 1921,
+        "transpositions": [
+            "1. b4 c5 2. Bb2 e5"
+        ]
     },
     {
         "eco": "C60",
@@ -5779,7 +6520,11 @@
         "lichess": "QsXgLhPZ",
         "white": 2167,
         "draws": 192,
-        "black": 1638
+        "black": 1638,
+        "transpositions": [
+            "1. b3 d5 2. Bb2 Nf6 3. e3 c5 4. f4 d4 5. Nf3",
+            "1. b3 d5 2. Bb2 Nf6 3. f4 c5 4. Nf3 d4 5. e3"
+        ]
     },
     {
         "eco": "C26",
@@ -5831,7 +6576,11 @@
         "lichess": "feqqw4tK",
         "white": 1820,
         "draws": 121,
-        "black": 1972
+        "black": 1972,
+        "transpositions": [
+            "1. f4 e5 2. fxe5 Nc6 3. Nc3 d6",
+            "1. f4 e5 2. fxe5 d6 3. Nc3 Nc6"
+        ]
     },
     {
         "eco": "A00",
@@ -5870,7 +6619,10 @@
         "lichess": "",
         "white": 1734,
         "draws": 127,
-        "black": 1889
+        "black": 1889,
+        "transpositions": [
+            "1. e3 d5 2. Nc3 e5 3. Qh5 Nf6"
+        ]
     },
     {
         "eco": "D80",
@@ -5922,7 +6674,10 @@
         "lichess": "EMfgMkNP",
         "white": 1789,
         "draws": 202,
-        "black": 1502
+        "black": 1502,
+        "transpositions": [
+            "1. e4 d6 2. d4 g6 3. c4 Bg7 4. Nc3 c5 5. dxc5 Qa5"
+        ]
     },
     {
         "eco": "A40",
@@ -5935,7 +6690,10 @@
         "lichess": "0TBC9nAc",
         "white": 1558,
         "draws": 201,
-        "black": 1579
+        "black": 1579,
+        "transpositions": [
+            "1. d4 Nf6 2. c4 c6 3. Nf3 b5"
+        ]
     },
     {
         "eco": "E21",
@@ -5948,7 +6706,10 @@
         "lichess": "hU9NQUoL",
         "white": 1500,
         "draws": 133,
-        "black": 1702
+        "black": 1702,
+        "transpositions": [
+            "1. d4 e6 2. c4 Bb4+ 3. Nc3 c5 4. Nf3 Nf6 5. d5 b5"
+        ]
     },
     {
         "eco": "B00",
@@ -6013,7 +6774,10 @@
         "lichess": "Ft53dBVY",
         "white": 1331,
         "draws": 130,
-        "black": 1513
+        "black": 1513,
+        "transpositions": [
+            "1. e4 d5 2. d4 g6 3. c3 dxe4 4. f3"
+        ]
     },
     {
         "eco": "A30",
@@ -6026,7 +6790,10 @@
         "lichess": "YlEd1phx",
         "white": 1333,
         "draws": 142,
-        "black": 1474
+        "black": 1474,
+        "transpositions": [
+            "1. Nf3 Nf6 2. c4 c5 3. b4"
+        ]
     },
     {
         "eco": "C15",
@@ -6117,7 +6884,10 @@
         "lichess": "",
         "white": 1276,
         "draws": 138,
-        "black": 1290
+        "black": 1290,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 dxe4 3. d4 Nf6 4. Bg5 c5 5. Bxf6 gxf6 6. d5"
+        ]
     },
     {
         "eco": "E30",
@@ -6143,7 +6913,10 @@
         "lichess": "FPi6Gi2r",
         "white": 1260,
         "draws": 72,
-        "black": 1216
+        "black": 1216,
+        "transpositions": [
+            "1. f4 d5 2. Nc3 d4 3. Ne4 c5"
+        ]
     },
     {
         "eco": "A00",
@@ -6156,7 +6929,11 @@
         "lichess": "",
         "white": 1196,
         "draws": 66,
-        "black": 1163
+        "black": 1163,
+        "transpositions": [
+            "1. f4 d5 2. Nc3 e5",
+            "1. f4 e5 2. Nc3 d5"
+        ]
     },
     {
         "eco": "C30",
@@ -6185,7 +6962,10 @@
         "black": 977,
         "original_pgn": "1. Nh3 d5 2. g3 e5 3. f4 Bxh3 4. Bxh3 exf4",
         "original_fen": "rn1qkbnr/ppp2ppp/8/3p4/5p2/6PB/PPPPP2P/RNBQK2R w KQkq - 0 5",
-        "comment": "Lichess attributes this gambit to the position after 4...exf4 (Black's acceptance). On this site we stop at 4. Bxh3, White's last gambit move, so the trophy goes to White who played the creative opening."
+        "comment": "Lichess attributes this gambit to the position after 4...exf4 (Black's acceptance). On this site we stop at 4. Bxh3, White's last gambit move, so the trophy goes to White who played the creative opening.",
+        "transpositions": [
+            "1. g3 d5 2. Nh3 e5 3. f4 Bxh3 4. Bxh3"
+        ]
     },
     {
         "eco": "E60",
@@ -6224,7 +7004,10 @@
         "lichess": "",
         "white": 1220,
         "draws": 92,
-        "black": 961
+        "black": 961,
+        "transpositions": [
+            "1. e4 d5 2. Nc3 Nc6 3. d4 a6"
+        ]
     },
     {
         "eco": "B12",
@@ -6237,7 +7020,10 @@
         "lichess": "CsGP32XK",
         "white": 1941,
         "draws": 30,
-        "black": 259
+        "black": 259,
+        "transpositions": [
+            "1. e4 d5 2. d4 c6 3. Bd3 Nf6 4. e5 Nfd7 5. e6"
+        ]
     },
     {
         "eco": "C57",
@@ -6328,7 +7114,10 @@
         "lichess": "",
         "white": 1067,
         "draws": 112,
-        "black": 883
+        "black": 883,
+        "transpositions": [
+            "1. e4 c5 2. d4 e6 3. Nd2 d5 4. exd5 Nf6"
+        ]
     },
     {
         "eco": "B06",
@@ -6341,7 +7130,10 @@
         "lichess": "",
         "white": 1040,
         "draws": 52,
-        "black": 933
+        "black": 933,
+        "transpositions": [
+            "1. e4 c6 2. d4 d6 3. Nc3 g6 4. Nf3 Bg7 5. Bg5 Qb6 6. Qd2 Qxb2"
+        ]
     },
     {
         "eco": "C57",
@@ -6354,7 +7146,10 @@
         "lichess": "QwTstMcF",
         "white": 903,
         "draws": 51,
-        "black": 1020
+        "black": 1020,
+        "transpositions": [
+            "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Ng5 Nf6 5. Bxf7+ Ke7 6. d4"
+        ]
     },
     {
         "eco": "D32",
@@ -6380,7 +7175,10 @@
         "lichess": "",
         "white": 793,
         "draws": 77,
-        "black": 1045
+        "black": 1045,
+        "transpositions": [
+            "1. b4 c6 2. e4 d5 3. b5"
+        ]
     },
     {
         "eco": "A40",
@@ -6393,7 +7191,10 @@
         "lichess": "ElA8XOpk",
         "white": 771,
         "draws": 70,
-        "black": 1072
+        "black": 1072,
+        "transpositions": [
+            "1. e4 e6 2. d4 b6 3. c4 Bb7 4. f3 f5 5. exf5 Nh6"
+        ]
     },
     {
         "eco": "B00",
@@ -6406,7 +7207,10 @@
         "lichess": "teuD0VS1",
         "white": 1050,
         "draws": 80,
-        "black": 749
+        "black": 749,
+        "transpositions": [
+            "1. e4 c5 2. d4 Nc6 3. dxc5 b6"
+        ]
     },
     {
         "eco": "C37",
@@ -6419,7 +7223,10 @@
         "lichess": "",
         "white": 954,
         "draws": 49,
-        "black": 737
+        "black": 737,
+        "transpositions": [
+            "1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Nc3 g4 5. d4"
+        ]
     },
     {
         "eco": "C33",
@@ -6562,7 +7369,10 @@
         "lichess": "zciZyn9I",
         "white": 727,
         "draws": 83,
-        "black": 684
+        "black": 684,
+        "transpositions": [
+            "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Nbd7 5. Bg5 h6 6. Bh4 dxc4"
+        ]
     },
     {
         "eco": "B44",
@@ -6601,7 +7411,10 @@
         "lichess": "",
         "white": 779,
         "draws": 31,
-        "black": 596
+        "black": 596,
+        "transpositions": [
+            "1. e4 e5 2. Bc4 Nc6 3. c3 Nf6 4. Qe2 Bc5 5. f4"
+        ]
     },
     {
         "eco": "A53",
@@ -6653,7 +7466,10 @@
         "lichess": "f8ukDEYy",
         "white": 655,
         "draws": 41,
-        "black": 615
+        "black": 615,
+        "transpositions": [
+            "1. e4 e5 2. f4 Qf6 3. Nf3 Qxf4 4. Nc3 Bb4 5. Bc4"
+        ]
     },
     {
         "eco": "B00",
@@ -6760,7 +7576,10 @@
         "lichess": "DiMZgMIO",
         "white": 518,
         "draws": 37,
-        "black": 541
+        "black": 541,
+        "transpositions": [
+            "1. f4 e5 2. Nc3 exf4 3. e4"
+        ]
     },
     {
         "eco": "A00",

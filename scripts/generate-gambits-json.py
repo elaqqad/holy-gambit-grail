@@ -27,6 +27,7 @@ import chess.pgn
 
 CSV_PATH = 'scripts/gambits.csv'
 JSON_PATH = 'public/data/gambits.json'
+TRANSPOSITIONS_PATH = 'scripts/transpositions.json'
 
 
 def fen_from_pgn(pgn: str) -> str:
@@ -59,6 +60,16 @@ try:
             annotations[(entry['eco'], entry['name'], entry['pgn'])] = ann
 except FileNotFoundError:
     annotations = {}
+
+try:
+    with open(TRANSPOSITIONS_PATH, encoding='utf-8') as f:
+        transpositions_data = json.load(f)
+    transpositions: dict[tuple[str, str, str], list[str]] = {
+        (t['eco'], t['name'], t['pgn']): t['transpositions']
+        for t in transpositions_data
+    }
+except FileNotFoundError:
+    transpositions = {}
 
 # ── Read CSV and build JSON ───────────────────────────────────────────────────
 
@@ -106,6 +117,10 @@ with open(CSV_PATH, encoding='utf-8') as f:
 
         ann = annotations.get(key, {})
         entry.update(ann)
+
+        transp = transpositions.get(key, [])
+        if transp:
+            entry['transpositions'] = transp
 
         gambits.append(entry)
 

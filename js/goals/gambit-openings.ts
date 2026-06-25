@@ -32,11 +32,15 @@ export function gameAgainstBot(game: Game, title: string | undefined) {
     )
 }
 
-export function pgnPrefix(gambit: GambitOpening): string[] {
-    return gambit.pgn
+export function pgnToMoves(pgn: string): string[] {
+    return pgn
         .replace(/^1. /g, '')
         .replace(/\s+(\d+\.)\s+/g, ' ')
         .split(' ')
+}
+
+export function pgnPrefix(gambit: GambitOpening): string[] {
+    return pgnToMoves(gambit.pgn)
 }
 export async function allGambits(): Promise<GambitOpening[]> {
     return await fetch('/data/gambits.json'!)
