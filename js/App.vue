@@ -467,7 +467,7 @@ export default {
                 }
                 const key = pgnPrefix(a)
                 this.gambitsTree.set(key, a)
-                for (const pgn of (a.transpositions ?? [])) {
+                for (const pgn of a.transpositions ?? []) {
                     this.gambitsTree.set(pgnToMoves(pgn), a)
                 }
             }
