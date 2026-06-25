@@ -1,7 +1,7 @@
 TODO.md
 
 node_modules
-
+scripts/__pycache__/
 /cache/*.ndjson
 /coverage
 /dist
