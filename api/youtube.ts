@@ -1,15 +1,25 @@
 import axios from 'axios'
 
+// YouTube playlist IDs are alphanumeric plus '-' and '_' (typically ~34 chars, but this is
+// deliberately permissive rather than exact). Rejecting anything else stops query-string
+// injection into the outbound googleapis.com request.
+const PLAYLIST_ID_PATTERN = /^[A-Za-z0-9_-]{1,64}$/
+const DEFAULT_PLAYLIST_ID = 'PLKNTVdis2-YZZsI_9ReGDAEu-EGHSKD-h'
+// Bounds the number of upstream requests (and YOUTUBE_API_KEY quota) a single call can consume.
+const MAX_PAGES = 20
+
 export default async (req: any, res: any) => {
     try {
-        const playlistId = req.query.id ?? 'PLKNTVdis2-YZZsI_9ReGDAEu-EGHSKD-h'
+        const requestedId = req.query.id
+        const playlistId = typeof requestedId === 'string' && PLAYLIST_ID_PATTERN.test(requestedId) ? requestedId : DEFAULT_PLAYLIST_ID
         const apiKey = process.env.YOUTUBE_API_KEY
         const snippets = []
         const urls = []
         let nextPageToken = ''
+        let pages = 0
         do {
-            const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlistId}&key=${apiKey}`
-            const response = await axios.get(nextPageToken === '' ? url : `${url}&pageToken=${nextPageToken}`)
+            const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${encodeURIComponent(playlistId)}&key=${apiKey}`
+            const response = await axios.get(nextPageToken === '' ? url : `${url}&pageToken=${encodeURIComponent(nextPageToken)}`)
             snippets.push(
                 ...response.data.items.map((item: any) => ({
                     id: item.snippet.resourceId.videoId,
@@ -19,7 +29,8 @@ export default async (req: any, res: any) => {
             )
 
             nextPageToken = response.data.nextPageToken
-        } while (nextPageToken)
+            pages++
+        } while (nextPageToken && pages < MAX_PAGES)
         // Define a regular expression to match Lichess or Chess.com URLs
         const regex = /https?:\/\/(lichess\.org\/\w+|www\.chess\.com\/game\/live\/\d+)/g
 
