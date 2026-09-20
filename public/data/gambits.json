@@ -515,6 +515,22 @@
         ]
     },
     {
+        "eco": "D21",
+        "name": "Queen's Gambit Accepted: Slav Gambit",
+        "pgn": "1. d4 d5 2. c4 dxc4 3. Nf3",
+        "move": 5,
+        "color": "white",
+        "fen": "rnbqkbnr/ppp1pppp/8/8/2pP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+        "master": "Ewk9ssJ6",
+        "lichess": "e2jUkyAB",
+        "white": 1204327,
+        "draws": 119427,
+        "black": 892853,
+        "original_pgn": "1. d4 d5 2. c4 dxc4 3. Nf3 b5",
+        "original_fen": "rnbqkbnr/p1p1pppp/8/1p6/2pP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4",
+        "comment": "Lichess includes Black's 3...b5 (defending the extra pawn) in the PGN. On this site we stop at 3. Nf3, White's last move -- White's 2.c4 is the actual offer. This is only really a further gambit if Black plays the uncommon 3...b5 to hold onto the pawn; most Queen's Gambit Accepted lines are simply better for White either way."
+    },
+    {
         "eco": "C02",
         "name": "French Defense: Advance Variation, Milner-Barry Gambit",
         "pgn": "1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. Bd3",
@@ -560,6 +576,20 @@
         "transpositions": [
             "1. e4 Nf6 2. d4"
         ]
+    },
+    {
+        "eco": "C54",
+        "name": "Italian Game: Classical Variation, Greco Gambit, Traditional Line",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4",
+        "move": 11,
+        "color": "white",
+        "fen": "r1bqk2r/pppp1ppp/2n2n2/2b5/2BPP3/5N2/PP3PPP/RNBQK2R b KQkq - 0 6",
+        "master": "adG97bP7",
+        "lichess": "",
+        "white": 992481,
+        "draws": 103212,
+        "black": 884170,
+        "comment": "This is the older, more direct continuation (6. cxd4) than the sharper 6. e5 line also on this site."
     },
     {
         "eco": "C55",
@@ -750,7 +780,10 @@
         "lichess": "TjJCcFd8",
         "white": 716433,
         "draws": 55507,
-        "black": 682275
+        "black": 682275,
+        "transpositions": [
+            "1. e4 d5 2. exd5 e6 3. dxe6"
+        ]
     },
     {
         "eco": "C10",
@@ -1297,6 +1330,27 @@
         "black": 298941
     },
     {
+        "eco": "D07",
+        "name": "Queen's Gambit Declined: Chigorin Defense, Modern Gambit",
+        "pgn": "1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3",
+        "move": 7,
+        "color": "white",
+        "fen": "r1bqkbnr/ppp1pppp/2n5/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+        "master": "pcuhaP9x",
+        "lichess": "CIK66vEw",
+        "white": 367970,
+        "draws": 26702,
+        "black": 259282,
+        "original_pgn": "1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3 Nf6",
+        "original_fen": "r1bqkb1r/ppp1pppp/2n2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 2 5",
+        "comment": "Lichess includes Black's 4...Nf6 in the PGN. White's 2.c4 is the actual gambit pawn -- it sits unaccepted for two more moves before Black finally takes it (3...dxc4). On this site we stop at 4. Nf3, White's last move.",
+        "transpositions": [
+            "1. d4 d5 2. c4 Nf6 3. Nc3 Nc6 4. Nf3",
+            "1. d4 d5 2. c4 Nf6 3. Nc3 dxc4 4. Nf3",
+            "1. d4 d5 2. c4 dxc4 3. Nc3 Nc6 4. Nf3"
+        ]
+    },
+    {
         "eco": "C47",
         "name": "Four Knights Game: Halloween Gambit",
         "pgn": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Nxe5",
@@ -1726,24 +1780,6 @@
         "black": 181869
     },
     {
-        "eco": "D07",
-        "name": "Queen's Gambit Declined: Chigorin Defense, Modern Gambit",
-        "pgn": "1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3 Nf6",
-        "move": 8,
-        "color": "black",
-        "fen": "r1bqkb1r/ppp1pppp/2n2n2/8/2pP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 2 5",
-        "master": "ICRcUXRb",
-        "lichess": "dT0MBSpM",
-        "white": 228226,
-        "draws": 16400,
-        "black": 155912,
-        "transpositions": [
-            "1. d4 d5 2. c4 Nf6 3. Nc3 Nc6 4. Nf3 dxc4",
-            "1. d4 d5 2. c4 Nf6 3. Nc3 dxc4 4. Nf3 Nc6",
-            "1. d4 d5 2. c4 dxc4 3. Nc3 Nc6 4. Nf3 Nf6"
-        ]
-    },
-    {
         "eco": "A04",
         "name": "Zukertort Opening: Speelsmet Gambit",
         "pgn": "1. Nf3 c5 2. d4 cxd4 3. e3",
@@ -1759,6 +1795,19 @@
             "1. d4 c5 2. Nf3 cxd4 3. e3",
             "1. d4 c5 2. e3 cxd4 3. Nf3"
         ]
+    },
+    {
+        "eco": "B40",
+        "name": "Sicilian Defense: Wing Gambit Deferred",
+        "pgn": "1. e4 c5 2. Nf3 e6 3. b4",
+        "move": 5,
+        "color": "white",
+        "fen": "rnbqkbnr/pp1p1ppp/4p3/2p5/1P2P3/5N2/P1PP1PPP/RNBQKB1R b KQkq - 0 3",
+        "master": "3A5dZVIU",
+        "lichess": "",
+        "white": 194487,
+        "draws": 14799,
+        "black": 172925
     },
     {
         "eco": "C41",
@@ -2082,6 +2131,19 @@
         ]
     },
     {
+        "eco": "B15",
+        "name": "Caro-Kann Defense: Alien Gambit",
+        "pgn": "1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng5 h6 6. Nxf7",
+        "move": 11,
+        "color": "white",
+        "fen": "rnbqkb1r/pp2pNp1/2p2n1p/8/3P4/8/PPP2PPP/R1BQKBNR b KQkq - 0 6",
+        "master": "",
+        "lichess": "iFukNc26",
+        "white": 168754,
+        "draws": 9267,
+        "black": 119854
+    },
+    {
         "eco": "B00",
         "name": "Borg Defense: Borg Gambit",
         "pgn": "1. e4 g5 2. d4 Bg7",
@@ -2196,6 +2258,22 @@
         "comment": "Lichess includes Black's 7. Kh1 response in the extended PGN. On this site we stop at 5. g3, White's last gambit move before Black responds."
     },
     {
+        "eco": "C44",
+        "name": "Latvian Gambit: Clam Gambit",
+        "pgn": "1. e4 e5 2. Nf3 Nc6 3. d3 f5",
+        "move": 6,
+        "color": "black",
+        "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/4P3/3P1N2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
+        "master": "SSbkatIO",
+        "lichess": "SQKzRYJV",
+        "white": 114692,
+        "draws": 10934,
+        "black": 143300,
+        "original_pgn": "1. e4 e5 2. Nf3 Nc6 3. d3 f5 4. exf5",
+        "original_fen": "r1bqkbnr/pppp2pp/2n5/4pP2/8/3P1N2/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+        "comment": "Lichess includes White's 4.exf5 (accepting) in the PGN. Black's 3...f5 is the actual offer, matching every other entry in the Latvian Gambit family. On this site we stop at 3...f5, Black's last move."
+    },
+    {
         "eco": "C53",
         "name": "Italian Game: Scotch Gambit, Walbrodt-Baird Gambit",
         "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. O-O",
@@ -2293,6 +2371,19 @@
             "1. d4 d5 2. c4 e5 3. Nc3 c6",
             "1. d4 e5 2. c4 c6 3. Nc3 d5"
         ]
+    },
+    {
+        "eco": "A03",
+        "name": "Prokofiev Gambit",
+        "pgn": "1. f4 d5 2. e4 dxe4 3. d3",
+        "move": 5,
+        "color": "white",
+        "fen": "rnbqkbnr/ppp1pppp/8/8/4pP2/3P4/PPP3PP/RNBQKBNR b KQkq - 0 3",
+        "master": "",
+        "lichess": "",
+        "white": 124075,
+        "draws": 9971,
+        "black": 126171
     },
     {
         "eco": "C47",
@@ -3056,22 +3147,6 @@
         ]
     },
     {
-        "eco": "A19",
-        "name": "English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit",
-        "pgn": "1. c4 Nf6 2. Nc3 e6 3. e4 c5 4. e5 Ng8",
-        "move": 8,
-        "color": "black",
-        "fen": "rnbqkbnr/pp1p1ppp/4p3/2p1P3/2P5/2N5/PP1P1PPP/R1BQKBNR w KQkq - 1 5",
-        "master": "F3ecGkHo",
-        "lichess": "Q3PZxcwD",
-        "white": 64380,
-        "draws": 5942,
-        "black": 54788,
-        "transpositions": [
-            "1. e4 c5 2. c4 e6 3. Nc3 Nf6 4. e5 Ng8"
-        ]
-    },
-    {
         "eco": "C25",
         "name": "Vienna Gambit, with Max Lange Defense: Steinitz Gambit",
         "pgn": "1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. d4",
@@ -3248,19 +3323,6 @@
         "transpositions": [
             "1. e4 d5 2. Nc3 Nf6 3. e5 Nfd7 4. e6"
         ]
-    },
-    {
-        "eco": "D21",
-        "name": "Queen's Gambit Accepted: Slav Gambit",
-        "pgn": "1. d4 d5 2. c4 dxc4 3. Nf3 b5",
-        "move": 6,
-        "color": "black",
-        "fen": "rnbqkbnr/p1p1pppp/8/1p6/2pP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4",
-        "master": "",
-        "lichess": "rIEvnHjG",
-        "white": 55860,
-        "draws": 4081,
-        "black": 35636
     },
     {
         "eco": "A80",
@@ -3622,22 +3684,6 @@
         "transpositions": [
             "1. e4 e5 2. Bc4 Bc5 3. d4 exd4 4. c3 dxc3 5. Nf3",
             "1. e4 e5 2. Nf3 Bc5 3. d4 exd4 4. c3 dxc3 5. Bc4"
-        ]
-    },
-    {
-        "eco": "C44",
-        "name": "Latvian Gambit: Clam Gambit",
-        "pgn": "1. e4 e5 2. Nf3 Nc6 3. d3 f5 4. exf5",
-        "move": 7,
-        "color": "white",
-        "fen": "r1bqkbnr/pppp2pp/2n5/4pP2/8/3P1N2/PPP2PPP/RNBQKB1R b KQkq - 0 4",
-        "master": "kRhWEaia",
-        "lichess": "6KyvDuLs",
-        "white": 26354,
-        "draws": 2435,
-        "black": 34788,
-        "transpositions": [
-            "1. e4 e5 2. Nf3 f5 3. exf5 Nc6 4. d3"
         ]
     },
     {
@@ -4562,8 +4608,8 @@
         "white": 14096,
         "draws": 683,
         "black": 17122,
+        "comment": "Shares its critical moment with the Corkscrew Gambit above: Black's 3...fxe4 is the real offer.",
         "transpositions": [
-            "1. e4 e5 2. Nf3 f5 3. Nxe5 Nf6 4. Bc4 fxe4",
             "1. e4 e5 2. Nf3 f5 3. Nxe5 fxe4 4. Bc4 Nf6"
         ]
     },
@@ -5074,7 +5120,8 @@
         "lichess": "vOcK01l8",
         "white": 6514,
         "draws": 312,
-        "black": 11294
+        "black": 11294,
+        "comment": "Black's real risk is 4...fxe4 (grabbing the pawn back into a wide-open, unclear position instead of playing it safe); White's 5.Nf7!? is White choosing to enter the complications Black offered rather than decline them. The recorded final move (6...d5) is a quiet follow-up, kept as the trophy move by convention (the position ends on Black's move)."
     },
     {
         "eco": "A45",
@@ -5982,7 +6029,8 @@
         "lichess": "SR6FEiJJ",
         "white": 3569,
         "draws": 245,
-        "black": 4108
+        "black": 4108,
+        "comment": "Black's real risk starts several moves before the recorded final move: 2...Bxg4 and 3...d4 keep grabbing material instead of returning it or defending b7/a8, leading forcibly to White netting a rook for a bishop by 5.Bxa8. The PGN stops at 5...Qxa8, Black's forced recapture."
     },
     {
         "eco": "B00",
@@ -8942,6 +8990,20 @@
         "black": 2
     },
     {
+        "eco": "A40",
+        "name": "Blumenfeld-Hiva Gambit",
+        "pgn": "1. d4 b6 2. c4 c5 3. d5 e6 4. e4 b5 5. cxb5 f5",
+        "move": 10,
+        "color": "black",
+        "fen": "rnbqkbnr/p2p2pp/4p3/1PpP1p2/4P3/8/PP3PPP/RNBQKBNR w KQkq - 0 6",
+        "master": "",
+        "lichess": "",
+        "white": 2,
+        "draws": 0,
+        "black": 1,
+        "comment": "Not to be confused with the unrelated Blumenfeld Countergambit (E10) already on this site."
+    },
+    {
         "eco": "C20",
         "name": "King's Pawn Game: Wayward Queen Attack, Mellon Gambit",
         "pgn": "1. e4 e5 2. Qh5 Nc6 3. Bc4 Nh6 4. d3 g6 5. Qf3 f6 6. Ne2 d5",
@@ -8982,5 +9044,31 @@
         "original_pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4 Bxb4 5. c3 Bc5 6. d4 exd4 7. O-O d6 8. cxd4 Bb6 9. Nc3 Bg4 10. Qa4 Bd7 11. Qb3 Na5 12. Bxf7+ Kf8 13. Qc2 Kxf7",
         "original_fen": "r2q2nr/pppb1kpp/1b1p4/n7/3PP3/2N2N2/P1Q2PPP/R1B2RK1 w - - 0 14",
         "comment": "Lichess includes Black's 13...Kxf7 in the PGN. On this site we stop at 13. Qc2, White's last move."
+    },
+    {
+        "eco": "B00",
+        "name": "Langhorst Gambit",
+        "pgn": "1. e4 g5 2. d4 e6 3. c3 c5 4. dxc5 b6",
+        "move": 8,
+        "color": "black",
+        "fen": "rnbqkbnr/p2p1p1p/1p2p3/2P3p1/4P3/2P5/PP3PPP/RNBQKBNR w KQkq - 0 5",
+        "master": "",
+        "lichess": "",
+        "white": 0,
+        "draws": 0,
+        "black": 0
+    },
+    {
+        "eco": "A00",
+        "name": "Ware Opening: Cologne Gambit",
+        "pgn": "1. a4 b6 2. d4 d5 3. Nc3 Nd7",
+        "move": 6,
+        "color": "black",
+        "fen": "r1bqkbnr/p1pnpppp/1p6/3p4/P2P4/2N5/1PP1PPPP/R1BQKBNR w KQkq - 2 4",
+        "master": "",
+        "lichess": "",
+        "white": 0,
+        "draws": 0,
+        "black": 0
     }
 ]

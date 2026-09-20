@@ -21,11 +21,16 @@ Every action's comment column is shown to site visitors, so it should read
 as a chess explanation (what differs from Lichess's own PGN and why, or a
 naming disambiguation) -- never an explanation of our own code.
 
-add/modify rows carry their own stats cache (master, lichess, white, draws,
-black) since their position isn't in the automated CSV at all (add) or isn't
-the same position the automated CSV cached stats for (modify). Pass
---fetch-stats to fill in any of those that are still empty; the results are
-written back into gambits-delta.csv so they're cached for next time.
+A modify row may leave new_pgn blank: this attaches a comment to an entry
+without truncating its PGN (e.g. explaining a color/move choice that's
+already correct as-is). Such a row reuses the automated CSV's own stats --
+its position never changed, so there's nothing new to fetch.
+
+add/modify (PGN-changing) rows carry their own stats cache (master, lichess,
+white, draws, black) since their position isn't in the automated CSV at all
+(add) or isn't the same position the automated CSV cached stats for (modify).
+Pass --fetch-stats to fill in any of those that are still empty; the results
+are written back into gambits-delta.csv so they're cached for next time.
 
 Usage:
     python scripts/generate-gambits-json.py                # use cached delta stats only
@@ -130,13 +135,19 @@ def apply_delta(raw_rows: list[dict], delta_rows: list[dict], fetch_missing_stat
 
         if key in modifies:
             delta_row = modifies[key]
-            new_pgn = delta_row['new_pgn'].strip()
-            item: dict = {'eco': raw['eco'], 'name': raw['name'], 'pgn': new_pgn, 'original_pgn': raw['pgn']}
+            new_pgn = delta_row['new_pgn'].strip() or raw['pgn']
+            pgn_changed = new_pgn != raw['pgn']
+            item: dict = {'eco': raw['eco'], 'name': raw['name'], 'pgn': new_pgn}
+            if pgn_changed:
+                item['original_pgn'] = raw['pgn']
             if delta_row.get('comment', '').strip():
                 item['comment'] = delta_row['comment'].strip()
-            stats = stats_from_delta_row(delta_row)
-            if stats is None:
-                stats = fetch_and_cache_stats(delta_row, new_pgn) if fetch_missing_stats else EMPTY_STATS
+            if pgn_changed:
+                stats = stats_from_delta_row(delta_row)
+                if stats is None:
+                    stats = fetch_and_cache_stats(delta_row, new_pgn) if fetch_missing_stats else EMPTY_STATS
+            else:
+                stats = stats_from_raw_row(raw)
             item.update(stats)
         else:
             item = {'eco': raw['eco'], 'name': raw['name'], 'pgn': raw['pgn']}

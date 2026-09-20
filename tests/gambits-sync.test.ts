@@ -9,7 +9,9 @@
  * the CSV is the raw automated set, the JSON is the curated one. These tests
  * instead reconstruct the expected curated key set from CSV + delta and catch
  * drift -- e.g. after editing the delta without regenerating the JSON, or a
- * bug in how removes/modifies/adds are applied.
+ * bug in how removes/modifies/adds are applied. A modify row may leave
+ * new_pgn blank to attach a comment without changing the position -- such a
+ * row keeps the raw CSV's own key and stats (see generate-gambits-json.py).
  */
 
 import { readFileSync } from 'node:fs'
@@ -67,12 +69,16 @@ for (const row of deltaRows) {
 
 // ── Reconstruct the expected curated key set from raw CSV + delta ─────────────
 
+// A modify row may leave new_pgn blank: a comment-only annotation that
+// doesn't change the position (see generate-gambits-json.py).
+const modifiedPgn = (row: Record<string, string>, rawPgn: string): string => row.new_pgn.trim() || rawPgn
+
 const expectedKeys = new Set<Key>()
 for (const row of rawRows) {
     const rawKey = keyOf(row.eco, row.name, row.pgn)
     if (removes.has(rawKey)) continue
     const modify = modifies.get(rawKey)
-    expectedKeys.add(modify ? keyOf(row.eco, row.name, modify.new_pgn) : rawKey)
+    expectedKeys.add(modify ? keyOf(row.eco, row.name, modifiedPgn(modify, row.pgn)) : rawKey)
 }
 for (const row of adds) {
     expectedKeys.add(keyOf(row.eco, row.name, row.pgn))
@@ -116,8 +122,9 @@ describe('gambits.csv + gambits-delta.csv -> gambits.json', () => {
         }
     })
 
-    test('modified entries carry the delta stats, new PGN, and the raw PGN as original_pgn', () => {
+    test('PGN-changing modify entries carry the delta stats, new PGN, and the raw PGN as original_pgn', () => {
         for (const [rawKey, delta] of modifies) {
+            if (!delta.new_pgn.trim()) continue // comment-only modify, covered by the next test
             const newKey = keyOf(delta.eco, delta.name, delta.new_pgn)
             const raw = rawRows.find((r) => keyOf(r.eco, r.name, r.pgn) === rawKey)
             const json = jsonByKey.get(newKey)
@@ -129,6 +136,23 @@ describe('gambits.csv + gambits-delta.csv -> gambits.json', () => {
             expect(json.black, `black: ${newKey}`).toBe(Number(delta.black))
             if (delta.comment) {
                 expect(json.comment, `comment: ${newKey}`).toBe(delta.comment)
+            }
+        }
+    })
+
+    test('comment-only modify entries keep the raw PGN and stats, with no original_pgn', () => {
+        for (const [rawKey, delta] of modifies) {
+            if (delta.new_pgn.trim()) continue // PGN-changing modify, covered by the previous test
+            const raw = rawRows.find((r) => keyOf(r.eco, r.name, r.pgn) === rawKey)
+            const json = jsonByKey.get(rawKey)
+            if (!json || !raw) continue // already caught by the key-set test above
+
+            expect(json.original_pgn, `comment-only modify should not carry original_pgn: ${rawKey}`).toBeUndefined()
+            expect(json.white, `white: ${rawKey}`).toBe(Number(raw.white))
+            expect(json.draws, `draws: ${rawKey}`).toBe(Number(raw.draws))
+            expect(json.black, `black: ${rawKey}`).toBe(Number(raw.black))
+            if (delta.comment) {
+                expect(json.comment, `comment: ${rawKey}`).toBe(delta.comment)
             }
         }
     })
@@ -149,8 +173,9 @@ describe('gambits.csv + gambits-delta.csv -> gambits.json', () => {
         }
     })
 
-    test('every add/modify delta row has its stats cached (run generate-gambits-json.py --fetch-stats otherwise)', () => {
-        const uncached = [...adds, ...modifies.values()].filter((row) => !row.white && !row.draws && !row.black && !row.master)
+    test('every add/PGN-changing-modify delta row has its stats cached (run generate-gambits-json.py --fetch-stats otherwise)', () => {
+        const pgnChangingModifies = [...modifies.values()].filter((row) => row.new_pgn.trim())
+        const uncached = [...adds, ...pgnChangingModifies].filter((row) => !row.white && !row.draws && !row.black && !row.master)
         const names = uncached.map((row) => row.name)
         expect(names, `delta rows missing cached stats:\n${names.join('\n')}`).toHaveLength(0)
     })

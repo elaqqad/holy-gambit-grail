@@ -110,6 +110,9 @@ def main() -> None:
         key = fen_key(g['fen'])
         gambit_by_fen.setdefault(key, []).append(g)
 
+    # Every gambit's own move sequence, for the cross-gambit collision guard below.
+    gambit_own_paths = {normalize_pgn(g['pgn']) for g in gambits}
+
     print(
         f'Loaded {len(gambits)} gambits '
         f'({len(gambit_by_fen)} unique FEN targets)\n'
@@ -193,12 +196,22 @@ def main() -> None:
             if new_fkey in gambit_by_fen:
                 path_norm = normalize_pgn(moves_to_pgn(new_moves))
                 for g in gambit_by_fen[new_fkey]:
-                    if path_norm != normalize_pgn(g['pgn']):
-                        pgn_str = moves_to_pgn(new_moves)
-                        key = (g['eco'], g['name'], g['pgn'])
-                        if pgn_str not in transpositions[key]:
-                            transpositions[key].add(pgn_str)
-                            print(f'  ✓ {g["name"]}: {pgn_str}  ({move_total:,} games)')
+                    if path_norm == normalize_pgn(g['pgn']):
+                        continue
+                    if path_norm in gambit_own_paths:
+                        # This path is some OTHER gambit's own canonical opening
+                        # (not just a different move-order to the same position).
+                        # The live app's TreeMap matches by move-string prefix, so
+                        # recording it here would credit g's trophy to every game
+                        # that simply plays that other gambit's real line -- see
+                        # scripts/CURATION_NOTES.md, Corkscrew Gambit vs.
+                        # Corkscrew Countergambit.
+                        continue
+                    pgn_str = moves_to_pgn(new_moves)
+                    key = (g['eco'], g['name'], g['pgn'])
+                    if pgn_str not in transpositions[key]:
+                        transpositions[key].add(pgn_str)
+                        print(f'  ✓ {g["name"]}: {pgn_str}  ({move_total:,} games)')
 
             if new_fkey not in visited and _can_reach_gambit(new_moves):
                 visited.add(new_fkey)

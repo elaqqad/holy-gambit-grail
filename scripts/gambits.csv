@@ -114,6 +114,7 @@ B15,Caro-Kann Defense: Alekhine Gambit,1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6
 C00,French Defense: Franco-Hiva Gambit,1. e4 e6 2. d4 f5,4,black,rnbqkbnr/pppp2pp/4p3/5p2/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3,,Nj4JaULN,162144,12392,138074
 D32,Tarrasch Defense: Schara Gambit,1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 cxd4,8,black,rnbqkbnr/pp3ppp/4p3/3P4/3p4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 5,PxrDpQaE,eDoizxDT,133686,15996,149538
 A07,King's Indian Attack: Omega-Delta Gambit,1. Nf3 d5 2. g3 e5,4,black,rnbqkbnr/ppp2ppp/8/3pp3/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3,,,159723,12046,126196
+B15,Caro-Kann Defense: Alien Gambit,1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng5 h6 6. Nxf7,11,white,rnbqkb1r/pp2pNp1/2p2n1p/8/3P4/8/PPP2PPP/R1BQKBNR b KQkq - 0 6,,iFukNc26,168754,9267,119854
 B00,Borg Defense: Borg Gambit,1. e4 g5 2. d4 Bg7,4,black,rnbqk1nr/ppppppbp/8/6p1/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3,v5oX1uiP,plD8oHRU,141749,9883,143332
 C00,French Defense: Alapin Gambit,1. e4 e6 2. d4 d5 3. Be3,5,white,rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/4B3/PPP2PPP/RN1QKBNR b KQkq - 1 3,KH4TFyGp,,150187,11032,126243
 C23,Bishop's Opening: Khan Gambit,1. e4 e5 2. Bc4 d5,4,black,rnbqkbnr/ppp2ppp/8/3pp3/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq - 0 3,,yLyks5wB,135597,8835,140187
@@ -576,7 +577,6 @@ B21,"Bird Opening: Dutch Variation, Batavo Gambit",1. e4 c5 2. f4 d5 3. Nf3 dxe4
 D00,Blackmar-Diemer Gambit,1. d4 d5 2. e4 dxe4 3. Nc3 Nf6,6,black,rnbqkb1r/ppp1pppp/5n2/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4,,,0,0,0
 D00,"Blackmar-Diemer Gambit Accepted: Euwe Defense, Duthilleul Gambit",1. d4 d5 2. e4 dxe4 3. Nc3 Nf6 4. f3 exf3 5. Nxf3 e6 6. Bd3,11,white,rnbqkb1r/ppp2ppp/4pn2/8/3P4/2NB1N2/PPP3PP/R1BQK2R b KQkq - 1 6,,,0,0,0
 D00,"Blackmar-Diemer Gambit Declined: Weinsbach Defense, Pfrang Gambit",1. d4 d5 2. e4 dxe4 3. Nc3 Nf6 4. f3 e6 5. fxe4,9,white,rnbqkb1r/ppp2ppp/4pn2/8/3PP3/2N5/PPP3PP/R1BQKBNR b KQkq - 0 5,,,0,0,0
-B15,Caro-Kann Defense: Alien Gambit,1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng5 h6 6. Nxf7,11,white,rnbqkb1r/pp2pNp1/2p2n1p/8/3P4/8/PPP2PPP/R1BQKBNR b KQkq - 0 6,,,0,0,0
 B10,Caro-Kann Defense: Dinic Gambit,1. e4 c6 2. Nf3 d5 3. d3 dxe4 4. Ng5,7,white,rnbqkbnr/pp2pppp/2p5/6N1/4p3/3P4/PPP2PPP/RNBQKB1R b KQkq - 1 4,,,0,0,0
 B18,Caro-Kann Defense: Martian Gambit,1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng5 Bg6 6. N1f3 h6 7. Ne6,13,white,rn1qkbnr/pp2ppp1/2p1N1bp/8/3P4/5N2/PPP2PPP/R1BQKB1R b KQkq - 1 7,,,0,0,0
 A19,"English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit",1. c4 e6 2. Nc3 Nf6 3. e4 c5 4. e5 Ng8,8,black,rnbqkbnr/pp1p1ppp/4p3/2p1P3/2P5/2N5/PP1P1PPP/R1BQKBNR w KQkq - 1 5,,,0,0,0
