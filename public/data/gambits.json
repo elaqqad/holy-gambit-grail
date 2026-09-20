@@ -981,8 +981,6 @@
         "white": 510385,
         "draws": 48658,
         "black": 422020,
-        "original_pgn": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 Bc5 5. c3 Nf6 6. e5 d5",
-        "original_fen": "r1bqk2r/ppp2ppp/2n2n2/2bpP3/2Bp4/2P2N2/PP3PPP/RNBQK2R w KQkq d6 0 7",
         "comment": "Lichess includes Black's 6...d5 in the PGN. On this site we stop at 6. e5, White's gambit thrust.",
         "transpositions": [
             "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. e5"
@@ -6960,8 +6958,6 @@
         "white": 1247,
         "draws": 97,
         "black": 977,
-        "original_pgn": "1. Nh3 d5 2. g3 e5 3. f4 Bxh3 4. Bxh3 exf4",
-        "original_fen": "rn1qkbnr/ppp2ppp/8/3p4/5p2/6PB/PPPPP2P/RNBQK2R w KQkq - 0 5",
         "comment": "Lichess attributes this gambit to the position after 4...exf4 (Black's acceptance). On this site we stop at 4. Bxh3, White's last gambit move, so the trophy goes to White who played the creative opening.",
         "transpositions": [
             "1. g3 d5 2. Nh3 e5 3. f4 Bxh3 4. Bxh3"
@@ -8274,19 +8270,6 @@
         "black": 138
     },
     {
-        "eco": "A80",
-        "name": "Dutch Defense: Hevendehl Gambit",
-        "pgn": "1. d4 f5 2. g4 e5",
-        "move": 4,
-        "color": "black",
-        "fen": "rnbqkbnr/pppp2pp/8/4pp2/3P2P1/8/PPP1PP1P/RNBQKBNR w KQkq - 0 3",
-        "master": "",
-        "lichess": "nuARM6QB",
-        "white": 124,
-        "draws": 6,
-        "black": 107
-    },
-    {
         "eco": "C23",
         "name": "Bishop's Opening: Lopez Variation, Lopez Gambit",
         "pgn": "1. e4 e5 2. Bc4 Bc5 3. Qe2 Nf6 4. f4",
@@ -8298,6 +8281,19 @@
         "white": 121,
         "draws": 7,
         "black": 109
+    },
+    {
+        "eco": "A80",
+        "name": "Dutch Defense: Hevendehl Gambit",
+        "pgn": "1. d4 f5 2. g4 e5",
+        "move": 4,
+        "color": "black",
+        "fen": "rnbqkbnr/pppp2pp/8/4pp2/3P2P1/8/PPP1PP1P/RNBQKBNR w KQkq - 0 3",
+        "master": "",
+        "lichess": "nuARM6QB",
+        "white": 124,
+        "draws": 6,
+        "black": 107
     },
     {
         "eco": "A00",
@@ -8946,19 +8942,6 @@
         "black": 2
     },
     {
-        "eco": "A00",
-        "name": "Van Geet Opening: Jendrossek Gambit",
-        "pgn": "1. Nc3 d5 2. f4 d4 3. Ne4 f5 4. Nf2 Nf6 5. Nf3 c5 6. b4",
-        "move": 11,
-        "color": "white",
-        "fen": "rnbqkb1r/pp2p1pp/5n2/2p2p2/1P1p1P2/5N2/P1PPPNPP/R1BQKB1R b KQkq - 0 6",
-        "master": "",
-        "lichess": "",
-        "white": 2,
-        "draws": 0,
-        "black": 1
-    },
-    {
         "eco": "C20",
         "name": "King's Pawn Game: Wayward Queen Attack, Mellon Gambit",
         "pgn": "1. e4 e5 2. Qh5 Nc6 3. Bc4 Nh6 4. d3 g6 5. Qf3 f6 6. Ne2 d5",
@@ -8970,6 +8953,19 @@
         "white": 0,
         "draws": 1,
         "black": 2
+    },
+    {
+        "eco": "A00",
+        "name": "Van Geet Opening: Jendrossek Gambit",
+        "pgn": "1. Nc3 d5 2. f4 d4 3. Ne4 f5 4. Nf2 Nf6 5. Nf3 c5 6. b4",
+        "move": 11,
+        "color": "white",
+        "fen": "rnbqkb1r/pp2p1pp/5n2/2p2p2/1P1p1P2/5N2/P1PPPNPP/R1BQKB1R b KQkq - 0 6",
+        "master": "",
+        "lichess": "",
+        "white": 2,
+        "draws": 0,
+        "black": 1
     },
     {
         "eco": "C51",

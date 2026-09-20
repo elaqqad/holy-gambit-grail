@@ -9,6 +9,8 @@
     "gambits:build": "python scripts/build-gambits.py",
     "gambits:build:no-stats": "python scripts/build-gambits.py --no-stats",
     "gambits:generate": "python scripts/generate-gambits-json.py",
+    "gambits:pipeline": "python scripts/pipeline.py",
+    "gambits:pipeline:no-stats": "python scripts/pipeline.py --no-stats",
     "preview": "vite preview",
     "test": "vitest run",
     "tsc": "tsc --noemit",
