@@ -174,20 +174,18 @@ async function updateCache(
     ensureTrophyKeys(trophies, gambits)
     console.log(`\nUpdating ${target.site}/${target.username}${since ? ` since ${new Date(since).toISOString()}` : ' from scratch'}...`)
 
-    await games(
-        url,
-        (game: Game) => {
-            checkGameForTrophies(game, profile, username, trophies, gambitsByFen, counts)
-            if (counts.downloaded % 500 === 0) {
-                console.log(`  ${counts.downloaded.toLocaleString()} games downloaded, ${counts.analyzed.toLocaleString()} analyzed`)
-            }
-        },
-        {
-            since,
-            pgnInJson: true,
-            rated: true,
+    const onGame = (game: Game): void => {
+        checkGameForTrophies(game, profile, username, trophies, gambitsByFen, counts)
+        if (counts.downloaded % 500 === 0) {
+            console.log(`  ${counts.downloaded.toLocaleString()} games downloaded, ${counts.analyzed.toLocaleString()} analyzed`)
         }
-    )
+    }
+
+    if (target.site === 'lichess' && since === 0) {
+        await fetchAllLichessGames(url, profile.counts?.all ?? 0, counts, onGame)
+    } else {
+        await games(url, onGame, { since, pgnInJson: true, rated: true })
+    }
 
     const cacheFile: TrophyCacheFile = {
         cache_updated_at: Date.now(),
@@ -199,6 +197,40 @@ async function updateCache(
     await mkdir(path.dirname(target.filePath), { recursive: true })
     await writeFile(target.filePath, `${JSON.stringify(cacheFile, null, 2)}\n`)
     console.log(`Saved ${path.relative(root, target.filePath)} with ${countTrophies(trophies).toLocaleString()} trophies.`)
+}
+
+// Lichess caps unauthenticated game-export streams at ~10,000 games per request
+// (see js/App.vue's fetchAllLichessGames, which has the same fix for the live app).
+// This pages through older batches via the `until` timestamp parameter until all
+// rated games have been fetched. Only used for a from-scratch (since === 0) Lichess
+// fetch -- an incremental sync's window is always small enough for a single request.
+async function fetchAllLichessGames(url: string, totalGames: number, counts: Counts, onGame: (game: Game) => void): Promise<void> {
+    let until: number | undefined
+
+    while (true) {
+        let batchCount = 0
+        let oldestTimestamp = Infinity
+
+        await games(
+            url,
+            (game: Game) => {
+                batchCount++
+                if (game.timestamp < oldestTimestamp) oldestTimestamp = game.timestamp
+                onGame(game)
+            },
+            {
+                pgnInJson: true,
+                rated: true,
+                ...(until !== undefined ? { until } : {}),
+            }
+        )
+
+        if (batchCount === 0 || oldestTimestamp === Infinity) break
+        // Rated games are a subset of all games, so 100% is unreachable with rated: true.
+        if (totalGames > 0 && counts.downloaded >= totalGames * 0.9) break
+
+        until = oldestTimestamp - 1
+    }
 }
 
 function checkGameForTrophies(
