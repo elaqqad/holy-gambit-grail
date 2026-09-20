@@ -42,17 +42,19 @@ async function main(): Promise<void> {
 
     const usernameArg = process.argv.find((a) => a.startsWith('--username='))?.split('=')[1]
     const usernames = usernameArg?.split(',')
+    const siteArg = process.argv.find((a) => a.startsWith('--site='))?.split('=')[1] as Site | undefined
 
     if (process.argv.includes('--all') || usernames) {
         // Non-interactive: refresh every existing cache file, or just --username=a,b,c
-        // ones (for smoke-testing or re-running specific players). Used by the
-        // pipeline orchestrator after gambits.json/transpositions.json change.
+        // ones (for smoke-testing or re-running specific players; add --site= to
+        // disambiguate a username that exists on both sites, e.g. saltyclown). Used
+        // by the pipeline orchestrator after gambits.json/transpositions.json change.
         // Incremental (only fetch games since the last sync) unless --full is
         // passed: a gambit addition, color fix, or PGN change needs every
         // already-played game re-scanned to retroactively credit it, which
         // incremental mode can't do -- it never re-examines games it already
         // downloaded.
-        selectedTargets = usernames ? targets.filter((t) => usernames.includes(t.username)) : targets
+        selectedTargets = usernames ? targets.filter((t) => usernames.includes(t.username) && (!siteArg || t.site === siteArg)) : targets
         incremental = !process.argv.includes('--full')
     } else {
         const mode = await askChoice('What do you want to update?', ['All existing cache files', 'One existing cache file', 'A custom username'])
