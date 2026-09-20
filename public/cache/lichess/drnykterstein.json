@@ -1,7 +1,7 @@
 {
-  "cache_updated_at": 1789939535019,
-  "games_analyzed": 10000,
-  "moves_analyzed": 10000,
+  "cache_updated_at": 1789944436666,
+  "games_analyzed": 10435,
+  "moves_analyzed": 10435,
   "trophies": {
     "Queen's Gambit": {
       "7jOdKNXh": {
@@ -1227,6 +1227,22 @@
           "title": "GM"
         },
         "link": "https://lichess.org/6SNrB3UF#3"
+      },
+      "CcIQiBBX": {
+        "date": "2019-01-05",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/CcIQiBBX#3"
+      },
+      "GrGfNMNn": {
+        "date": "2019-01-04",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/GrGfNMNn#3"
       }
     },
     "Englund Gambit": {
@@ -1737,6 +1753,14 @@
           "title": "GM"
         },
         "link": "https://lichess.org/ioro5jo8#3"
+      },
+      "hREniQNO": {
+        "date": "2019-01-05",
+        "opponent": {
+          "username": "tacticthunder",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/hREniQNO#3"
       }
     },
     "Zukertort Opening: Tennison Gambit": {
@@ -1925,6 +1949,22 @@
           "title": "GM"
         },
         "link": "https://lichess.org/iZ2cLDP6/black#4"
+      },
+      "C4WXDpsI": {
+        "date": "2019-01-31",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/C4WXDpsI/black#4"
+      },
+      "SeNN6u3P": {
+        "date": "2018-12-15",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/SeNN6u3P/black#4"
       }
     },
     "Scandinavian Defense: Blackburne-Kloosterboer Gambit": {
@@ -1969,6 +2009,22 @@
           "title": ""
         },
         "link": "https://lichess.org/IVnGfdFl/black#4"
+      },
+      "7VTqImBG": {
+        "date": "2019-02-05",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/7VTqImBG/black#4"
+      },
+      "L5qN2IaK": {
+        "date": "2019-02-05",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/L5qN2IaK/black#4"
       }
     },
     "King's Gambit Declined: Falkbeer Countergambit": {},
@@ -2306,6 +2362,22 @@
           "title": "GM"
         },
         "link": "https://lichess.org/40YWr2rG/black#4"
+      },
+      "4rDvDmkH": {
+        "date": "2019-01-30",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/4rDvDmkH/black#4"
+      },
+      "oMDpeq3Z": {
+        "date": "2018-12-15",
+        "opponent": {
+          "username": "wizard98",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/oMDpeq3Z/black#4"
       }
     },
     "Vienna Game: Vienna Gambit": {
@@ -2614,6 +2686,14 @@
           "title": "GM"
         },
         "link": "https://lichess.org/35ojPzFv/black#2"
+      },
+      "WnwAV4wJ": {
+        "date": "2019-01-30",
+        "opponent": {
+          "username": "Federicov93",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/WnwAV4wJ/black#2"
       }
     },
     "Italian Game: Evans Gambit": {
@@ -3435,6 +3515,30 @@
           "title": "GM"
         },
         "link": "https://lichess.org/99CO6x0f/black#4"
+      },
+      "TlEXA3KD": {
+        "date": "2019-02-05",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/TlEXA3KD/black#4"
+      },
+      "jzZY6mag": {
+        "date": "2019-02-05",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/jzZY6mag/black#4"
+      },
+      "N0Kfozpc": {
+        "date": "2019-01-29",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/N0Kfozpc/black#4"
       }
     },
     "Scotch Game: Göring Gambit": {},
@@ -3478,6 +3582,22 @@
           "title": "GM"
         },
         "link": "https://lichess.org/cQEQQBQv/black#6"
+      },
+      "C4WXDpsI": {
+        "date": "2019-01-31",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/C4WXDpsI/black#6"
+      },
+      "SeNN6u3P": {
+        "date": "2018-12-15",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/SeNN6u3P/black#6"
       }
     },
     "Zukertort Opening: Lemberger Gambit": {
@@ -3935,6 +4055,14 @@
           "title": "GM"
         },
         "link": "https://lichess.org/0CW9SYk2/black#6"
+      },
+      "OySj08Rl": {
+        "date": "2019-01-31",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/OySj08Rl/black#6"
       }
     },
     "Alekhine Defense: Scandinavian Variation, Geschev Gambit": {},
@@ -4596,6 +4724,46 @@
           "title": "GM"
         },
         "link": "https://lichess.org/BD147u5n/black#6"
+      },
+      "c2MLJDzp": {
+        "date": "2019-01-30",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/c2MLJDzp/black#6"
+      },
+      "WUlg2cLq": {
+        "date": "2019-01-05",
+        "opponent": {
+          "username": "chessbrahs",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/WUlg2cLq/black#6"
+      },
+      "ZZxb9dCL": {
+        "date": "2019-01-05",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/ZZxb9dCL/black#6"
+      },
+      "EyHEbMYA": {
+        "date": "2019-01-05",
+        "opponent": {
+          "username": "lodewijkfrederik",
+          "title": ""
+        },
+        "link": "https://lichess.org/EyHEbMYA/black#6"
+      },
+      "NmPhbKVx": {
+        "date": "2019-01-05",
+        "opponent": {
+          "username": "slabachok12",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/NmPhbKVx/black#6"
       }
     },
     "Sicilian Defense: Morphy Gambit, Andreaschek Gambit": {},
@@ -4686,6 +4854,14 @@
           "title": "GM"
         },
         "link": "https://lichess.org/LXsEvxIS#7"
+      },
+      "MrL083bS": {
+        "date": "2019-01-05",
+        "opponent": {
+          "username": "Bryakin_Mikhail",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/MrL083bS#7"
       }
     },
     "French Defense: Advance Variation, Nimzowitsch Gambit": {
@@ -5422,7 +5598,16 @@
     "Ruy Lopez: Morphy Defense, Norwegian Variation, Nightingale Gambit": {},
     "Nimzowitsch Defense: Wheeler Gambit": {},
     "French Defense: Rubinstein Variation, Ellis Gambit": {},
-    "Grob Opening: Romford Countergambit": {},
+    "Grob Opening: Romford Countergambit": {
+      "55KfbRPq": {
+        "date": "2019-02-05",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/55KfbRPq/black#6"
+      }
+    },
     "Sicilian Defense: Najdorf Variation, Dekker Gambit": {},
     "Rat Defense: English Rat, Pounds Gambit": {},
     "Caro-Kann Defense: Scorpion-Horus Gambit": {},
@@ -5463,7 +5648,16 @@
     "Indian Defense: Gibbins-Weidenhagen Gambit, Stummer Gambit": {},
     "Borg Defense: Zilbermints Gambit": {},
     "Queen's Gambit Declined: Zilbermints Gambit": {},
-    "Grob Opening: Grob Gambit, Fritz Gambit, Romford Countergambit": {},
+    "Grob Opening: Grob Gambit, Fritz Gambit, Romford Countergambit": {
+      "55KfbRPq": {
+        "date": "2019-02-05",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/55KfbRPq/black#10"
+      }
+    },
     "Nimzowitsch Defense: Kennedy Variation, Herford Gambit": {},
     "Nimzowitsch Defense: Hornung Gambit": {},
     "King's Gambit Declined: Falkbeer Countergambit, Pickler Gambit": {},
