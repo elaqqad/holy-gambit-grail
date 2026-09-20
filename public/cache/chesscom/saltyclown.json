@@ -1,7 +1,7 @@
 {
-  "cache_updated_at": 1789930911255,
-  "games_analyzed": 73999,
-  "moves_analyzed": 73999,
+  "cache_updated_at": 1789942530637,
+  "games_analyzed": 74005,
+  "moves_analyzed": 74005,
   "trophies": {
     "Queen's Gambit": {
       "109557027841": {
@@ -1525,6 +1525,14 @@
           "title": "NM"
         },
         "link": "https://www.chess.com/analysis/game/live/4232932674?tab=analysis&flip=true&move=01"
+      },
+      "184124371234": {
+        "date": "2026-09-20",
+        "opponent": {
+          "username": "benmasum52",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/184124371234?tab=analysis&flip=true&move=01"
       },
       "183995015894": {
         "date": "2026-09-18",
@@ -47961,6 +47969,14 @@
           "title": ""
         },
         "link": "https://www.chess.com/analysis/game/live/4225518122?tab=analysis&flip=false&move=02"
+      },
+      "184124160348": {
+        "date": "2026-09-20",
+        "opponent": {
+          "username": "Montahearts",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/184124160348?tab=analysis&flip=false&move=02"
       },
       "174366192728": {
         "date": "2026-09-12",
@@ -155230,6 +155246,14 @@
           "title": "NM"
         },
         "link": "https://www.chess.com/analysis/game/live/4232932674?tab=analysis&flip=true&move=05"
+      },
+      "184124371234": {
+        "date": "2026-09-20",
+        "opponent": {
+          "username": "benmasum52",
+          "title": ""
+        },
+        "link": "https://www.chess.com/analysis/game/live/184124371234?tab=analysis&flip=true&move=05"
       },
       "174366071958": {
         "date": "2026-09-12",
