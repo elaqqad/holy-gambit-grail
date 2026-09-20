@@ -40,11 +40,18 @@ async function main(): Promise<void> {
     let selectedTargets: CacheTarget[]
     let incremental: boolean
 
-    if (process.argv.includes('--all')) {
-        // Non-interactive: refresh every existing cache file incrementally.
-        // Used by the pipeline orchestrator after gambits.json/transpositions.json change.
-        selectedTargets = targets
-        incremental = true
+    const usernameArg = process.argv.find((a) => a.startsWith('--username='))?.split('=')[1]
+
+    if (process.argv.includes('--all') || usernameArg) {
+        // Non-interactive: refresh every existing cache file, or just --username= one
+        // (for smoke-testing). Used by the pipeline orchestrator after
+        // gambits.json/transpositions.json change. Incremental (only fetch games
+        // since the last sync) unless --full is passed: a gambit addition, color
+        // fix, or PGN change needs every already-played game re-scanned to
+        // retroactively credit it, which incremental mode can't do -- it never
+        // re-examines games it already downloaded.
+        selectedTargets = usernameArg ? targets.filter((t) => t.username === usernameArg) : targets
+        incremental = !process.argv.includes('--full')
     } else {
         const mode = await askChoice('What do you want to update?', ['All existing cache files', 'One existing cache file', 'A custom username'])
         selectedTargets = mode === 0 ? targets : mode === 1 ? [await selectExistingTarget(targets)] : [await askCustomTarget()]
@@ -53,15 +60,27 @@ async function main(): Promise<void> {
 
     const gambits = await loadGambits()
     const gambitsByFen = buildGambitPositionIndex(gambits)
+    const concurrency = Number(process.argv.find((a) => a.startsWith('--concurrency='))?.split('=')[1]) || 4
 
-    for (const target of selectedTargets) {
+    await runWithConcurrency(selectedTargets, concurrency, async (target) => {
         try {
             await updateCache(target, gambits, gambitsByFen, incremental)
         } catch (error) {
             console.error(`\nFailed to update ${target.site}/${target.username}:`)
             console.error(error instanceof Error ? error.message : error)
         }
+    })
+}
+
+async function runWithConcurrency<T>(items: T[], concurrency: number, work: (item: T) => Promise<void>): Promise<void> {
+    let next = 0
+    const worker = async (): Promise<void> => {
+        while (next < items.length) {
+            const item = items[next++]
+            await work(item)
+        }
     }
+    await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, worker))
 }
 
 async function discoverCacheTargets(): Promise<CacheTarget[]> {
