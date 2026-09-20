@@ -11,6 +11,7 @@
     "gambits:generate": "python scripts/generate-gambits-json.py",
     "gambits:pipeline": "python scripts/pipeline.py",
     "gambits:pipeline:no-stats": "python scripts/pipeline.py --no-stats",
+    "postinstall": "patch-package",
     "preview": "vite preview",
     "test": "vitest run",
     "tsc": "tsc --noemit",
@@ -40,6 +41,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.19.43",
+    "patch-package": "^8.0.1",
     "tsx": "^4.22.4"
   }
 }
