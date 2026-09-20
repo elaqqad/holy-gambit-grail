@@ -37,11 +37,20 @@ async function main(): Promise<void> {
         return
     }
 
-    const mode = await askChoice('What do you want to update?', ['All existing cache files', 'One existing cache file', 'A custom username'])
+    let selectedTargets: CacheTarget[]
+    let incremental: boolean
 
-    const selectedTargets = mode === 0 ? targets : mode === 1 ? [await selectExistingTarget(targets)] : [await askCustomTarget()]
+    if (process.argv.includes('--all')) {
+        // Non-interactive: refresh every existing cache file incrementally.
+        // Used by the pipeline orchestrator after gambits.json/transpositions.json change.
+        selectedTargets = targets
+        incremental = true
+    } else {
+        const mode = await askChoice('What do you want to update?', ['All existing cache files', 'One existing cache file', 'A custom username'])
+        selectedTargets = mode === 0 ? targets : mode === 1 ? [await selectExistingTarget(targets)] : [await askCustomTarget()]
+        incremental = await askYesNo('Use existing cache and fetch only new games when possible?', true)
+    }
 
-    const incremental = await askYesNo('Use existing cache and fetch only new games when possible?', true)
     const gambits = await loadGambits()
     const gambitsByFen = buildGambitPositionIndex(gambits)
 

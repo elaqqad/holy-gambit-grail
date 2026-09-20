@@ -28,17 +28,13 @@ Output: scripts/transpositions.json
 import argparse
 import json
 import re
-import ssl
-import sys
 import urllib.parse
 from collections import Counter, deque
-from time import sleep
 
 import chess
-import urllib3
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-_HTTP = urllib3.PoolManager(ssl_context=ssl._create_unverified_context())  # noqa: SLF001
+from gambits_shared import get as http_get
+from gambits_shared import set_lichess_token
 
 GAMBITS_JSON = 'public/data/gambits.json'
 OUTPUT_JSON = 'scripts/transpositions.json'
@@ -51,31 +47,6 @@ EXPLORER_URL = (
     '&topGames=0&recentGames=0'
     '&fen='
 )
-
-_LICHESS_TOKEN: str = ''
-
-
-def _http_get(url: str, delay: float) -> dict:
-    sleep(delay)
-    headers = {'Accept': 'application/json'}
-    if _LICHESS_TOKEN:
-        headers['Authorization'] = f'Bearer {_LICHESS_TOKEN}'
-    try:
-        resp = _HTTP.request('GET', url, headers=headers, timeout=15)
-        if resp.status == 401:
-            print(
-                '  Warning: HTTP 401 from Explorer — '
-                'pass --lichess-token <token> to authenticate.',
-                file=sys.stderr,
-            )
-            return {}
-        if resp.status != 200:
-            print(f'  Warning: HTTP {resp.status} from {url[:80]}', file=sys.stderr)
-            return {}
-        return json.loads(resp.data)
-    except Exception as exc:
-        print(f'  Warning: {exc}', file=sys.stderr)
-        return {}
 
 
 def fen_key(fen: str) -> str:
@@ -126,9 +97,8 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    global _LICHESS_TOKEN
     if args.lichess_token:
-        _LICHESS_TOKEN = args.lichess_token
+        set_lichess_token(args.lichess_token)
 
     with open(GAMBITS_JSON, encoding='utf-8') as f:
         gambits = json.load(f)
@@ -198,7 +168,7 @@ def main() -> None:
             )
 
         url = EXPLORER_URL + urllib.parse.quote(board.fen())
-        data = _http_get(url, args.sleep)
+        data = http_get(url, args.sleep)
 
         for move_data in data.get('moves', []):
             san = move_data.get('san', '')

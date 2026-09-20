@@ -1,13 +1,15 @@
 /**
- * Validates that scripts/gambits.csv and public/data/gambits.json are in sync.
+ * Validates that public/data/gambits.json is exactly what the pipeline should
+ * produce from scripts/gambits.csv (the automated, deterministic is_gambit()
+ * filter over the Lichess openings TSV) with scripts/gambits-delta.csv (the
+ * only place manual curation happens) applied on top -- see
+ * scripts/generate-gambits-json.py, which this test mirrors.
  *
- * The CSV is the source of truth. The JSON is generated from it via
- * `python scripts/generate-gambits-json.py`. These tests catch drift between
- * the two files — e.g. after editing the CSV without regenerating the JSON.
- *
- * The unique key for each entry is (eco, name, pgn) because some gambits
- * intentionally appear more than once under the same name with different PGNs
- * (gambit offer vs. gambit accepted variants).
+ * gambits.csv is NOT expected to match gambits.json entry-for-entry anymore:
+ * the CSV is the raw automated set, the JSON is the curated one. These tests
+ * instead reconstruct the expected curated key set from CSV + delta and catch
+ * drift -- e.g. after editing the delta without regenerating the JSON, or a
+ * bug in how removes/modifies/adds are applied.
  */
 
 import { readFileSync } from 'node:fs'
@@ -42,56 +44,114 @@ function parseCSV(content: string): Record<string, string>[] {
     })
 }
 
-// ── Load both files ───────────────────────────────────────────────────────────
+type Key = string
+const keyOf = (eco: string, name: string, pgn: string): Key => `${eco}|${name}|${pgn}`
 
-const csvRows = parseCSV(readFileSync('scripts/gambits.csv', 'utf8'))
+// ── Load raw CSV, delta, and the generated JSON ────────────────────────────────
+
+const rawRows = parseCSV(readFileSync('scripts/gambits.csv', 'utf8'))
+const deltaRows = parseCSV(readFileSync('scripts/gambits-delta.csv', 'utf8'))
 const jsonEntries = JSON.parse(readFileSync('public/data/gambits.json', 'utf8')) as Record<string, unknown>[]
+const jsonByKey = new Map(jsonEntries.map((g) => [keyOf(g.eco as string, g.name as string, g.pgn as string), g]))
 
-const csvKeys = csvRows.map((r) => `${r.eco}|${r.name}|${r.pgn}`)
-const jsonKeys = jsonEntries.map((g) => `${g.eco}|${g.name}|${g.pgn}`)
-const csvKeySet = new Set(csvKeys)
-const jsonKeySet = new Set(jsonKeys)
+const removes = new Set<Key>()
+const modifies = new Map<Key, Record<string, string>>()
+const adds: Record<string, string>[] = []
 
-// ── Tests ─────────────────────────────────────────────────────────────────────
+for (const row of deltaRows) {
+    const key = keyOf(row.eco, row.name, row.pgn)
+    if (row.action === 'remove') removes.add(key)
+    else if (row.action === 'modify') modifies.set(key, row)
+    else if (row.action === 'add') adds.push(row)
+}
 
-describe('gambits CSV/JSON sync', () => {
-    test('same number of entries', () => {
-        expect(jsonEntries.length).toBe(csvRows.length)
-    })
+// ── Reconstruct the expected curated key set from raw CSV + delta ─────────────
 
-    test('no duplicate (eco, name, pgn) in CSV', () => {
-        expect(csvKeySet.size).toBe(csvRows.length)
+const expectedKeys = new Set<Key>()
+for (const row of rawRows) {
+    const rawKey = keyOf(row.eco, row.name, row.pgn)
+    if (removes.has(rawKey)) continue
+    const modify = modifies.get(rawKey)
+    expectedKeys.add(modify ? keyOf(row.eco, row.name, modify.new_pgn) : rawKey)
+}
+for (const row of adds) {
+    expectedKeys.add(keyOf(row.eco, row.name, row.pgn))
+}
+
+describe('gambits.csv + gambits-delta.csv -> gambits.json', () => {
+    test('delta references only existing raw CSV entries for remove/modify', () => {
+        const rawKeySet = new Set(rawRows.map((r) => keyOf(r.eco, r.name, r.pgn)))
+        const dangling = [...removes, ...modifies.keys()].filter((k) => !rawKeySet.has(k))
+        expect(dangling, `remove/modify keys not found in gambits.csv:\n${dangling.join('\n')}`).toHaveLength(0)
     })
 
     test('no duplicate (eco, name, pgn) in JSON', () => {
-        expect(jsonKeySet.size).toBe(jsonEntries.length)
+        expect(jsonByKey.size).toBe(jsonEntries.length)
     })
 
-    test('every CSV entry exists in JSON', () => {
-        const missing = csvKeys.filter((k) => !jsonKeySet.has(k))
-        expect(missing, `CSV entries missing from JSON:\n${missing.join('\n')}`).toHaveLength(0)
+    test('JSON key set matches raw CSV + delta exactly', () => {
+        const jsonKeys = new Set(jsonByKey.keys())
+        const missing = [...expectedKeys].filter((k) => !jsonKeys.has(k))
+        const extra = [...jsonKeys].filter((k) => !expectedKeys.has(k))
+        expect(missing, `expected entries missing from JSON:\n${missing.join('\n')}`).toHaveLength(0)
+        expect(extra, `JSON entries not explained by CSV + delta:\n${extra.join('\n')}`).toHaveLength(0)
     })
 
-    test('every JSON entry exists in CSV', () => {
-        const extra = jsonKeys.filter((k) => !csvKeySet.has(k))
-        expect(extra, `JSON entries not in CSV:\n${extra.join('\n')}`).toHaveLength(0)
+    test('unmodified entries carry the raw CSV stats and metadata', () => {
+        for (const row of rawRows) {
+            const rawKey = keyOf(row.eco, row.name, row.pgn)
+            if (removes.has(rawKey) || modifies.has(rawKey)) continue
+            const json = jsonByKey.get(rawKey)
+            if (!json) continue // already caught by the key-set test above
+
+            expect(json.color, `color: ${rawKey}`).toBe(row.color)
+            expect(json.move, `move: ${rawKey}`).toBe(Number(row.move))
+            expect(json.fen, `fen: ${rawKey}`).toBe(row.fen)
+            expect(json.master ?? '', `master: ${rawKey}`).toBe(row.master)
+            expect(json.lichess ?? '', `lichess: ${rawKey}`).toBe(row.lichess)
+            expect(json.white, `white: ${rawKey}`).toBe(Number(row.white))
+            expect(json.draws, `draws: ${rawKey}`).toBe(Number(row.draws))
+            expect(json.black, `black: ${rawKey}`).toBe(Number(row.black))
+            expect(json.original_pgn, `unmodified entry should not carry original_pgn: ${rawKey}`).toBeUndefined()
+        }
     })
 
-    test('stats and metadata match between CSV and JSON', () => {
-        const jsonByKey = new Map(jsonEntries.map((g) => [`${g.eco}|${g.name}|${g.pgn}`, g]))
-        for (const row of csvRows) {
-            const key = `${row.eco}|${row.name}|${row.pgn}`
+    test('modified entries carry the delta stats, new PGN, and the raw PGN as original_pgn', () => {
+        for (const [rawKey, delta] of modifies) {
+            const newKey = keyOf(delta.eco, delta.name, delta.new_pgn)
+            const raw = rawRows.find((r) => keyOf(r.eco, r.name, r.pgn) === rawKey)
+            const json = jsonByKey.get(newKey)
+            if (!json || !raw) continue // already caught by the key-set test above
+
+            expect(json.original_pgn, `original_pgn: ${newKey}`).toBe(raw.pgn)
+            expect(json.white, `white: ${newKey}`).toBe(Number(delta.white))
+            expect(json.draws, `draws: ${newKey}`).toBe(Number(delta.draws))
+            expect(json.black, `black: ${newKey}`).toBe(Number(delta.black))
+            if (delta.comment) {
+                expect(json.comment, `comment: ${newKey}`).toBe(delta.comment)
+            }
+        }
+    })
+
+    test('added entries carry the delta stats and never an original_pgn', () => {
+        for (const row of adds) {
+            const key = keyOf(row.eco, row.name, row.pgn)
             const json = jsonByKey.get(key)
-            if (!json) continue // already caught by 'every CSV entry exists in JSON'
+            if (!json) continue // already caught by the key-set test above
 
-            expect(json.color, `color: ${key}`).toBe(row.color)
-            expect(json.move, `move: ${key}`).toBe(Number(row.move))
-            expect(json.fen, `fen: ${key}`).toBe(row.fen)
-            expect(json.master ?? '', `master: ${key}`).toBe(row.master)
-            expect(json.lichess ?? '', `lichess: ${key}`).toBe(row.lichess)
+            expect(json.original_pgn, `add entry should not carry original_pgn: ${key}`).toBeUndefined()
             expect(json.white, `white: ${key}`).toBe(Number(row.white))
             expect(json.draws, `draws: ${key}`).toBe(Number(row.draws))
             expect(json.black, `black: ${key}`).toBe(Number(row.black))
+            if (row.comment) {
+                expect(json.comment, `comment: ${key}`).toBe(row.comment)
+            }
         }
+    })
+
+    test('every add/modify delta row has its stats cached (run generate-gambits-json.py --fetch-stats otherwise)', () => {
+        const uncached = [...adds, ...modifies.values()].filter((row) => !row.white && !row.draws && !row.black && !row.master)
+        const names = uncached.map((row) => row.name)
+        expect(names, `delta rows missing cached stats:\n${names.join('\n')}`).toHaveLength(0)
     })
 })
