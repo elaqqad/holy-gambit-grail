@@ -1,7 +1,7 @@
 {
-  "cache_updated_at": 1789927349374,
-  "games_analyzed": 10000,
-  "moves_analyzed": 10000,
+  "cache_updated_at": 1789941266987,
+  "games_analyzed": 16469,
+  "moves_analyzed": 16469,
   "trophies": {
     "Queen's Gambit": {
       "hatubKxt": {
@@ -139,6 +139,318 @@
           "title": "GM"
         },
         "link": "https://lichess.org/z4SLdM1u#3"
+      },
+      "9nRCXXm0": {
+        "date": "2020-10-29",
+        "opponent": {
+          "username": "Periquitochess",
+          "title": ""
+        },
+        "link": "https://lichess.org/9nRCXXm0#3"
+      },
+      "0CvFEAzi": {
+        "date": "2020-10-22",
+        "opponent": {
+          "username": "Feokl1995",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/0CvFEAzi#3"
+      },
+      "mNLPCrE4": {
+        "date": "2020-10-03",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/mNLPCrE4#3"
+      },
+      "vxaegHhJ": {
+        "date": "2020-07-07",
+        "opponent": {
+          "username": "Hussarius64",
+          "title": ""
+        },
+        "link": "https://lichess.org/vxaegHhJ#3"
+      },
+      "r2V7jqiQ": {
+        "date": "2020-07-05",
+        "opponent": {
+          "username": "Azerichessss",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/r2V7jqiQ#3"
+      },
+      "I1jD5cGO": {
+        "date": "2020-05-12",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/I1jD5cGO#3"
+      },
+      "e8Q6KNI5": {
+        "date": "2020-05-12",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/e8Q6KNI5#3"
+      },
+      "pYbeCjSQ": {
+        "date": "2020-05-12",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/pYbeCjSQ#3"
+      },
+      "jXnjqtGK": {
+        "date": "2020-05-05",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/jXnjqtGK#3"
+      },
+      "w65q2HZv": {
+        "date": "2020-05-05",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/w65q2HZv#3"
+      },
+      "T1cQQKlB": {
+        "date": "2020-05-05",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/T1cQQKlB#3"
+      },
+      "Ve6JM3df": {
+        "date": "2020-05-05",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/Ve6JM3df#3"
+      },
+      "4kUfvL9c": {
+        "date": "2020-05-04",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/4kUfvL9c#3"
+      },
+      "0lt7gBjY": {
+        "date": "2020-04-08",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/0lt7gBjY#3"
+      },
+      "oFqKW6PZ": {
+        "date": "2020-04-08",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/oFqKW6PZ#3"
+      },
+      "24DKZKQr": {
+        "date": "2019-08-17",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/24DKZKQr#3"
+      },
+      "DnliUL3b": {
+        "date": "2018-09-13",
+        "opponent": {
+          "username": "lazasampion",
+          "title": ""
+        },
+        "link": "https://lichess.org/DnliUL3b#3"
+      },
+      "PIZUVSVR": {
+        "date": "2017-01-23",
+        "opponent": {
+          "username": "BruceLee92",
+          "title": ""
+        },
+        "link": "https://lichess.org/PIZUVSVR#3"
+      },
+      "ba6IH8n4": {
+        "date": "2016-12-21",
+        "opponent": {
+          "username": "MichelangeIo",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/ba6IH8n4#3"
+      },
+      "XkVnb7IV": {
+        "date": "2016-11-14",
+        "opponent": {
+          "username": "luci087",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/XkVnb7IV#3"
+      },
+      "6PslhmzS": {
+        "date": "2016-11-12",
+        "opponent": {
+          "username": "dmitrisilver",
+          "title": ""
+        },
+        "link": "https://lichess.org/6PslhmzS#3"
+      },
+      "SPqvJ825": {
+        "date": "2016-10-27",
+        "opponent": {
+          "username": "G0DZILLA",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/SPqvJ825#3"
+      },
+      "Oe44bfwE": {
+        "date": "2016-10-27",
+        "opponent": {
+          "username": "G0DZILLA",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/Oe44bfwE#3"
+      },
+      "11ZpJNdI": {
+        "date": "2016-10-22",
+        "opponent": {
+          "username": "Shaggy-Breeches",
+          "title": ""
+        },
+        "link": "https://lichess.org/11ZpJNdI#3"
+      },
+      "PVktBIC2": {
+        "date": "2016-10-21",
+        "opponent": {
+          "username": "themurdercastle",
+          "title": "LM"
+        },
+        "link": "https://lichess.org/PVktBIC2#3"
+      },
+      "BPpI8MEK": {
+        "date": "2016-10-21",
+        "opponent": {
+          "username": "themurdercastle",
+          "title": "LM"
+        },
+        "link": "https://lichess.org/BPpI8MEK#3"
+      },
+      "dAjOaYP4": {
+        "date": "2016-10-21",
+        "opponent": {
+          "username": "themurdercastle",
+          "title": "LM"
+        },
+        "link": "https://lichess.org/dAjOaYP4#3"
+      },
+      "LXqxrIyj": {
+        "date": "2016-10-21",
+        "opponent": {
+          "username": "themurdercastle",
+          "title": "LM"
+        },
+        "link": "https://lichess.org/LXqxrIyj#3"
+      },
+      "8ejwmXGN": {
+        "date": "2016-09-16",
+        "opponent": {
+          "username": "Arka50",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/8ejwmXGN#3"
+      },
+      "dCvjHXCD": {
+        "date": "2016-09-12",
+        "opponent": {
+          "username": "Slapdash09",
+          "title": ""
+        },
+        "link": "https://lichess.org/dCvjHXCD#3"
+      },
+      "k9jEIW6y": {
+        "date": "2016-09-12",
+        "opponent": {
+          "username": "CaptainPlanet",
+          "title": "NM"
+        },
+        "link": "https://lichess.org/k9jEIW6y#3"
+      },
+      "e8mKyyvK": {
+        "date": "2016-09-11",
+        "opponent": {
+          "username": "Elda64",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/e8mKyyvK#3"
+      },
+      "uYz8GwZR": {
+        "date": "2016-09-11",
+        "opponent": {
+          "username": "Elda64",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/uYz8GwZR#3"
+      },
+      "98XSNhyC": {
+        "date": "2016-09-07",
+        "opponent": {
+          "username": "Elda64",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/98XSNhyC#3"
+      },
+      "s3Cb4COY": {
+        "date": "2016-09-07",
+        "opponent": {
+          "username": "letranger",
+          "title": ""
+        },
+        "link": "https://lichess.org/s3Cb4COY#3"
+      },
+      "XnOOyMQJ": {
+        "date": "2016-09-07",
+        "opponent": {
+          "username": "Elda64",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/XnOOyMQJ#3"
+      },
+      "XhG3RceK": {
+        "date": "2016-09-03",
+        "opponent": {
+          "username": "Elda64",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/XhG3RceK#3"
+      },
+      "8XSLBQEH": {
+        "date": "2016-09-01",
+        "opponent": {
+          "username": "dialysator",
+          "title": ""
+        },
+        "link": "https://lichess.org/8XSLBQEH#3"
+      },
+      "aOmDvOuN": {
+        "date": "2016-09-01",
+        "opponent": {
+          "username": "TargetGM",
+          "title": ""
+        },
+        "link": "https://lichess.org/aOmDvOuN#3"
       }
     },
     "Englund Gambit": {
@@ -149,6 +461,38 @@
           "title": ""
         },
         "link": "https://lichess.org/WKi2GPz7/black#2"
+      },
+      "AVa4rRWO": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "NameLessWarrior1st",
+          "title": ""
+        },
+        "link": "https://lichess.org/AVa4rRWO/black#2"
+      },
+      "vImgxeiK": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "juancruzariasTDF",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/vImgxeiK/black#2"
+      },
+      "m1eFvAMF": {
+        "date": "2019-05-27",
+        "opponent": {
+          "username": "EricRosen",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/m1eFvAMF/black#2"
+      },
+      "aExT8OW2": {
+        "date": "2018-10-21",
+        "opponent": {
+          "username": "BarnesPond",
+          "title": ""
+        },
+        "link": "https://lichess.org/aExT8OW2/black#2"
       }
     },
     "King's Gambit": {},
@@ -250,6 +594,62 @@
           "title": ""
         },
         "link": "https://lichess.org/aVPHugBJ#3"
+      },
+      "q7E7YS6W": {
+        "date": "2020-10-31",
+        "opponent": {
+          "username": "Scary_Man84",
+          "title": ""
+        },
+        "link": "https://lichess.org/q7E7YS6W#3"
+      },
+      "eG7Q3481": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "kachipachi",
+          "title": ""
+        },
+        "link": "https://lichess.org/eG7Q3481#3"
+      },
+      "NoMNmQw7": {
+        "date": "2020-06-19",
+        "opponent": {
+          "username": "mutdpro",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/NoMNmQw7#3"
+      },
+      "MKBmmb4V": {
+        "date": "2020-03-18",
+        "opponent": {
+          "username": "terapist",
+          "title": ""
+        },
+        "link": "https://lichess.org/MKBmmb4V#3"
+      },
+      "0ac1Wi9P": {
+        "date": "2020-02-19",
+        "opponent": {
+          "username": "pigu",
+          "title": ""
+        },
+        "link": "https://lichess.org/0ac1Wi9P#3"
+      },
+      "3KvyeEXI": {
+        "date": "2018-11-21",
+        "opponent": {
+          "username": "WKuRogaNe",
+          "title": ""
+        },
+        "link": "https://lichess.org/3KvyeEXI#3"
+      },
+      "Qk0KVo12": {
+        "date": "2018-07-28",
+        "opponent": {
+          "username": "jiren3030",
+          "title": ""
+        },
+        "link": "https://lichess.org/Qk0KVo12#3"
       }
     },
     "King's Gambit Accepted: King's Knight's Gambit": {},
@@ -261,6 +661,14 @@
           "title": "IM"
         },
         "link": "https://lichess.org/NVymWZNS#3"
+      },
+      "hO1eSkDv": {
+        "date": "2018-09-22",
+        "opponent": {
+          "username": "TwelveTeen",
+          "title": "NM"
+        },
+        "link": "https://lichess.org/hO1eSkDv#3"
       }
     },
     "Scotch Game: Scotch Gambit": {
@@ -524,6 +932,30 @@
           "title": "GM"
         },
         "link": "https://lichess.org/hhIkgwe3/black#4"
+      },
+      "gGs6P0iM": {
+        "date": "2020-10-24",
+        "opponent": {
+          "username": "alireza2003",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/gGs6P0iM/black#4"
+      },
+      "NuV9tRIu": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/NuV9tRIu/black#4"
+      },
+      "q01qo2oW": {
+        "date": "2020-08-22",
+        "opponent": {
+          "username": "Arka50",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/q01qo2oW/black#4"
       }
     },
     "Scandinavian Defense: Blackburne-Kloosterboer Gambit": {
@@ -774,6 +1206,158 @@
           "title": ""
         },
         "link": "https://lichess.org/XSha8NrY/black#4"
+      },
+      "Rqd8bxMm": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "Night-King96",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/Rqd8bxMm/black#4"
+      },
+      "pQRQ0mP7": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "yoseph2013",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/pQRQ0mP7/black#4"
+      },
+      "z6gyalYG": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "opperwezen",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/z6gyalYG/black#4"
+      },
+      "b16NIAUi": {
+        "date": "2020-08-22",
+        "opponent": {
+          "username": "opperwezen",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/b16NIAUi/black#4"
+      },
+      "uSyfH2mH": {
+        "date": "2020-08-22",
+        "opponent": {
+          "username": "opperwezen",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/uSyfH2mH/black#4"
+      },
+      "fexX89pm": {
+        "date": "2020-06-10",
+        "opponent": {
+          "username": "sp1cycaterpillar",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/fexX89pm/black#4"
+      },
+      "yjnulP6B": {
+        "date": "2020-04-17",
+        "opponent": {
+          "username": "Arystanner23",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/yjnulP6B/black#4"
+      },
+      "iBBBhFtR": {
+        "date": "2020-04-17",
+        "opponent": {
+          "username": "Ela-chess",
+          "title": ""
+        },
+        "link": "https://lichess.org/iBBBhFtR/black#4"
+      },
+      "m1nCojst": {
+        "date": "2020-04-14",
+        "opponent": {
+          "username": "Gokerkan",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/m1nCojst/black#4"
+      },
+      "QzxXPr5t": {
+        "date": "2020-02-22",
+        "opponent": {
+          "username": "Heisenberg01",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/QzxXPr5t/black#4"
+      },
+      "n9R4MzQm": {
+        "date": "2020-01-09",
+        "opponent": {
+          "username": "Algorithym123",
+          "title": ""
+        },
+        "link": "https://lichess.org/n9R4MzQm/black#4"
+      },
+      "34X28UNd": {
+        "date": "2019-10-16",
+        "opponent": {
+          "username": "Federicov93",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/34X28UNd/black#4"
+      },
+      "ZxSIlEDA": {
+        "date": "2019-10-16",
+        "opponent": {
+          "username": "Steven_Rojas",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/ZxSIlEDA/black#4"
+      },
+      "rpdaoPUG": {
+        "date": "2019-06-22",
+        "opponent": {
+          "username": "Federicov93",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/rpdaoPUG/black#4"
+      },
+      "2HuAL6nx": {
+        "date": "2019-06-22",
+        "opponent": {
+          "username": "DrVitman",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/2HuAL6nx/black#4"
+      },
+      "H3FdpHTG": {
+        "date": "2019-06-22",
+        "opponent": {
+          "username": "Rohit_Arjun",
+          "title": ""
+        },
+        "link": "https://lichess.org/H3FdpHTG/black#4"
+      },
+      "4TQwZyi3": {
+        "date": "2018-09-22",
+        "opponent": {
+          "username": "EricRosen",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/4TQwZyi3/black#4"
+      },
+      "GOf4HNWd": {
+        "date": "2018-09-22",
+        "opponent": {
+          "username": "ViejoTortuga",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/GOf4HNWd/black#4"
+      },
+      "Iw2RPxTz": {
+        "date": "2018-04-12",
+        "opponent": {
+          "username": "opperwezen",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/Iw2RPxTz/black#4"
       }
     },
     "Queen's Gambit Declined: Albin Countergambit": {},
@@ -786,10 +1370,35 @@
           "title": "CM"
         },
         "link": "https://lichess.org/yiNEwmxx/black#6"
+      },
+      "qkR2l0kj": {
+        "date": "2020-06-28",
+        "opponent": {
+          "username": "retired93",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/qkR2l0kj/black#6"
+      },
+      "x1ofRaha": {
+        "date": "2020-06-22",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/x1ofRaha/black#6"
       }
     },
     "Sicilian Defense: Wing Gambit": {},
-    "Englund Gambit Complex: Hartlaub-Charlick Gambit": {},
+    "Englund Gambit Complex: Hartlaub-Charlick Gambit": {
+      "m1eFvAMF": {
+        "date": "2019-05-27",
+        "opponent": {
+          "username": "EricRosen",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/m1eFvAMF/black#4"
+      }
+    },
     "Zukertort Opening: Ross Gambit": {
       "wMVYRJot": {
         "date": "2025-07-26",
@@ -1078,6 +1687,110 @@
           "title": ""
         },
         "link": "https://lichess.org/PK42Rf9K/black#2"
+      },
+      "HnWuCJOc": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "karinachess11",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/HnWuCJOc/black#2"
+      },
+      "A36qVMt1": {
+        "date": "2020-05-15",
+        "opponent": {
+          "username": "rasulovvugar",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/A36qVMt1/black#2"
+      },
+      "jS8WieKj": {
+        "date": "2020-04-16",
+        "opponent": {
+          "username": "Thetacticbot1234",
+          "title": ""
+        },
+        "link": "https://lichess.org/jS8WieKj/black#2"
+      },
+      "13Rmx4qm": {
+        "date": "2020-04-14",
+        "opponent": {
+          "username": "Gokerkan",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/13Rmx4qm/black#2"
+      },
+      "fHTT0grK": {
+        "date": "2020-04-14",
+        "opponent": {
+          "username": "Gokerkan",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/fHTT0grK/black#2"
+      },
+      "lMSTLDlR": {
+        "date": "2020-04-14",
+        "opponent": {
+          "username": "Gokerkan",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/lMSTLDlR/black#2"
+      },
+      "mdU4bL0l": {
+        "date": "2020-04-14",
+        "opponent": {
+          "username": "Gokerkan",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/mdU4bL0l/black#2"
+      },
+      "aMq13DBY": {
+        "date": "2020-04-14",
+        "opponent": {
+          "username": "Gokerkan",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/aMq13DBY/black#2"
+      },
+      "Jlrfqesj": {
+        "date": "2020-04-14",
+        "opponent": {
+          "username": "Gokerkan",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/Jlrfqesj/black#2"
+      },
+      "mjZ9v1Sx": {
+        "date": "2020-03-21",
+        "opponent": {
+          "username": "AstanehChess",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/mjZ9v1Sx/black#2"
+      },
+      "E81CceUC": {
+        "date": "2020-02-09",
+        "opponent": {
+          "username": "Vivek_verma",
+          "title": ""
+        },
+        "link": "https://lichess.org/E81CceUC/black#2"
+      },
+      "9EL72Dpu": {
+        "date": "2020-01-15",
+        "opponent": {
+          "username": "rasulovvugar",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/9EL72Dpu/black#2"
+      },
+      "5wGBSlbi": {
+        "date": "2019-09-07",
+        "opponent": {
+          "username": "goofypenguin",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/5wGBSlbi/black#2"
       }
     },
     "Englund Gambit Complex: Englund Gambit": {},
@@ -1090,6 +1803,38 @@
           "title": ""
         },
         "link": "https://lichess.org/jfKG4DoM/black#2"
+      },
+      "3te2OklT": {
+        "date": "2019-09-07",
+        "opponent": {
+          "username": "MatthewG-p4p",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/3te2OklT/black#2"
+      },
+      "Zck7d9gZ": {
+        "date": "2019-07-13",
+        "opponent": {
+          "username": "MatthewG-p4p",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/Zck7d9gZ/black#2"
+      },
+      "QpDhb4AO": {
+        "date": "2016-09-12",
+        "opponent": {
+          "username": "probeta",
+          "title": ""
+        },
+        "link": "https://lichess.org/QpDhb4AO/black#2"
+      },
+      "h0msGvXr": {
+        "date": "2016-09-01",
+        "opponent": {
+          "username": "Darkantaris",
+          "title": ""
+        },
+        "link": "https://lichess.org/h0msGvXr/black#2"
       }
     },
     "King's Pawn Game: Busch-Gass Gambit": {},
@@ -1155,6 +1900,78 @@
           "title": ""
         },
         "link": "https://lichess.org/TFbZzxL8/black#4"
+      },
+      "U07J2u9m": {
+        "date": "2020-09-05",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/U07J2u9m/black#4"
+      },
+      "qsdxEL9l": {
+        "date": "2020-08-22",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/qsdxEL9l/black#4"
+      },
+      "79HLMwjy": {
+        "date": "2020-08-22",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/79HLMwjy/black#4"
+      },
+      "LjdNgFXr": {
+        "date": "2020-08-18",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/LjdNgFXr/black#4"
+      },
+      "7Omk8y3B": {
+        "date": "2020-08-18",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/7Omk8y3B/black#4"
+      },
+      "bxgXwX6n": {
+        "date": "2020-08-18",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/bxgXwX6n/black#4"
+      },
+      "oyNVAkrP": {
+        "date": "2020-08-17",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/oyNVAkrP/black#4"
+      },
+      "kjrpOQHe": {
+        "date": "2020-08-17",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/kjrpOQHe/black#4"
+      },
+      "GqTEcdg4": {
+        "date": "2020-08-17",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/GqTEcdg4/black#4"
       }
     },
     "Scotch Game: Göring Gambit": {},
@@ -1368,6 +2185,78 @@
           "title": "GM"
         },
         "link": "https://lichess.org/1vtZsl2A#3"
+      },
+      "HyzHoGkt": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "temp006",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/HyzHoGkt#3"
+      },
+      "iarz6Ez0": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "Leon_Livaic",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/iarz6Ez0#3"
+      },
+      "u2cvIT5F": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "Averiil",
+          "title": ""
+        },
+        "link": "https://lichess.org/u2cvIT5F#3"
+      },
+      "3rEJQocn": {
+        "date": "2019-06-26",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/3rEJQocn#3"
+      },
+      "DoArDmwa": {
+        "date": "2019-06-26",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/DoArDmwa#3"
+      },
+      "xw0fAK77": {
+        "date": "2019-02-09",
+        "opponent": {
+          "username": "mutdpro",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/xw0fAK77#3"
+      },
+      "GnUilBpx": {
+        "date": "2018-09-22",
+        "opponent": {
+          "username": "potential2500",
+          "title": ""
+        },
+        "link": "https://lichess.org/GnUilBpx#3"
+      },
+      "Zls1lCxz": {
+        "date": "2018-09-07",
+        "opponent": {
+          "username": "LeonLivaic",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/Zls1lCxz#3"
+      },
+      "wiUvieDW": {
+        "date": "2018-07-28",
+        "opponent": {
+          "username": "Houseseamslogical",
+          "title": ""
+        },
+        "link": "https://lichess.org/wiUvieDW#3"
       }
     },
     "Grob Opening: Grob Gambit": {
@@ -1388,7 +2277,16 @@
         "link": "https://lichess.org/ku0VITVR#3"
       }
     },
-    "Queen's Gambit Accepted: Slav Gambit": {},
+    "Queen's Gambit Accepted: Slav Gambit": {
+      "w65q2HZv": {
+        "date": "2020-05-05",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/w65q2HZv#5"
+      }
+    },
     "French Defense: Advance Variation, Milner-Barry Gambit": {
       "0yz75PZa": {
         "date": "2025-01-18",
@@ -1575,6 +2473,46 @@
           "title": "GM"
         },
         "link": "https://lichess.org/ogVo63f7/black#6"
+      },
+      "z6gyalYG": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "opperwezen",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/z6gyalYG/black#6"
+      },
+      "b16NIAUi": {
+        "date": "2020-08-22",
+        "opponent": {
+          "username": "opperwezen",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/b16NIAUi/black#6"
+      },
+      "iBBBhFtR": {
+        "date": "2020-04-17",
+        "opponent": {
+          "username": "Ela-chess",
+          "title": ""
+        },
+        "link": "https://lichess.org/iBBBhFtR/black#6"
+      },
+      "QzxXPr5t": {
+        "date": "2020-02-22",
+        "opponent": {
+          "username": "Heisenberg01",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/QzxXPr5t/black#6"
+      },
+      "4TQwZyi3": {
+        "date": "2018-09-22",
+        "opponent": {
+          "username": "EricRosen",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/4TQwZyi3/black#6"
       }
     },
     "Indian Defense: Omega Gambit": {
@@ -1585,6 +2523,14 @@
           "title": "GM"
         },
         "link": "https://lichess.org/2yMI9WkH#3"
+      },
+      "b7iYpWZe": {
+        "date": "2020-07-27",
+        "opponent": {
+          "username": "muisback",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/b7iYpWZe#3"
       }
     },
     "Italian Game: Classical Variation, Greco Gambit, Traditional Line": {},
@@ -1608,6 +2554,14 @@
           "title": ""
         },
         "link": "https://lichess.org/N1DDxf1a#5"
+      },
+      "he3BVi3d": {
+        "date": "2018-09-11",
+        "opponent": {
+          "username": "SnowyHamster",
+          "title": ""
+        },
+        "link": "https://lichess.org/he3BVi3d#5"
       }
     },
     "Italian Game: Classical Variation, Albin Gambit": {},
@@ -1617,14 +2571,41 @@
     "Alekhine Defense: Scandinavian Variation, Geschev Gambit": {},
     "Scandinavian Defense: Boehnke Gambit": {},
     "Sicilian Defense: Marshall Gambit": {},
-    "French Defense: Wing Gambit": {},
+    "French Defense: Wing Gambit": {
+      "o4FpWEHh": {
+        "date": "2020-06-06",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/o4FpWEHh#7"
+      }
+    },
     "Blackmar-Diemer Gambit: Blackmar Gambit": {},
     "Semi-Slav Defense: Marshall Gambit": {},
-    "Caro-Kann Defense: Rasa-Studier Gambit": {},
+    "Caro-Kann Defense: Rasa-Studier Gambit": {
+      "LfO2Q09k": {
+        "date": "2020-11-04",
+        "opponent": {
+          "username": "Creep30",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/LfO2Q09k#7"
+      }
+    },
     "King's Gambit Accepted: Bishop's Gambit": {},
     "Italian Game: Deutz Gambit": {},
     "Bishop's Opening: Ponziani Gambit": {},
-    "Dutch Defense: Staunton Gambit": {},
+    "Dutch Defense: Staunton Gambit": {
+      "Xf168ugO": {
+        "date": "2017-08-07",
+        "opponent": {
+          "username": "WHLmS2",
+          "title": ""
+        },
+        "link": "https://lichess.org/Xf168ugO#3"
+      }
+    },
     "Englund Gambit Complex: Soller Gambit": {},
     "Bird Opening: Williams Gambit": {},
     "Italian Game: Rosentreter Gambit": {
@@ -1651,9 +2632,27 @@
     "Italian Game: Classical Variation, Greco Gambit": {},
     "Grob Opening: Grob Gambit, Fritz Gambit": {},
     "English Opening: Anglo-Scandinavian Defense, Schulz Gambit": {},
-    "Pirc Defense: Roscher Gambit": {},
+    "Pirc Defense: Roscher Gambit": {
+      "WP0caByr": {
+        "date": "2016-09-03",
+        "opponent": {
+          "username": "TargetGM",
+          "title": ""
+        },
+        "link": "https://lichess.org/WP0caByr#5"
+      }
+    },
     "French Defense: Perseus Gambit": {},
-    "Blackmar-Diemer Gambit: von Popiel Gambit": {},
+    "Blackmar-Diemer Gambit: von Popiel Gambit": {
+      "he3BVi3d": {
+        "date": "2018-09-11",
+        "opponent": {
+          "username": "SnowyHamster",
+          "title": ""
+        },
+        "link": "https://lichess.org/he3BVi3d#7"
+      }
+    },
     "Nimzowitsch Defense: Colorado Countergambit": {},
     "Nimzowitsch Defense: Kennedy Variation, de Smet Gambit": {},
     "Sicilian Defense: Portsmouth Gambit": {},
@@ -1768,6 +2767,14 @@
           "title": "IM"
         },
         "link": "https://lichess.org/ipsCdyVC#7"
+      },
+      "GNDD6w1U": {
+        "date": "2019-10-16",
+        "opponent": {
+          "username": "Zaven_ChessMood",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/GNDD6w1U#7"
       }
     },
     "Four Knights Game: Halloween Gambit": {},
@@ -1801,6 +2808,14 @@
           "title": ""
         },
         "link": "https://lichess.org/leq8K6NN#9"
+      },
+      "A6VKEZHA": {
+        "date": "2020-10-22",
+        "opponent": {
+          "username": "Feokl1995",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/A6VKEZHA#9"
       }
     },
     "Bishop's Opening: Urusov Gambit": {},
@@ -1815,6 +2830,22 @@
           "title": "GM"
         },
         "link": "https://lichess.org/BuVV23YE/black#12"
+      },
+      "K2erG327": {
+        "date": "2020-07-07",
+        "opponent": {
+          "username": "Hussarius64",
+          "title": ""
+        },
+        "link": "https://lichess.org/K2erG327/black#12"
+      },
+      "2hKNPuoT": {
+        "date": "2017-07-16",
+        "opponent": {
+          "username": "AstanehChess",
+          "title": "IM"
+        },
+        "link": "https://lichess.org/2hKNPuoT/black#12"
       }
     },
     "Center Game: Halasz-McDonnell Gambit": {},
@@ -1917,6 +2948,30 @@
           "title": ""
         },
         "link": "https://lichess.org/27DchYiA/black#2"
+      },
+      "RgNibHJL": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "Mitrabha",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/RgNibHJL/black#2"
+      },
+      "3FRmpWdq": {
+        "date": "2020-08-22",
+        "opponent": {
+          "username": "Fandorine96",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/3FRmpWdq/black#2"
+      },
+      "Bm8Ja6LH": {
+        "date": "2019-06-22",
+        "opponent": {
+          "username": "Peacefully",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/Bm8Ja6LH/black#2"
       }
     },
     "French Defense: Orthoschnapp Gambit": {},
@@ -1932,7 +2987,16 @@
       }
     },
     "Polish Opening: Birmingham Gambit": {},
-    "Latvian Gambit: Mason Countergambit": {},
+    "Latvian Gambit: Mason Countergambit": {
+      "rVtgoh1T": {
+        "date": "2020-04-08",
+        "opponent": {
+          "username": "DrNykterstein",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/rVtgoh1T#5"
+      }
+    },
     "Bishop's Opening: Calabrese Countergambit": {},
     "Philidor Defense: Bird Gambit": {
       "uuoxCtbY": {
@@ -1947,7 +3011,16 @@
     "Caro-Kann Defense: von Hennig Gambit": {},
     "King's Gambit Accepted: Rosentreter Gambit": {},
     "Englund Gambit Complex: Zilbermints Gambit": {},
-    "Zukertort Opening: Speelsmet Gambit": {},
+    "Zukertort Opening: Speelsmet Gambit": {
+      "9QRw6wIq": {
+        "date": "2016-12-20",
+        "opponent": {
+          "username": "Shannow",
+          "title": ""
+        },
+        "link": "https://lichess.org/9QRw6wIq#5"
+      }
+    },
     "Sicilian Defense: Wing Gambit Deferred": {},
     "Philidor Defense: Philidor Countergambit": {},
     "French Defense: Winawer Variation, Alekhine-Maróczy Gambit": {
@@ -2085,6 +3158,14 @@
           "title": "GM"
         },
         "link": "https://lichess.org/sm2Hkd64/black#4"
+      },
+      "I0j5FhMv": {
+        "date": "2020-04-14",
+        "opponent": {
+          "username": "nihalsarin2004",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/I0j5FhMv/black#4"
       }
     },
     "Caro-Kann Defense: Alien Gambit": {},
@@ -2545,6 +3626,14 @@
           "title": ""
         },
         "link": "https://lichess.org/xxX4gCE9/black#6"
+      },
+      "NuV9tRIu": {
+        "date": "2020-08-24",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/NuV9tRIu/black#6"
       }
     },
     "Alekhine Defense: Hunt Variation, Lasker Simul Gambit": {},
@@ -2559,7 +3648,16 @@
     "Sicilian Defense: Halasz Gambit": {},
     "Caro-Kann Defense: Hillbilly Attack, Schaeffer Gambit": {},
     "French Defense: Advance Variation, Nimzowitsch Gambit": {},
-    "Réti Opening: Reversed Blumenfeld Gambit": {},
+    "Réti Opening: Reversed Blumenfeld Gambit": {
+      "MsGbzOFc": {
+        "date": "2020-06-29",
+        "opponent": {
+          "username": "may6enexttime",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/MsGbzOFc#7"
+      }
+    },
     "King's Gambit Accepted: Polerio Gambit": {},
     "Ponziani Opening: Ponziani Countergambit": {},
     "French Defense: Carlson Gambit": {},
@@ -2587,7 +3685,24 @@
       }
     },
     "Queen's Gambit Declined: Chigorin Defense, Lazard Gambit": {},
-    "Queen's Gambit Declined: Chigorin Defense, Tartakower Gambit": {},
+    "Queen's Gambit Declined: Chigorin Defense, Tartakower Gambit": {
+      "LBVKrX43": {
+        "date": "2020-09-05",
+        "opponent": {
+          "username": "msb2",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/LBVKrX43/black#6"
+      },
+      "wEWX0J4q": {
+        "date": "2020-08-18",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/wEWX0J4q/black#6"
+      }
+    },
     "Alekhine Defense: O'Sullivan Gambit": {},
     "Vienna Game: Fyfe Gambit": {
       "ktdVwD5E": {
@@ -2597,6 +3712,14 @@
           "title": "GM"
         },
         "link": "https://lichess.org/ktdVwD5E#5"
+      },
+      "6gjldjmm": {
+        "date": "2018-08-23",
+        "opponent": {
+          "username": "penguingim1",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/6gjldjmm#5"
       }
     },
     "Dutch Defense: Krejcik Gambit": {},
@@ -2700,6 +3823,22 @@
           "title": "IM"
         },
         "link": "https://lichess.org/RSDUlPXD/black#8"
+      },
+      "7GXI8BJ0": {
+        "date": "2020-08-12",
+        "opponent": {
+          "username": "Corbblah",
+          "title": ""
+        },
+        "link": "https://lichess.org/7GXI8BJ0/black#8"
+      },
+      "XD4OY3R2": {
+        "date": "2020-06-10",
+        "opponent": {
+          "username": "sp1cycaterpillar",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/XD4OY3R2/black#8"
       }
     },
     "Philidor Defense: Albin-Blackburne Gambit": {},
@@ -2743,7 +3882,16 @@
     "Center Game: Lanc-Arnold Gambit, Schippler Gambit": {},
     "Caro-Kann Defense: Mieses Gambit": {},
     "Réti Opening: Advance Variation, Michel Gambit": {},
-    "Hungarian Opening: Van Kuijk Gambit": {},
+    "Hungarian Opening: Van Kuijk Gambit": {
+      "QL0H2b3W": {
+        "date": "2016-11-17",
+        "opponent": {
+          "username": "jimakos",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/QL0H2b3W/black#4"
+      }
+    },
     "Scandinavian Defense: Kádas Gambit": {},
     "Caro-Kann Defense: Toikkanen Gambit": {},
     "Philidor Defense: Lion Variation, Shirov Gambit": {
@@ -2770,6 +3918,14 @@
           "title": "GM"
         },
         "link": "https://lichess.org/tOawFCgL#9"
+      },
+      "I20pd9LG": {
+        "date": "2020-02-22",
+        "opponent": {
+          "username": "Weetik",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/I20pd9LG#9"
       }
     },
     "Bishop's Opening: Warsaw Gambit": {},
@@ -2808,6 +3964,14 @@
           "title": "GM"
         },
         "link": "https://lichess.org/P81DXcWF#9"
+      },
+      "dtH4uIDG": {
+        "date": "2018-10-26",
+        "opponent": {
+          "username": "Zhigalko_Sergei",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/dtH4uIDG#9"
       }
     },
     "Blackmar-Diemer Gambit: Lemberger Countergambit, Lange Gambit": {},
@@ -2841,7 +4005,16 @@
     "Ruy Lopez: Classical Variation, Cordel Gambit": {},
     "King's Gambit Accepted: Greco Gambit": {},
     "Grünfeld Defense: Zaitsev Gambit": {},
-    "Van Geet Opening: Hector Gambit": {},
+    "Van Geet Opening: Hector Gambit": {
+      "rFjaEawM": {
+        "date": "2020-05-15",
+        "opponent": {
+          "username": "ElCaballeroTico",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/rFjaEawM#5"
+      }
+    },
     "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Gufeld Gambit": {},
     "French Defense: Baeuerle Gambit": {},
     "Semi-Slav Defense: Gunderam Gambit": {},
@@ -2909,7 +4082,16 @@
     "King's Gambit Declined: Falkbeer Countergambit, Miles Gambit": {},
     "French Defense: Banzai-Leong Gambit": {},
     "Nimzo-Larsen Attack: Norfolk Gambit": {},
-    "Queen's Gambit Accepted: Gunsberg Defense, Prianishenmo Gambit": {},
+    "Queen's Gambit Accepted: Gunsberg Defense, Prianishenmo Gambit": {
+      "0AvpI0Zc": {
+        "date": "2018-12-15",
+        "opponent": {
+          "username": "sopueyz",
+          "title": ""
+        },
+        "link": "https://lichess.org/0AvpI0Zc#13"
+      }
+    },
     "Latvian Gambit: Corkscrew Gambit": {},
     "Trompowsky Attack: Raptor Variation, Hergert Gambit": {},
     "Bird Opening: Dutch Variation, Dudweiler Gambit": {},
