@@ -1,7 +1,7 @@
 {
-  "cache_updated_at": 1789926928874,
-  "games_analyzed": 10000,
-  "moves_analyzed": 10000,
+  "cache_updated_at": 1789939591545,
+  "games_analyzed": 11512,
+  "moves_analyzed": 11512,
   "trophies": {
     "Queen's Gambit": {
       "G2Z8gayr": {
@@ -1339,6 +1339,534 @@
           "title": ""
         },
         "link": "https://lichess.org/XPpJuj3l#3"
+      },
+      "l85JB20J": {
+        "date": "2015-11-06",
+        "opponent": {
+          "username": "Xeibi",
+          "title": ""
+        },
+        "link": "https://lichess.org/l85JB20J#3"
+      },
+      "E9PR8cmo": {
+        "date": "2015-11-03",
+        "opponent": {
+          "username": "carlsen89",
+          "title": ""
+        },
+        "link": "https://lichess.org/E9PR8cmo#3"
+      },
+      "npBUmZim": {
+        "date": "2015-11-03",
+        "opponent": {
+          "username": "Chess_legend_rus",
+          "title": ""
+        },
+        "link": "https://lichess.org/npBUmZim#3"
+      },
+      "A01URBPW": {
+        "date": "2015-10-28",
+        "opponent": {
+          "username": "Darkhorse32",
+          "title": ""
+        },
+        "link": "https://lichess.org/A01URBPW#3"
+      },
+      "764LvVwK": {
+        "date": "2015-10-25",
+        "opponent": {
+          "username": "aashetty",
+          "title": ""
+        },
+        "link": "https://lichess.org/764LvVwK#3"
+      },
+      "I3Bckvqv": {
+        "date": "2015-10-25",
+        "opponent": {
+          "username": "aashetty",
+          "title": ""
+        },
+        "link": "https://lichess.org/I3Bckvqv#3"
+      },
+      "kk8OAvXM": {
+        "date": "2015-10-19",
+        "opponent": {
+          "username": "bowlerivory",
+          "title": ""
+        },
+        "link": "https://lichess.org/kk8OAvXM#3"
+      },
+      "EKJTzSLV": {
+        "date": "2015-10-14",
+        "opponent": {
+          "username": "just2play",
+          "title": ""
+        },
+        "link": "https://lichess.org/EKJTzSLV#3"
+      },
+      "9fCMyU4r": {
+        "date": "2015-10-10",
+        "opponent": {
+          "username": "koualsky",
+          "title": ""
+        },
+        "link": "https://lichess.org/9fCMyU4r#3"
+      },
+      "GV06wNha": {
+        "date": "2015-10-10",
+        "opponent": {
+          "username": "rondep",
+          "title": ""
+        },
+        "link": "https://lichess.org/GV06wNha#3"
+      },
+      "PYsLak8C": {
+        "date": "2015-10-03",
+        "opponent": {
+          "username": "erindreki",
+          "title": ""
+        },
+        "link": "https://lichess.org/PYsLak8C#3"
+      },
+      "PlJO141S": {
+        "date": "2015-10-02",
+        "opponent": {
+          "username": "KingSlayerTB",
+          "title": ""
+        },
+        "link": "https://lichess.org/PlJO141S#3"
+      },
+      "x4LhHbUS": {
+        "date": "2015-10-02",
+        "opponent": {
+          "username": "JustKid",
+          "title": ""
+        },
+        "link": "https://lichess.org/x4LhHbUS#3"
+      },
+      "xgLXxnf5": {
+        "date": "2015-09-28",
+        "opponent": {
+          "username": "CuriousKnight",
+          "title": ""
+        },
+        "link": "https://lichess.org/xgLXxnf5#3"
+      },
+      "BVjJHilo": {
+        "date": "2015-09-25",
+        "opponent": {
+          "username": "StarofDavid",
+          "title": ""
+        },
+        "link": "https://lichess.org/BVjJHilo#3"
+      },
+      "X5XgGRTc": {
+        "date": "2015-09-12",
+        "opponent": {
+          "username": "hiimgosu",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/X5XgGRTc#3"
+      },
+      "rufsR8xb": {
+        "date": "2015-09-06",
+        "opponent": {
+          "username": "bluesquid",
+          "title": ""
+        },
+        "link": "https://lichess.org/rufsR8xb#3"
+      },
+      "Lqh7EX6x": {
+        "date": "2015-09-06",
+        "opponent": {
+          "username": "Invoker95",
+          "title": ""
+        },
+        "link": "https://lichess.org/Lqh7EX6x#3"
+      },
+      "0N4LyR8s": {
+        "date": "2015-09-06",
+        "opponent": {
+          "username": "dorp",
+          "title": ""
+        },
+        "link": "https://lichess.org/0N4LyR8s#3"
+      },
+      "gKz1hpeX": {
+        "date": "2015-08-30",
+        "opponent": {
+          "username": "the-boss-returns",
+          "title": ""
+        },
+        "link": "https://lichess.org/gKz1hpeX#3"
+      },
+      "DqzXv92F": {
+        "date": "2015-08-30",
+        "opponent": {
+          "username": "CtrlAltDelicious",
+          "title": ""
+        },
+        "link": "https://lichess.org/DqzXv92F#3"
+      },
+      "NfpYoKjK": {
+        "date": "2015-08-24",
+        "opponent": {
+          "username": "draculahelsing",
+          "title": ""
+        },
+        "link": "https://lichess.org/NfpYoKjK#3"
+      },
+      "PTwHImGQ": {
+        "date": "2015-08-23",
+        "opponent": {
+          "username": "Singularitus",
+          "title": ""
+        },
+        "link": "https://lichess.org/PTwHImGQ#3"
+      },
+      "ucg91nnz": {
+        "date": "2015-08-23",
+        "opponent": {
+          "username": "fluffykat",
+          "title": ""
+        },
+        "link": "https://lichess.org/ucg91nnz#3"
+      },
+      "3jm2zrif": {
+        "date": "2015-08-14",
+        "opponent": {
+          "username": "knightfactor",
+          "title": ""
+        },
+        "link": "https://lichess.org/3jm2zrif#3"
+      },
+      "tTSgbXtk": {
+        "date": "2015-08-12",
+        "opponent": {
+          "username": "dwmvicoli",
+          "title": ""
+        },
+        "link": "https://lichess.org/tTSgbXtk#3"
+      },
+      "LBIO2qwZ": {
+        "date": "2015-07-26",
+        "opponent": {
+          "username": "jeff081692",
+          "title": ""
+        },
+        "link": "https://lichess.org/LBIO2qwZ#3"
+      },
+      "Jo2BUjuB": {
+        "date": "2015-07-26",
+        "opponent": {
+          "username": "jeff081692",
+          "title": ""
+        },
+        "link": "https://lichess.org/Jo2BUjuB#3"
+      },
+      "55s2XQUs": {
+        "date": "2015-07-26",
+        "opponent": {
+          "username": "jeff081692",
+          "title": ""
+        },
+        "link": "https://lichess.org/55s2XQUs#3"
+      },
+      "EVnwuLnA": {
+        "date": "2015-07-09",
+        "opponent": {
+          "username": "hiimgosu",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/EVnwuLnA#3"
+      },
+      "dUoLehGV": {
+        "date": "2015-07-09",
+        "opponent": {
+          "username": "Sunmachine",
+          "title": ""
+        },
+        "link": "https://lichess.org/dUoLehGV#3"
+      },
+      "zwCBuMlB": {
+        "date": "2015-07-06",
+        "opponent": {
+          "username": "Blitzstream-twitch",
+          "title": "LM"
+        },
+        "link": "https://lichess.org/zwCBuMlB#3"
+      },
+      "DQ6CfSkU": {
+        "date": "2015-07-04",
+        "opponent": {
+          "username": "johny_",
+          "title": ""
+        },
+        "link": "https://lichess.org/DQ6CfSkU#3"
+      },
+      "XP5KhSdY": {
+        "date": "2015-07-01",
+        "opponent": {
+          "username": "jeff081692",
+          "title": ""
+        },
+        "link": "https://lichess.org/XP5KhSdY#3"
+      },
+      "XXFdF2q0": {
+        "date": "2015-07-01",
+        "opponent": {
+          "username": "GorTM",
+          "title": ""
+        },
+        "link": "https://lichess.org/XXFdF2q0#3"
+      },
+      "5ygJ3wEq": {
+        "date": "2015-06-16",
+        "opponent": {
+          "username": "schopengarden",
+          "title": ""
+        },
+        "link": "https://lichess.org/5ygJ3wEq#3"
+      },
+      "526VszJe": {
+        "date": "2015-06-14",
+        "opponent": {
+          "username": "nxrc",
+          "title": ""
+        },
+        "link": "https://lichess.org/526VszJe#3"
+      },
+      "pntXq0pN": {
+        "date": "2015-06-08",
+        "opponent": {
+          "username": "dorp",
+          "title": ""
+        },
+        "link": "https://lichess.org/pntXq0pN#3"
+      },
+      "kRK6Etss": {
+        "date": "2015-06-06",
+        "opponent": {
+          "username": "AMADAN",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/kRK6Etss#3"
+      },
+      "RQM3QYU1": {
+        "date": "2015-06-05",
+        "opponent": {
+          "username": "random1004",
+          "title": "NM"
+        },
+        "link": "https://lichess.org/RQM3QYU1#3"
+      },
+      "aRjMEkD9": {
+        "date": "2015-06-05",
+        "opponent": {
+          "username": "zerdax",
+          "title": ""
+        },
+        "link": "https://lichess.org/aRjMEkD9#3"
+      },
+      "QFdwqdHc": {
+        "date": "2015-06-02",
+        "opponent": {
+          "username": "PRAteekWAdhWA",
+          "title": ""
+        },
+        "link": "https://lichess.org/QFdwqdHc#3"
+      },
+      "We5bIP2T": {
+        "date": "2015-06-02",
+        "opponent": {
+          "username": "Mhbongo",
+          "title": ""
+        },
+        "link": "https://lichess.org/We5bIP2T#3"
+      },
+      "iuzjWU28": {
+        "date": "2015-06-02",
+        "opponent": {
+          "username": "Kingscrusher-YouTube",
+          "title": "CM"
+        },
+        "link": "https://lichess.org/iuzjWU28#3"
+      },
+      "4pHJzRJZ": {
+        "date": "2015-06-02",
+        "opponent": {
+          "username": "PRAteekWAdhWA",
+          "title": ""
+        },
+        "link": "https://lichess.org/4pHJzRJZ#3"
+      },
+      "MoWDbjDf": {
+        "date": "2015-06-01",
+        "opponent": {
+          "username": "dorzh",
+          "title": ""
+        },
+        "link": "https://lichess.org/MoWDbjDf#3"
+      },
+      "lEjNJvyR": {
+        "date": "2015-06-01",
+        "opponent": {
+          "username": "jupeq",
+          "title": ""
+        },
+        "link": "https://lichess.org/lEjNJvyR#3"
+      },
+      "iFdRuW3Y": {
+        "date": "2015-05-29",
+        "opponent": {
+          "username": "RoLeXX159",
+          "title": ""
+        },
+        "link": "https://lichess.org/iFdRuW3Y#3"
+      },
+      "DP8Rj0i3": {
+        "date": "2015-05-27",
+        "opponent": {
+          "username": "rinoxhsw",
+          "title": ""
+        },
+        "link": "https://lichess.org/DP8Rj0i3#3"
+      },
+      "Z3aqEmCy": {
+        "date": "2015-05-25",
+        "opponent": {
+          "username": "gjigjishabani",
+          "title": ""
+        },
+        "link": "https://lichess.org/Z3aqEmCy#3"
+      },
+      "769puQPR": {
+        "date": "2015-05-22",
+        "opponent": {
+          "username": "satoshi",
+          "title": ""
+        },
+        "link": "https://lichess.org/769puQPR#3"
+      },
+      "Kj84QX8Q": {
+        "date": "2015-05-13",
+        "opponent": {
+          "username": "alicestaley2",
+          "title": ""
+        },
+        "link": "https://lichess.org/Kj84QX8Q#3"
+      },
+      "SgYZGBQY": {
+        "date": "2015-05-13",
+        "opponent": {
+          "username": "pedram8968",
+          "title": ""
+        },
+        "link": "https://lichess.org/SgYZGBQY#3"
+      },
+      "MEe38IUz": {
+        "date": "2015-05-13",
+        "opponent": {
+          "username": "tomsawyer2112",
+          "title": ""
+        },
+        "link": "https://lichess.org/MEe38IUz#3"
+      },
+      "xEHfOuM5": {
+        "date": "2015-05-13",
+        "opponent": {
+          "username": "HeyQuaid",
+          "title": ""
+        },
+        "link": "https://lichess.org/xEHfOuM5#3"
+      },
+      "uqYZXObE": {
+        "date": "2015-05-11",
+        "opponent": {
+          "username": "SheepNL",
+          "title": ""
+        },
+        "link": "https://lichess.org/uqYZXObE#3"
+      },
+      "5uyQr0sT": {
+        "date": "2015-05-11",
+        "opponent": {
+          "username": "heiser",
+          "title": ""
+        },
+        "link": "https://lichess.org/5uyQr0sT#3"
+      },
+      "7QyChTsO": {
+        "date": "2015-05-11",
+        "opponent": {
+          "username": "jccman",
+          "title": ""
+        },
+        "link": "https://lichess.org/7QyChTsO#3"
+      },
+      "EUryL2Pb": {
+        "date": "2015-05-08",
+        "opponent": {
+          "username": "jeff081692",
+          "title": ""
+        },
+        "link": "https://lichess.org/EUryL2Pb#3"
+      },
+      "wHqnteSH": {
+        "date": "2015-05-05",
+        "opponent": {
+          "username": "Kingscrusher-YouTube",
+          "title": "CM"
+        },
+        "link": "https://lichess.org/wHqnteSH#3"
+      },
+      "Q63pY3Po": {
+        "date": "2015-05-04",
+        "opponent": {
+          "username": "Aziko777",
+          "title": ""
+        },
+        "link": "https://lichess.org/Q63pY3Po#3"
+      },
+      "VKQm5rih": {
+        "date": "2015-05-04",
+        "opponent": {
+          "username": "dorp",
+          "title": ""
+        },
+        "link": "https://lichess.org/VKQm5rih#3"
+      },
+      "TrSMzsNB": {
+        "date": "2015-05-04",
+        "opponent": {
+          "username": "ban-ban",
+          "title": ""
+        },
+        "link": "https://lichess.org/TrSMzsNB#3"
+      },
+      "N7Tvl89R": {
+        "date": "2015-05-02",
+        "opponent": {
+          "username": "dorp",
+          "title": ""
+        },
+        "link": "https://lichess.org/N7Tvl89R#3"
+      },
+      "P1iSehYb": {
+        "date": "2015-05-02",
+        "opponent": {
+          "username": "BobFagetFullHouse",
+          "title": ""
+        },
+        "link": "https://lichess.org/P1iSehYb#3"
+      },
+      "E8nqBr8n": {
+        "date": "2015-04-26",
+        "opponent": {
+          "username": "rusom",
+          "title": ""
+        },
+        "link": "https://lichess.org/E8nqBr8n#3"
       }
     },
     "Englund Gambit": {
@@ -2450,6 +2978,102 @@
           "title": ""
         },
         "link": "https://lichess.org/rQEixth0/black#6"
+      },
+      "CsLCA1KT": {
+        "date": "2015-07-24",
+        "opponent": {
+          "username": "dorp",
+          "title": ""
+        },
+        "link": "https://lichess.org/CsLCA1KT/black#6"
+      },
+      "OQcQRS5l": {
+        "date": "2015-07-09",
+        "opponent": {
+          "username": "hiimgosu",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/OQcQRS5l/black#6"
+      },
+      "Xx9TV2qx": {
+        "date": "2015-07-09",
+        "opponent": {
+          "username": "jeff081692",
+          "title": ""
+        },
+        "link": "https://lichess.org/Xx9TV2qx/black#6"
+      },
+      "FHVVBrz1": {
+        "date": "2015-06-14",
+        "opponent": {
+          "username": "kochemer",
+          "title": ""
+        },
+        "link": "https://lichess.org/FHVVBrz1/black#6"
+      },
+      "Al4Rh7IH": {
+        "date": "2015-06-05",
+        "opponent": {
+          "username": "hiimgosu",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/Al4Rh7IH/black#6"
+      },
+      "bvuxR22v": {
+        "date": "2015-05-25",
+        "opponent": {
+          "username": "Lemuel_Gulliver",
+          "title": ""
+        },
+        "link": "https://lichess.org/bvuxR22v/black#6"
+      },
+      "uOZoXJis": {
+        "date": "2015-05-25",
+        "opponent": {
+          "username": "Fins1",
+          "title": ""
+        },
+        "link": "https://lichess.org/uOZoXJis/black#6"
+      },
+      "wuVJKk8L": {
+        "date": "2015-05-14",
+        "opponent": {
+          "username": "antawn",
+          "title": ""
+        },
+        "link": "https://lichess.org/wuVJKk8L/black#6"
+      },
+      "pfnE6bBc": {
+        "date": "2015-05-12",
+        "opponent": {
+          "username": "ditzoo",
+          "title": ""
+        },
+        "link": "https://lichess.org/pfnE6bBc/black#6"
+      },
+      "zdpsSLhZ": {
+        "date": "2015-05-11",
+        "opponent": {
+          "username": "carlymayne",
+          "title": ""
+        },
+        "link": "https://lichess.org/zdpsSLhZ/black#6"
+      },
+      "dSTtgxdW": {
+        "date": "2015-05-10",
+        "opponent": {
+          "username": "Hyzer",
+          "title": ""
+        },
+        "link": "https://lichess.org/dSTtgxdW/black#6"
+      },
+      "JmYaTqHx": {
+        "date": "2015-05-08",
+        "opponent": {
+          "username": "Hyzer",
+          "title": ""
+        },
+        "link": "https://lichess.org/JmYaTqHx/black#6"
       }
     },
     "Sicilian Defense: Wing Gambit": {},
@@ -2901,6 +3525,14 @@
           "title": ""
         },
         "link": "https://lichess.org/SXum7FaV/black#4"
+      },
+      "GPwenjTs": {
+        "date": "2015-05-08",
+        "opponent": {
+          "username": "Hyzer",
+          "title": ""
+        },
+        "link": "https://lichess.org/GPwenjTs/black#4"
       }
     },
     "Scotch Game: Göring Gambit": {
@@ -2938,7 +3570,16 @@
       }
     },
     "Elephant Gambit: Paulsen Countergambit": {},
-    "Zukertort Opening: Lemberger Gambit": {},
+    "Zukertort Opening: Lemberger Gambit": {
+      "eGlEAsc2": {
+        "date": "2015-08-06",
+        "opponent": {
+          "username": "extasy",
+          "title": ""
+        },
+        "link": "https://lichess.org/eGlEAsc2#3"
+      }
+    },
     "Grob Opening: Grob Gambit": {
       "IhX1OUCC": {
         "date": "2016-03-19",
@@ -2997,6 +3638,22 @@
           "title": ""
         },
         "link": "https://lichess.org/tEqW8fkT#5"
+      },
+      "X5XgGRTc": {
+        "date": "2015-09-12",
+        "opponent": {
+          "username": "hiimgosu",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/X5XgGRTc#5"
+      },
+      "E8nqBr8n": {
+        "date": "2015-04-26",
+        "opponent": {
+          "username": "rusom",
+          "title": ""
+        },
+        "link": "https://lichess.org/E8nqBr8n#5"
       }
     },
     "French Defense: Advance Variation, Milner-Barry Gambit": {},
@@ -3122,6 +3779,14 @@
           "title": "NM"
         },
         "link": "https://lichess.org/07occrmP#11"
+      },
+      "SHbUapzz": {
+        "date": "2015-05-23",
+        "opponent": {
+          "username": "ebogursky",
+          "title": ""
+        },
+        "link": "https://lichess.org/SHbUapzz#11"
       }
     },
     "Italian Game: Scotch Gambit": {
@@ -3280,6 +3945,14 @@
           "title": ""
         },
         "link": "https://lichess.org/jrpT8YDC#7"
+      },
+      "F7PB0qGz": {
+        "date": "2015-10-14",
+        "opponent": {
+          "username": "TryfonsChickenKebab",
+          "title": ""
+        },
+        "link": "https://lichess.org/F7PB0qGz#7"
       }
     },
     "Caro-Kann Defense: Rasa-Studier Gambit": {},
@@ -4012,6 +4685,22 @@
           "title": ""
         },
         "link": "https://lichess.org/G8IIV4Ce#13"
+      },
+      "QTcb3wLY": {
+        "date": "2015-05-11",
+        "opponent": {
+          "username": "Lemuel_Gulliver",
+          "title": ""
+        },
+        "link": "https://lichess.org/QTcb3wLY#13"
+      },
+      "LTone5q6": {
+        "date": "2015-05-09",
+        "opponent": {
+          "username": "gpv",
+          "title": ""
+        },
+        "link": "https://lichess.org/LTone5q6#13"
       }
     },
     "Latvian Gambit: Corkscrew Gambit": {},
