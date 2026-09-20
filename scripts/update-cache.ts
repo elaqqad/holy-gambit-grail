@@ -184,7 +184,7 @@ async function updateCache(
     }
 
     if (target.site === 'lichess' && since === 0) {
-        await fetchAllLichessGames(url, profile.counts?.all ?? 0, counts, onGame)
+        await fetchAllLichessGames(url, onGame)
     } else {
         await games(url, onGame, { since, pgnInJson: true, rated: true })
     }
@@ -202,11 +202,16 @@ async function updateCache(
 }
 
 // Lichess caps unauthenticated game-export streams at ~10,000 games per request
-// (see js/App.vue's fetchAllLichessGames, which has the same fix for the live app).
-// This pages through older batches via the `until` timestamp parameter until all
-// rated games have been fetched. Only used for a from-scratch (since === 0) Lichess
-// fetch -- an incremental sync's window is always small enough for a single request.
-async function fetchAllLichessGames(url: string, totalGames: number, counts: Counts, onGame: (game: Game) => void): Promise<void> {
+// (see js/App.vue's fetchAllLichessGames, which has the same fix for the live app --
+// though that version also stops early once downloaded reaches ~90% of the profile's
+// reported game count, a fine progress-bar heuristic for a live UI a person is
+// watching. A cache-building script has no one waiting on it and needs the actual
+// complete history, not an approximation, so this version has no early exit: it
+// pages through older batches via the `until` timestamp parameter until a batch
+// comes back empty, which is the only reliable "there's truly nothing older" signal.
+// Only used for a from-scratch (since === 0) Lichess fetch -- an incremental sync's
+// window is always small enough for a single request.
+async function fetchAllLichessGames(url: string, onGame: (game: Game) => void): Promise<void> {
     let until: number | undefined
 
     while (true) {
@@ -228,8 +233,6 @@ async function fetchAllLichessGames(url: string, totalGames: number, counts: Cou
         )
 
         if (batchCount === 0 || oldestTimestamp === Infinity) break
-        // Rated games are a subset of all games, so 100% is unreachable with rated: true.
-        if (totalGames > 0 && counts.downloaded >= totalGames * 0.9) break
 
         until = oldestTimestamp - 1
     }
