@@ -614,11 +614,11 @@
     {
         "eco": "D07",
         "name": "Queen's Gambit Declined: Chigorin Defense, Modern Gambit",
-        "pgn": "1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3 Nf6",
+        "pgn": "1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3",
         "transpositions": [
-            "1. d4 d5 2. c4 Nf6 3. Nc3 Nc6 4. Nf3 dxc4",
-            "1. d4 d5 2. c4 Nf6 3. Nc3 dxc4 4. Nf3 Nc6",
-            "1. d4 d5 2. c4 dxc4 3. Nc3 Nc6 4. Nf3 Nf6"
+            "1. d4 d5 2. c4 Nf6 3. Nc3 Nc6 4. Nf3",
+            "1. d4 d5 2. c4 Nf6 3. Nc3 dxc4 4. Nf3",
+            "1. d4 d5 2. c4 dxc4 3. Nc3 Nc6 4. Nf3"
         ]
     },
     {
@@ -1031,14 +1031,6 @@
         ]
     },
     {
-        "eco": "A19",
-        "name": "English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit",
-        "pgn": "1. c4 Nf6 2. Nc3 e6 3. e4 c5 4. e5 Ng8",
-        "transpositions": [
-            "1. e4 c5 2. c4 e6 3. Nc3 Nf6 4. e5 Ng8"
-        ]
-    },
-    {
         "eco": "C25",
         "name": "Vienna Gambit, with Max Lange Defense: Steinitz Gambit",
         "pgn": "1. e4 e5 2. Nc3 Nc6 3. f4 exf4 4. d4",
@@ -1218,14 +1210,6 @@
         "transpositions": [
             "1. e4 e5 2. Bc4 Bc5 3. d4 exd4 4. c3 dxc3 5. Nf3",
             "1. e4 e5 2. Nf3 Bc5 3. d4 exd4 4. c3 dxc3 5. Bc4"
-        ]
-    },
-    {
-        "eco": "C44",
-        "name": "Latvian Gambit: Clam Gambit",
-        "pgn": "1. e4 e5 2. Nf3 Nc6 3. d3 f5 4. exf5",
-        "transpositions": [
-            "1. e4 e5 2. Nf3 f5 3. exf5 Nc6 4. d3"
         ]
     },
     {
@@ -1529,7 +1513,6 @@
         "name": "Latvian Gambit: Corkscrew Countergambit",
         "pgn": "1. e4 e5 2. Nf3 f5 3. Bc4 fxe4 4. Nxe5 Nf6",
         "transpositions": [
-            "1. e4 e5 2. Nf3 f5 3. Nxe5 Nf6 4. Bc4 fxe4",
             "1. e4 e5 2. Nf3 f5 3. Nxe5 fxe4 4. Bc4 Nf6"
         ]
     },
@@ -2041,6 +2024,14 @@
         "pgn": "1. Nc3 e5 2. f4 exf4 3. e4",
         "transpositions": [
             "1. f4 e5 2. Nc3 exf4 3. e4"
+        ]
+    },
+    {
+        "eco": "B01",
+        "name": "Scandinavian Defense: Boehnke Gambit",
+        "pgn": "1. e4 d5 2. exd5 e5 3. dxe6 Bxe6",
+        "transpositions": [
+            "1. e4 d5 2. exd5 e6 3. dxe6"
         ]
     }
 ]

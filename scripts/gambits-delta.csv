@@ -1,10 +1,9 @@
 action,eco,name,pgn,new_pgn,comment,master,lichess,white,draws,black
 remove,A00,"Amar Opening: Paris Gambit, Gent Gambit",1. Nh3 d5 2. g3 e5 3. f4 Bxh3 4. Bxh3 exf4 5. O-O fxg3 6. hxg3,,,,,,,
 remove,A00,"Polish Opening: Outflank Variation, Schuehler Gambit",1. b4 c6 2. Bb2 a5 3. b5,,,,,,,
-remove,A00,Ware Opening: Cologne Gambit,1. a4 b6 2. d4 d5 3. Nc3 Nd7,,,,,,,
 remove,A09,"Réti Opening: Advance Variation, Navara Gambit",1. Nf3 d5 2. c4 d4 3. b4 g5,,,,,,,
 remove,A13,English Opening: Romanishin Gambit,1. c4 Nf6 2. Nf3 e6 3. g3 a6 4. Bg2 b5,,,,,,,
-remove,A19,"English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit",1. c4 e6 2. Nc3 Nf6 3. e4 c5 4. e5 Ng8,,,,,,,
+remove,A19,"English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit",1. c4 e6 2. Nc3 Nf6 3. e4 c5 4. e5 Ng8,,Not a real gambit -- no material ever changes hands. Black is simply forced to retreat a knight (4...Ng8) after White's space-gaining 4.e5.,,,,,
 remove,A22,"English Opening: King's English Variation, Adhiban Gambit",1. c4 e5 2. Nc3 Nf6 3. Nf3 e4 4. Ng5 c6,,,,,,,
 remove,A40,Englund Gambit: Felbecker Gambit,1. d4 e5 2. dxe5 Nc6 3. Nf3 Bc5,,,,,,,
 remove,A40,Englund Gambit: Hartlaub-Charlick Gambit,1. d4 e5 2. dxe5 d6,,,,,,,
@@ -18,7 +17,6 @@ remove,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, H
 remove,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Nimzowitsch Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5 Ne5,,,,,,,
 remove,B00,"Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation, Richter Gambit",1. e4 Nc6 2. d4 d5 3. Nc3 dxe4 4. d5 Nb8 5. f3,,,,,,,
 remove,B10,Caro-Kann Defense: Dinic Gambit,1. e4 c6 2. Nf3 d5 3. d3 dxe4 4. Ng5,,,,,,,
-remove,B15,Caro-Kann Defense: Alien Gambit,1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Ng5 h6 6. Nxf7,,,,,,,
 remove,B18,Caro-Kann Defense: Martian Gambit,1. e4 c6 2. d4 d5 3. Nd2 dxe4 4. Nxe4 Bf5 5. Ng5 Bg6 6. N1f3 h6 7. Ne6,,,,,,,
 remove,B21,Sicilian Defense: Smith-Morra Gambit,1. e4 c5 2. d4,,,,,,,
 remove,B22,"Sicilian Defense: Alapin Variation, Anti-Alapin Gambit",1. e4 c5 2. c3 d5 3. exd5 Nf6,,,,,,,
@@ -65,7 +63,6 @@ modify,C84,"Ruy Lopez: Closed, Center Attack, Basque Gambit",1. e4 e5 2. Nf3 Nc6
 add,A00,Amar Gambit,1. Nh3 d5 2. g3 e5 3. f4 Bxh3 4. Bxh3,,"Lichess attributes this gambit to the position after 4...exf4 (Black's acceptance). On this site we stop at 4. Bxh3, White's last gambit move, so the trophy goes to White who played the creative opening.",,ZFrtgyy1,1247,97,977
 add,A00,Amar Opening: Gent Gambit,1. Nh3 d5 2. g3 e5 3. f4 Bxh3 4. Bxh3 exf4 5. O-O fxg3 6. hxg3,,,,ESWF1135,96,19,102
 add,A13,English Opening: Romanishin Gambit,1. Nf3 Nf6 2. c4 e6 3. g3 a6 4. Bg2 b5,,,4O4x4ss6,t5NufA4O,3879,809,4388
-add,A19,"English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit",1. c4 Nf6 2. Nc3 e6 3. e4 c5 4. e5 Ng8,,,F3ecGkHo,Q3PZxcwD,64380,5942,54788
 add,A40,Englund Gambit Complex: Englund Gambit,1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7,,,to1QN7uI,,2164677,181219,1921389
 add,A40,Englund Gambit Complex: Felbecker Gambit,1. d4 e5 2. dxe5 Nc6 3. Nf3 Bc5,,,,rMPgxwIr,327323,24280,276819
 add,A40,Englund Gambit Complex: Hartlaub-Charlick Gambit,1. d4 e5 2. dxe5 d6,,,yObdAzyr,OpJD7qNF,2160429,180279,2091747
@@ -103,3 +100,14 @@ add,C53,"Italian Game: Classical Variation, Greco Gambit",1. e4 e5 2. Nf3 Nc6 3.
 add,C53,"Italian Game: Scotch Gambit, Walbrodt-Baird Gambit",1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. O-O,,,Z3QydvZL,s4OTPjs1,143986,11396,111187
 add,C55,Italian Game: Scotch Gambit,1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d4 exd4 5. O-O,,,y8waWkpE,XN1OgUcE,991337,107011,859509
 add,D00,Blackmar-Diemer Gambit,1. d4 d5 2. e4 dxe4 3. Nc3,,,TGEbeK5Q,,2462340,185586,2097731
+add,B40,Sicilian Defense: Wing Gambit Deferred,1. e4 c5 2. Nf3 e6 3. b4,,,3A5dZVIU,,194487,14799,172925
+add,C54,"Italian Game: Classical Variation, Greco Gambit, Traditional Line",1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4,,"This is the older, more direct continuation (6. cxd4) than the sharper 6. e5 line also on this site.",adG97bP7,,992481,103212,884170
+add,A03,Prokofiev Gambit,1. f4 d5 2. e4 dxe4 3. d3,,,,,124075,9971,126171
+add,B00,Langhorst Gambit,1. e4 g5 2. d4 e6 3. c3 c5 4. dxc5 b6,,,,,0,0,0
+add,A40,Blumenfeld-Hiva Gambit,1. d4 b6 2. c4 c5 3. d5 e6 4. e4 b5 5. cxb5 f5,,Not to be confused with the unrelated Blumenfeld Countergambit (E10) already on this site.,,,2,0,1
+modify,D07,"Queen's Gambit Declined: Chigorin Defense, Modern Gambit",1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3 Nf6,1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3,"Lichess includes Black's 4...Nf6 in the PGN. White's 2.c4 is the actual gambit pawn -- it sits unaccepted for two more moves before Black finally takes it (3...dxc4). On this site we stop at 4. Nf3, White's last move.",pcuhaP9x,CIK66vEw,367970,26702,259282
+modify,C44,Latvian Gambit: Clam Gambit,1. e4 e5 2. Nf3 Nc6 3. d3 f5 4. exf5,1. e4 e5 2. Nf3 Nc6 3. d3 f5,"Lichess includes White's 4.exf5 (accepting) in the PGN. Black's 3...f5 is the actual offer, matching every other entry in the Latvian Gambit family. On this site we stop at 3...f5, Black's last move.",SSbkatIO,SQKzRYJV,114692,10934,143300
+modify,D21,Queen's Gambit Accepted: Slav Gambit,1. d4 d5 2. c4 dxc4 3. Nf3 b5,1. d4 d5 2. c4 dxc4 3. Nf3,"Lichess includes Black's 3...b5 (defending the extra pawn) in the PGN. On this site we stop at 3. Nf3, White's last move -- White's 2.c4 is the actual offer. This is only really a further gambit if Black plays the uncommon 3...b5 to hold onto the pawn; most Queen's Gambit Accepted lines are simply better for White either way.",Ewk9ssJ6,e2jUkyAB,1204327,119427,892853
+modify,C40,Latvian Gambit: Corkscrew Gambit,1. e4 e5 2. Nf3 f5 3. Nxe5 Nf6 4. Bc4 fxe4 5. Nf7 Qe7 6. Nxh8 d5,,"Black's real risk is 4...fxe4 (grabbing the pawn back into a wide-open, unclear position instead of playing it safe); White's 5.Nf7!? is White choosing to enter the complications Black offered rather than decline them. The recorded final move (6...d5) is a quiet follow-up, kept as the trophy move by convention (the position ends on Black's move).",,,,,
+modify,C40,Latvian Gambit: Corkscrew Countergambit,1. e4 e5 2. Nf3 f5 3. Bc4 fxe4 4. Nxe5 Nf6,,Shares its critical moment with the Corkscrew Gambit above: Black's 3...fxe4 is the real offer.,,,,,
+modify,A00,"Grob Opening: Grob Gambit, Fritz Gambit, Romford Countergambit",1. g4 d5 2. Bg2 Bxg4 3. c4 d4 4. Bxb7 Nd7 5. Bxa8 Qxa8,,"Black's real risk starts several moves before the recorded final move: 2...Bxg4 and 3...d4 keep grabbing material instead of returning it or defending b7/a8, leading forcibly to White netting a rook for a bishop by 5.Bxa8. The PGN stops at 5...Qxa8, Black's forced recapture.",,,,,
