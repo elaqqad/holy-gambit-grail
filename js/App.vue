@@ -721,6 +721,17 @@ export default {
             // only standard chess starting position games
             // only games won by the current user
             // ignore games against stockfish, anonymous users, and bots
+            //
+            // Known gap: a Lichess "From Position" game (e.g. an opening-themed arena
+            // that starts every game from a preset position instead of the normal
+            // board) has isStandard: false, and chess-fetcher doesn't even parse its
+            // moves (returns [] regardless of this check) -- it only parses moves for
+            // variant === 'standard'. A real gambit played in one of these is invisible
+            // to us. Fixing it would mean fetching and parsing the raw PGN ourselves,
+            // honoring the game's actual starting FEN instead of assuming the normal
+            // board. Rare enough (~0.5% of games in a spot check) that it's not worth
+            // that complexity right now (see scripts/update-cache.ts's copy of this
+            // check for the same note).
             if (game.isStandard && winnerIsUser(game, this.player.username.toLowerCase()) && !gameAgainstBot(game, this.player.title)) {
                 for (let gambit of this.gambitsTree.getMap(game.moves, (move) => move.notation.notation)) {
                     if (gambit != undefined) {
