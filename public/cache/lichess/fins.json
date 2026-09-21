@@ -1,9 +1,233 @@
 {
-  "cache_updated_at": 1781986823632,
-  "games_analyzed": 11510,
-  "moves_analyzed": 11510,
+  "cache_updated_at": 1789944479479,
+  "games_analyzed": 11512,
+  "moves_analyzed": 11512,
   "trophies": {
     "Queen's Gambit": {
+      "G2Z8gayr": {
+        "date": "2026-05-27",
+        "opponent": {
+          "username": "nubotronik",
+          "title": ""
+        },
+        "link": "https://lichess.org/G2Z8gayr#3"
+      },
+      "RnfAuwUi": {
+        "date": "2025-12-05",
+        "opponent": {
+          "username": "Superbri212",
+          "title": ""
+        },
+        "link": "https://lichess.org/RnfAuwUi#3"
+      },
+      "XyyIfxl0": {
+        "date": "2025-08-08",
+        "opponent": {
+          "username": "Neverness",
+          "title": ""
+        },
+        "link": "https://lichess.org/XyyIfxl0#3"
+      },
+      "5f6Bx9kS": {
+        "date": "2025-08-05",
+        "opponent": {
+          "username": "ABE5438",
+          "title": ""
+        },
+        "link": "https://lichess.org/5f6Bx9kS#3"
+      },
+      "83GQBwa5": {
+        "date": "2025-05-02",
+        "opponent": {
+          "username": "Kingscrusher-YouTube",
+          "title": "CM"
+        },
+        "link": "https://lichess.org/83GQBwa5#3"
+      },
+      "oXlw4dsl": {
+        "date": "2025-05-01",
+        "opponent": {
+          "username": "rudkov61",
+          "title": ""
+        },
+        "link": "https://lichess.org/oXlw4dsl#3"
+      },
+      "B6JwGMNY": {
+        "date": "2025-04-26",
+        "opponent": {
+          "username": "Alexander_Dutton",
+          "title": ""
+        },
+        "link": "https://lichess.org/B6JwGMNY#3"
+      },
+      "sInr5Glo": {
+        "date": "2025-04-09",
+        "opponent": {
+          "username": "f7er6h",
+          "title": ""
+        },
+        "link": "https://lichess.org/sInr5Glo#3"
+      },
+      "zb7LGLRA": {
+        "date": "2025-04-02",
+        "opponent": {
+          "username": "Oswaldoreina",
+          "title": ""
+        },
+        "link": "https://lichess.org/zb7LGLRA#3"
+      },
+      "3yoNAmT0": {
+        "date": "2025-03-11",
+        "opponent": {
+          "username": "chumbichess",
+          "title": ""
+        },
+        "link": "https://lichess.org/3yoNAmT0#3"
+      },
+      "C2oyf0mG": {
+        "date": "2025-01-23",
+        "opponent": {
+          "username": "erico_amancio",
+          "title": ""
+        },
+        "link": "https://lichess.org/C2oyf0mG#3"
+      },
+      "BtND6jOV": {
+        "date": "2024-10-24",
+        "opponent": {
+          "username": "TheodorusII",
+          "title": ""
+        },
+        "link": "https://lichess.org/BtND6jOV#3"
+      },
+      "agsXskhy": {
+        "date": "2024-09-18",
+        "opponent": {
+          "username": "magentamango",
+          "title": ""
+        },
+        "link": "https://lichess.org/agsXskhy#3"
+      },
+      "NzRyzqcm": {
+        "date": "2024-07-30",
+        "opponent": {
+          "username": "Pavelsmog",
+          "title": ""
+        },
+        "link": "https://lichess.org/NzRyzqcm#3"
+      },
+      "RtJpBCij": {
+        "date": "2024-07-06",
+        "opponent": {
+          "username": "SinanGoatEngin",
+          "title": ""
+        },
+        "link": "https://lichess.org/RtJpBCij#3"
+      },
+      "35LizpWJ": {
+        "date": "2024-05-19",
+        "opponent": {
+          "username": "FireWorks",
+          "title": ""
+        },
+        "link": "https://lichess.org/35LizpWJ#3"
+      },
+      "TxWTxhng": {
+        "date": "2024-03-07",
+        "opponent": {
+          "username": "CavaleirodasTreva1",
+          "title": ""
+        },
+        "link": "https://lichess.org/TxWTxhng#3"
+      },
+      "Io5fsMEO": {
+        "date": "2024-02-14",
+        "opponent": {
+          "username": "KrugerIndSmoothing",
+          "title": ""
+        },
+        "link": "https://lichess.org/Io5fsMEO#3"
+      },
+      "C2Sg4dJn": {
+        "date": "2024-01-21",
+        "opponent": {
+          "username": "Luis_fajardo",
+          "title": ""
+        },
+        "link": "https://lichess.org/C2Sg4dJn#3"
+      },
+      "o3exMbiA": {
+        "date": "2024-01-01",
+        "opponent": {
+          "username": "Neverness",
+          "title": ""
+        },
+        "link": "https://lichess.org/o3exMbiA#3"
+      },
+      "2y0gum5A": {
+        "date": "2023-12-31",
+        "opponent": {
+          "username": "SULTAN_06",
+          "title": ""
+        },
+        "link": "https://lichess.org/2y0gum5A#3"
+      },
+      "cdY83UrE": {
+        "date": "2023-12-20",
+        "opponent": {
+          "username": "hoodman",
+          "title": ""
+        },
+        "link": "https://lichess.org/cdY83UrE#3"
+      },
+      "zKWRAZom": {
+        "date": "2023-11-09",
+        "opponent": {
+          "username": "fathermoon",
+          "title": ""
+        },
+        "link": "https://lichess.org/zKWRAZom#3"
+      },
+      "pVPAatTy": {
+        "date": "2023-11-04",
+        "opponent": {
+          "username": "qpwoeirut",
+          "title": ""
+        },
+        "link": "https://lichess.org/pVPAatTy#3"
+      },
+      "UKT1NkwL": {
+        "date": "2023-10-16",
+        "opponent": {
+          "username": "alexwerner9",
+          "title": ""
+        },
+        "link": "https://lichess.org/UKT1NkwL#3"
+      },
+      "SuoYBVau": {
+        "date": "2023-10-02",
+        "opponent": {
+          "username": "OneChessplayerMore",
+          "title": ""
+        },
+        "link": "https://lichess.org/SuoYBVau#3"
+      },
+      "Jaio6cy4": {
+        "date": "2023-10-02",
+        "opponent": {
+          "username": "JoelitoMaster205",
+          "title": ""
+        },
+        "link": "https://lichess.org/Jaio6cy4#3"
+      },
+      "L177EjLs": {
+        "date": "2023-09-24",
+        "opponent": {
+          "username": "schneller_hering",
+          "title": ""
+        },
+        "link": "https://lichess.org/L177EjLs#3"
+      },
       "BR5JQCrR": {
         "date": "2023-09-11",
         "opponent": {
@@ -279,7 +503,7 @@
       "zsDgY0DD": {
         "date": "2022-10-24",
         "opponent": {
-          "username": "Asesino_delajedreZ",
+          "username": "AsEsiNo_DeLaJeDrEz",
           "title": ""
         },
         "link": "https://lichess.org/zsDgY0DD#3"
@@ -856,7 +1080,7 @@
         "date": "2018-08-04",
         "opponent": {
           "username": "Didici12",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/SPPRqibp#3"
       },
@@ -864,7 +1088,7 @@
         "date": "2018-08-04",
         "opponent": {
           "username": "Didici12",
-          "title": "IM"
+          "title": "GM"
         },
         "link": "https://lichess.org/KktXLVq8#3"
       },
@@ -1111,7 +1335,7 @@
       "XPpJuj3l": {
         "date": "2015-11-16",
         "opponent": {
-          "username": "Xopiad",
+          "username": "xopiad",
           "title": ""
         },
         "link": "https://lichess.org/XPpJuj3l#3"
@@ -1643,233 +1867,75 @@
           "title": ""
         },
         "link": "https://lichess.org/E8nqBr8n#3"
-      },
-      "G2Z8gayr": {
-        "date": "2026-05-27",
+      }
+    },
+    "Englund Gambit": {
+      "jZHmf1Nm": {
+        "date": "2025-08-15",
         "opponent": {
-          "username": "nubotronik",
+          "username": "Emrulli",
           "title": ""
         },
-        "link": "https://lichess.org/G2Z8gayr#3"
+        "link": "https://lichess.org/jZHmf1Nm/black#2"
       },
-      "RnfAuwUi": {
-        "date": "2025-12-05",
+      "lg5tV0Ho": {
+        "date": "2022-07-29",
         "opponent": {
-          "username": "Superbri212",
+          "username": "khosrofr",
           "title": ""
         },
-        "link": "https://lichess.org/RnfAuwUi#3"
+        "link": "https://lichess.org/lg5tV0Ho/black#2"
       },
-      "XyyIfxl0": {
-        "date": "2025-08-08",
+      "wl8NkyXZ": {
+        "date": "2022-07-28",
         "opponent": {
-          "username": "Neverness",
+          "username": "COLOREDLIVESNOMATTER",
           "title": ""
         },
-        "link": "https://lichess.org/XyyIfxl0#3"
+        "link": "https://lichess.org/wl8NkyXZ/black#2"
       },
-      "5f6Bx9kS": {
-        "date": "2025-08-05",
+      "j0AWnEjf": {
+        "date": "2021-12-26",
         "opponent": {
-          "username": "ABE5438",
+          "username": "Sammy_Jankis",
           "title": ""
         },
-        "link": "https://lichess.org/5f6Bx9kS#3"
+        "link": "https://lichess.org/j0AWnEjf/black#2"
       },
-      "83GQBwa5": {
-        "date": "2025-05-02",
+      "4ZJKzdHg": {
+        "date": "2021-08-08",
         "opponent": {
-          "username": "Kingscrusher-YouTube",
-          "title": "CM"
-        },
-        "link": "https://lichess.org/83GQBwa5#3"
-      },
-      "oXlw4dsl": {
-        "date": "2025-05-01",
-        "opponent": {
-          "username": "rudkov61",
+          "username": "Wtrfall",
           "title": ""
         },
-        "link": "https://lichess.org/oXlw4dsl#3"
+        "link": "https://lichess.org/4ZJKzdHg/black#2"
       },
-      "B6JwGMNY": {
-        "date": "2025-04-26",
+      "D4AzNvCw": {
+        "date": "2021-03-12",
         "opponent": {
-          "username": "Alexander_Dutton",
+          "username": "jorgeluistan84",
           "title": ""
         },
-        "link": "https://lichess.org/B6JwGMNY#3"
+        "link": "https://lichess.org/D4AzNvCw/black#2"
       },
-      "sInr5Glo": {
-        "date": "2025-04-09",
+      "s2iMvIrq": {
+        "date": "2020-12-24",
         "opponent": {
-          "username": "f7er6h",
+          "username": "nj1374",
           "title": ""
         },
-        "link": "https://lichess.org/sInr5Glo#3"
-      },
-      "zb7LGLRA": {
-        "date": "2025-04-02",
-        "opponent": {
-          "username": "Oswaldoreina",
-          "title": ""
-        },
-        "link": "https://lichess.org/zb7LGLRA#3"
-      },
-      "3yoNAmT0": {
-        "date": "2025-03-11",
-        "opponent": {
-          "username": "chumbichess",
-          "title": ""
-        },
-        "link": "https://lichess.org/3yoNAmT0#3"
-      },
-      "C2oyf0mG": {
-        "date": "2025-01-23",
-        "opponent": {
-          "username": "erico_amancio",
-          "title": ""
-        },
-        "link": "https://lichess.org/C2oyf0mG#3"
-      },
-      "BtND6jOV": {
-        "date": "2024-10-24",
-        "opponent": {
-          "username": "TheodorusII",
-          "title": ""
-        },
-        "link": "https://lichess.org/BtND6jOV#3"
-      },
-      "agsXskhy": {
-        "date": "2024-09-18",
-        "opponent": {
-          "username": "magentamango",
-          "title": ""
-        },
-        "link": "https://lichess.org/agsXskhy#3"
-      },
-      "NzRyzqcm": {
-        "date": "2024-07-30",
-        "opponent": {
-          "username": "Pavelsmog",
-          "title": ""
-        },
-        "link": "https://lichess.org/NzRyzqcm#3"
-      },
-      "RtJpBCij": {
-        "date": "2024-07-06",
-        "opponent": {
-          "username": "SinanGoatEngin",
-          "title": ""
-        },
-        "link": "https://lichess.org/RtJpBCij#3"
-      },
-      "35LizpWJ": {
-        "date": "2024-05-19",
-        "opponent": {
-          "username": "FireWorks",
-          "title": ""
-        },
-        "link": "https://lichess.org/35LizpWJ#3"
-      },
-      "TxWTxhng": {
-        "date": "2024-03-07",
-        "opponent": {
-          "username": "CavaleirodasTreva1",
-          "title": ""
-        },
-        "link": "https://lichess.org/TxWTxhng#3"
-      },
-      "Io5fsMEO": {
-        "date": "2024-02-14",
-        "opponent": {
-          "username": "KrugerIndSmoothing",
-          "title": ""
-        },
-        "link": "https://lichess.org/Io5fsMEO#3"
-      },
-      "C2Sg4dJn": {
-        "date": "2024-01-21",
-        "opponent": {
-          "username": "Luis_fajardo",
-          "title": ""
-        },
-        "link": "https://lichess.org/C2Sg4dJn#3"
-      },
-      "o3exMbiA": {
-        "date": "2024-01-01",
-        "opponent": {
-          "username": "Neverness",
-          "title": ""
-        },
-        "link": "https://lichess.org/o3exMbiA#3"
-      },
-      "2y0gum5A": {
-        "date": "2023-12-31",
-        "opponent": {
-          "username": "SULTAN_06",
-          "title": ""
-        },
-        "link": "https://lichess.org/2y0gum5A#3"
-      },
-      "cdY83UrE": {
-        "date": "2023-12-20",
-        "opponent": {
-          "username": "hoodman",
-          "title": ""
-        },
-        "link": "https://lichess.org/cdY83UrE#3"
-      },
-      "zKWRAZom": {
-        "date": "2023-11-09",
-        "opponent": {
-          "username": "fathermoon",
-          "title": ""
-        },
-        "link": "https://lichess.org/zKWRAZom#3"
-      },
-      "pVPAatTy": {
-        "date": "2023-11-04",
-        "opponent": {
-          "username": "qpwoeirut",
-          "title": ""
-        },
-        "link": "https://lichess.org/pVPAatTy#3"
-      },
-      "UKT1NkwL": {
-        "date": "2023-10-16",
-        "opponent": {
-          "username": "alexwerner9",
-          "title": ""
-        },
-        "link": "https://lichess.org/UKT1NkwL#3"
-      },
-      "SuoYBVau": {
-        "date": "2023-10-02",
-        "opponent": {
-          "username": "OneChessplayerMore",
-          "title": ""
-        },
-        "link": "https://lichess.org/SuoYBVau#3"
-      },
-      "Jaio6cy4": {
-        "date": "2023-10-02",
-        "opponent": {
-          "username": "JoelitoMaster205",
-          "title": ""
-        },
-        "link": "https://lichess.org/Jaio6cy4#3"
-      },
-      "L177EjLs": {
-        "date": "2023-09-24",
-        "opponent": {
-          "username": "schneller_hering",
-          "title": ""
-        },
-        "link": "https://lichess.org/L177EjLs#3"
+        "link": "https://lichess.org/s2iMvIrq/black#2"
       }
     },
     "King's Gambit": {
+      "8JUYbMNZ": {
+        "date": "2025-04-24",
+        "opponent": {
+          "username": "AAKonoplya",
+          "title": ""
+        },
+        "link": "https://lichess.org/8JUYbMNZ#3"
+      },
       "BXuW8eeu": {
         "date": "2023-01-22",
         "opponent": {
@@ -1877,6 +1943,14 @@
           "title": ""
         },
         "link": "https://lichess.org/BXuW8eeu#3"
+      },
+      "jnRxdELP": {
+        "date": "2022-07-29",
+        "opponent": {
+          "username": "PP1567",
+          "title": ""
+        },
+        "link": "https://lichess.org/jnRxdELP#3"
       },
       "Tm1YNdbS": {
         "date": "2022-01-23",
@@ -2029,17 +2103,209 @@
           "title": ""
         },
         "link": "https://lichess.org/JUfPMzJI#3"
-      },
-      "8JUYbMNZ": {
-        "date": "2025-04-24",
-        "opponent": {
-          "username": "AAKonoplya",
-          "title": ""
-        },
-        "link": "https://lichess.org/8JUYbMNZ#3"
       }
     },
     "Sicilian Defense: Smith-Morra Gambit": {
+      "Hi3ZpZIO": {
+        "date": "2025-04-26",
+        "opponent": {
+          "username": "paulogar",
+          "title": ""
+        },
+        "link": "https://lichess.org/Hi3ZpZIO#3"
+      },
+      "d3K821C9": {
+        "date": "2025-04-17",
+        "opponent": {
+          "username": "Kerst",
+          "title": ""
+        },
+        "link": "https://lichess.org/d3K821C9#3"
+      },
+      "xaSNOPJb": {
+        "date": "2025-04-06",
+        "opponent": {
+          "username": "Meda70",
+          "title": ""
+        },
+        "link": "https://lichess.org/xaSNOPJb#3"
+      },
+      "3jdqFwmj": {
+        "date": "2025-04-02",
+        "opponent": {
+          "username": "marcelogomezcu",
+          "title": ""
+        },
+        "link": "https://lichess.org/3jdqFwmj#3"
+      },
+      "YdJRPAqC": {
+        "date": "2025-03-11",
+        "opponent": {
+          "username": "msludwick",
+          "title": ""
+        },
+        "link": "https://lichess.org/YdJRPAqC#3"
+      },
+      "b6ukhKPf": {
+        "date": "2025-01-12",
+        "opponent": {
+          "username": "chessaccount3",
+          "title": ""
+        },
+        "link": "https://lichess.org/b6ukhKPf#3"
+      },
+      "IWkJ4l3H": {
+        "date": "2024-11-25",
+        "opponent": {
+          "username": "DaniEscanilla",
+          "title": ""
+        },
+        "link": "https://lichess.org/IWkJ4l3H#3"
+      },
+      "dZbjcdR2": {
+        "date": "2024-11-04",
+        "opponent": {
+          "username": "iamlaha17",
+          "title": ""
+        },
+        "link": "https://lichess.org/dZbjcdR2#3"
+      },
+      "60K04bR4": {
+        "date": "2024-09-25",
+        "opponent": {
+          "username": "Avetbaghdasaryan",
+          "title": ""
+        },
+        "link": "https://lichess.org/60K04bR4#3"
+      },
+      "J72XLxdi": {
+        "date": "2024-09-25",
+        "opponent": {
+          "username": "henribou",
+          "title": ""
+        },
+        "link": "https://lichess.org/J72XLxdi#3"
+      },
+      "ZcIFw8MY": {
+        "date": "2024-04-28",
+        "opponent": {
+          "username": "Andre_el_salvador",
+          "title": ""
+        },
+        "link": "https://lichess.org/ZcIFw8MY#3"
+      },
+      "FqtduBfB": {
+        "date": "2024-04-19",
+        "opponent": {
+          "username": "Tutu1949",
+          "title": ""
+        },
+        "link": "https://lichess.org/FqtduBfB#3"
+      },
+      "A7a4gkEn": {
+        "date": "2024-03-24",
+        "opponent": {
+          "username": "Urquhart",
+          "title": ""
+        },
+        "link": "https://lichess.org/A7a4gkEn#3"
+      },
+      "oHxP9loR": {
+        "date": "2024-03-17",
+        "opponent": {
+          "username": "LR9608",
+          "title": ""
+        },
+        "link": "https://lichess.org/oHxP9loR#3"
+      },
+      "03tx1Yjf": {
+        "date": "2024-03-04",
+        "opponent": {
+          "username": "sampriority1",
+          "title": ""
+        },
+        "link": "https://lichess.org/03tx1Yjf#3"
+      },
+      "n1DTBYDv": {
+        "date": "2024-02-14",
+        "opponent": {
+          "username": "ueleta22",
+          "title": ""
+        },
+        "link": "https://lichess.org/n1DTBYDv#3"
+      },
+      "pGc5mgqJ": {
+        "date": "2024-02-14",
+        "opponent": {
+          "username": "leyverlopez",
+          "title": ""
+        },
+        "link": "https://lichess.org/pGc5mgqJ#3"
+      },
+      "dDbUDP0N": {
+        "date": "2024-01-27",
+        "opponent": {
+          "username": "bkan80",
+          "title": ""
+        },
+        "link": "https://lichess.org/dDbUDP0N#3"
+      },
+      "43rKVxq8": {
+        "date": "2023-11-16",
+        "opponent": {
+          "username": "DorisF",
+          "title": ""
+        },
+        "link": "https://lichess.org/43rKVxq8#3"
+      },
+      "mJSZf6tB": {
+        "date": "2023-11-14",
+        "opponent": {
+          "username": "Hendralem",
+          "title": ""
+        },
+        "link": "https://lichess.org/mJSZf6tB#3"
+      },
+      "V6ioJgGb": {
+        "date": "2023-11-14",
+        "opponent": {
+          "username": "Hendralem",
+          "title": ""
+        },
+        "link": "https://lichess.org/V6ioJgGb#3"
+      },
+      "CKBxpNg0": {
+        "date": "2023-11-12",
+        "opponent": {
+          "username": "Gardenguru",
+          "title": ""
+        },
+        "link": "https://lichess.org/CKBxpNg0#3"
+      },
+      "H83s87RH": {
+        "date": "2023-11-06",
+        "opponent": {
+          "username": "eliecercruzramirez71",
+          "title": ""
+        },
+        "link": "https://lichess.org/H83s87RH#3"
+      },
+      "YqHQodDc": {
+        "date": "2023-11-03",
+        "opponent": {
+          "username": "miagichile2018",
+          "title": ""
+        },
+        "link": "https://lichess.org/YqHQodDc#3"
+      },
+      "kRxEbrTV": {
+        "date": "2023-10-04",
+        "opponent": {
+          "username": "Deacero1000",
+          "title": ""
+        },
+        "link": "https://lichess.org/kRxEbrTV#3"
+      },
       "zA2YIQsW": {
         "date": "2023-09-08",
         "opponent": {
@@ -2436,7 +2702,7 @@
         "date": "2019-01-07",
         "opponent": {
           "username": "GERAmini",
-          "title": ""
+          "title": "NM"
         },
         "link": "https://lichess.org/i6rfGUqn#3"
       },
@@ -2447,264 +2713,32 @@
           "title": ""
         },
         "link": "https://lichess.org/UXTF5MhC#3"
-      },
-      "Hi3ZpZIO": {
-        "date": "2025-04-26",
-        "opponent": {
-          "username": "paulogar",
-          "title": ""
-        },
-        "link": "https://lichess.org/Hi3ZpZIO#3"
-      },
-      "d3K821C9": {
-        "date": "2025-04-17",
-        "opponent": {
-          "username": "Kerst",
-          "title": ""
-        },
-        "link": "https://lichess.org/d3K821C9#3"
-      },
-      "xaSNOPJb": {
-        "date": "2025-04-06",
-        "opponent": {
-          "username": "Meda70",
-          "title": ""
-        },
-        "link": "https://lichess.org/xaSNOPJb#3"
-      },
-      "3jdqFwmj": {
-        "date": "2025-04-02",
-        "opponent": {
-          "username": "marcelogomezcu",
-          "title": ""
-        },
-        "link": "https://lichess.org/3jdqFwmj#3"
-      },
-      "YdJRPAqC": {
-        "date": "2025-03-11",
-        "opponent": {
-          "username": "msludwick",
-          "title": ""
-        },
-        "link": "https://lichess.org/YdJRPAqC#3"
-      },
-      "b6ukhKPf": {
-        "date": "2025-01-12",
-        "opponent": {
-          "username": "chessaccount3",
-          "title": ""
-        },
-        "link": "https://lichess.org/b6ukhKPf#3"
-      },
-      "IWkJ4l3H": {
-        "date": "2024-11-25",
-        "opponent": {
-          "username": "DaniEscanilla",
-          "title": ""
-        },
-        "link": "https://lichess.org/IWkJ4l3H#3"
-      },
-      "dZbjcdR2": {
-        "date": "2024-11-04",
-        "opponent": {
-          "username": "iamlaha17",
-          "title": ""
-        },
-        "link": "https://lichess.org/dZbjcdR2#3"
-      },
-      "60K04bR4": {
-        "date": "2024-09-25",
-        "opponent": {
-          "username": "Avetbaghdasaryan",
-          "title": ""
-        },
-        "link": "https://lichess.org/60K04bR4#3"
-      },
-      "J72XLxdi": {
-        "date": "2024-09-25",
-        "opponent": {
-          "username": "henribou",
-          "title": ""
-        },
-        "link": "https://lichess.org/J72XLxdi#3"
-      },
-      "ZcIFw8MY": {
-        "date": "2024-04-28",
-        "opponent": {
-          "username": "Andre_el_salvador",
-          "title": ""
-        },
-        "link": "https://lichess.org/ZcIFw8MY#3"
-      },
-      "FqtduBfB": {
-        "date": "2024-04-19",
-        "opponent": {
-          "username": "Tutu1949",
-          "title": ""
-        },
-        "link": "https://lichess.org/FqtduBfB#3"
-      },
-      "A7a4gkEn": {
-        "date": "2024-03-24",
-        "opponent": {
-          "username": "Urquhart",
-          "title": ""
-        },
-        "link": "https://lichess.org/A7a4gkEn#3"
-      },
-      "oHxP9loR": {
-        "date": "2024-03-17",
-        "opponent": {
-          "username": "LR9608",
-          "title": ""
-        },
-        "link": "https://lichess.org/oHxP9loR#3"
-      },
-      "03tx1Yjf": {
-        "date": "2024-03-04",
-        "opponent": {
-          "username": "sampriority1",
-          "title": ""
-        },
-        "link": "https://lichess.org/03tx1Yjf#3"
-      },
-      "n1DTBYDv": {
-        "date": "2024-02-14",
-        "opponent": {
-          "username": "ueleta22",
-          "title": ""
-        },
-        "link": "https://lichess.org/n1DTBYDv#3"
-      },
-      "pGc5mgqJ": {
-        "date": "2024-02-14",
-        "opponent": {
-          "username": "leyverlopez",
-          "title": ""
-        },
-        "link": "https://lichess.org/pGc5mgqJ#3"
-      },
-      "dDbUDP0N": {
-        "date": "2024-01-27",
-        "opponent": {
-          "username": "bkan80",
-          "title": ""
-        },
-        "link": "https://lichess.org/dDbUDP0N#3"
-      },
-      "43rKVxq8": {
-        "date": "2023-11-16",
-        "opponent": {
-          "username": "DorisF",
-          "title": ""
-        },
-        "link": "https://lichess.org/43rKVxq8#3"
-      },
-      "mJSZf6tB": {
-        "date": "2023-11-14",
-        "opponent": {
-          "username": "Hendralem",
-          "title": ""
-        },
-        "link": "https://lichess.org/mJSZf6tB#3"
-      },
-      "V6ioJgGb": {
-        "date": "2023-11-14",
-        "opponent": {
-          "username": "Hendralem",
-          "title": ""
-        },
-        "link": "https://lichess.org/V6ioJgGb#3"
-      },
-      "CKBxpNg0": {
-        "date": "2023-11-12",
-        "opponent": {
-          "username": "Gardenguru",
-          "title": ""
-        },
-        "link": "https://lichess.org/CKBxpNg0#3"
-      },
-      "H83s87RH": {
-        "date": "2023-11-06",
-        "opponent": {
-          "username": "eliecercruzramirez71",
-          "title": ""
-        },
-        "link": "https://lichess.org/H83s87RH#3"
-      },
-      "YqHQodDc": {
-        "date": "2023-11-03",
-        "opponent": {
-          "username": "miagichile2018",
-          "title": ""
-        },
-        "link": "https://lichess.org/YqHQodDc#3"
-      },
-      "kRxEbrTV": {
-        "date": "2023-10-04",
-        "opponent": {
-          "username": "Deacero1000",
-          "title": ""
-        },
-        "link": "https://lichess.org/kRxEbrTV#3"
       }
     },
-    "Englund Gambit": {
-      "lg5tV0Ho": {
-        "date": "2022-07-29",
+    "Zukertort Opening: Tennison Gambit": {
+      "gpbi45mU": {
+        "date": "2022-01-19",
         "opponent": {
-          "username": "khosrofr",
+          "username": "Geffforever",
           "title": ""
         },
-        "link": "https://lichess.org/lg5tV0Ho/black#2"
+        "link": "https://lichess.org/gpbi45mU#3"
       },
-      "wl8NkyXZ": {
-        "date": "2022-07-28",
+      "JOhpnhZd": {
+        "date": "2021-08-24",
         "opponent": {
-          "username": "COLOREDLIVESNOMATTER",
+          "username": "kaveman13",
           "title": ""
         },
-        "link": "https://lichess.org/wl8NkyXZ/black#2"
+        "link": "https://lichess.org/JOhpnhZd#3"
       },
-      "j0AWnEjf": {
-        "date": "2021-12-26",
-        "opponent": {
-          "username": "Sammy_Jankis",
-          "title": ""
-        },
-        "link": "https://lichess.org/j0AWnEjf/black#2"
-      },
-      "4ZJKzdHg": {
-        "date": "2021-08-08",
-        "opponent": {
-          "username": "Wtrfall",
-          "title": ""
-        },
-        "link": "https://lichess.org/4ZJKzdHg/black#2"
-      },
-      "D4AzNvCw": {
-        "date": "2021-03-12",
-        "opponent": {
-          "username": "jorgeluistan84",
-          "title": ""
-        },
-        "link": "https://lichess.org/D4AzNvCw/black#2"
-      },
-      "s2iMvIrq": {
+      "cIVcRmhu": {
         "date": "2020-12-24",
         "opponent": {
-          "username": "nj1374",
+          "username": "iam_tharun",
           "title": ""
         },
-        "link": "https://lichess.org/s2iMvIrq/black#2"
-      },
-      "jZHmf1Nm": {
-        "date": "2025-08-15",
-        "opponent": {
-          "username": "Emrulli",
-          "title": ""
-        },
-        "link": "https://lichess.org/jZHmf1Nm/black#2"
+        "link": "https://lichess.org/cIVcRmhu#3"
       }
     },
     "King's Gambit Accepted: King's Knight's Gambit": {
@@ -2741,7 +2775,48 @@
         "link": "https://lichess.org/6xELd8dR#5"
       }
     },
-    "A50 Indian Defense: Budapest Gambit": {},
+    "Blackmar-Diemer Gambit": {
+      "PxeAjk1h": {
+        "date": "2023-10-16",
+        "opponent": {
+          "username": "xdotcom",
+          "title": ""
+        },
+        "link": "https://lichess.org/PxeAjk1h#3"
+      },
+      "efsNy9wA": {
+        "date": "2022-01-23",
+        "opponent": {
+          "username": "fuidhrohir",
+          "title": ""
+        },
+        "link": "https://lichess.org/efsNy9wA#3"
+      },
+      "aFmGMjsd": {
+        "date": "2021-12-26",
+        "opponent": {
+          "username": "kimia_ashirley",
+          "title": ""
+        },
+        "link": "https://lichess.org/aFmGMjsd#3"
+      },
+      "hym7JNcc": {
+        "date": "2021-10-18",
+        "opponent": {
+          "username": "ConnorMcCartney",
+          "title": ""
+        },
+        "link": "https://lichess.org/hym7JNcc#3"
+      },
+      "pRS4GafT": {
+        "date": "2021-04-21",
+        "opponent": {
+          "username": "Housssam",
+          "title": ""
+        },
+        "link": "https://lichess.org/pRS4GafT#3"
+      }
+    },
     "Scotch Game: Scotch Gambit": {
       "QyZIsz2r": {
         "date": "2021-06-09",
@@ -2761,6 +2836,22 @@
       }
     },
     "Danish Gambit": {
+      "1U7VMohY": {
+        "date": "2025-09-26",
+        "opponent": {
+          "username": "FrecskaPeter",
+          "title": ""
+        },
+        "link": "https://lichess.org/1U7VMohY#5"
+      },
+      "N7bTcZMA": {
+        "date": "2023-09-17",
+        "opponent": {
+          "username": "Dolphin_1919",
+          "title": ""
+        },
+        "link": "https://lichess.org/N7bTcZMA#5"
+      },
       "mfmXE3o8": {
         "date": "2021-10-15",
         "opponent": {
@@ -2824,95 +2915,22 @@
           "title": ""
         },
         "link": "https://lichess.org/6T38T7HZ#5"
-      },
-      "1U7VMohY": {
-        "date": "2025-09-26",
-        "opponent": {
-          "username": "FrecskaPeter",
-          "title": ""
-        },
-        "link": "https://lichess.org/1U7VMohY#5"
-      },
-      "N7bTcZMA": {
-        "date": "2023-09-17",
-        "opponent": {
-          "username": "Dolphin_1919",
-          "title": ""
-        },
-        "link": "https://lichess.org/N7bTcZMA#5"
       }
     },
-    "Zukertort Opening: Tennison Gambit": {
-      "gpbi45mU": {
-        "date": "2022-01-19",
-        "opponent": {
-          "username": "Geffforever",
-          "title": ""
-        },
-        "link": "https://lichess.org/gpbi45mU#3"
-      },
-      "JOhpnhZd": {
-        "date": "2021-08-24",
-        "opponent": {
-          "username": "kaveman13",
-          "title": ""
-        },
-        "link": "https://lichess.org/JOhpnhZd#3"
-      },
-      "cIVcRmhu": {
-        "date": "2020-12-24",
-        "opponent": {
-          "username": "iam_tharun",
-          "title": ""
-        },
-        "link": "https://lichess.org/cIVcRmhu#3"
-      }
-    },
+    "A50 Indian Defense: Budapest Gambit": {},
     "Elephant Gambit": {},
-    "Blackmar-Diemer Gambit": {
-      "efsNy9wA": {
-        "date": "2022-01-23",
-        "opponent": {
-          "username": "fuidhrohir",
-          "title": ""
-        },
-        "link": "https://lichess.org/efsNy9wA#3"
-      },
-      "aFmGMjsd": {
-        "date": "2021-12-26",
-        "opponent": {
-          "username": "kimia_ashirley",
-          "title": ""
-        },
-        "link": "https://lichess.org/aFmGMjsd#3"
-      },
-      "hym7JNcc": {
-        "date": "2021-10-18",
-        "opponent": {
-          "username": "ConnorMcCartney",
-          "title": ""
-        },
-        "link": "https://lichess.org/hym7JNcc#3"
-      },
-      "pRS4GafT": {
-        "date": "2021-04-21",
-        "opponent": {
-          "username": "Housssam",
-          "title": ""
-        },
-        "link": "https://lichess.org/pRS4GafT#3"
-      },
-      "PxeAjk1h": {
-        "date": "2023-10-16",
-        "opponent": {
-          "username": "xdotcom",
-          "title": ""
-        },
-        "link": "https://lichess.org/PxeAjk1h#3"
-      }
-    },
+    "Scandinavian Defense: Blackburne-Kloosterboer Gambit": {},
+    "Queen's Gambit Declined: Albin Countergambit": {},
     "King's Gambit Declined: Falkbeer Countergambit": {},
     "Benko Gambit": {
+      "Sf0gs6HH": {
+        "date": "2025-03-04",
+        "opponent": {
+          "username": "tomskiykedr",
+          "title": ""
+        },
+        "link": "https://lichess.org/Sf0gs6HH/black#6"
+      },
       "PPkRZBwp": {
         "date": "2022-07-31",
         "opponent": {
@@ -3056,19 +3074,11 @@
           "title": ""
         },
         "link": "https://lichess.org/JmYaTqHx/black#6"
-      },
-      "Sf0gs6HH": {
-        "date": "2025-03-04",
-        "opponent": {
-          "username": "tomskiykedr",
-          "title": ""
-        },
-        "link": "https://lichess.org/Sf0gs6HH/black#6"
       }
     },
-    "Queen's Gambit Declined: Albin Countergambit": {},
     "Sicilian Defense: Wing Gambit": {},
-    "Scandinavian Defense: Blackburne-Kloosterboer Gambit": {},
+    "Englund Gambit Complex: Hartlaub-Charlick Gambit": {},
+    "Zukertort Opening: Ross Gambit": {},
     "Englund Gambit Complex: Englund Gambit": {
       "4ZJKzdHg": {
         "date": "2021-08-08",
@@ -3079,7 +3089,39 @@
         "link": "https://lichess.org/4ZJKzdHg/black#6"
       }
     },
+    "Sicilian Defense: Morphy Gambit": {},
+    "Bird Opening: From's Gambit": {
+      "nwFygOhj": {
+        "date": "2024-12-16",
+        "opponent": {
+          "username": "teardrop-fadeaway",
+          "title": ""
+        },
+        "link": "https://lichess.org/nwFygOhj/black#2"
+      }
+    },
     "King's Pawn Game: Busch-Gass Gambit": {},
+    "Latvian Gambit": {
+      "Qkjl36hK": {
+        "date": "2021-05-09",
+        "opponent": {
+          "username": "PrinterInk",
+          "title": ""
+        },
+        "link": "https://lichess.org/Qkjl36hK/black#4"
+      }
+    },
+    "Vienna Game: Vienna Gambit": {},
+    "Duras Gambit": {
+      "Lg01Fh5S": {
+        "date": "2016-03-17",
+        "opponent": {
+          "username": "pipecat",
+          "title": ""
+        },
+        "link": "https://lichess.org/Lg01Fh5S/black#2"
+      }
+    },
     "Italian Game: Evans Gambit": {
       "si4eWkTw": {
         "date": "2022-05-01",
@@ -3114,280 +3156,8 @@
         "link": "https://lichess.org/V3vosQhw#7"
       }
     },
-    "Latvian Gambit": {
-      "Qkjl36hK": {
-        "date": "2021-05-09",
-        "opponent": {
-          "username": "PrinterInk",
-          "title": ""
-        },
-        "link": "https://lichess.org/Qkjl36hK/black#4"
-      }
-    },
     "Russian Game: Stafford Gambit": {},
-    "Vienna Game: Vienna Gambit": {},
-    "Bird Opening: From's Gambit": {
-      "nwFygOhj": {
-        "date": "2024-12-16",
-        "opponent": {
-          "username": "teardrop-fadeaway",
-          "title": ""
-        },
-        "link": "https://lichess.org/nwFygOhj/black#2"
-      }
-    },
-    "Sicilian Defense: Morphy Gambit": {},
-    "Scotch Game: Haxo Gambit": {
-      "QyZIsz2r": {
-        "date": "2021-06-09",
-        "opponent": {
-          "username": "mnitin_1r",
-          "title": ""
-        },
-        "link": "https://lichess.org/QyZIsz2r#8"
-      }
-    },
     "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit": {
-      "7sq5EFjr": {
-        "date": "2023-09-08",
-        "opponent": {
-          "username": "Dr_Venugopal",
-          "title": ""
-        },
-        "link": "https://lichess.org/7sq5EFjr/black#4"
-      },
-      "c2jR5Diz": {
-        "date": "2023-08-05",
-        "opponent": {
-          "username": "cam219",
-          "title": ""
-        },
-        "link": "https://lichess.org/c2jR5Diz/black#4"
-      },
-      "Nowk4Oke": {
-        "date": "2023-06-12",
-        "opponent": {
-          "username": "gorakuda",
-          "title": ""
-        },
-        "link": "https://lichess.org/Nowk4Oke/black#4"
-      },
-      "5mNVqX4V": {
-        "date": "2023-05-16",
-        "opponent": {
-          "username": "I-own-you-noob",
-          "title": ""
-        },
-        "link": "https://lichess.org/5mNVqX4V/black#4"
-      },
-      "VdAL2QUc": {
-        "date": "2023-05-03",
-        "opponent": {
-          "username": "brisachess1",
-          "title": ""
-        },
-        "link": "https://lichess.org/VdAL2QUc/black#4"
-      },
-      "HTapn37f": {
-        "date": "2023-01-14",
-        "opponent": {
-          "username": "m_begunov",
-          "title": ""
-        },
-        "link": "https://lichess.org/HTapn37f/black#4"
-      },
-      "12vhqXHX": {
-        "date": "2022-07-23",
-        "opponent": {
-          "username": "alex113",
-          "title": ""
-        },
-        "link": "https://lichess.org/12vhqXHX/black#4"
-      },
-      "d6VfglRO": {
-        "date": "2022-04-25",
-        "opponent": {
-          "username": "alphabetagama60",
-          "title": ""
-        },
-        "link": "https://lichess.org/d6VfglRO/black#4"
-      },
-      "syhQZstJ": {
-        "date": "2022-03-28",
-        "opponent": {
-          "username": "Newt-Scamander",
-          "title": ""
-        },
-        "link": "https://lichess.org/syhQZstJ/black#4"
-      },
-      "3YiBPCVV": {
-        "date": "2022-03-28",
-        "opponent": {
-          "username": "Newt-Scamander",
-          "title": ""
-        },
-        "link": "https://lichess.org/3YiBPCVV/black#4"
-      },
-      "4e6fbgWj": {
-        "date": "2022-03-08",
-        "opponent": {
-          "username": "davidmarchan",
-          "title": ""
-        },
-        "link": "https://lichess.org/4e6fbgWj/black#4"
-      },
-      "SNGwGHbF": {
-        "date": "2022-03-02",
-        "opponent": {
-          "username": "ajendres",
-          "title": ""
-        },
-        "link": "https://lichess.org/SNGwGHbF/black#4"
-      },
-      "uIBpGhjv": {
-        "date": "2022-02-17",
-        "opponent": {
-          "username": "slavik2001",
-          "title": ""
-        },
-        "link": "https://lichess.org/uIBpGhjv/black#4"
-      },
-      "AQEr4yQm": {
-        "date": "2022-02-14",
-        "opponent": {
-          "username": "DrunkWitik",
-          "title": ""
-        },
-        "link": "https://lichess.org/AQEr4yQm/black#4"
-      },
-      "tuRUT8aO": {
-        "date": "2022-01-23",
-        "opponent": {
-          "username": "Dark-Sharky",
-          "title": ""
-        },
-        "link": "https://lichess.org/tuRUT8aO/black#4"
-      },
-      "pjL0tev8": {
-        "date": "2021-12-16",
-        "opponent": {
-          "username": "richessschool",
-          "title": ""
-        },
-        "link": "https://lichess.org/pjL0tev8/black#4"
-      },
-      "mCwMzCQk": {
-        "date": "2021-10-18",
-        "opponent": {
-          "username": "silentwings123",
-          "title": ""
-        },
-        "link": "https://lichess.org/mCwMzCQk/black#4"
-      },
-      "BIBcvIkW": {
-        "date": "2021-10-18",
-        "opponent": {
-          "username": "Pionieer",
-          "title": ""
-        },
-        "link": "https://lichess.org/BIBcvIkW/black#4"
-      },
-      "Z4goERwz": {
-        "date": "2021-07-04",
-        "opponent": {
-          "username": "Goldcat",
-          "title": ""
-        },
-        "link": "https://lichess.org/Z4goERwz/black#4"
-      },
-      "Ua0H0tft": {
-        "date": "2021-04-11",
-        "opponent": {
-          "username": "JosbelPerez",
-          "title": ""
-        },
-        "link": "https://lichess.org/Ua0H0tft/black#4"
-      },
-      "fC308rG3": {
-        "date": "2021-03-13",
-        "opponent": {
-          "username": "DiegoK",
-          "title": ""
-        },
-        "link": "https://lichess.org/fC308rG3/black#4"
-      },
-      "RG3J5z4K": {
-        "date": "2021-02-02",
-        "opponent": {
-          "username": "NathanielLC",
-          "title": ""
-        },
-        "link": "https://lichess.org/RG3J5z4K/black#4"
-      },
-      "MeO0GlQn": {
-        "date": "2021-01-21",
-        "opponent": {
-          "username": "T_REX_ARMS",
-          "title": ""
-        },
-        "link": "https://lichess.org/MeO0GlQn/black#4"
-      },
-      "NfXo0rCr": {
-        "date": "2021-01-18",
-        "opponent": {
-          "username": "Javier_CORSARIO",
-          "title": ""
-        },
-        "link": "https://lichess.org/NfXo0rCr/black#4"
-      },
-      "t2DcrCx5": {
-        "date": "2020-12-11",
-        "opponent": {
-          "username": "Patrizsche",
-          "title": ""
-        },
-        "link": "https://lichess.org/t2DcrCx5/black#4"
-      },
-      "XVC72Ngt": {
-        "date": "2020-04-20",
-        "opponent": {
-          "username": "warmoatmeal",
-          "title": "NM"
-        },
-        "link": "https://lichess.org/XVC72Ngt/black#4"
-      },
-      "EBehLXQz": {
-        "date": "2020-03-14",
-        "opponent": {
-          "username": "attreya",
-          "title": ""
-        },
-        "link": "https://lichess.org/EBehLXQz/black#4"
-      },
-      "ivqOjjod": {
-        "date": "2017-10-27",
-        "opponent": {
-          "username": "survivor40",
-          "title": ""
-        },
-        "link": "https://lichess.org/ivqOjjod/black#4"
-      },
-      "SXum7FaV": {
-        "date": "2016-01-26",
-        "opponent": {
-          "username": "JustKid",
-          "title": ""
-        },
-        "link": "https://lichess.org/SXum7FaV/black#4"
-      },
-      "GPwenjTs": {
-        "date": "2015-05-08",
-        "opponent": {
-          "username": "Hyzer",
-          "title": ""
-        },
-        "link": "https://lichess.org/GPwenjTs/black#4"
-      },
       "xh5kXcrE": {
         "date": "2025-08-05",
         "opponent": {
@@ -3523,12 +3293,257 @@
           "title": ""
         },
         "link": "https://lichess.org/8bcW8Llf/black#4"
+      },
+      "7sq5EFjr": {
+        "date": "2023-09-08",
+        "opponent": {
+          "username": "Dr_Venugopal",
+          "title": ""
+        },
+        "link": "https://lichess.org/7sq5EFjr/black#4"
+      },
+      "c2jR5Diz": {
+        "date": "2023-08-05",
+        "opponent": {
+          "username": "cam219",
+          "title": ""
+        },
+        "link": "https://lichess.org/c2jR5Diz/black#4"
+      },
+      "Nowk4Oke": {
+        "date": "2023-06-12",
+        "opponent": {
+          "username": "gorakuda",
+          "title": ""
+        },
+        "link": "https://lichess.org/Nowk4Oke/black#4"
+      },
+      "5mNVqX4V": {
+        "date": "2023-05-16",
+        "opponent": {
+          "username": "I-own-you-noob",
+          "title": ""
+        },
+        "link": "https://lichess.org/5mNVqX4V/black#4"
+      },
+      "VdAL2QUc": {
+        "date": "2023-05-03",
+        "opponent": {
+          "username": "brisachess1",
+          "title": ""
+        },
+        "link": "https://lichess.org/VdAL2QUc/black#4"
+      },
+      "HTapn37f": {
+        "date": "2023-01-14",
+        "opponent": {
+          "username": "m_begunov",
+          "title": ""
+        },
+        "link": "https://lichess.org/HTapn37f/black#4"
+      },
+      "12vhqXHX": {
+        "date": "2022-07-23",
+        "opponent": {
+          "username": "alex113",
+          "title": ""
+        },
+        "link": "https://lichess.org/12vhqXHX/black#4"
+      },
+      "d6VfglRO": {
+        "date": "2022-04-25",
+        "opponent": {
+          "username": "alphabetagama60",
+          "title": ""
+        },
+        "link": "https://lichess.org/d6VfglRO/black#4"
+      },
+      "syhQZstJ": {
+        "date": "2022-03-28",
+        "opponent": {
+          "username": "Newt-Scamander",
+          "title": ""
+        },
+        "link": "https://lichess.org/syhQZstJ/black#4"
+      },
+      "3YiBPCVV": {
+        "date": "2022-03-28",
+        "opponent": {
+          "username": "Newt-Scamander",
+          "title": ""
+        },
+        "link": "https://lichess.org/3YiBPCVV/black#4"
+      },
+      "4e6fbgWj": {
+        "date": "2022-03-08",
+        "opponent": {
+          "username": "davidmarchan",
+          "title": ""
+        },
+        "link": "https://lichess.org/4e6fbgWj/black#4"
+      },
+      "SNGwGHbF": {
+        "date": "2022-03-02",
+        "opponent": {
+          "username": "ajendres",
+          "title": ""
+        },
+        "link": "https://lichess.org/SNGwGHbF/black#4"
+      },
+      "uIBpGhjv": {
+        "date": "2022-02-17",
+        "opponent": {
+          "username": "slavik2001",
+          "title": ""
+        },
+        "link": "https://lichess.org/uIBpGhjv/black#4"
+      },
+      "AQEr4yQm": {
+        "date": "2022-02-14",
+        "opponent": {
+          "username": "DrunkWitik",
+          "title": ""
+        },
+        "link": "https://lichess.org/AQEr4yQm/black#4"
+      },
+      "tuRUT8aO": {
+        "date": "2022-01-23",
+        "opponent": {
+          "username": "Dark-Sharky",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/tuRUT8aO/black#4"
+      },
+      "pjL0tev8": {
+        "date": "2021-12-16",
+        "opponent": {
+          "username": "richessschool",
+          "title": ""
+        },
+        "link": "https://lichess.org/pjL0tev8/black#4"
+      },
+      "mCwMzCQk": {
+        "date": "2021-10-18",
+        "opponent": {
+          "username": "silentwings123",
+          "title": ""
+        },
+        "link": "https://lichess.org/mCwMzCQk/black#4"
+      },
+      "BIBcvIkW": {
+        "date": "2021-10-18",
+        "opponent": {
+          "username": "Pionieer",
+          "title": ""
+        },
+        "link": "https://lichess.org/BIBcvIkW/black#4"
+      },
+      "Z4goERwz": {
+        "date": "2021-07-04",
+        "opponent": {
+          "username": "Goldcat",
+          "title": ""
+        },
+        "link": "https://lichess.org/Z4goERwz/black#4"
+      },
+      "Ua0H0tft": {
+        "date": "2021-04-11",
+        "opponent": {
+          "username": "JosbelPerez",
+          "title": ""
+        },
+        "link": "https://lichess.org/Ua0H0tft/black#4"
+      },
+      "fC308rG3": {
+        "date": "2021-03-13",
+        "opponent": {
+          "username": "DiegoK",
+          "title": ""
+        },
+        "link": "https://lichess.org/fC308rG3/black#4"
+      },
+      "RG3J5z4K": {
+        "date": "2021-02-02",
+        "opponent": {
+          "username": "NathanielLC",
+          "title": ""
+        },
+        "link": "https://lichess.org/RG3J5z4K/black#4"
+      },
+      "MeO0GlQn": {
+        "date": "2021-01-21",
+        "opponent": {
+          "username": "T_REX_ARMS",
+          "title": ""
+        },
+        "link": "https://lichess.org/MeO0GlQn/black#4"
+      },
+      "NfXo0rCr": {
+        "date": "2021-01-18",
+        "opponent": {
+          "username": "Javier_CORSARIO",
+          "title": ""
+        },
+        "link": "https://lichess.org/NfXo0rCr/black#4"
+      },
+      "t2DcrCx5": {
+        "date": "2020-12-11",
+        "opponent": {
+          "username": "Patrizsche",
+          "title": ""
+        },
+        "link": "https://lichess.org/t2DcrCx5/black#4"
+      },
+      "XVC72Ngt": {
+        "date": "2020-04-20",
+        "opponent": {
+          "username": "warmoatmeal",
+          "title": "NM"
+        },
+        "link": "https://lichess.org/XVC72Ngt/black#4"
+      },
+      "EBehLXQz": {
+        "date": "2020-03-14",
+        "opponent": {
+          "username": "attreya",
+          "title": ""
+        },
+        "link": "https://lichess.org/EBehLXQz/black#4"
+      },
+      "ivqOjjod": {
+        "date": "2017-10-27",
+        "opponent": {
+          "username": "survivor40",
+          "title": ""
+        },
+        "link": "https://lichess.org/ivqOjjod/black#4"
+      },
+      "SXum7FaV": {
+        "date": "2016-01-26",
+        "opponent": {
+          "username": "JustKid",
+          "title": ""
+        },
+        "link": "https://lichess.org/SXum7FaV/black#4"
+      },
+      "GPwenjTs": {
+        "date": "2015-05-08",
+        "opponent": {
+          "username": "Hyzer",
+          "title": ""
+        },
+        "link": "https://lichess.org/GPwenjTs/black#4"
       }
     },
-    "Englund Gambit Complex: Hartlaub-Charlick Gambit": {},
-    "Italian Game: Blackburne-Kostić Gambit": {},
-    "Elephant Gambit: Paulsen Countergambit": {},
     "Scotch Game: Göring Gambit": {
+      "S2jYyrIQ": {
+        "date": "2024-04-26",
+        "opponent": {
+          "username": "Echecs1964",
+          "title": ""
+        },
+        "link": "https://lichess.org/S2jYyrIQ#7"
+      },
       "KUo8cegY": {
         "date": "2022-03-03",
         "opponent": {
@@ -3552,17 +3567,19 @@
           "title": "FM"
         },
         "link": "https://lichess.org/3V6QPFLE#7"
-      },
-      "S2jYyrIQ": {
-        "date": "2024-04-26",
-        "opponent": {
-          "username": "Echecs1964",
-          "title": ""
-        },
-        "link": "https://lichess.org/S2jYyrIQ#7"
       }
     },
-    "French Defense: Advance Variation, Milner-Barry Gambit": {},
+    "Elephant Gambit: Paulsen Countergambit": {},
+    "Zukertort Opening: Lemberger Gambit": {
+      "eGlEAsc2": {
+        "date": "2015-08-06",
+        "opponent": {
+          "username": "extasy",
+          "title": ""
+        },
+        "link": "https://lichess.org/eGlEAsc2#3"
+      }
+    },
     "Grob Opening: Grob Gambit": {
       "IhX1OUCC": {
         "date": "2016-03-19",
@@ -3573,47 +3590,240 @@
         "link": "https://lichess.org/IhX1OUCC#3"
       }
     },
-    "Italian Game: Classical Variation, Albin Gambit": {},
-    "Italian Game: Scotch Gambit": {},
-    "Scandinavian Defense: Icelandic-Palme Gambit": {},
-    "Duras Gambit": {
-      "Lg01Fh5S": {
-        "date": "2016-03-17",
+    "Queen's Gambit Accepted: Slav Gambit": {
+      "G2Z8gayr": {
+        "date": "2026-05-27",
         "opponent": {
-          "username": "pipecat",
+          "username": "nubotronik",
           "title": ""
         },
-        "link": "https://lichess.org/Lg01Fh5S/black#2"
+        "link": "https://lichess.org/G2Z8gayr#5"
+      },
+      "o6n8R1oV": {
+        "date": "2023-01-29",
+        "opponent": {
+          "username": "CaminantePlus",
+          "title": ""
+        },
+        "link": "https://lichess.org/o6n8R1oV#5"
+      },
+      "FF44fRlc": {
+        "date": "2023-01-27",
+        "opponent": {
+          "username": "Aleksv558",
+          "title": ""
+        },
+        "link": "https://lichess.org/FF44fRlc#5"
+      },
+      "v8nDiOsF": {
+        "date": "2022-12-04",
+        "opponent": {
+          "username": "Sharpe_Richard",
+          "title": ""
+        },
+        "link": "https://lichess.org/v8nDiOsF#5"
+      },
+      "4mAJIdMc": {
+        "date": "2022-04-17",
+        "opponent": {
+          "username": "Petit_Maitre",
+          "title": ""
+        },
+        "link": "https://lichess.org/4mAJIdMc#5"
+      },
+      "tEqW8fkT": {
+        "date": "2015-11-28",
+        "opponent": {
+          "username": "SystemDC",
+          "title": ""
+        },
+        "link": "https://lichess.org/tEqW8fkT#5"
+      },
+      "X5XgGRTc": {
+        "date": "2015-09-12",
+        "opponent": {
+          "username": "hiimgosu",
+          "title": "GM"
+        },
+        "link": "https://lichess.org/X5XgGRTc#5"
+      },
+      "E8nqBr8n": {
+        "date": "2015-04-26",
+        "opponent": {
+          "username": "rusom",
+          "title": ""
+        },
+        "link": "https://lichess.org/E8nqBr8n#5"
       }
     },
+    "French Defense: Advance Variation, Milner-Barry Gambit": {},
     "Scandinavian Defense: Blackburne Gambit": {},
-    "King's Gambit Accepted: Bishop's Gambit": {
-      "u4JtpgP4": {
-        "date": "2021-05-02",
+    "Indian Defense: Omega Gambit": {},
+    "Italian Game: Classical Variation, Greco Gambit, Traditional Line": {
+      "1gtfPv0D": {
+        "date": "2025-04-26",
         "opponent": {
-          "username": "toto639",
+          "username": "Varunsapre25",
           "title": ""
         },
-        "link": "https://lichess.org/u4JtpgP4#5"
+        "link": "https://lichess.org/1gtfPv0D#11"
       },
-      "JlA9beWp": {
-        "date": "2021-03-23",
+      "EfFO8ftO": {
+        "date": "2023-12-04",
         "opponent": {
-          "username": "net9lev",
+          "username": "piccologabilo",
           "title": ""
         },
-        "link": "https://lichess.org/JlA9beWp#5"
+        "link": "https://lichess.org/EfFO8ftO#11"
       },
-      "JUfPMzJI": {
-        "date": "2016-11-13",
+      "N3aLM91p": {
+        "date": "2023-11-29",
         "opponent": {
-          "username": "pedrio",
+          "username": "xadrezpassoapasso",
           "title": ""
         },
-        "link": "https://lichess.org/JUfPMzJI#5"
+        "link": "https://lichess.org/N3aLM91p#11"
+      },
+      "IKS3jgCj": {
+        "date": "2023-09-16",
+        "opponent": {
+          "username": "Rrolack",
+          "title": ""
+        },
+        "link": "https://lichess.org/IKS3jgCj#11"
+      },
+      "wtCN98mG": {
+        "date": "2023-08-16",
+        "opponent": {
+          "username": "Orangelittlepumpkin",
+          "title": ""
+        },
+        "link": "https://lichess.org/wtCN98mG#11"
+      },
+      "Fw26RQqf": {
+        "date": "2023-04-10",
+        "opponent": {
+          "username": "bobbossss2",
+          "title": ""
+        },
+        "link": "https://lichess.org/Fw26RQqf#11"
+      },
+      "LlvWHGRo": {
+        "date": "2023-03-19",
+        "opponent": {
+          "username": "joredos1339",
+          "title": ""
+        },
+        "link": "https://lichess.org/LlvWHGRo#11"
+      },
+      "I8xXqtDq": {
+        "date": "2023-01-22",
+        "opponent": {
+          "username": "morphyslaw1858",
+          "title": ""
+        },
+        "link": "https://lichess.org/I8xXqtDq#11"
+      },
+      "CnoL8PSn": {
+        "date": "2022-04-26",
+        "opponent": {
+          "username": "Natedog6192",
+          "title": ""
+        },
+        "link": "https://lichess.org/CnoL8PSn#11"
+      },
+      "4zGhmCcb": {
+        "date": "2021-12-20",
+        "opponent": {
+          "username": "borjasanz",
+          "title": ""
+        },
+        "link": "https://lichess.org/4zGhmCcb#11"
+      },
+      "IaF9qeAz": {
+        "date": "2021-10-03",
+        "opponent": {
+          "username": "Rudranildebnath",
+          "title": ""
+        },
+        "link": "https://lichess.org/IaF9qeAz#11"
+      },
+      "8FN33rGg": {
+        "date": "2021-02-20",
+        "opponent": {
+          "username": "opponentofyou",
+          "title": ""
+        },
+        "link": "https://lichess.org/8FN33rGg#11"
+      },
+      "BxmjNxs6": {
+        "date": "2020-04-05",
+        "opponent": {
+          "username": "pavan011",
+          "title": ""
+        },
+        "link": "https://lichess.org/BxmjNxs6#11"
+      },
+      "BFSEDoac": {
+        "date": "2019-06-13",
+        "opponent": {
+          "username": "sebera",
+          "title": ""
+        },
+        "link": "https://lichess.org/BFSEDoac#11"
+      },
+      "07occrmP": {
+        "date": "2017-04-27",
+        "opponent": {
+          "username": "dmjjmd",
+          "title": "NM"
+        },
+        "link": "https://lichess.org/07occrmP#11"
+      },
+      "SHbUapzz": {
+        "date": "2015-05-23",
+        "opponent": {
+          "username": "ebogursky",
+          "title": ""
+        },
+        "link": "https://lichess.org/SHbUapzz#11"
       }
     },
-    "Bishop's Opening: Ponziani Gambit": {},
+    "Italian Game: Scotch Gambit": {
+      "AlvWDFvS": {
+        "date": "2021-04-22",
+        "opponent": {
+          "username": "apocalyptic1994",
+          "title": ""
+        },
+        "link": "https://lichess.org/AlvWDFvS#9"
+      }
+    },
+    "Scandinavian Defense: Icelandic-Palme Gambit": {},
+    "Italian Game: Blackburne-Kostić Gambit": {},
+    "Italian Game: Rousseau Gambit": {},
+    "Queen's Pawn Game: Hübsch Gambit": {},
+    "Italian Game: Classical Variation, Albin Gambit": {
+      "vI9clRgT": {
+        "date": "2016-08-03",
+        "opponent": {
+          "username": "karpovs_putzfrau",
+          "title": ""
+        },
+        "link": "https://lichess.org/vI9clRgT#9"
+      }
+    },
+    "Scotch Game: Haxo Gambit": {
+      "QyZIsz2r": {
+        "date": "2021-06-09",
+        "opponent": {
+          "username": "mnitin_1r",
+          "title": ""
+        },
+        "link": "https://lichess.org/QyZIsz2r#9"
+      }
+    },
+    "King's Gambit Accepted: Blachly Gambit": {},
     "Scandinavian Defense: Portuguese Gambit": {
       "eHYsPIiJ": {
         "date": "2023-01-22",
@@ -3664,8 +3874,54 @@
         "link": "https://lichess.org/5JSVGYiI/black#6"
       }
     },
-    "Italian Game: Deutz Gambit": {},
+    "Alekhine Defense: Scandinavian Variation, Geschev Gambit": {
+      "II3yCGc6": {
+        "date": "2023-08-05",
+        "opponent": {
+          "username": "TXmate39",
+          "title": ""
+        },
+        "link": "https://lichess.org/II3yCGc6/black#6"
+      },
+      "6vvF75YU": {
+        "date": "2022-07-03",
+        "opponent": {
+          "username": "kimia_ashirley",
+          "title": ""
+        },
+        "link": "https://lichess.org/6vvF75YU/black#6"
+      },
+      "ZtpK4a04": {
+        "date": "2017-12-20",
+        "opponent": {
+          "username": "Hamletsway",
+          "title": ""
+        },
+        "link": "https://lichess.org/ZtpK4a04/black#6"
+      }
+    },
+    "Scandinavian Defense: Boehnke Gambit": {},
+    "Sicilian Defense: Marshall Gambit": {},
+    "French Defense: Wing Gambit": {
+      "xrncnYiN": {
+        "date": "2023-12-08",
+        "opponent": {
+          "username": "TomBa88",
+          "title": ""
+        },
+        "link": "https://lichess.org/xrncnYiN#7"
+      }
+    },
+    "Blackmar-Diemer Gambit: Blackmar Gambit": {},
     "Semi-Slav Defense: Marshall Gambit": {
+      "hSdCZzkV": {
+        "date": "2023-01-06",
+        "opponent": {
+          "username": "Sempreavanti61",
+          "title": ""
+        },
+        "link": "https://lichess.org/hSdCZzkV#7"
+      },
       "X28dw2jT": {
         "date": "2021-12-16",
         "opponent": {
@@ -3681,25 +3937,70 @@
           "title": ""
         },
         "link": "https://lichess.org/TfnzWIWY#7"
-      }
-    },
-    "Zukertort Opening: Ross Gambit": {},
-    "Sicilian Defense: Marshall Gambit": {},
-    "Italian Game: Rousseau Gambit": {},
-    "Scandinavian Defense: Boehnke Gambit": {},
-    "French Defense: Wing Gambit": {
-      "xrncnYiN": {
-        "date": "2023-12-08",
+      },
+      "jrpT8YDC": {
+        "date": "2021-03-16",
         "opponent": {
-          "username": "TomBa88",
+          "username": "Filioso",
           "title": ""
         },
-        "link": "https://lichess.org/xrncnYiN#7"
+        "link": "https://lichess.org/jrpT8YDC#7"
+      },
+      "F7PB0qGz": {
+        "date": "2015-10-14",
+        "opponent": {
+          "username": "TryfonsChickenKebab",
+          "title": ""
+        },
+        "link": "https://lichess.org/F7PB0qGz#7"
       }
     },
-    "Nimzowitsch Defense: Colorado Countergambit": {},
-    "Queen's Pawn Game: Hübsch Gambit": {},
+    "Caro-Kann Defense: Rasa-Studier Gambit": {},
+    "King's Gambit Accepted: Bishop's Gambit": {
+      "jnRxdELP": {
+        "date": "2022-07-29",
+        "opponent": {
+          "username": "PP1567",
+          "title": ""
+        },
+        "link": "https://lichess.org/jnRxdELP#5"
+      },
+      "u4JtpgP4": {
+        "date": "2021-05-02",
+        "opponent": {
+          "username": "toto639",
+          "title": ""
+        },
+        "link": "https://lichess.org/u4JtpgP4#5"
+      },
+      "JlA9beWp": {
+        "date": "2021-03-23",
+        "opponent": {
+          "username": "net9lev",
+          "title": ""
+        },
+        "link": "https://lichess.org/JlA9beWp#5"
+      },
+      "JUfPMzJI": {
+        "date": "2016-11-13",
+        "opponent": {
+          "username": "pedrio",
+          "title": ""
+        },
+        "link": "https://lichess.org/JUfPMzJI#5"
+      }
+    },
+    "Italian Game: Deutz Gambit": {},
+    "Bishop's Opening: Ponziani Gambit": {},
     "Dutch Defense: Staunton Gambit": {
+      "7J90wP2D": {
+        "date": "2024-08-08",
+        "opponent": {
+          "username": "Surpresa1975",
+          "title": ""
+        },
+        "link": "https://lichess.org/7J90wP2D#3"
+      },
       "o9QJK5S2": {
         "date": "2022-03-13",
         "opponent": {
@@ -3731,35 +4032,53 @@
           "title": "NM"
         },
         "link": "https://lichess.org/kVoqkV9z#3"
-      },
-      "7J90wP2D": {
-        "date": "2024-08-08",
-        "opponent": {
-          "username": "Surpresa1975",
-          "title": ""
-        },
-        "link": "https://lichess.org/7J90wP2D#3"
       }
     },
-    "Italian Game: Rosentreter Gambit": {},
-    "Zukertort Opening: Lemberger Gambit": {},
-    "Alekhine Defense: Scandinavian Variation, Geschev Gambit": {
-      "II3yCGc6": {
-        "date": "2023-08-05",
-        "opponent": {
-          "username": "TXmate39",
-          "title": ""
-        },
-        "link": "https://lichess.org/II3yCGc6/black#6"
-      }
-    },
-    "Grob Opening: Grob Gambit, Fritz Gambit": {},
-    "Center Game: von der Lasa Gambit": {},
-    "A51 Indian Defense: Budapest Defense, Fajarowicz Gambit": {},
     "Englund Gambit Complex: Soller Gambit": {},
+    "Bird Opening: Williams Gambit": {},
+    "Italian Game: Rosentreter Gambit": {},
+    "Scandinavian Defense: Main Line, Leonhardt Gambit": {},
+    "French Defense: Horwitz Attack, Papa-Ticulat Gambit": {},
+    "Italian Game: Classical Variation, Greco Gambit": {},
+    "Grob Opening: Grob Gambit, Fritz Gambit": {},
+    "English Opening: Anglo-Scandinavian Defense, Schulz Gambit": {},
+    "Pirc Defense: Roscher Gambit": {},
+    "French Defense: Perseus Gambit": {},
+    "Blackmar-Diemer Gambit: von Popiel Gambit": {},
+    "Nimzowitsch Defense: Colorado Countergambit": {},
+    "Nimzowitsch Defense: Kennedy Variation, de Smet Gambit": {},
+    "Sicilian Defense: Portsmouth Gambit": {},
+    "Center Game: von der Lasa Gambit": {},
     "Four Knights Game: Italian Variation, Noa Gambit": {},
-    "Philidor Defense: Morphy Gambit": {},
+    "Van Geet Opening: Dunst-Perrenet Gambit": {},
+    "Ponziani Opening: Neumann Gambit": {},
+    "Scandinavian Defense: Kloosterboer Gambit": {},
+    "Zukertort Opening: Vos Gambit": {},
     "Ruy Lopez: Classical Variation, Zukertort Gambit": {
+      "DWFwSvqg": {
+        "date": "2022-12-05",
+        "opponent": {
+          "username": "Magnata2016",
+          "title": ""
+        },
+        "link": "https://lichess.org/DWFwSvqg#9"
+      },
+      "r4pjbFJV": {
+        "date": "2021-06-20",
+        "opponent": {
+          "username": "Murat136",
+          "title": ""
+        },
+        "link": "https://lichess.org/r4pjbFJV#9"
+      },
+      "EAXR0k9i": {
+        "date": "2021-03-28",
+        "opponent": {
+          "username": "Ridics",
+          "title": ""
+        },
+        "link": "https://lichess.org/EAXR0k9i#9"
+      },
       "AFC0WScd": {
         "date": "2021-03-03",
         "opponent": {
@@ -3769,19 +4088,20 @@
         "link": "https://lichess.org/AFC0WScd#9"
       }
     },
-    "Scandinavian Defense: Kloosterboer Gambit": {},
-    "Blackmar-Diemer Gambit: Blackmar Gambit": {},
-    "French Defense: Horwitz Attack, Papa-Ticulat Gambit": {},
-    "Scandinavian Defense: Main Line, Leonhardt Gambit": {},
-    "Ponziani Opening: Neumann Gambit": {},
-    "Bishop's Opening: Urusov Gambit": {},
-    "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit": {},
-    "English Opening: Anglo-Scandinavian Defense, Schulz Gambit": {},
-    "Blackmar-Diemer Gambit Accepted: Ryder Gambit": {},
-    "Caro-Kann Defense: Rasa-Studier Gambit": {},
-    "Italian Game: Classical Variation, Greco Gambit": {},
-    "Indian Defense: Omega Gambit": {},
+    "Vienna Game: Omaha Gambit": {},
+    "Philidor Defense: Morphy Gambit": {},
+    "Owen Defense: Smith Gambit": {},
+    "Queen's Pawn Game: Chigorin Variation, Irish Gambit": {},
+    "Queen's Gambit Declined: Chigorin Defense, Modern Gambit": {},
     "Four Knights Game: Halloween Gambit": {
+      "iwaMmO6Z": {
+        "date": "2021-12-12",
+        "opponent": {
+          "username": "SpaceTimeWhoa",
+          "title": ""
+        },
+        "link": "https://lichess.org/iwaMmO6Z#7"
+      },
       "S87ww0bj": {
         "date": "2020-11-01",
         "opponent": {
@@ -3799,10 +4119,20 @@
         "link": "https://lichess.org/IH0I8XIb#7"
       }
     },
-    "Sicilian Defense: Portsmouth Gambit": {},
-    "Nimzowitsch Defense: Kennedy Variation, de Smet Gambit": {},
-    "Blackmar-Diemer Gambit: von Popiel Gambit": {},
+    "King's Pawn Game: Beyer Gambit": {},
+    "Queen's Pawn Game: Liedmann Gambit": {},
+    "Englund Gambit Complex: Felbecker Gambit": {},
+    "French Defense: Diemer-Duhm Gambit": {},
+    "Blackmar-Diemer Gambit Accepted: Ryder Gambit": {},
     "Slav Defense: Geller Gambit": {
+      "RQA6Ze8V": {
+        "date": "2023-01-01",
+        "opponent": {
+          "username": "dzyura_christopher",
+          "title": ""
+        },
+        "link": "https://lichess.org/RQA6Ze8V#9"
+      },
       "MJABSsN0": {
         "date": "2022-05-08",
         "opponent": {
@@ -3810,17 +4140,28 @@
           "title": ""
         },
         "link": "https://lichess.org/MJABSsN0#9"
-      }
-    },
-    "Dutch Defense: Staunton Gambit, Lasker Variation": {
-      "dCKPTzQj": {
-        "date": "2022-01-02",
+      },
+      "R2vMhcCm": {
+        "date": "2015-12-15",
         "opponent": {
-          "username": "CalebThor",
+          "username": "philipholm",
           "title": ""
         },
-        "link": "https://lichess.org/dCKPTzQj#7"
-      },
+        "link": "https://lichess.org/R2vMhcCm#9"
+      }
+    },
+    "Bishop's Opening: Urusov Gambit": {},
+    "A51 Indian Defense: Budapest Defense, Fajarowicz Gambit": {},
+    "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit": {},
+    "English Opening: Jaenisch Gambit": {},
+    "King's Indian Defense: Sämisch Variation, Sämisch Gambit": {},
+    "Center Game: Halasz-McDonnell Gambit": {},
+    "Philidor Defense: Lopez Countergambit": {},
+    "Slav Defense: Diemer Gambit": {},
+    "Queen's Gambit Declined: Marshall Defense, Tan Gambit": {},
+    "Zukertort Opening: Herrstrom Gambit": {},
+    "French Defense: Orthoschnapp Gambit": {},
+    "Dutch Defense: Staunton Gambit, Lasker Variation": {
       "7J90wP2D": {
         "date": "2024-08-08",
         "opponent": {
@@ -3828,35 +4169,219 @@
           "title": ""
         },
         "link": "https://lichess.org/7J90wP2D#7"
+      },
+      "dCKPTzQj": {
+        "date": "2022-01-02",
+        "opponent": {
+          "username": "CalebThor",
+          "title": ""
+        },
+        "link": "https://lichess.org/dCKPTzQj#7"
       }
     },
-    "French Defense: Perseus Gambit": {},
-    "Vienna Game: Omaha Gambit": {},
-    "French Defense: Diemer-Duhm Gambit": {},
-    "Philidor Defense: Lopez Countergambit": {},
-    "Englund Gambit Complex: Felbecker Gambit": {},
-    "King's Indian Defense: Sämisch Variation, Sämisch Gambit": {},
-    "Pirc Defense: Roscher Gambit": {},
-    "King's Gambit Accepted: Rosentreter Gambit": {},
-    "King's Gambit Accepted: Kieseritzky Gambit": {},
     "King's Pawn Game: Gunderam Gambit": {},
-    "King's Gambit Accepted: Muzio Gambit, Wild Muzio Gambit": {},
-    "Russian Game: Cochrane Gambit": {},
-    "King's Gambit Accepted: Blachly Gambit": {},
-    "French Defense: Orthoschnapp Gambit": {},
-    "Philidor Defense: Bird Gambit": {},
+    "Polish Opening: Birmingham Gambit": {},
+    "Latvian Gambit: Mason Countergambit": {
+      "CmgD130I": {
+        "date": "2025-05-09",
+        "opponent": {
+          "username": "yzc",
+          "title": ""
+        },
+        "link": "https://lichess.org/CmgD130I#5"
+      }
+    },
     "Bishop's Opening: Calabrese Countergambit": {},
-    "Bird Opening: Williams Gambit": {},
-    "Owen Defense: Smith Gambit": {},
+    "Philidor Defense: Bird Gambit": {},
+    "Caro-Kann Defense: von Hennig Gambit": {
+      "GAcStYV3": {
+        "date": "2022-12-18",
+        "opponent": {
+          "username": "AlexSpencer",
+          "title": ""
+        },
+        "link": "https://lichess.org/GAcStYV3#7"
+      }
+    },
+    "King's Gambit Accepted: Rosentreter Gambit": {},
+    "Englund Gambit Complex: Zilbermints Gambit": {},
+    "Zukertort Opening: Speelsmet Gambit": {},
+    "Sicilian Defense: Wing Gambit Deferred": {},
+    "Philidor Defense: Philidor Countergambit": {},
     "French Defense: Winawer Variation, Alekhine-Maróczy Gambit": {},
-    "Queen's Pawn Game: Chigorin Variation, Irish Gambit": {},
+    "Zukertort Opening: Lisitsyn Gambit": {
+      "Vl14CRVq": {
+        "date": "2021-06-30",
+        "opponent": {
+          "username": "Ankitraparthi1",
+          "title": ""
+        },
+        "link": "https://lichess.org/Vl14CRVq#3"
+      }
+    },
+    "King's Gambit Accepted: Kieseritzky Gambit": {},
+    "Bird Opening: Schlechter Gambit": {},
+    "Blackmar-Diemer Gambit: Lemberger Countergambit": {
+      "F7GkqEps": {
+        "date": "2025-08-15",
+        "opponent": {
+          "username": "chepukaitis1966",
+          "title": ""
+        },
+        "link": "https://lichess.org/F7GkqEps/black#6"
+      },
+      "Bd42fOID": {
+        "date": "2025-04-17",
+        "opponent": {
+          "username": "SLABIFOR",
+          "title": ""
+        },
+        "link": "https://lichess.org/Bd42fOID/black#6"
+      },
+      "UmmG1GTd": {
+        "date": "2025-04-04",
+        "opponent": {
+          "username": "Panthera",
+          "title": ""
+        },
+        "link": "https://lichess.org/UmmG1GTd/black#6"
+      },
+      "24lF2TSE": {
+        "date": "2024-10-10",
+        "opponent": {
+          "username": "Kingscrusher-YouTube",
+          "title": "CM"
+        },
+        "link": "https://lichess.org/24lF2TSE/black#6"
+      },
+      "gTxwLOoK": {
+        "date": "2024-09-25",
+        "opponent": {
+          "username": "Listiev",
+          "title": ""
+        },
+        "link": "https://lichess.org/gTxwLOoK/black#6"
+      },
+      "A2xG8xJZ": {
+        "date": "2024-06-16",
+        "opponent": {
+          "username": "bouzeid",
+          "title": ""
+        },
+        "link": "https://lichess.org/A2xG8xJZ/black#6"
+      },
+      "KNuetbJf": {
+        "date": "2023-12-31",
+        "opponent": {
+          "username": "bobasode",
+          "title": ""
+        },
+        "link": "https://lichess.org/KNuetbJf/black#6"
+      },
+      "czZ22GcS": {
+        "date": "2023-12-22",
+        "opponent": {
+          "username": "Isaev7777",
+          "title": ""
+        },
+        "link": "https://lichess.org/czZ22GcS/black#6"
+      },
+      "OIpSPik6": {
+        "date": "2023-12-08",
+        "opponent": {
+          "username": "sc12at",
+          "title": ""
+        },
+        "link": "https://lichess.org/OIpSPik6/black#6"
+      },
+      "N58KydIl": {
+        "date": "2023-07-03",
+        "opponent": {
+          "username": "Pedro_Dragonera",
+          "title": ""
+        },
+        "link": "https://lichess.org/N58KydIl/black#6"
+      },
+      "DtPXjKRk": {
+        "date": "2023-06-26",
+        "opponent": {
+          "username": "Minnie_Rosiee",
+          "title": ""
+        },
+        "link": "https://lichess.org/DtPXjKRk/black#6"
+      },
+      "m3EXidf7": {
+        "date": "2023-06-03",
+        "opponent": {
+          "username": "Lukasz_123",
+          "title": ""
+        },
+        "link": "https://lichess.org/m3EXidf7/black#6"
+      },
+      "f2isfUH5": {
+        "date": "2016-08-03",
+        "opponent": {
+          "username": "adzxzda",
+          "title": ""
+        },
+        "link": "https://lichess.org/f2isfUH5/black#6"
+      }
+    },
+    "Russian Game: Cochrane Gambit": {},
+    "Borg Defense: Borg Gambit": {},
+    "Rat Defense: English Rat, Lisbon Gambit": {},
+    "King's Gambit Accepted: Muzio Gambit, Wild Muzio Gambit": {},
+    "Slav Defense: Bonet Gambit": {
+      "PqXALV4g": {
+        "date": "2018-04-12",
+        "opponent": {
+          "username": "AlconJohnDatu",
+          "title": "FM"
+        },
+        "link": "https://lichess.org/PqXALV4g#7"
+      }
+    },
+    "Caro-Kann Defense: Ulysses Gambit": {},
+    "Russian Game: Damiano Variation, Kholmov Gambit": {},
     "French Defense: Winawer Variation, Winckelmann-Riemer Gambit": {},
-    "King's Gambit Accepted: Cunningham Defense, Bertin Gambit": {},
-    "King's Pawn Game: Beyer Gambit": {},
-    "Slav Defense: Bonet Gambit": {},
-    "Slav Defense: Diemer Gambit": {},
-    "Center Game: Halasz-McDonnell Gambit": {},
-    "English Opening: Jaenisch Gambit": {},
+    "Bird Opening: Dutch Variation, Batavo Gambit": {},
+    "Caro-Kann Defense: Maróczy Variation, Maróczy Gambit": {},
+    "Caro-Kann Defense: Alekhine Gambit": {
+      "SckbpIRe": {
+        "date": "2023-08-16",
+        "opponent": {
+          "username": "JojitPascual",
+          "title": ""
+        },
+        "link": "https://lichess.org/SckbpIRe#9"
+      }
+    },
+    "French Defense: Franco-Hiva Gambit": {},
+    "French Defense: La Bourdonnais Variation, Reuter Gambit": {},
+    "Tarrasch Defense: Schara Gambit": {},
+    "King's Indian Attack: Omega-Delta Gambit": {},
+    "Caro-Kann Defense: Alien Gambit": {},
+    "French Defense: Alapin Gambit": {},
+    "Bishop's Opening: Khan Gambit": {},
+    "Modern Defense: Lizard Defense, Mittenberger Gambit": {},
+    "Sicilian Defense: Morphy Gambit, Andreaschek Gambit": {
+      "3jdqFwmj": {
+        "date": "2025-04-02",
+        "opponent": {
+          "username": "marcelogomezcu",
+          "title": ""
+        },
+        "link": "https://lichess.org/3jdqFwmj#7"
+      },
+      "YqHQodDc": {
+        "date": "2023-11-03",
+        "opponent": {
+          "username": "miagichile2018",
+          "title": ""
+        },
+        "link": "https://lichess.org/YqHQodDc#7"
+      }
+    },
     "Sicilian Defense: McDonnell Attack, Tal Gambit": {
       "kYULluLV": {
         "date": "2023-09-10",
@@ -3875,8 +4400,11 @@
         "link": "https://lichess.org/5ZYwq32s/black#6"
       }
     },
-    "Russian Game: Damiano Variation, Kholmov Gambit": {},
-    "Van Geet Opening: Dunst-Perrenet Gambit": {},
+    "Vienna Game: Stanley Variation, Meitner-Mieses Gambit": {},
+    "King's Gambit Accepted: Cunningham Defense, Bertin Gambit": {},
+    "Latvian Gambit: Clam Gambit": {},
+    "Italian Game: Scotch Gambit, Walbrodt-Baird Gambit": {},
+    "Italian Game: Two Knights Defense, Ponziani-Steinitz Gambit": {},
     "Semi-Slav Defense: Anti-Moscow Gambit": {
       "TwyL13oK": {
         "date": "2022-12-05",
@@ -3887,115 +4415,52 @@
         "link": "https://lichess.org/TwyL13oK#11"
       }
     },
-    "Philidor Defense: Philidor Countergambit": {},
-    "King's Gambit Accepted: Hanstein Gambit": {},
-    "Italian Game: Scotch Gambit, Walbrodt-Baird Gambit": {},
-    "Ruy Lopez: Exchange Variation, Alapin Gambit": {},
-    "Latvian Gambit: Mason Countergambit": {
-      "CmgD130I": {
-        "date": "2025-05-09",
-        "opponent": {
-          "username": "yzc",
-          "title": ""
-        },
-        "link": "https://lichess.org/CmgD130I#5"
-      }
-    },
-    "Englund Gambit Complex: Zilbermints Gambit": {},
-    "Vienna Game: Stanley Variation, Meitner-Mieses Gambit": {},
-    "Bishop's Opening: Lewis Gambit": {},
-    "Bird Opening: Schlechter Gambit": {},
-    "Grünfeld Defense: Brinckmann Attack, Grünfeld Gambit": {},
-    "King's Gambit Accepted: Salvio Gambit": {},
-    "French Defense: Franco-Hiva Gambit": {},
-    "Caro-Kann Defense: Alekhine Gambit": {},
-    "Italian Game: Two Knights Defense, Ponziani-Steinitz Gambit": {},
-    "Tarrasch Defense: Schara Gambit": {},
     "Bishop's Opening: Boden-Kieseritzky Gambit": {},
-    "Queen's Gambit Declined: Chigorin Defense, Modern Gambit": {},
-    "King's Gambit Accepted: Allgaier Gambit": {},
-    "Sicilian Defense: Modern Variations, Ginsberg Gambit": {},
-    "Four Knights Game: Scotch Variation, Belgrade Gambit": {},
-    "Bird Opening: Dutch Variation, Batavo Gambit": {},
-    "Zukertort Opening: Vos Gambit": {},
     "Slav Defense: Winawer Countergambit": {},
-    "King's Gambit Declined: Falkbeer Countergambit, Nimzowitsch-Marshall Countergambit": {},
-    "French Defense: Alekhine-Chatard Attack, Albin-Chatard Gambit": {},
-    "Queen's Gambit Declined: Austrian Attack, Salvio Countergambit": {},
-    "Zukertort Opening: Lisitsyn Gambit": {
-      "Vl14CRVq": {
-        "date": "2021-06-30",
-        "opponent": {
-          "username": "Ankitraparthi1",
-          "title": ""
-        },
-        "link": "https://lichess.org/Vl14CRVq#3"
-      }
-    },
-    "King's Gambit Accepted: Polerio Gambit": {},
-    "Caro-Kann Defense: Maróczy Variation, Maróczy Gambit": {},
+    "Prokofiev Gambit": {},
+    "Four Knights Game: Scotch Variation, Belgrade Gambit": {},
+    "Van Geet Opening: Berlin Gambit": {},
+    "King's Gambit Declined: Panteldakis Countergambit": {},
+    "Queen's Pawn Game: Chigorin Variation, Shaviliuk Gambit": {},
+    "English Opening: Anglo-Scandinavian Defense, Löhn Gambit": {},
+    "King's Gambit Accepted: Hanstein Gambit": {},
+    "Ruy Lopez: Exchange Variation, Alapin Gambit": {},
+    "Grünfeld Defense: Brinckmann Attack, Grünfeld Gambit": {},
     "Elephant Gambit: Maróczy Gambit": {},
-    "Caro-Kann Defense: Ulysses Gambit": {},
-    "Sicilian Defense: Morphy Gambit, Andreaschek Gambit": {},
-    "Polish Opening: Birmingham Gambit": {},
-    "Blackmar-Diemer Gambit: Lemberger Countergambit": {
-      "F7GkqEps": {
-        "date": "2025-08-15",
-        "opponent": {
-          "username": "chepukaitis1966",
-          "title": ""
-        },
-        "link": "https://lichess.org/F7GkqEps/black#6"
-      },
-      "A2xG8xJZ": {
-        "date": "2024-06-16",
-        "opponent": {
-          "username": "bouzeid",
-          "title": ""
-        },
-        "link": "https://lichess.org/A2xG8xJZ/black#6"
-      },
-      "czZ22GcS": {
-        "date": "2023-12-22",
-        "opponent": {
-          "username": "Isaev7777",
-          "title": ""
-        },
-        "link": "https://lichess.org/czZ22GcS/black#6"
-      }
-    },
+    "Alekhine Defense: Hunt Variation, Lasker Simul Gambit": {},
+    "French Defense: Alekhine-Chatard Attack, Albin-Chatard Gambit": {},
+    "King's Gambit Declined: Falkbeer Countergambit, Nimzowitsch-Marshall Countergambit": {},
+    "King's Gambit Accepted: Salvio Gambit": {},
+    "Sicilian Defense: Modern Variations, Ginsberg Gambit": {},
+    "Bishop's Opening: Lewis Gambit": {},
+    "King's Gambit Accepted: Allgaier Gambit": {},
+    "Queen's Gambit Declined: Austrian Attack, Salvio Countergambit": {},
+    "Indian Defense: Gibbins-Weidenhagen Gambit": {},
+    "Sicilian Defense: Halasz Gambit": {},
+    "Caro-Kann Defense: Hillbilly Attack, Schaeffer Gambit": {},
     "French Defense: Advance Variation, Nimzowitsch Gambit": {},
     "Réti Opening: Reversed Blumenfeld Gambit": {},
-    "Alekhine Defense: Hunt Variation, Lasker Simul Gambit": {},
-    "French Defense: Alapin Gambit": {},
-    "Caro-Kann Defense: von Hennig Gambit": {
-      "GAcStYV3": {
-        "date": "2022-12-18",
-        "opponent": {
-          "username": "AlexSpencer",
-          "title": ""
-        },
-        "link": "https://lichess.org/GAcStYV3#7"
-      }
-    },
-    "Van Geet Opening: Berlin Gambit": {},
-    "Queen's Gambit Declined: Marshall Defense, Tan Gambit": {},
-    "Blumenfeld Countergambit": {},
-    "King's Gambit Declined: Panteldakis Countergambit": {},
-    "Borg Defense: Borg Gambit": {},
-    "King's Gambit Declined: Falkbeer Countergambit, Hinrichsen Gambit": {
-      "ywua2T5h": {
-        "date": "2020-11-22",
-        "opponent": {
-          "username": "Carl103",
-          "title": ""
-        },
-        "link": "https://lichess.org/ywua2T5h#5"
-      }
-    },
-    "Caro-Kann Defense: Hillbilly Attack, Schaeffer Gambit": {},
-    "Sicilian Defense: Halasz Gambit": {},
+    "King's Gambit Accepted: Polerio Gambit": {},
+    "Ponziani Opening: Ponziani Countergambit": {},
+    "French Defense: Carlson Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Exchange Variation, Marshall Gambit": {},
+    "Italian Game: Giuoco Pianissimo, Lucchini Gambit": {},
+    "Blackmar-Diemer Gambit: Reversed Albin Countergambit": {},
+    "Italian Game: Jerome Gambit": {},
+    "Indian Defense: Maddigan Gambit": {},
+    "Queen's Gambit Declined: Chigorin Defense, Lazard Gambit": {},
+    "Queen's Gambit Declined: Chigorin Defense, Tartakower Gambit": {},
+    "Alekhine Defense: O'Sullivan Gambit": {},
+    "Vienna Game: Fyfe Gambit": {},
     "Dutch Defense: Krejcik Gambit": {
+      "u9YbDYUt": {
+        "date": "2024-01-02",
+        "opponent": {
+          "username": "SheikhPepito",
+          "title": ""
+        },
+        "link": "https://lichess.org/u9YbDYUt#3"
+      },
       "VxpH1hg4": {
         "date": "2023-06-28",
         "opponent": {
@@ -4011,32 +4476,18 @@
           "title": ""
         },
         "link": "https://lichess.org/JdTZp0XC#3"
-      },
-      "u9YbDYUt": {
-        "date": "2024-01-02",
-        "opponent": {
-          "username": "SheikhPepito",
-          "title": ""
-        },
-        "link": "https://lichess.org/u9YbDYUt#3"
       }
     },
-    "Indian Defense: Gibbins-Weidenhagen Gambit": {},
-    "Italian Game: Jerome Gambit": {},
-    "Bishop's Opening: Khan Gambit": {},
-    "Rat Defense: English Rat, Lisbon Gambit": {},
-    "Ponziani Opening: Ponziani Countergambit": {},
-    "Nimzowitsch Defense: Scandinavian Variation, Exchange Variation, Marshall Gambit": {},
-    "Bishop's Opening: Urusov Gambit, Keidansky Gambit": {},
-    "English Opening: Anglo-Scandinavian Defense, Löhn Gambit": {},
-    "Scotch Game: Relfsson Gambit": {},
-    "King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit": {},
-    "Zukertort Opening: Herrstrom Gambit": {},
-    "Queen's Gambit Declined: Chigorin Defense, Lazard Gambit": {},
-    "Italian Game: Scotch Gambit, Nakhmanson Gambit": {},
-    "French Defense: La Bourdonnais Variation, Reuter Gambit": {},
-    "King's Gambit Accepted: Kieseritzky Gambit, Cotter Gambit": {},
-    "Queen's Gambit Declined: Chigorin Defense, Tartakower Gambit": {},
+    "King's Gambit Declined: Falkbeer Countergambit, Hinrichsen Gambit": {
+      "ywua2T5h": {
+        "date": "2020-11-22",
+        "opponent": {
+          "username": "Carl103",
+          "title": ""
+        },
+        "link": "https://lichess.org/ywua2T5h#5"
+      }
+    },
     "Dutch Defense: Blackmar's Second Gambit": {
       "XnNBwBv1": {
         "date": "2020-11-14",
@@ -4047,431 +4498,492 @@
         "link": "https://lichess.org/XnNBwBv1#7"
       }
     },
-    "Bird Opening: Sturm Gambit": {},
-    "English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit": {},
-    "Alekhine Defense: O'Sullivan Gambit": {},
-    "Queen's Gambit Accepted: Slav Gambit": {},
-    "Caro-Kann Defense: Panov Attack, Fianchetto Defense, Fianchetto Gambit": {},
-    "Indian Defense: Maddigan Gambit": {},
-    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Nimzowitsch Gambit": {},
-    "Modern Defense: Lizard Defense, Mittenberger Gambit": {},
-    "Sicilian Defense: Delayed Alapin Variation, Basman-Palatnik Gambit": {},
-    "Philidor Defense: Albin-Blackburne Gambit": {},
-    "Ruy Lopez: Morphy Defense, Jaffe Gambit": {},
-    "French Defense: Advance Variation, Ruisdonk Gambit": {},
-    "Italian Game: Giuoco Pianissimo, Lucchini Gambit": {},
-    "King's Gambit Accepted: Lolli Gambit": {},
-    "King's Gambit Accepted: Quade Gambit": {},
-    "Alekhine Defense: Modern Variation, Alekhine Gambit": {},
-    "Vienna Gambit, with Max Lange Defense: Steinitz Gambit": {},
-    "Dutch Defense: Janzen-Korchnoi Gambit": {},
-    "Bird Opening: Wagner-Zwitersch Gambit": {},
-    "Blackmar-Diemer Gambit: Reversed Albin Countergambit": {},
-    "King's Gambit Accepted: Mason-Keres Gambit": {},
-    "King's Indian Attack: Omega-Delta Gambit": {},
-    "King's Gambit Accepted: Sörensen Gambit": {},
-    "Bird Opening: Hobbs Gambit": {},
-    "Alekhine Defense: Krejcik Variation, Krejcik Gambit": {},
-    "French Defense: Carlson Gambit": {},
-    "Bishop's Opening: Berlin Defense, Greco Gambit": {},
-    "Center Game: Ross Gambit": {},
-    "Vienna Gambit, with Max Lange Defense: Pierce Gambit": {},
-    "French Defense: Knight Variation, Franco-Hiva Gambit": {},
-    "Center Game: Lanc-Arnold Gambit, Schippler Gambit": {},
-    "Alekhine Defense: Spielmann Gambit": {},
-    "Queen's Pawn Game: Liedmann Gambit": {},
-    "Van Geet Opening: Grünfeld Defense, Steiner Gambit": {},
-    "Modern Defense: Wind Gambit": {},
-    "Queen's Pawn Game: Chigorin Variation, Shaviliuk Gambit": {},
-    "Bishop's Opening: Stein Gambit": {},
-    "King's Gambit Accepted: Greco Gambit": {},
-    "King's Gambit Accepted: Mayet Gambit": {},
-    "Sicilian Defense: Delayed Alapin Variation, Basman-Palatnik Double Gambit": {},
     "Blackmar-Diemer Gambit: Rasa-Studier Gambit": {},
+    "Scotch Game: Relfsson Gambit": {},
+    "Blumenfeld Countergambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Nimzowitsch Gambit": {},
+    "Bird Opening: Sturm Gambit": {},
+    "Alekhine Defense: Krejcik Variation, Krejcik Gambit": {},
+    "Caro-Kann Defense: Panov Attack, Fianchetto Defense, Fianchetto Gambit": {},
+    "King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit": {},
+    "Vienna Gambit, with Max Lange Defense: Pierce Gambit": {},
+    "Bird Opening: Hobbs Gambit": {},
+    "French Defense: Advance Variation, Ruisdonk Gambit": {},
+    "Vienna Gambit, with Max Lange Defense: Steinitz Gambit": {},
+    "French Defense: Knight Variation, Franco-Hiva Gambit": {},
+    "Italian Game: Scotch Gambit, Nakhmanson Gambit": {},
+    "Center Game: Ross Gambit": {},
+    "Modern Defense: Wind Gambit": {},
+    "Bishop's Opening: Urusov Gambit, Keidansky Gambit": {},
+    "Bird Opening: Wagner-Zwitersch Gambit": {},
     "Irish Gambit": {},
-    "King's Pawn Game: Busch-Gass Gambit, Chiodini Gambit": {},
-    "King's Gambit Accepted: Philidor Gambit": {},
-    "King's Gambit Accepted: Ghulam-Kassim Gambit": {},
-    "Scandinavian Defense: Kádas Gambit": {},
-    "Latvian Gambit: Clam Gambit": {},
-    "Indian Defense: Pyrenees Gambit": {},
-    "Dutch Defense: Bellon Gambit": {},
-    "Blackmar-Diemer Gambit Declined: Brombacher Countergambit": {},
-    "Philidor Defense: Lion Variation, Shirov Gambit": {},
-    "Blackmar-Diemer Gambit Declined: Elbert Countergambit": {},
-    "Réti Opening: Advance Variation, Michel Gambit": {},
-    "Ruy Lopez: Spanish Countergambit": {},
-    "King's Pawn Game: Schulze-Müller Gambit": {},
-    "Alekhine Defense: Four Pawns Attack, Cambridge Gambit": {},
-    "Center Game: Lanc-Arnold Gambit": {},
-    "Caro-Kann Defense: Toikkanen Gambit": {},
-    "Van Geet Opening: Tübingen Gambit": {},
-    "Bishop's Opening: Warsaw Gambit": {},
-    "Queen's Indian Defense: Classical Variation, Polugaevsky Gambit": {},
-    "Polish Opening: Tartakower Gambit": {},
-    "Zukertort Opening: Speelsmet Gambit": {},
-    "King's Gambit Accepted: Gianutio Countergambit": {},
-    "King's Pawn Game: MacLeod Attack, Lasa Gambit": {},
-    "Four Knights Game: Scotch Variation, Krause Gambit": {},
-    "French Defense: MacCutcheon Variation, Wolf Gambit": {},
-    "Caro-Kann Defense: Mieses Gambit": {},
-    "Semi-Slav Defense: Noteboom Variation, Anti-Noteboom Gambit": {},
     "Sicilian Defense: Brussels Gambit": {},
-    "Queen's Gambit Declined: Austrian Defense, Gusev Countergambit": {},
-    "Ruy Lopez: Classical Variation, Cordel Gambit": {},
-    "King's Pawn Game: Weber Gambit": {},
-    "Grünfeld Defense: Zaitsev Gambit": {},
-    "A50 Indian Defense: Normal Variation, Wagon Gambit": {},
-    "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Gufeld Gambit": {},
-    "Nimzowitsch Defense: Kennedy Variation, Hammer Gambit": {},
-    "Ponziani Opening: Vukovic Gambit": {},
-    "Queen's Gambit Accepted: Central Variation, McDonnell Defense, Somov Gambit": {},
     "Van Geet Opening: Dougherty Gambit": {},
-    "Nimzowitsch Defense: Kennedy Variation, Bielefelder Gambit": {},
-    "King's Gambit Accepted: Bishop's Gambit, Bledow Countergambit": {},
-    "Bird Opening: Lasker Gambit": {},
-    "Vienna Gambit, with Max Lange Defense: Hamppe-Allgaier Gambit": {},
-    "Alekhine Defense: Scandinavian Variation, Myers Gambit": {},
-    "French Defense: Baeuerle Gambit": {},
-    "King's Gambit Accepted: Double Muzio Gambit": {},
-    "Vienna Game: Fyfe Gambit": {},
-    "English Opening: Myers Gambit": {},
-    "Sicilian Defense: O'Kelly Variation, Normal System, Cortlever Gambit": {},
-    "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit, Morris Countergambit": {},
-    "Queen's Pawn Game: Chandler Gambit": {},
-    "Owen Defense: Matovinsky Gambit": {},
-    "Sicilian Defense: O'Kelly Variation, Wing Gambit": {},
-    "French Defense: St. George Defense, Sanky-George Gambit": {},
-    "Tarrasch Defense: von Hennig Gambit": {},
-    "Benoni Defense: Cormorant Gambit": {},
-    "Italian Game: Classical Variation, Alexandre Gambit": {},
-    "English Opening: Anglo-Dutch Defense, Hickmann Gambit": {},
-    "Sicilian Defense: Moscow Variation, Haag Gambit": {},
-    "Torre Attack: Wagner Gambit": {},
-    "Blackmar-Diemer Gambit: Lemberger Countergambit, Lange Gambit": {},
-    "King's Gambit Accepted: Breyer Gambit": {},
+    "King's Gambit Accepted: Kieseritzky Gambit, Cotter Gambit": {},
+    "Alekhine Defense: Spielmann Gambit": {},
+    "Dutch Defense: Janzen-Korchnoi Gambit": {},
+    "Blackmar-Diemer Gambit Declined: Elbert Countergambit": {},
+    "Philidor Defense: Albin-Blackburne Gambit": {},
+    "Blackmar-Diemer Gambit Declined: Brombacher Countergambit": {},
+    "King's Pawn Game: Schulze-Müller Gambit": {},
+    "King's Gambit Accepted: Quade Gambit": {},
+    "Sicilian Defense: Delayed Alapin Variation, Basman-Palatnik Gambit": {},
+    "King's Gambit Accepted: Sörensen Gambit": {},
+    "Alekhine Defense: Modern Variation, Alekhine Gambit": {},
+    "Van Geet Opening: Laroche Gambit": {},
+    "Ruy Lopez: Morphy Defense, Jaffe Gambit": {},
+    "King's Gambit Accepted: Mason-Keres Gambit": {},
+    "Van Geet Opening: Grünfeld Defense, Steiner Gambit": {},
     "Sicilian Defense: Euwe Attack, Prins Gambit": {},
-    "Indian Defense: Medusa Gambit": {},
-    "Caro-Kann Defense: Hector Gambit": {},
-    "French Defense: Advance Variation, Frenkel Gambit": {},
-    "Modern Defense: Norwegian Defense, Norwegian Gambit": {},
-    "Indian Defense: Devin Gambit": {},
-    "Vienna Game: Hamppe-Muzio Gambit": {},
-    "Ponziani Opening: Caro Gambit": {},
-    "Semi-Slav Defense: Gunderam Gambit": {},
-    "Benko Gambit Declined: Hjørring Countergambit": {},
-    "Vienna Gambit, with Max Lange Defense: Hamppe-Muzio Gambit": {},
-    "King's Gambit Accepted: Rosentreter Gambit, Bird Gambit": {},
-    "Ruy Lopez: Steinitz Defense, Center Gambit": {},
+    "King's Gambit Accepted: Lolli Gambit": {},
+    "Queen's Pawn Game: Chandler Gambit": {},
+    "Bishop's Opening: Berlin Defense, Greco Gambit": {},
+    "Alekhine Defense: Scandinavian Variation, Myers Gambit": {},
+    "Nimzo-Larsen Attack: Pachman Gambit": {},
+    "King's Pawn Game: Busch-Gass Gambit, Chiodini Gambit": {},
+    "Center Game: Lanc-Arnold Gambit": {},
+    "Queen's Gambit Declined: Austrian Defense, Gusev Countergambit": {},
+    "Center Game: Lanc-Arnold Gambit, Schippler Gambit": {},
+    "Caro-Kann Defense: Mieses Gambit": {},
+    "Réti Opening: Advance Variation, Michel Gambit": {},
+    "Hungarian Opening: Van Kuijk Gambit": {},
+    "Scandinavian Defense: Kádas Gambit": {},
+    "Caro-Kann Defense: Toikkanen Gambit": {},
+    "Philidor Defense: Lion Variation, Shirov Gambit": {},
+    "Bishop's Opening: Warsaw Gambit": {},
+    "English Opening: Myers Gambit": {},
+    "Ruy Lopez: Spanish Countergambit": {},
+    "King's Pawn Game: MacLeod Attack, Lasa Gambit": {},
+    "Semi-Slav Defense: Noteboom Variation, Anti-Noteboom Gambit": {},
+    "Blackmar-Diemer Gambit: Lemberger Countergambit, Lange Gambit": {},
+    "Dutch Defense: Bellon Gambit": {},
+    "Bishop's Opening: Stein Gambit": {},
+    "Nimzowitsch Defense: Kennedy Variation, Hammer Gambit": {},
+    "King's Gambit Accepted: Ghulam-Kassim Gambit": {},
+    "Bird Opening: Williams-Zilbermints Gambit": {},
+    "Sicilian Defense: Delayed Alapin Variation, Basman-Palatnik Double Gambit": {},
+    "Four Knights Game: Scotch Variation, Krause Gambit": {},
+    "English Opening: Achilles-Omega Gambit": {},
+    "Alekhine Defense: Four Pawns Attack, Cambridge Gambit": {},
+    "King's Gambit Accepted: Mayet Gambit": {},
+    "Nimzowitsch Defense: Kennedy Variation, Bielefelder Gambit": {},
+    "Bird Opening: Lasker Gambit": {},
+    "King's Gambit Accepted: Gianutio Countergambit": {},
+    "Indian Defense: Pyrenees Gambit": {},
+    "Van Geet Opening: Tübingen Gambit": {},
+    "Queen's Indian Defense: Classical Variation, Polugaevsky Gambit": {
+      "6GmT9seh": {
+        "date": "2023-09-03",
+        "opponent": {
+          "username": "HouseOfLeaves19",
+          "title": ""
+        },
+        "link": "https://lichess.org/6GmT9seh#15"
+      }
+    },
+    "Polish Opening: Tartakower Gambit": {},
+    "King's Pawn Game: Weber Gambit": {},
+    "King's Gambit Accepted: Philidor Gambit": {},
+    "French Defense: MacCutcheon Variation, Wolf Gambit": {},
     "Van Geet Opening: Kluever Gambit": {},
     "Bird Opening: From's Gambit, Bahr Gambit": {},
-    "King's Gambit Declined: Falkbeer Countergambit, Miles Gambit": {},
-    "King's Gambit Accepted: Double Muzio Gambit, Bello Gambit": {},
-    "English Opening: Achilles-Omega Gambit": {},
-    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Heinola-Deppe Gambit": {},
-    "Latvian Gambit: Corkscrew Countergambit": {},
-    "Ruy Lopez: Rotary-Albany Gambit": {},
-    "Nimzo-Larsen Attack: Norfolk Gambit": {},
-    "Sicilian Defense: Polish Gambit": {},
-    "Trompowsky Attack: Raptor Variation, Hergert Gambit": {},
-    "Nimzo-Indian Defense: Spielmann Variation, Romanovsky Gambit": {},
-    "Bishop's Opening: McDonnell Gambit": {},
-    "Ruy Lopez: Classical Variation, Spanish Wing Gambit": {},
-    "King's Pawn Game: Damiano Defense, Damiano Gambit": {},
-    "Ruy Lopez: Open, Skipworth Gambit": {},
-    "Grob Opening: Alessi Gambit": {},
-    "King's Gambit Accepted: Tartakower Gambit": {},
-    "King's Gambit Accepted: Stamma Gambit": {},
-    "Nimzo-Larsen Attack: Pachman Gambit": {},
-    "Bishop's Opening: Anderssen Gambit": {},
-    "King's Pawn Game: Clam Variation, Radisch Gambit": {},
-    "Queen's Gambit Declined: Baltic Defense, Argentinian Gambit": {},
-    "Philidor Defense: Philidor Gambit": {},
-    "Queen's Gambit Accepted: Central Variation, Rubinstein Defense, Yefimov Gambit": {},
-    "Bird Opening: Dutch Variation, Dudweiler Gambit": {},
-    "Ruy Lopez: Morphy Defense, Norwegian Variation, Nightingale Gambit": {},
-    "Van Geet Opening: Hector Gambit": {},
-    "English Opening: King's English Variation, Bellon Gambit": {},
-    "French Defense: Banzai-Leong Gambit": {},
-    "French Defense: King's Indian Attack, Franco-Hiva Gambit": {},
-    "English Opening: Anglo-Dutch Variation, Ferenc Gambit": {},
-    "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Lutikov Gambit": {},
-    "French Defense: St. George Defense, St. George Gambit": {},
-    "Sicilian Defense: Najdorf Variation, Dekker Gambit": {},
-    "Queen's Gambit Accepted: Gunsberg Defense, Prianishenmo Gambit": {},
-    "Semi-Slav Defense: Anti-Noteboom, Stonewall Variation, Portisch Gambit": {},
-    "Bird Opening: Williams-Zilbermints Gambit": {},
-    "Englund Gambit Complex: Mosquito Gambit": {},
-    "Owen Defense: Naselwaus Gambit": {},
-    "Ruy Lopez: Classical Variation, Konikowski Gambit": {},
-    "King's Gambit Accepted: Salvio Gambit, Cochrane Gambit": {},
-    "Latvian Gambit: Corkscrew Gambit": {},
-    "Queen's Pawn Game: Zurich Gambit": {},
-    "Scotch Game: Alekhine Gambit": {},
-    "Sicilian Defense: Taimanov Variation, Bastrikov Variation, Ponomariov Gambit": {},
-    "King's Indian Defense: Orthodox Variation, Classical System, Kozul Gambit": {},
-    "King's Gambit Declined: Classical Variation, Rotlewi Countergambit": {},
-    "Mexican Defense: Horsefly Gambit": {},
-    "Italian Game: Two Knights Defense, Kloss Gambit": {},
-    "English Opening: Wing Gambit": {},
-    "Dutch Defense: Kingfisher Gambit": {},
-    "Tarrasch Defense: Classical Variation, Classical Tarrasch Gambit": {},
-    "Benoni Defense: Benoni-Staunton Gambit": {},
-    "Bird Opening: From's Gambit, Langheld Gambit": {},
-    "Bishop's Opening: McDonnell Gambit, La Bourdonnais-Denker Gambit": {},
-    "English Opening: Wade Gambit": {},
-    "Grünfeld Defense: Brinckmann Attack, Reshevsky Gambit": {},
-    "Hungarian Opening: Van Kuijk Gambit": {},
-    "Nimzo-Indian Defense: Classical Variation, Vitolins-Adorjan Gambit": {},
-    "Indian Defense: Omega Gambit, Arafat Gambit": {},
+    "Caro-Kann Defense: Hector Gambit": {},
+    "Ponziani Opening: Vukovic Gambit": {},
     "Modern Defense: Westermann Gambit": {},
-    "Indian Defense: Gibbins-Weidenhagen Gambit, Stummer Gambit": {},
-    "Four Knights Game: Scotch Variation, Oxford Gambit": {},
-    "Queen's Gambit Accepted: Old Variation, Christensen Gambit": {},
-    "Italian Game: Evans Gambit, Leonhardt Countergambit": {},
-    "Nimzo-Larsen Attack: Ringelbach Gambit": {},
-    "English Opening: Romanishin Gambit": {},
-    "Modern Defense: Lizard Defense, Pirc-Diemer Gambit": {},
-    "French Defense: Rubinstein Variation, Ellis Gambit": {},
-    "Amar Opening: Paris Gambit": {},
-    "English Defense: Eastbourne Gambit": {},
-    "Borg Defense: Troon Gambit": {},
-    "Tarrasch Defense: Marshall Gambit": {},
-    "Grob Opening: Romford Countergambit": {},
-    "Lion Defense: Anti-Philidor, Lion's Cave, Lion Claw Gambit": {},
-    "King's Indian Defense: Four Pawns Attack, Florentine Gambit": {},
-    "Nimzowitsch Defense: Wheeler Gambit": {},
-    "Indian Defense: Lazard Gambit": {},
-    "Grob Opening: Grob Gambit, Richter-Grob Gambit": {},
-    "Ponziani Opening: Spanish Variation, Harrwitz Attack, Nikitin Gambit": {},
-    "Italian Game: Evans Gambit, Hein Countergambit": {},
-    "Borg Defense: Zilbermints Gambit": {},
+    "Vienna Gambit, with Max Lange Defense: Hamppe-Allgaier Gambit": {},
+    "A50 Indian Defense: Normal Variation, Wagon Gambit": {},
+    "Ruy Lopez: Classical Variation, Cordel Gambit": {},
+    "King's Gambit Accepted: Greco Gambit": {},
+    "Grünfeld Defense: Zaitsev Gambit": {},
+    "Van Geet Opening: Hector Gambit": {},
+    "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Gufeld Gambit": {},
+    "French Defense: Baeuerle Gambit": {},
+    "Semi-Slav Defense: Gunderam Gambit": {},
+    "Sicilian Defense: O'Kelly Variation, Wing Gambit": {},
+    "Sicilian Defense: O'Kelly Variation, Normal System, Cortlever Gambit": {},
+    "Queen's Gambit Accepted: Central Variation, McDonnell Defense, Somov Gambit": {},
+    "Benoni Defense: Cormorant Gambit": {},
+    "Grob Opening: Alessi Gambit": {},
+    "French Defense: King's Indian Attack, Franco-Hiva Gambit": {},
+    "French Defense: St. George Defense, Sanky-George Gambit": {},
+    "Tarrasch Defense: von Hennig Gambit": {},
+    "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit, Morris Countergambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Heinola-Deppe Gambit": {},
+    "Vienna Gambit, with Max Lange Defense: Hamppe-Muzio Gambit": {},
+    "Vienna Game: Hamppe-Muzio Gambit": {},
+    "Latvian Gambit: Corkscrew Countergambit": {},
+    "Owen Defense: Naselwaus Gambit": {},
+    "Indian Defense: Medusa Gambit": {},
+    "King's Gambit Accepted: Bishop's Gambit, Bledow Countergambit": {},
+    "Benko Gambit Declined: Hjørring Countergambit": {},
+    "Italian Game: Classical Variation, Alexandre Gambit": {},
+    "Ponziani Opening: Caro Gambit": {},
+    "Owen Defense: Matovinsky Gambit": {},
+    "King's Gambit Accepted: Double Muzio Gambit": {},
+    "Torre Attack: Wagner Gambit": {},
     "Mikenas Defense: Pozarek Gambit": {},
-    "Owen Defense: Wind Gambit": {},
+    "English Defense: Eastbourne Gambit": {},
+    "Indian Defense: Devin Gambit": {},
+    "English Opening: Anglo-Dutch Defense, Hickmann Gambit": {},
     "Modern Defense: Fianchetto Gambit": {},
-    "King's Gambit Accepted: Silberschmidt Gambit": {},
-    "King's Pawn Game: Pachman Wing Gambit": {},
+    "Sicilian Defense: Moscow Variation, Haag Gambit": {},
+    "Modern Defense: Norwegian Defense, Norwegian Gambit": {},
+    "Englund Gambit Complex: Mosquito Gambit": {},
+    "Philidor Defense: Philidor Gambit": {},
+    "English Opening: Anglo-Dutch Variation, Ferenc Gambit": {},
+    "King's Gambit Accepted: Rosentreter Gambit, Bird Gambit": {},
+    "French Defense: Advance Variation, Frenkel Gambit": {},
+    "Ruy Lopez: Rotary-Albany Gambit": {},
     "Vienna Gambit, with Max Lange Defense: Quelle Gambit": {},
-    "Queen's Gambit Declined: Zilbermints Gambit": {},
-    "Van Geet Opening: Laroche Gambit": {},
+    "King's Gambit Accepted: Breyer Gambit": {},
+    "King's Pawn Game: Clam Variation, Radisch Gambit": {},
+    "Nimzo-Indian Defense: Spielmann Variation, Romanovsky Gambit": {},
+    "Modern Defense: Lizard Defense, Pirc-Diemer Gambit": {},
+    "Sicilian Defense: Polish Gambit": {},
+    "Queen's Pawn Game: Zurich Gambit": {},
+    "Ruy Lopez: Steinitz Defense, Center Gambit": {},
+    "King's Gambit Declined: Falkbeer Countergambit, Miles Gambit": {},
+    "French Defense: Banzai-Leong Gambit": {},
+    "Nimzo-Larsen Attack: Norfolk Gambit": {},
+    "Queen's Gambit Accepted: Gunsberg Defense, Prianishenmo Gambit": {
+      "VULZVtIy": {
+        "date": "2023-08-27",
+        "opponent": {
+          "username": "PembersihSingkong",
+          "title": ""
+        },
+        "link": "https://lichess.org/VULZVtIy#13"
+      },
+      "fcytCUCH": {
+        "date": "2023-08-22",
+        "opponent": {
+          "username": "badobandi123",
+          "title": ""
+        },
+        "link": "https://lichess.org/fcytCUCH#13"
+      },
+      "faNZIyak": {
+        "date": "2022-06-14",
+        "opponent": {
+          "username": "BpjsbalikpapaN",
+          "title": ""
+        },
+        "link": "https://lichess.org/faNZIyak#13"
+      },
+      "4mAJIdMc": {
+        "date": "2022-04-17",
+        "opponent": {
+          "username": "Petit_Maitre",
+          "title": ""
+        },
+        "link": "https://lichess.org/4mAJIdMc#13"
+      },
+      "G8IIV4Ce": {
+        "date": "2022-02-27",
+        "opponent": {
+          "username": "jasmilthan",
+          "title": ""
+        },
+        "link": "https://lichess.org/G8IIV4Ce#13"
+      },
+      "QTcb3wLY": {
+        "date": "2015-05-11",
+        "opponent": {
+          "username": "Lemuel_Gulliver",
+          "title": ""
+        },
+        "link": "https://lichess.org/QTcb3wLY#13"
+      },
+      "LTone5q6": {
+        "date": "2015-05-09",
+        "opponent": {
+          "username": "gpv",
+          "title": ""
+        },
+        "link": "https://lichess.org/LTone5q6#13"
+      }
+    },
+    "Latvian Gambit: Corkscrew Gambit": {},
+    "Trompowsky Attack: Raptor Variation, Hergert Gambit": {},
+    "Bird Opening: Dutch Variation, Dudweiler Gambit": {},
+    "King's Gambit Accepted: Double Muzio Gambit, Bello Gambit": {},
+    "Bird Opening: From's Gambit, Langheld Gambit": {},
+    "Four Knights Game: Scotch Variation, Oxford Gambit": {},
+    "Nimzo-Larsen Attack: Ringelbach Gambit": {},
+    "King's Pawn Game: Damiano Defense, Damiano Gambit": {},
+    "English Opening: King's English Variation, Bellon Gambit": {},
+    "Ruy Lopez: Classical Variation, Spanish Wing Gambit": {},
+    "French Defense: St. George Defense, St. George Gambit": {},
+    "English Opening: Wing Gambit": {},
     "King's Pawn Game: Bavarian Gambit": {},
-    "Old Indian Defense: Janowski Variation, Grinberg Gambit": {},
-    "Ruy Lopez: Brentano Gambit": {},
-    "Bird Opening: Hobbs-Zilbermints Gambit": {},
-    "Nimzowitsch Defense: Kennedy Variation, Herford Gambit": {},
-    "Sicilian Defense: Coles Sicilian Gambit": {},
-    "Grob Opening: Grob Gambit, Fritz Gambit, Romford Countergambit": {},
-    "King's Gambit Accepted: Bishop's Gambit, Gianutio Gambit": {},
-    "Van Geet Opening: Billockus-Johansen Gambit": {},
-    "Dutch Defense: Senechaud Gambit": {},
-    "Nimzowitsch Defense: Hornung Gambit": {},
-    "Dutch Defense: Spielmann Gambit": {},
-    "King's Gambit Accepted: McDonnell Gambit": {},
-    "King's Gambit Accepted: Gaga Gambit": {},
-    "Four Knights Game: Spanish Variation, Rubinstein Variation, Marshall Gambit": {},
-    "King's Pawn Game: Damiano Defense, Damiano Gambit, Chigorin Gambit": {},
-    "King's Gambit Declined: Falkbeer Countergambit, Pickler Gambit": {},
-    "Portuguese Opening: Portuguese Gambit": {},
-    "King's Gambit Declined: Classical Variation, Rubinstein Countergambit": {},
-    "Grob Opening: Grob Gambit, Basman Gambit": {},
-    "Ruy Lopez: Central Countergambit": {},
-    "St. George Defense: Zilbermints Gambit": {},
-    "Scotch Game: Napoleon Gambit": {},
-    "Carr Defense: Zilbermints Gambit": {},
-    "Grob Opening: Zilbermints Gambit": {},
-    "Vienna Game: Mieses Variation, Erben Gambit": {},
-    "Sicilian Defense: Moscow Variation, Moscow Gambit": {},
-    "King's Gambit Declined: Soller-Zilbermints Gambit": {},
-    "Nimzowitsch Defense: Scandinavian Variation, Aachen Gambit": {},
-    "Rat Defense: English Rat, Pounds Gambit": {},
-    "Rat Defense: Fuller Gambit": {},
-    "Bishop's Opening: Horwitz Gambit": {},
-    "Sicilian Defense: Scheveningen Variation, Delayed Keres Attack, Perenyi Gambit": {},
-    "Horwitz Defense: Zilbermints Gambit": {},
-    "English Opening: Symmetrical Variation, Napolitano Gambit": {},
-    "Slav Indian: Kudischewitsch Gambit": {},
-    "Hungarian Opening: Bücker Gambit": {},
-    "French Defense: Winawer Variation, Fingerslip Variation, Kunin Double Gambit": {},
-    "Alekhine Defense: Hunt Variation, Mikenas Gambit": {},
-    "Grünfeld Defense: Gibbon Gambit": {},
-    "Caro-Kann Defense: Scorpion-Horus Gambit": {},
-    "Alekhine Defense: Hunt Variation, Matsukevich Gambit": {},
-    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Richter Gambit": {},
+    "Scotch Game: Alekhine Gambit": {},
+    "Dutch Defense: Kingfisher Gambit": {},
     "Anderssen's Opening: Polish Gambit": {},
-    "Queen's Indian Defense: Classical Variation, Taimanov Gambit": {},
-    "Indian Defense: Anti-Grünfeld, Alekhine Variation, Leko Gambit": {},
-    "Vienna Game: Stanley Variation, Bronstein Gambit": {},
-    "Pterodactyl Defense: Central, Quetzalcoatlus Gambit": {},
+    "Queen's Gambit Declined: Baltic Defense, Argentinian Gambit": {},
+    "Tarrasch Defense: Classical Variation, Classical Tarrasch Gambit": {},
+    "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Lutikov Gambit": {},
+    "Indian Defense: Omega Gambit, Arafat Gambit": {},
+    "Bishop's Opening: Anderssen Gambit": {},
+    "Ruy Lopez: Open, Skipworth Gambit": {},
+    "Tarrasch Defense: Marshall Gambit": {},
+    "Semi-Slav Defense: Anti-Noteboom, Stonewall Variation, Portisch Gambit": {},
+    "Queen's Gambit Accepted: Central Variation, Rubinstein Defense, Yefimov Gambit": {},
+    "Bishop's Opening: McDonnell Gambit": {},
+    "Sicilian Defense: Taimanov Variation, Bastrikov Variation, Ponomariov Gambit": {},
+    "King's Gambit Accepted: Stamma Gambit": {},
+    "Mexican Defense: Horsefly Gambit": {},
+    "Benoni Defense: Benoni-Staunton Gambit": {},
+    "Ruy Lopez: Classical Variation, Konikowski Gambit": {},
+    "Ruy Lopez: Morphy Defense, Norwegian Variation, Nightingale Gambit": {},
+    "Nimzowitsch Defense: Wheeler Gambit": {},
+    "French Defense: Rubinstein Variation, Ellis Gambit": {},
+    "Grob Opening: Romford Countergambit": {},
+    "Sicilian Defense: Najdorf Variation, Dekker Gambit": {},
+    "Rat Defense: English Rat, Pounds Gambit": {},
+    "Caro-Kann Defense: Scorpion-Horus Gambit": {},
+    "Van Geet Opening: Billockus-Johansen Gambit": {},
+    "Queen's Gambit Accepted: Old Variation, Christensen Gambit": {},
+    "Italian Game: Two Knights Defense, Kloss Gambit": {},
+    "English Opening: Wade Gambit": {},
+    "King's Gambit Declined: Classical Variation, Rotlewi Countergambit": {},
+    "King's Gambit Accepted: Tartakower Gambit": {},
+    "Owen Defense: Wind Gambit": {},
+    "King's Gambit Accepted: Salvio Gambit, Cochrane Gambit": {},
+    "King's Indian Defense: Four Pawns Attack, Florentine Gambit": {},
+    "Grünfeld Defense: Brinckmann Attack, Reshevsky Gambit": {},
+    "Bird Opening: Hobbs-Zilbermints Gambit": {},
+    "Old Indian Defense: Janowski Variation, Grinberg Gambit": {},
+    "Amar Opening: Paris Gambit": {},
+    "Dutch Defense: Omega-Isis Gambit": {},
+    "English Opening: Romanishin Gambit": {},
+    "King's Indian Defense: Orthodox Variation, Classical System, Kozul Gambit": {},
+    "Italian Game: Evans Gambit, Leonhardt Countergambit": {},
+    "Grob Opening: Grob Gambit, Richter-Grob Gambit": {},
+    "Barnes Opening: Gedult Gambit": {},
+    "Lion Defense: Anti-Philidor, Lion's Cave, Lion Claw Gambit": {},
+    "Horwitz Defense: Zilbermints Gambit": {},
+    "Nimzo-Indian Defense: Classical Variation, Vitolins-Adorjan Gambit": {},
+    "Dutch Defense: Spielmann Gambit": {},
+    "Italian Game: Evans Gambit, Hein Countergambit": {},
+    "Bishop's Opening: McDonnell Gambit, La Bourdonnais-Denker Gambit": {},
+    "Indian Defense: Gibbins-Weidenhagen Gambit, Stummer Gambit": {},
+    "Borg Defense: Zilbermints Gambit": {},
+    "Queen's Gambit Declined: Zilbermints Gambit": {},
+    "Grob Opening: Grob Gambit, Fritz Gambit, Romford Countergambit": {},
+    "Nimzowitsch Defense: Kennedy Variation, Herford Gambit": {},
+    "Nimzowitsch Defense: Hornung Gambit": {},
+    "King's Gambit Declined: Falkbeer Countergambit, Pickler Gambit": {},
+    "Vienna Game: Philidor Countergambit": {},
+    "King's Pawn Game: Pachman Wing Gambit": {},
+    "Kádas Opening: Schneider Gambit": {},
+    "Borg Defense: Troon Gambit": {},
+    "Indian Defense: Lazard Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Richter Gambit": {},
+    "Ponziani Opening: Spanish Variation, Harrwitz Attack, Nikitin Gambit": {},
     "Pterodactyl Defense: Sicilian, Benoni Gambit": {},
-    "Nimzo-Indian Defense: Leningrad Variation, Averbakh Gambit": {},
-    "Russian Game: Classical Attack, Marshall Variation, Chinese Gambit": {},
-    "Van Geet Opening: Liebig Gambit": {},
-    "King's Gambit Declined: Zilbermints Double Countergambit": {},
-    "Slav Defense: Winawer Countergambit, Anti-Winawer Gambit": {},
-    "Nimzo-Indian Defense: Three Knights Variation, Shocron Gambit": {},
-    "Queen's Gambit Accepted: Old Variation, Billinger Gambit": {},
-    "Italian Game: Two Knights Defense, Ulvestad Variation, Kurkin Gambit": {},
-    "Queen's Indian Defense: Kasparov-Petrosian Variation, Polovodin Gambit": {},
-    "Scandinavian Defense: Zilbermints Gambit": {},
-    "King's Pawn Game: La Bourdonnais Gambit": {},
+    "Vienna Game: Mieses Variation, Erben Gambit": {},
+    "Dutch Defense: Senechaud Gambit": {},
+    "Grob Opening: Grob Gambit, Basman Gambit": {},
+    "King's Gambit Accepted: McDonnell Gambit": {},
+    "Portuguese Opening: Portuguese Gambit": {},
+    "Sicilian Defense: Coles Sicilian Gambit": {},
+    "King's Gambit Declined: Soller-Zilbermints Gambit": {},
+    "King's Gambit Accepted: Bishop's Gambit, Gianutio Gambit": {},
+    "Alekhine Defense: Hunt Variation, Matsukevich Gambit": {},
+    "King's Gambit Accepted: Gaga Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Aachen Gambit": {},
+    "King's Pawn Game: Damiano Defense, Damiano Gambit, Chigorin Gambit": {},
+    "King's Gambit Accepted: Silberschmidt Gambit": {},
+    "Clemenz Opening: Spike Lee Gambit": {},
+    "Carr Defense: Zilbermints Gambit": {},
+    "Queen's Gambit Declined: Charousek Variation, Miladinovic Gambit": {},
+    "Alekhine Defense: Hunt Variation, Mikenas Gambit": {},
+    "St. George Defense: Zilbermints Gambit": {},
     "King's Pawn Game: Philidor Gambit": {},
-    "Tarrasch Defense: Tarrasch Gambit": {},
-    "King's Gambit Accepted: Bishop's Gambit, Kieseritzky Gambit": {},
+    "Scotch Game: Napoleon Gambit": {},
+    "Four Knights Game: Spanish Variation, Rubinstein Variation, Marshall Gambit": {},
+    "King's Gambit Declined: Classical Variation, Rubinstein Countergambit": {},
+    "Queen's Indian Defense: Classical Variation, Taimanov Gambit": {},
+    "Vienna Game: Stanley Variation, Bronstein Gambit": {},
+    "Polish Opening: Wolferts Gambit": {},
+    "Ruy Lopez: Brentano Gambit": {},
+    "Bird Opening: Thomas Gambit": {},
+    "Bishop's Opening: Horwitz Gambit": {},
+    "Scandinavian Defense: Zilbermints Gambit": {},
+    "Slav Defense: Winawer Countergambit, Anti-Winawer Gambit": {},
+    "Van Geet Opening: Hergert Gambit": {},
+    "Grob Opening: Zilbermints Gambit": {},
+    "Sicilian Defense: Moscow Variation, Moscow Gambit": {},
+    "Van Geet Opening: Liebig Gambit": {},
+    "Grünfeld Defense: Gibbon Gambit": {},
+    "Ruy Lopez: Central Countergambit": {},
+    "Hungarian Opening: Wiedenhagen-Beta Gambit": {},
+    "Pterodactyl Defense: Central, Quetzalcoatlus Gambit": {},
+    "Slav Indian: Kudischewitsch Gambit": {},
+    "Nimzo-Indian Defense: Three Knights Variation, Shocron Gambit": {},
+    "Rat Defense: Fuller Gambit": {},
+    "Hungarian Opening: Bücker Gambit": {},
+    "Russian Game: Moody Gambit": {},
+    "Sicilian Defense: Scheveningen Variation, Delayed Keres Attack, Perenyi Gambit": {},
+    "English Opening: Symmetrical Variation, Napolitano Gambit": {},
+    "French Defense: Winawer Variation, Fingerslip Variation, Kunin Double Gambit": {},
+    "Russian Game: Classical Attack, Marshall Variation, Chinese Gambit": {},
+    "Queen's Gambit Accepted: Classical Defense, Russian Gambit": {},
+    "Bird Opening: Platz Gambit": {},
+    "Queen's Gambit Accepted: Old Variation, Billinger Gambit": {},
+    "Queen's Indian Defense: Kasparov-Petrosian Variation, Polovodin Gambit": {},
+    "Richter-Veresov Attack: Malich Gambit": {},
+    "Nimzo-Indian Defense: Leningrad Variation, Averbakh Gambit": {},
+    "Van Geet Opening: Melleby Gambit": {},
+    "Van Geet Opening: Damhaug Gambit": {},
+    "King's Gambit Declined: Zilbermints Double Countergambit": {},
     "Amar Gambit": {},
+    "Indian Defense: Anti-Grünfeld, Alekhine Variation, Leko Gambit": {},
+    "Benoni Defense: Zilbermints-Benoni Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Brandics Gambit": {},
+    "Caro-Kann Defense: Mieses Attack, Landau Gambit": {},
+    "Italian Game: Two Knights Defense, Ulvestad Variation, Kurkin Gambit": {},
+    "Tarrasch Defense: Tarrasch Gambit": {},
+    "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, San Francisco Gambit": {},
+    "Latvian Gambit: Mayet Attack, Strautins Gambit": {},
+    "King's Pawn Game: Tayler Opening, Basman Gambit": {},
+    "King's Pawn Game: La Bourdonnais Gambit": {},
+    "French Defense: Tarrasch Variation, Open System, Shaposhnikov Gambit": {},
+    "Modern Defense: Two Knights Variation, Suttles Variation, Tal Gambit": {},
     "Italian Game: Two Knights Defense, Traxler Variation, Trencianske-Teplice Gambit": {},
     "Tarrasch Defense: Grünfeld Gambit": {},
-    "King's Gambit Accepted: Bishop's Gambit, Bryan Countergambit": {},
-    "French Defense: Tarrasch Variation, Open System, Shaposhnikov Gambit": {},
-    "Queen's Gambit Accepted: Classical Defense, Russian Gambit": {},
-    "Queen's Gambit Declined: Charousek Variation, Miladinovic Gambit": {},
-    "Torre Attack: Classical Defense, Petrosian Gambit": {},
-    "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, San Francisco Gambit": {},
-    "Dutch Defense: Omega-Isis Gambit": {},
-    "King's Gambit Accepted: Allgaier, Blackburne Gambit": {},
-    "English Defense: Poli Gambit": {},
-    "King's Pawn Game: Tayler Opening, Basman Gambit": {},
-    "Sicilian Defense: Taimanov Variation, Gary Gambit": {},
-    "Bird Opening: Thomas Gambit": {},
-    "Scandinavian Defense: Modern Variation, Wing Gambit": {},
-    "Caro-Kann Defense: Mieses Attack, Landau Gambit": {},
-    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Brandics Gambit": {},
-    "Russian Game: Moody Gambit": {},
-    "Richter-Veresov Attack: Malich Gambit": {},
-    "Vienna Game: Philidor Countergambit": {},
-    "Kádas Opening: Schneider Gambit": {},
-    "Dutch Defense: Krejcik Gambit, Tate Gambit": {},
-    "Van Geet Opening: Hergert Gambit": {},
-    "Bird Opening: Platz Gambit": {},
-    "Sicilian Defense: Double-Dutch Gambit": {},
-    "Polish Opening: Wolferts Gambit": {},
-    "Ruy Lopez: Alapin Defense, Alapin Gambit": {},
-    "Latvian Gambit: Mayet Attack, Strautins Gambit": {},
-    "Queen's Gambit Declined: Knight Defense, Alekhine Gambit": {},
     "Caro-Kann Defense: Labahn Attack, Double Gambit": {},
-    "Hungarian Opening: Wiedenhagen-Beta Gambit": {},
-    "Bishop's Opening: McDonnell Gambit, McDonnell Double Gambit": {},
-    "Bishop's Opening: Lewis Countergambit": {},
-    "Bishop's Opening: Lopez Gambit": {},
-    "King's Gambit Declined: Norwalde Variation, Bücker Gambit": {},
-    "Ruy Lopez: Closed, Basque Gambit": {},
+    "English Defense: Poli Gambit": {},
     "Owen Defense: Hekili-Loa Gambit": {},
-    "Ruy Lopez: Open, Karpov Gambit": {},
-    "Ruy Lopez: Cozio Defense, Tartakower Gambit": {},
-    "Benoni Defense: Zilbermints-Benoni Gambit": {},
-    "King's Gambit Accepted: Paris Gambit": {},
+    "King's Gambit Accepted: Rosentreter Gambit, Sörensen Gambit": {},
+    "King's Gambit Accepted: Bishop's Gambit, Kieseritzky Gambit": {},
+    "Torre Attack: Classical Defense, Petrosian Gambit": {},
+    "King's Gambit Accepted: Bishop's Gambit, Bryan Countergambit": {},
+    "Dutch Defense: Krejcik Gambit, Tate Gambit": {},
+    "King's Gambit Accepted: Allgaier, Blackburne Gambit": {},
+    "Kádas Opening: Kádas Gambit": {},
+    "Ruy Lopez: Alapin Defense, Alapin Gambit": {},
+    "Ruy Lopez: Spanish Countergambit, Harding Gambit": {},
+    "Sicilian Defense: Double-Dutch Gambit": {},
+    "Queen's Gambit Declined: Knight Defense, Alekhine Gambit": {},
+    "Sicilian Defense: Taimanov Variation, Gary Gambit": {},
+    "Scandinavian Defense: Modern Variation, Wing Gambit": {},
+    "Bishop's Opening: Lopez Gambit": {},
+    "Old Indian Defense: Aged Gibbon Gambit": {},
+    "Polish Opening: Schuehler Gambit": {},
+    "King's Gambit Declined: Norwalde Variation, Bücker Gambit": {},
+    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Erben Gambit": {},
+    "Ruy Lopez: Closed, Basque Gambit": {},
     "Ruy Lopez: Closed, Center Attack, Basque Gambit": {},
     "King's Gambit Accepted: Basman Gambit": {},
-    "Polish Opening: Schuehler Gambit": {},
-    "King's Gambit Accepted: Rosentreter Gambit, Sörensen Gambit": {},
-    "King's Pawn Game: Gunderam Defense, Gunderam Gambit": {},
-    "Vienna Game: Paulsen Variation, Pollock Gambit": {},
-    "Sicilian Defense: Wing Gambit, Nanu Gambit": {},
-    "Hungarian Opening: Paris Gambit": {},
     "Benko Gambit: Mutkin Countergambit": {},
-    "Semi-Slav Defense: Meran Variation, Wade Variation, Kaidanov Gambit": {},
-    "Van Geet Opening: Damhaug Gambit": {},
-    "King's Gambit Accepted: Carrera Gambit": {},
-    "Italian Game: Evans Gambit, Fontaine Countergambit": {},
-    "Modern Defense: Two Knights Variation, Suttles Variation, Tal Gambit": {},
-    "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation, Erben Gambit": {},
-    "Clemenz Opening: Spike Lee Gambit": {},
-    "Ruy Lopez: Fianchetto Defense, Kevitz Gambit": {},
-    "King's Gambit Accepted: Double Muzio Gambit, Baldwin Gambit": {},
-    "Van Geet Opening: Melleby Gambit": {},
-    "Barnes Opening: Gedult Gambit": {},
-    "Queen's Gambit Declined: Lasker Defense, Bernstein Variation, Mar del Plata Gambit": {},
-    "Queen's Pawn Game: Zilbermints Countergambit": {},
-    "Nimzowitsch Defense: El Columpio Defense, El Columpio Gambit": {},
-    "Vienna Game: Zhuravlev Countergambit": {},
-    "Van Geet Opening: Sleipnir Gambit": {},
-    "Latvian Gambit: Diepstraten Countergambit": {},
-    "Modern Defense: Bishop Attack, Bücker Gambit": {},
-    "Sicilian Defense: Kotov Gambit": {},
-    "Ruy Lopez: Spanish Countergambit, Harding Gambit": {},
     "King's Gambit Declined: Zilbermints Double Gambit": {},
-    "Blackmar-Diemer Gambit Accepted: Euwe Defense, Zilbermints Gambit": {},
-    "Van Geet Opening: Düsseldorf Gambit": {},
-    "Catalan Opening: Hungarian Gambit": {},
-    "Kádas Opening: Kádas Gambit": {},
-    "Hungarian Opening: Winterberg Gambit": {},
-    "King's Gambit Accepted: Kotov Gambit": {},
-    "Bird Opening: Siegener Gambit": {},
-    "English Opening: King's English, Erbenheimer Gambit": {},
-    "Bishop's Opening: Thorold Gambit": {},
-    "King's Pawn Opening: Van Hooydoon Gambit": {},
-    "Old Indian Defense: Aged Gibbon Gambit": {},
-    "Sicilian Defense: Dragon Variation, Classical Variation, Zollner Gambit": {},
-    "French Defense: Morphy Gambit": {},
-    "Latvian Gambit Accepted: Bronstein Gambit": {},
-    "English Opening: Zilbermints Gambit": {},
+    "Bishop's Opening: Lewis Countergambit": {},
     "Van Geet Opening: Nowokunski Gambit": {},
-    "Indian Defense: Anti-Grünfeld, Adorjan Gambit": {},
-    "Sodium Attack: Durkin Gambit": {},
-    "English Opening: Anglo-Dutch Variation, Chabanon Gambit": {},
-    "King's Gambit Declined: Hobbs-Zilbermints Gambit": {},
-    "Bird Opening: Swiss Gambit": {},
-    "Russian Game: Modern Attack, Tal Gambit": {},
-    "Zukertort Opening: Shabalov Gambit": {},
-    "King's Gambit Accepted: Orsini Gambit": {},
-    "Amar Opening: Gent Gambit": {},
-    "Vienna Game: Adams' Gambit": {},
-    "Grob Opening: Double Grob, Coca-Cola Gambit": {},
-    "Bishop's Opening: Lopez Variation, Lopez Gambit": {},
-    "Van Geet Opening: Hulsemann Gambit": {},
-    "Grob Opening: Zilbermints Gambit, Zilbermints-Hartlaub Gambit": {},
-    "Réti Opening: Zilbermints Gambit": {},
-    "Ware Opening: Wing Gambit": {},
-    "Van Geet Opening: Pfeiffer Gambit": {},
-    "Vienna Game: Paulsen Variation, Mariotti Gambit": {},
-    "King's Gambit Accepted: Kieseritzky, Rice Gambit": {},
-    "Dutch Defense: Hevendehl Gambit": {},
-    "Benoni Defense: Zilbermints-Benoni Gambit, Tamarkin Countergambit": {},
-    "Latvian Gambit: Lobster Gambit": {},
-    "Vienna Game: Stanley Variation, Eifel Gambit": {},
-    "King's Gambit Declined: Senechaud Countergambit": {},
-    "Sicilian Defense: Moscow Variation, Dorfman Gambit": {},
-    "Ware Opening: Ware Gambit": {},
-    "King's Gambit Accepted: Middleton Countergambit": {},
-    "Kádas Opening: Steinbok Gambit": {},
-    "King's Gambit Accepted: Kieseritzky Gambit, Rice Gambit": {},
-    "King's Gambit Accepted: Fischer Defense, Schulder Gambit": {},
-    "Hungarian Opening: Burk Gambit": {},
-    "King's Gambit Accepted: Australian Gambit": {},
-    "Slav Defense: Czech Variation, Krause Attack, Fazekas Gambit": {},
-    "Modern Defense: Masur Gambit": {},
-    "Hungarian Opening: Pachman Gambit": {},
-    "King's Pawn Game: MacLeod Attack, Norwalde Gambit": {},
-    "King's Gambit Accepted: Kieseritzky Gambit, Anderssen-Cordel Gambit": {},
-    "Bishop's Opening: Krejcik Gambit": {},
-    "Sicilian Defense: Kronberger Variation, Nemeth Gambit": {},
-    "Van Geet Opening: Gladbacher Gambit": {},
-    "Queen's Gambit Accepted: Old Variation, Korchnoi Gambit": {},
-    "Ruy Lopez: Open, Harksen Gambit": {},
-    "French Defense: Hoffmann Gambit": {},
+    "Van Geet Opening: Düsseldorf Gambit": {},
+    "Ruy Lopez: Cozio Defense, Tartakower Gambit": {},
+    "King's Gambit Accepted: Paris Gambit": {},
+    "Latvian Gambit: Diepstraten Countergambit": {},
+    "Ruy Lopez: Open, Karpov Gambit": {},
+    "Bird Opening: Siegener Gambit": {},
+    "Bishop's Opening: McDonnell Gambit, McDonnell Double Gambit": {},
+    "King's Pawn Game: Gunderam Defense, Gunderam Gambit": {},
+    "Hungarian Opening: Winterberg Gambit": {},
+    "King's Gambit Accepted: Carrera Gambit": {},
+    "Modern Defense: Bishop Attack, Bücker Gambit": {},
+    "Semi-Slav Defense: Meran Variation, Wade Variation, Kaidanov Gambit": {},
+    "Sicilian Defense: Wing Gambit, Nanu Gambit": {},
+    "Vienna Game: Paulsen Variation, Pollock Gambit": {},
+    "Hungarian Opening: Paris Gambit": {},
+    "Ruy Lopez: Fianchetto Defense, Kevitz Gambit": {},
+    "Van Geet Opening: Sleipnir Gambit": {},
+    "Blackmar-Diemer Gambit Accepted: Euwe Defense, Zilbermints Gambit": {},
     "Caro-Kann Defense: Spike Variation, Scorpion-Grob Gambit": {},
+    "Italian Game: Evans Gambit, Fontaine Countergambit": {},
+    "King's Gambit Accepted: Double Muzio Gambit, Baldwin Gambit": {},
+    "Queen's Pawn Game: Zilbermints Countergambit": {},
+    "Bishop's Opening: Thorold Gambit": {},
+    "English Opening: Zilbermints Gambit": {},
+    "Vienna Game: Zhuravlev Countergambit": {},
+    "Nimzowitsch Defense: El Columpio Defense, El Columpio Gambit": {},
+    "Queen's Gambit Declined: Lasker Defense, Bernstein Variation, Mar del Plata Gambit": {},
+    "French Defense: Morphy Gambit": {},
+    "Van Geet Opening: Pfeiffer Gambit": {},
+    "King's Gambit Accepted: Kotov Gambit": {},
+    "Latvian Gambit Accepted: Bronstein Gambit": {},
+    "Catalan Opening: Hungarian Gambit": {},
+    "King's Pawn Opening: Van Hooydoon Gambit": {},
+    "Sicilian Defense: Kotov Gambit": {},
+    "English Opening: King's English, Erbenheimer Gambit": {},
+    "English Opening: Anglo-Dutch Variation, Chabanon Gambit": {},
+    "Bird Opening: Swiss Gambit": {},
+    "King's Gambit Declined: Hobbs-Zilbermints Gambit": {},
+    "Trompowsky Attack: Edge Variation, Hergert Gambit": {},
+    "Indian Defense: Anti-Grünfeld, Adorjan Gambit": {},
+    "Ware Opening: Wing Gambit": {},
+    "Grob Opening: Double Grob, Coca-Cola Gambit": {},
+    "Sicilian Defense: Dragon Variation, Classical Variation, Zollner Gambit": {},
+    "Zukertort Opening: Shabalov Gambit": {},
+    "Grob Opening: Zilbermints Gambit, Zilbermints-Hartlaub Gambit": {},
+    "King's Gambit Declined: Senechaud Countergambit": {},
+    "Van Geet Opening: Hulsemann Gambit": {},
+    "King's Gambit Accepted: Orsini Gambit": {},
+    "Hungarian Opening: Burk Gambit": {},
+    "Vienna Game: Paulsen Variation, Mariotti Gambit": {},
+    "Bishop's Opening: Lopez Variation, Lopez Gambit": {},
+    "Dutch Defense: Hevendehl Gambit": {},
+    "Sodium Attack: Durkin Gambit": {},
+    "Russian Game: Modern Attack, Tal Gambit": {},
+    "Kádas Opening: Steinbok Gambit": {},
+    "Benoni Defense: Zilbermints-Benoni Gambit, Tamarkin Countergambit": {},
+    "Réti Opening: Zilbermints Gambit": {},
+    "Amar Opening: Gent Gambit": {},
+    "Ware Opening: Ware Gambit": {},
+    "Latvian Gambit: Lobster Gambit": {},
+    "Modern Defense: Masur Gambit": {},
+    "Vienna Game: Adams' Gambit": {},
+    "Van Geet Opening: Gladbacher Gambit": {},
+    "Vienna Game: Stanley Variation, Eifel Gambit": {},
+    "King's Gambit Accepted: Australian Gambit": {},
+    "King's Gambit Accepted: Kieseritzky Gambit, Rice Gambit": {},
+    "King's Gambit Accepted: Kieseritzky, Rice Gambit": {},
+    "Sicilian Defense: Moscow Variation, Dorfman Gambit": {},
+    "Hungarian Opening: Pachman Gambit": {},
+    "Slav Defense: Czech Variation, Krause Attack, Fazekas Gambit": {},
+    "King's Gambit Accepted: Fischer Defense, Schulder Gambit": {},
     "Van Geet Opening: Warsteiner Gambit": {},
-    "French Defense: Banzai-Leong Gambit, Pinova Gambit": {},
     "English Opening: King's English Variation, Kahiko-Hula Gambit": {},
-    "Portuguese Opening: Miguel Gambit": {},
-    "Bishop's Opening: Four Pawns Gambit": {},
-    "Ruy Lopez: Closed, Alekhine Gambit": {},
+    "King's Gambit Accepted: Middleton Countergambit": {},
     "Zukertort Opening: Pachman Gambit": {},
-    "Bishop's Opening: Pachman Gambit": {},
-    "Nimzo-Indian Defense: Classical Variation, Belyavsky Gambit": {},
-    "Van Geet Opening: Pfeiffer Gambit, Sleipnir Countergambit": {},
-    "Grob Opening: Grob Gambit, Keres Gambit": {},
+    "Queen's Gambit Accepted: Old Variation, Korchnoi Gambit": {},
+    "Bishop's Opening: Krejcik Gambit": {},
+    "King's Gambit Accepted: Kieseritzky Gambit, Anderssen-Cordel Gambit": {},
+    "French Defense: Hoffmann Gambit": {},
     "Queen's Gambit Accepted: Old Variation, Novikov Gambit": {},
-    "Latvian Gambit: Senechaud Gambit": {},
-    "Catalan Opening: Closed, Spassky Gambit": {},
+    "King's Gambit Accepted: Double Muzio Gambit, Young Gambit": {},
+    "Sicilian Defense: Kronberger Variation, Nemeth Gambit": {},
+    "Van Geet Opening: Pfeiffer Gambit, Sleipnir Countergambit": {},
+    "French Defense: Banzai-Leong Gambit, Pinova Gambit": {},
+    "King's Pawn Game: MacLeod Attack, Norwalde Gambit": {},
+    "Portuguese Opening: Miguel Gambit": {},
+    "Grob Opening: Grob Gambit, Keres Gambit": {},
+    "Ruy Lopez: Open, Harksen Gambit": {},
+    "Ruy Lopez: Closed, Alekhine Gambit": {},
     "Indian Defense: Schnepper Gambit": {},
     "Zukertort Opening: Regina-Nu Gambit": {},
-    "King's Gambit Accepted: Double Muzio Gambit, Young Gambit": {},
-    "Trompowsky Attack: Edge Variation, Hergert Gambit": {},
-    "Van Geet Opening: Jendrossek Gambit": {},
+    "Bishop's Opening: Four Pawns Gambit": {},
+    "Bishop's Opening: Pachman Gambit": {},
+    "Latvian Gambit: Senechaud Gambit": {},
+    "Nimzo-Indian Defense: Classical Variation, Belyavsky Gambit": {},
+    "Catalan Opening: Closed, Spassky Gambit": {},
+    "Ruy Lopez: Spanish Countergambit, Harding Countergambit, Fricke Gambit": {},
     "Hungarian Opening: Asten Gambit": {},
-    "Italian Game: Evans Gambit, Mortimer-Evans Gambit": {},
-    "King's Pawn Game: Wayward Queen Attack, Mellon Gambit": {},
     "Hungarian Opening: Reversed Brooklyn Defense, Brooklyn Benko Gambit": {},
-    "Ruy Lopez: Spanish Countergambit, Harding Countergambit, Fricke Gambit": {}
+    "Blumenfeld-Hiva Gambit": {},
+    "King's Pawn Game: Wayward Queen Attack, Mellon Gambit": {},
+    "Van Geet Opening: Jendrossek Gambit": {},
+    "Italian Game: Evans Gambit, Mortimer-Evans Gambit": {},
+    "Langhorst Gambit": {},
+    "Ware Opening: Cologne Gambit": {}
   }
 }

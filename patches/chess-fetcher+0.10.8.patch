@@ -1,0 +1,19 @@
+diff --git a/node_modules/chess-fetcher/dist/src/fetchers/chesscom.js b/node_modules/chess-fetcher/dist/src/fetchers/chesscom.js
+index 9b4b13a..bbed56d 100644
+--- a/node_modules/chess-fetcher/dist/src/fetchers/chesscom.js
++++ b/node_modules/chess-fetcher/dist/src/fetchers/chesscom.js
+@@ -26,6 +26,14 @@ export function archives(username) {
+ }
+ export function archive(archiveUrl) {
+     return fetchFromEndpoint(archiveUrl).then((response) => {
++        if (response.status === 404) {
++            // Some players have a monthly archive that 404s on chess.com's own API
++            // (confirmed directly against the API, not a rate-limit or network issue --
++            // e.g. hikaru/games/2020/05). Treat it as an empty month instead of aborting
++            // the whole multi-year fetch over one bad month.
++            console.warn(`chess-fetcher: ${archiveUrl} returned 404, treating as an empty month`);
++            return { games: [] };
++        }
+         checkForServerError(response);
+         return response.json();
+     });

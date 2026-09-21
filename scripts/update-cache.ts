@@ -40,11 +40,22 @@ async function main(): Promise<void> {
     let selectedTargets: CacheTarget[]
     let incremental: boolean
 
-    if (process.argv.includes('--all')) {
-        // Non-interactive: refresh every existing cache file incrementally.
-        // Used by the pipeline orchestrator after gambits.json/transpositions.json change.
-        selectedTargets = targets
-        incremental = true
+    const usernameArg = process.argv.find((a) => a.startsWith('--username='))?.split('=')[1]
+    const usernames = usernameArg?.split(',')
+    const siteArg = process.argv.find((a) => a.startsWith('--site='))?.split('=')[1] as Site | undefined
+
+    if (process.argv.includes('--all') || usernames) {
+        // Non-interactive: refresh every existing cache file, or just --username=a,b,c
+        // ones (for smoke-testing or re-running specific players; add --site= to
+        // disambiguate a username that exists on both sites, e.g. saltyclown). Used
+        // by the pipeline orchestrator after gambits.json/transpositions.json change.
+        // Incremental (only fetch games since the last sync) unless --full is
+        // passed: a gambit addition, color fix, or PGN change needs every
+        // already-played game re-scanned to retroactively credit it, which
+        // incremental mode can't do -- it never re-examines games it already
+        // downloaded.
+        selectedTargets = usernames ? targets.filter((t) => usernames.includes(t.username) && (!siteArg || t.site === siteArg)) : targets
+        incremental = !process.argv.includes('--full')
     } else {
         const mode = await askChoice('What do you want to update?', ['All existing cache files', 'One existing cache file', 'A custom username'])
         selectedTargets = mode === 0 ? targets : mode === 1 ? [await selectExistingTarget(targets)] : [await askCustomTarget()]
@@ -53,15 +64,27 @@ async function main(): Promise<void> {
 
     const gambits = await loadGambits()
     const gambitsByFen = buildGambitPositionIndex(gambits)
+    const concurrency = Number(process.argv.find((a) => a.startsWith('--concurrency='))?.split('=')[1]) || 4
 
-    for (const target of selectedTargets) {
+    await runWithConcurrency(selectedTargets, concurrency, async (target) => {
         try {
             await updateCache(target, gambits, gambitsByFen, incremental)
         } catch (error) {
             console.error(`\nFailed to update ${target.site}/${target.username}:`)
             console.error(error instanceof Error ? error.message : error)
         }
+    })
+}
+
+async function runWithConcurrency<T>(items: T[], concurrency: number, work: (item: T) => Promise<void>): Promise<void> {
+    let next = 0
+    const worker = async (): Promise<void> => {
+        while (next < items.length) {
+            const item = items[next++]
+            await work(item)
+        }
     }
+    await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, worker))
 }
 
 async function discoverCacheTargets(): Promise<CacheTarget[]> {
@@ -155,20 +178,18 @@ async function updateCache(
     ensureTrophyKeys(trophies, gambits)
     console.log(`\nUpdating ${target.site}/${target.username}${since ? ` since ${new Date(since).toISOString()}` : ' from scratch'}...`)
 
-    await games(
-        url,
-        (game: Game) => {
-            checkGameForTrophies(game, profile, username, trophies, gambitsByFen, counts)
-            if (counts.downloaded % 500 === 0) {
-                console.log(`  ${counts.downloaded.toLocaleString()} games downloaded, ${counts.analyzed.toLocaleString()} analyzed`)
-            }
-        },
-        {
-            since,
-            pgnInJson: true,
-            rated: true,
+    const onGame = (game: Game): void => {
+        checkGameForTrophies(game, profile, username, trophies, gambitsByFen, counts)
+        if (counts.downloaded % 500 === 0) {
+            console.log(`  ${counts.downloaded.toLocaleString()} games downloaded, ${counts.analyzed.toLocaleString()} analyzed`)
         }
-    )
+    }
+
+    if (target.site === 'lichess' && since === 0) {
+        await fetchAllLichessGames(url, onGame)
+    } else {
+        await games(url, onGame, { since, pgnInJson: true, rated: true })
+    }
 
     const cacheFile: TrophyCacheFile = {
         cache_updated_at: Date.now(),
@@ -180,6 +201,43 @@ async function updateCache(
     await mkdir(path.dirname(target.filePath), { recursive: true })
     await writeFile(target.filePath, `${JSON.stringify(cacheFile, null, 2)}\n`)
     console.log(`Saved ${path.relative(root, target.filePath)} with ${countTrophies(trophies).toLocaleString()} trophies.`)
+}
+
+// Lichess caps unauthenticated game-export streams at ~10,000 games per request
+// (see js/App.vue's fetchAllLichessGames, which has the same fix for the live app --
+// though that version also stops early once downloaded reaches ~90% of the profile's
+// reported game count, a fine progress-bar heuristic for a live UI a person is
+// watching. A cache-building script has no one waiting on it and needs the actual
+// complete history, not an approximation, so this version has no early exit: it
+// pages through older batches via the `until` timestamp parameter until a batch
+// comes back empty, which is the only reliable "there's truly nothing older" signal.
+// Only used for a from-scratch (since === 0) Lichess fetch -- an incremental sync's
+// window is always small enough for a single request.
+async function fetchAllLichessGames(url: string, onGame: (game: Game) => void): Promise<void> {
+    let until: number | undefined
+
+    while (true) {
+        let batchCount = 0
+        let oldestTimestamp = Infinity
+
+        await games(
+            url,
+            (game: Game) => {
+                batchCount++
+                if (game.timestamp < oldestTimestamp) oldestTimestamp = game.timestamp
+                onGame(game)
+            },
+            {
+                pgnInJson: true,
+                rated: true,
+                ...(until !== undefined ? { until } : {}),
+            }
+        )
+
+        if (batchCount === 0 || oldestTimestamp === Infinity) break
+
+        until = oldestTimestamp - 1
+    }
 }
 
 function checkGameForTrophies(
